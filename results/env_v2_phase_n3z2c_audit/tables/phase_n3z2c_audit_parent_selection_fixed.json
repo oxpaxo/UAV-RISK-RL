@@ -1,0 +1,6 @@
+{
+  "old_rule_wrong": true,
+  "old_selected_candidate": "best_by_eval",
+  "selected_candidate": "checkpoint_500k",
+  "selected_path": "checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/checkpoint_500k.zip"
+}

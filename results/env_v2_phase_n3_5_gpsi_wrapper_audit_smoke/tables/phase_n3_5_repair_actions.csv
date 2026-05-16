@@ -1,0 +1,2 @@
+repair_action,status,file,reason,threshold,floor
+degenerate_checkpoint_std_floor,applied,envs/wrappers/gpsi_obs_wrapper.py,N2 train split hold-position makes ego velocity std near 1e-6; online PPO/straight-line nonzero ego velocity otherwise normalizes to O(1e6).,1e-05,1.0

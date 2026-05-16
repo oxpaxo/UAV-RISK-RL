@@ -1,0 +1,4 @@
+n_envs,status,log,fps_last,fps_max,last_total_timesteps,bad_signal,selected_n_envs,selection_reason,ppo_semantics_changed_if_selected
+4,completed,results/env_v2_phase_n3z2c_z2_continuation/logs/phase_n3z2c_benchmark_nenv4.log,270.9,277.3,4096,0,4,Kept n_envs=4 because increasing n_envs changes PPO rollout batch semantics versus N3F/Z; benchmark is audit-only.,0
+8,skipped,,,,,0,4,Kept n_envs=4 because increasing n_envs changes PPO rollout batch semantics versus N3F/Z; benchmark is audit-only.,1
+12,skipped,,,,,0,4,Kept n_envs=4 because increasing n_envs changes PPO rollout batch semantics versus N3F/Z; benchmark is audit-only.,1

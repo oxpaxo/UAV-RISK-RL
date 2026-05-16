@@ -1,0 +1,4 @@
+method_key,shield_config_name,shield_baseline,shield_kind,shield_params,ordinary_shield_uses_sigma2,ordinary_shield_uses_future_truth,directional_uncertainty_margin,learned_risk_used,dense_safety_cost_used,same_params_for_attention_noz_p3
+attention_ordinary_vo,vo_like_filter_h45_cpa1p2_h16,vo_like_filter,vo_like_filter,"{""cpa_safe"":1.2,""horizon"":4.5,""num_headings"":16}",0,0,0,0,0,1
+noz_ordinary_vo,vo_like_filter_h45_cpa1p2_h16,vo_like_filter,vo_like_filter,"{""cpa_safe"":1.2,""horizon"":4.5,""num_headings"":16}",0,0,0,0,0,1
+p3_ordinary_vo,vo_like_filter_h45_cpa1p2_h16,vo_like_filter,vo_like_filter,"{""cpa_safe"":1.2,""horizon"":4.5,""num_headings"":16}",0,0,0,0,0,1

@@ -1,0 +1,59 @@
+env_name: DynamicObstacleFlowEnv
+dt: 0.2
+max_steps: 500
+
+active_obstacles:
+  min: 5
+  max: 8
+  default: 6
+
+speed_range:
+  train: [0.3, 2.5]
+  high_speed_eval: [1.5, 3.0]
+
+threat_class_prob:
+  low: 0.30
+  medium: 0.45
+  high: 0.25
+
+planned_cpa:
+  high: [0.35, 1.15]
+  medium: [1.55, 2.35]
+  low: [2.80, 4.20]
+
+planned_ttc:
+  default: [3.2, 9.0]
+  high_speed_eval: [2.4, 5.2]
+
+motion_mode_prob:
+  linear: 0.15
+  sinusoidal_lateral: 0.25
+  accel_decel: 0.20
+  ar1_velocity: 0.25
+  crossing_or_sudden_threat: 0.15
+
+scenarios:
+  train_flow_mixed:
+    split: train
+    active_obstacles: [5, 8]
+  eval_flow_id:
+    split: eval
+    active_obstacles: [5, 8]
+  eval_flow_high_density:
+    split: eval
+    active_obstacles: [8, 10]
+  eval_flow_high_speed:
+    split: eval
+    speed_range: [1.5, 3.0]
+  eval_flow_high_threat:
+    split: eval
+    threat_class_prob:
+      low: 0.15
+      medium: 0.35
+      high: 0.50
+  eval_flow_mixed_ood:
+    split: eval
+    notes: stronger nonlinear motion and more crossing threats
+  eval_flow_sudden_threat:
+    split: eval
+    notes: continuous flow with planned crossing/sudden threats

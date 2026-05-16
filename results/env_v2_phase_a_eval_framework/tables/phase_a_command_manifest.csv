@@ -1,0 +1,3 @@
+command_name,command,status
+phase_a_eval_runner,python scripts/run_env_v2_phase_a_eval_framework.py --out-dir results/env_v2_phase_a_eval_framework --num-episodes 3 --scenarios eval_flow_id eval_flow_high_speed --policies random straight_line cpa_reactive attention_full filtered_attention_full --eval-seed 1000 --seed 0 --checkpoint checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --write-traces,completed
+phase_a_watcher,bash scripts/watch_phase_a_eval_framework.sh,available

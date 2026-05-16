@@ -1,0 +1,13 @@
+[2026-05-09 07:07:35] PHASE_B_GEOMETRY_FILTER_BASELINE_RUNNER_START
+[2026-05-09 07:07:35] PREFLIGHT_OK phase_a_complete=true env_hash_match=true checkpoint_exists=true schema_compatible=true
+[2026-05-09 07:07:35] LOADING_CHECKPOINT path=/root/workspace/uav-risk-rl/checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip
+[2026-05-09 07:07:36] PHASE_B_STAGE_START stage=b0_smoke configs=42 scenarios=2 episodes=1 total=84
+[2026-05-09 07:07:41] PHASE_B_STAGE_HEARTBEAT stage=b0_smoke completed=21/84 config=cpa_reactive_d5 scenario=eval_flow_id rate=4.07_eps_sec eta_min=0.3
+[2026-05-09 07:07:47] PHASE_B_STAGE_HEARTBEAT stage=b0_smoke completed=33/84 config=distance_filter_d2p5_beta0p8 scenario=eval_flow_id rate=3.14_eps_sec eta_min=0.3
+[2026-05-09 07:07:52] PHASE_B_STAGE_HEARTBEAT stage=b0_smoke completed=40/84 config=vo_like_filter_h45_cpa1p2_h16 scenario=eval_flow_id rate=2.54_eps_sec eta_min=0.3
+[2026-05-09 07:07:57] PHASE_B_STAGE_HEARTBEAT stage=b0_smoke completed=63/84 config=cpa_reactive_d5 scenario=eval_flow_high_speed rate=3.01_eps_sec eta_min=0.1
+[2026-05-09 07:08:02] PHASE_B_STAGE_HEARTBEAT stage=b0_smoke completed=72/84 config=distance_filter_d2_beta0p5 scenario=eval_flow_high_speed rate=2.76_eps_sec eta_min=0.1
+[2026-05-09 07:08:08] PHASE_B_STAGE_HEARTBEAT stage=b0_smoke completed=83/84 config=vo_like_filter_h45_cpa1p5_h16 scenario=eval_flow_high_speed rate=2.62_eps_sec eta_min=0.0
+[2026-05-09 07:08:10] PHASE_B_STAGE_HEARTBEAT stage=b0_smoke completed=84/84 config=vo_like_filter_h45_cpa2_h16 scenario=eval_flow_high_speed rate=2.47_eps_sec eta_min=0.0
+[2026-05-09 07:08:10] PHASE_B_STAGE_DONE stage=b0_smoke completed=84/84
+[2026-05-09 07:08:10] PHASE_B_SMOKE_COMPLETE

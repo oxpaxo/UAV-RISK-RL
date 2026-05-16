@@ -1,0 +1,271 @@
+{
+  "arrays": {
+    "closing": {
+      "role": "metadata_input",
+      "shape": [
+        "N"
+      ]
+    },
+    "constant_velocity_pos_world": {
+      "role": "inspection_label_only_not_inference_input",
+      "shape": [
+        "N",
+        3,
+        3
+      ]
+    },
+    "current_pos_world": {
+      "role": "input_debug_current_state",
+      "shape": [
+        "N",
+        3
+      ]
+    },
+    "current_vel_world": {
+      "role": "input_debug_current_state",
+      "shape": [
+        "N",
+        3
+      ]
+    },
+    "delta_label_world": {
+      "role": "supervised_label",
+      "shape": [
+        "N",
+        3,
+        3
+      ]
+    },
+    "distance": {
+      "role": "metadata_input",
+      "shape": [
+        "N"
+      ]
+    },
+    "ego_current": {
+      "role": "input",
+      "shape": [
+        "N",
+        10
+      ]
+    },
+    "episode_id": {
+      "role": "split_identity_metadata",
+      "shape": [
+        "N"
+      ]
+    },
+    "episode_seed": {
+      "role": "split_identity_metadata",
+      "shape": [
+        "N"
+      ]
+    },
+    "future_pos_world": {
+      "role": "inspection_label_only_not_inference_input",
+      "shape": [
+        "N",
+        3,
+        3
+      ]
+    },
+    "future_valid_mask": {
+      "role": "label_mask",
+      "shape": [
+        "N",
+        3
+      ]
+    },
+    "history_pos_world": {
+      "role": "input",
+      "shape": [
+        "N",
+        20,
+        3
+      ]
+    },
+    "history_rel_pos": {
+      "role": "input",
+      "shape": [
+        "N",
+        20,
+        3
+      ]
+    },
+    "history_rel_vel": {
+      "role": "input",
+      "shape": [
+        "N",
+        20,
+        3
+      ]
+    },
+    "history_valid_mask": {
+      "role": "input_mask",
+      "shape": [
+        "N",
+        20
+      ]
+    },
+    "history_vel_world": {
+      "role": "input",
+      "shape": [
+        "N",
+        20,
+        3
+      ]
+    },
+    "motion_mode_id": {
+      "role": "metadata_input",
+      "shape": [
+        "N"
+      ]
+    },
+    "obs_current": {
+      "role": "input",
+      "shape": [
+        "N",
+        12
+      ]
+    },
+    "obstacle_id": {
+      "role": "identity_metadata",
+      "shape": [
+        "N"
+      ]
+    },
+    "obstacle_slot": {
+      "role": "current_slot_metadata_not_identity",
+      "shape": [
+        "N"
+      ]
+    },
+    "planned_cpa": {
+      "role": "metadata_input",
+      "shape": [
+        "N"
+      ]
+    },
+    "planned_ttc": {
+      "role": "metadata_input",
+      "shape": [
+        "N"
+      ]
+    },
+    "replacement_boundary_nearby": {
+      "role": "inspection_metadata",
+      "shape": [
+        "N"
+      ]
+    },
+    "risk_value": {
+      "role": "metadata_input",
+      "shape": [
+        "N"
+      ]
+    },
+    "step": {
+      "role": "metadata",
+      "shape": [
+        "N"
+      ]
+    },
+    "threat_class_id": {
+      "role": "metadata_input",
+      "shape": [
+        "N"
+      ]
+    },
+    "time": {
+      "role": "metadata",
+      "shape": [
+        "N"
+      ]
+    }
+  },
+  "categorical_maps": {
+    "motion_mode_id": {
+      "accel_decel": 2,
+      "ar1_velocity": 3,
+      "crossing_or_sudden_threat": 4,
+      "linear": 0,
+      "sinusoidal_lateral": 1
+    },
+    "threat_class_id": {
+      "high": 2,
+      "low": 0,
+      "medium": 1
+    }
+  },
+  "environment": {
+    "dt_sec": 0.2,
+    "env_core_modified_by_phase_n1": false,
+    "name": "DynamicObstacleFlowEnv",
+    "scenario": "train_flow_mixed"
+  },
+  "forbidden": {
+    "candidate_velocity_risk_map_as_ppo_input": "not used",
+    "full_5_head_gpsi": "not used",
+    "learned_R_s_a": "not used",
+    "sigma2_label": "not present"
+  },
+  "future_shield_versions_reserved": {
+    "V0": "fixed-margin shield",
+    "V1": "scalar sigma2-margin shield",
+    "V2": "directional sigma2-margin shield",
+    "V3": "predicted-trajectory directional sigma2-tube shield",
+    "V4": "V3 + uncertainty-aware candidate scoring"
+  },
+  "history": {
+    "history_steps": 20,
+    "identity_key": [
+      "episode_id",
+      "obstacle_id"
+    ],
+    "padding": "left_pad_invalid",
+    "valid_mask": true
+  },
+  "phase": "phase_n1_dataset_construction",
+  "sample_unit": [
+    "episode_id",
+    "step",
+    "obstacle_id"
+  ],
+  "split": {
+    "row_level_random_split": false,
+    "test": 0.15,
+    "train": 0.7,
+    "type": "episode_level",
+    "val": 0.15
+  },
+  "target": {
+    "formula": "delta_i(tau)=p_i_world(t+tau)-[p_i_world(t)+tau*v_i_world(t)]",
+    "future_times_sec": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "sigma2_direct_label": false,
+    "type": "world_frame_residual_to_constant_velocity"
+  },
+  "uncertainty_output_planned": {
+    "dimensions": [
+      "x",
+      "y",
+      "z"
+    ],
+    "shape": [
+      "num_horizons",
+      3
+    ],
+    "training": "Gaussian NLL from residual prediction error",
+    "type": "diagonal_logvar",
+    "used_by_future_shield": [
+      "scalar_margin",
+      "directional_margin",
+      "trajectory_tube",
+      "candidate_scoring"
+    ]
+  },
+  "version": "gpsi_head_a_v1"
+}

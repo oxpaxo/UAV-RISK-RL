@@ -1,0 +1,7 @@
+[2026-05-12 06:01:33] Phase N2 evaluation started
+[2026-05-12 06:01:33] Command: python scripts/eval_gpsi_heada.py --data-dir data/gpsi_head_a_v1 --delta-checkpoint work_dirs/gpsi_heada_v1_delta_only/best.pth --nll-checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir results/env_v2_phase_n2_gpsi_heada_offline
+[2026-05-12 06:01:35] Using device: cuda
+[2026-05-12 06:01:36] Predicting split=train samples=228957
+[2026-05-12 06:02:09] Predicting split=val samples=49599
+[2026-05-12 06:02:16] Predicting split=test samples=48096
+[2026-05-12 06:02:24] Phase N2 complete flag written

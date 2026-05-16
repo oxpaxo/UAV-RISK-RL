@@ -1,0 +1,4 @@
+method_key,high_speed_success,high_speed_collision,high_threat_success,high_threat_collision,not_worse_high_speed_high_threat
+obs_delta_only,0.42,0.58,0.52,0.48,1
+logvar_scaled,0.14,0.86,0.42,0.58,0
+block_projected,0.52,0.48,0.6,0.4,1

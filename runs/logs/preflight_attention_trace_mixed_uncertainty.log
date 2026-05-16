@@ -1,0 +1,16 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip --method attention_full --agg attention --seed 0 --eval_seed 1000 --episodes 2 --scenario mixed_uncertainty --device cpu --out_csv /root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_mixed_trace_eval.csv --global_step 507904 --save_trace true --trace_dir /root/workspace/uav-risk-rl/results/preflight/traces
+[2026-05-06 11:43:15] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip method=attention_full agg=attention train_seed=0 eval_seed=1000 scenario=mixed_uncertainty episodes=2
+[2026-05-06 11:43:17] EVAL_HEARTBEAT episodes=2/2 percent=100.00% rate= 21.10 ep/s eta=  0.00 min
+[2026-05-06 11:43:17] EVAL_SUMMARY scenario=mixed_uncertainty success_rate=0.5000 collision_rate=0.5000 mean_min_distance=0.5770 near_miss_rate=1.0000 mean_time=6.8000
+[2026-05-06 11:43:17] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/2
+[2026-05-06 11:43:17] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_mixed_trace_eval.csv
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip --method attention_full --agg attention --seed 0 --eval_seed 1000 --episodes 10 --scenario mixed_uncertainty --device cpu --out_csv /root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_mixed_trace_eval.csv --global_step 507904 --save_trace true --trace_dir /root/workspace/uav-risk-rl/results/preflight/traces
+[2026-05-06 11:46:04] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip method=attention_full agg=attention train_seed=0 eval_seed=1000 scenario=mixed_uncertainty episodes=10
+[2026-05-06 11:46:07] EVAL_HEARTBEAT episodes=10/10 percent=100.00% rate= 20.27 ep/s eta=  0.00 min
+[2026-05-06 11:46:07] EVAL_SUMMARY scenario=mixed_uncertainty success_rate=0.9000 collision_rate=0.1000 mean_min_distance=1.0684 near_miss_rate=0.4000 mean_time=6.9600
+[2026-05-06 11:46:07] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/10
+[2026-05-06 11:46:07] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_mixed_trace_eval.csv

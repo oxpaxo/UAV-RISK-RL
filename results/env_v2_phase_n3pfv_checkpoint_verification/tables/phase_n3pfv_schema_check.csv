@@ -1,0 +1,9 @@
+policy_key,checkpoint_label,config,obs_aug_dim,include_z,include_logvar,logvar_output_scale,feature_adapter,no_shield,action_filtering,use_safety_cost,schema_ok
+p3_1000k,1000k,configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml,30,0,1,0.2,block_projected_no_z,1,0,0,1
+p3_1500k,1500k,configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml,30,0,1,0.2,block_projected_no_z,1,0,0,1
+p3_final,final,configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml,30,0,1,0.2,block_projected_no_z,1,0,0,1
+attention_full,attention_full_1500k,,12,,,,attention_full,,,,1
+no_z_full,final,configs/env_v2_gpsi_heada_ppo_n3f_no_z_full.yaml,30,0,1,1.0,raw_concat,1,0,0,1
+z2_corrected_full,z2_final,configs/env_v2_gpsi_heada_ppo_n3z2cf_layernorm_alpha0p5.yaml,94,1,1,1.0,raw_concat,1,0,0,1
+p3_parent_500k,parent_500k,configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml,30,0,1,0.2,block_projected_no_z,1,0,0,1
+p3_1250k,1250k,configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml,30,0,1,0.2,block_projected_no_z,1,0,0,1

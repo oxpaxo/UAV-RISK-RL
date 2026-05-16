@@ -1,0 +1,4 @@
+method_key,method,config,checkpoint_dir,obs_aug_dim,include_z,normalize_z,z_transform,z_l2_target_norm,z_layernorm_alpha,z_layernorm_eps,logvar_clamp,z_stats_path,train_steps,seed,no_shield,use_safety_cost
+n3f_no_z_full,gpsi_no_z_full_1500k,configs/env_v2_gpsi_heada_ppo_n3f_no_z_full.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3f_no_z_s0,30,0,0,raw,,,,"[-5.0, 3.0]",,1500000,0,1,0
+z_l2_scale_4,gpsi_z_l2_scale_4_screen,configs/env_v2_gpsi_heada_ppo_n3z_l2_scale4.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0,94,1,0,l2_scale,4.0,,,"[-5.0, 3.0]",,500000,0,1,0
+z_layernorm_alpha_0p5,gpsi_z_layernorm_alpha_0p5_screen,configs/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0,94,1,0,layernorm,,0.5,1e-05,"[-5.0, 3.0]",,500000,0,1,0

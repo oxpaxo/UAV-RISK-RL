@@ -1,0 +1,29 @@
+training_seed,check,value,detail
+1,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+1,aug_obs_dim,30,expected=30
+1,include_z,0,must be 0
+1,feature_adapter,block_projected_no_z,must be block_projected_no_z
+1,no_shield,1,training script raw PPO action only
+1,no_action_filtering,1,training script raw PPO action only
+1,no_safety_cost,1,EnvV2 original reward
+2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+2,aug_obs_dim,30,expected=30
+2,include_z,0,must be 0
+2,feature_adapter,block_projected_no_z,must be block_projected_no_z
+2,no_shield,1,training script raw PPO action only
+2,no_action_filtering,1,training script raw PPO action only
+2,no_safety_cost,1,EnvV2 original reward
+2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+2,aug_obs_dim,30,expected=30
+2,include_z,0,must be 0
+2,feature_adapter,block_projected_no_z,must be block_projected_no_z
+2,no_shield,1,training script raw PPO action only
+2,no_action_filtering,1,training script raw PPO action only
+2,no_safety_cost,1,EnvV2 original reward
+1,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+1,aug_obs_dim,30,expected=30
+1,include_z,0,must be 0
+1,feature_adapter,block_projected_no_z,must be block_projected_no_z
+1,no_shield,1,training script raw PPO action only
+1,no_action_filtering,1,training script raw PPO action only
+1,no_safety_cost,1,EnvV2 original reward

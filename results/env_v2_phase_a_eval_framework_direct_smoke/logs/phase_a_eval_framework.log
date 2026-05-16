@@ -1,0 +1,11 @@
+[2026-05-09 06:49:07] PHASE_A_EVAL_FRAMEWORK_START
+[2026-05-09 06:49:07] LOADING_CHECKPOINT path=/root/workspace/uav-risk-rl/checkpoints/longtrain_baseline/attention_full_s0_step1500000.zip
+[2026-05-09 06:49:12] PHASE_A_EVAL_HEARTBEAT completed=3/10 policy=cpa_reactive scenario=eval_flow_id rate=2.81_episodes_per_sec
+[2026-05-09 06:49:12] EPISODE_FAILED policy=attention_full scenario=eval_flow_id episode=0 error=ValueError('Error: Unexpected observation shape (10, 12) for Box environment, please use (3, 12) or (n_env, 3, 12) for the observation shape.')
+[2026-05-09 06:49:12] PHASE_A_STOP reason=eval_framework_failed flag=PHASE_A_STOP_EVAL_FRAMEWORK_FAILED.flag detail=episode rollout failed for attention_full/eval_flow_id/ep0: ValueError('Error: Unexpected observation shape (10, 12) for Box environment, please use (3, 12) or (n_env, 3, 12) for the observation shape.')
+[2026-05-09 06:49:59] PHASE_A_EVAL_FRAMEWORK_START
+[2026-05-09 06:49:59] LOADING_CHECKPOINT path=/root/workspace/uav-risk-rl/checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip
+[2026-05-09 06:50:01] PHASE_A_EVAL_HEARTBEAT completed=3/10 policy=cpa_reactive scenario=eval_flow_id rate=2.81_episodes_per_sec
+[2026-05-09 06:50:02] PHASE_A_EVAL_HEARTBEAT completed=6/10 policy=random scenario=eval_flow_high_speed rate=2.79_episodes_per_sec
+[2026-05-09 06:50:03] PHASE_A_EVAL_HEARTBEAT completed=10/10 policy=filtered_attention_full scenario=eval_flow_high_speed rate=3.14_episodes_per_sec
+[2026-05-09 06:50:04] PHASE_A_EVAL_FRAMEWORK_COMPLETE

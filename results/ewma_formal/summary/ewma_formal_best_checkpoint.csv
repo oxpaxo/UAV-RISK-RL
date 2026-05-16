@@ -1,0 +1,4 @@
+run_name,best_step,selection_criterion,random_success_rate,random_collision_rate,sudden_success_rate,sudden_collision_rate,sudden_mean_reaction_time,sudden_mean_min_distance_after_turn,hard_success_rate,hard_collision_rate
+Rgate8,100k,zero-collision > reaction_time > min_distance_after_turn,0.9933333333333333,0.006666666666666667,1.0,0.0,0.30666666666666687,1.6776023870706558,0.9666666666666667,0.03333333333333333
+Rgate8_lambda015,200k,zero-collision > reaction_time > min_distance_after_turn,1.0,0.0,1.0,0.0,0.2300000000000001,2.0648857291539513,0.9966666666666667,0.0033333333333333335
+Rgate8_lambda015_RbarFloor03,200k,zero-collision > reaction_time > min_distance_after_turn,0.9966666666666667,0.0033333333333333335,1.0,0.0,0.22000000000000008,2.0358517934878666,0.9899999999999999,0.01

@@ -1,0 +1,15 @@
+{
+  "additional_steps": 1000000,
+  "candidate": "selected",
+  "collision_rate": 0.5299999999999999,
+  "eval_label": "500k_parent",
+  "exists": 1,
+  "parent_total_steps": 500000,
+  "path": "checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/best_by_eval.zip",
+  "selected_parent_key": "best_by_eval",
+  "selected_parent_path": "checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/best_by_eval.zip",
+  "selection_reason": "best_by_eval exists and is not worse than final in both success and collision",
+  "size": 1173883,
+  "success_rate": 0.47000000000000003,
+  "target_total_steps": 1500000
+}

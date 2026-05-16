@@ -1,0 +1,7 @@
+command_name,command,status
+build_py_compile,python -m py_compile scripts/build_gpsi_heada_dataset.py,completed_before_final_watcher
+inspect_py_compile,python -m py_compile scripts/inspect_gpsi_heada_dataset.py,completed_before_final_watcher
+watcher_syntax,bash -n scripts/watch_phase_n1_gpsi_dataset.sh,completed_before_final_watcher
+dataset_builder,python scripts/build_gpsi_heada_dataset.py --out-dir data/gpsi_head_a_v1 --result-dir results/env_v2_phase_n1_gpsi_dataset --scenario train_flow_mixed --num-episodes 100 --eval-seed 2000 --history-steps 20 --future-times 1.0 2.0 4.0 --split 0.70 0.15 0.15 --format npz --write-schema,completed
+dataset_inspect,python scripts/inspect_gpsi_heada_dataset.py --data-dir data/gpsi_head_a_v1 --out-dir results/env_v2_phase_n1_gpsi_dataset,completed
+blocking_watcher,bash scripts/watch_phase_n1_gpsi_dataset.sh,completed_when_terminal_flag_detected

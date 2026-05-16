@@ -1,0 +1,20 @@
+/usr/local/miniconda3/envs/py310/lib/python3.10/site-packages/torch/cuda/__init__.py:174: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2026-05-12 13:28:16] N3_TRAIN_CONFIG steps=2048 seed=0 n_envs=2 device=cpu out_dir=checkpoints/env_v2_gpsi_heada_ppo_s0_smoke no_shield=true safety_cost=false
+Using cpu device
+Logging to /root/workspace/uav-risk-rl/checkpoints/env_v2_gpsi_heada_ppo_s0_smoke/tensorboard/PPO_2
+[2026-05-12 13:28:17] N3_TRAIN_START total_steps=2048 start_num_timesteps=0
+[2026-05-12 13:28:22] N3_TRAIN_HEARTBEAT steps=1488/2048 percent= 72.66% rate=   297.3 step/s eta=   0.03 min
+[2026-05-12 13:28:24] N3_CHECKPOINT_SAVED step=2048 path=/root/workspace/uav-risk-rl/checkpoints/env_v2_gpsi_heada_ppo_s0_smoke/checkpoint_2k.zip
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | -29.2    |
+|    success_rate    | 0        |
+| time/              |          |
+|    fps             | 293      |
+|    iterations      | 1        |
+|    time_elapsed    | 6        |
+|    total_timesteps | 2048     |
+---------------------------------
+[2026-05-12 13:28:25] N3_TRAIN_END final=checkpoints/env_v2_gpsi_heada_ppo_s0_smoke/final.zip

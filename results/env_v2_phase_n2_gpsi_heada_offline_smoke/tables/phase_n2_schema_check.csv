@@ -1,0 +1,3 @@
+item,status,value
+sigma2_direct_label,pass,false
+future_label_not_model_input,pass,future fields absent from model forward

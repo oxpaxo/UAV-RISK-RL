@@ -1,0 +1,5 @@
+[2026-05-06 15:09:39] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/p0_5_distance_wide/attention_full_distance_penalty_wide_s0_step500000.zip method=attention_full_distance_penalty_wide agg=attention train_seed=0 eval_seed=1000 scenario=mixed_uncertainty episodes=50
+[2026-05-06 15:09:43] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 19.04 ep/s eta=  0.00 min
+[2026-05-06 15:09:43] EVAL_SUMMARY scenario=mixed_uncertainty success_rate=0.8600 collision_rate=0.1400 mean_min_distance=1.1134 near_miss_rate=0.4400 mean_time=8.6040
+[2026-05-06 15:09:43] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/50
+[2026-05-06 15:09:43] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/p0_5_distance_wide/eval/attention_full_distance_penalty_wide_s0_step500000_mixed.csv

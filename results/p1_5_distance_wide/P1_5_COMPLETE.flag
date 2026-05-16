@@ -1,0 +1,14 @@
+{
+  "completed_at": "2026-05-07 04:27:44",
+  "report": "P1_5_DISTANCE_MARGIN_SWEEP_REPORT.md",
+  "by_seed_rows": 208,
+  "summary_rows": 80,
+  "main_750k_rows": 13,
+  "pareto_rows": 52,
+  "d_warning_sweep_seed0_rows": 64,
+  "required_new_train_runs": [
+    "attention_full_distance_penalty_wide_d2_s1",
+    "attention_full_distance_penalty_wide_d2_s2",
+    "attention_full_distance_penalty_mid_d15_s0"
+  ]
+}

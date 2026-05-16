@@ -1,0 +1,17 @@
+{
+  "config": "configs/env_v2_gpsi_heada_ppo_n3z2c_layernorm_alpha0p5_1p5m.yaml",
+  "detail": "corrected short continuation completed successfully",
+  "expected_checkpoint": "checkpoints/env_v2_gpsi_heada_ppo_n3z2c_audit_corrected_parent_750k_s0/checkpoint_750k.zip",
+  "final_zip": "checkpoints/env_v2_gpsi_heada_ppo_n3z2c_audit_corrected_parent_750k_s0/final.zip",
+  "hostname": "8a4832b5251c",
+  "method_key": "z_layernorm_alpha_0p5_cont_1p5m",
+  "method_name": "gpsi_z_layernorm_alpha_0p5_cont_1p5m",
+  "out_dir": "checkpoints/env_v2_gpsi_heada_ppo_n3z2c_audit_corrected_parent_750k_s0",
+  "parent_total_steps": 500000,
+  "pid": 10452,
+  "requested_additional_steps": 250000,
+  "resume": "checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/checkpoint_500k.zip",
+  "status": "completed",
+  "target_total_steps": 750000,
+  "timestamp": "2026-05-13 15:46:55"
+}

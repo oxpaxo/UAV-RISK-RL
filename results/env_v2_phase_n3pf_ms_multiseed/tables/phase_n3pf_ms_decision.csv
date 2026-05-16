@@ -1,0 +1,2 @@
+p3_multiseed_status,p3_1500k_training_seed_mean_success,p3_1500k_training_seed_mean_collision,attention_success_reference,attention_collision_reference,noz_success_reference,noz_collision_reference,stable_minimum_gate,strong_positive_gate,comparable_positive_gate,attention_full_multiseed_needed,n4_can_proceed,diagnostics_ok
+unstable_or_collapsed,0.5492592592592593,0.4507407407407407,0.6033,0.3967,0.5667,0.4333,0,0,0,no,no,1

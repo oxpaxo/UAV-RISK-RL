@@ -1,0 +1,46 @@
+method_key,check,value,detail
+obs_delta_only,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+obs_delta_only,phase_n3r_complete_flag,True,results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag
+obs_delta_only,phase_n3fz_complete_flag,True,results/env_v2_phase_n3fz_noz_full_z_screen/PHASE_N3FZ_NOZ_FULL_Z_SCREEN_COMPLETE.flag
+obs_delta_only,phase_n3z2cf_complete_flag,True,results/env_v2_phase_n3z2cf_corrected_z2_full/PHASE_N3Z2CF_CORRECTED_Z2_FULL_COMPLETE.flag
+obs_delta_only,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+obs_delta_only,aug_obs_dim,21,expected=21
+obs_delta_only,include_z,False,must be false
+obs_delta_only,include_logvar,False,scale=1.0
+obs_delta_only,no_shield,true,observation-only Gpsi wrapper
+obs_delta_only,no_action_filtering,true,raw PPO action
+obs_delta_only,no_safety_cost,true,EnvV2 original reward
+obs_delta_only,delta_norm_1s_p95_pretrain,1.4221738696098325,max=1.8476279973983765
+obs_delta_only,logvar_raw_l2_p95_pretrain,13.333233737945557,diagnostic only
+obs_delta_only,logvar_policy_l2_p95_pretrain,13.333233737945557,policy input if include_logvar=true
+obs_delta_only,full_aug_obs_l2_p95_pretrain,2.454288697242737,actual PPO observation block
+logvar_scaled,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+logvar_scaled,phase_n3r_complete_flag,True,results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag
+logvar_scaled,phase_n3fz_complete_flag,True,results/env_v2_phase_n3fz_noz_full_z_screen/PHASE_N3FZ_NOZ_FULL_Z_SCREEN_COMPLETE.flag
+logvar_scaled,phase_n3z2cf_complete_flag,True,results/env_v2_phase_n3z2cf_corrected_z2_full/PHASE_N3Z2CF_CORRECTED_Z2_FULL_COMPLETE.flag
+logvar_scaled,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+logvar_scaled,aug_obs_dim,30,expected=30
+logvar_scaled,include_z,False,must be false
+logvar_scaled,include_logvar,True,scale=0.2
+logvar_scaled,no_shield,true,observation-only Gpsi wrapper
+logvar_scaled,no_action_filtering,true,raw PPO action
+logvar_scaled,no_safety_cost,true,EnvV2 original reward
+logvar_scaled,delta_norm_1s_p95_pretrain,1.4221738696098325,max=1.8476279973983765
+logvar_scaled,logvar_raw_l2_p95_pretrain,13.333233737945557,diagnostic only
+logvar_scaled,logvar_policy_l2_p95_pretrain,2.6666468262672423,policy input if include_logvar=true
+logvar_scaled,full_aug_obs_l2_p95_pretrain,3.5705719113349916,actual PPO observation block
+block_projected,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+block_projected,phase_n3r_complete_flag,True,results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag
+block_projected,phase_n3fz_complete_flag,True,results/env_v2_phase_n3fz_noz_full_z_screen/PHASE_N3FZ_NOZ_FULL_Z_SCREEN_COMPLETE.flag
+block_projected,phase_n3z2cf_complete_flag,True,results/env_v2_phase_n3z2cf_corrected_z2_full/PHASE_N3Z2CF_CORRECTED_Z2_FULL_COMPLETE.flag
+block_projected,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+block_projected,aug_obs_dim,30,expected=30
+block_projected,include_z,False,must be false
+block_projected,include_logvar,True,scale=0.2
+block_projected,no_shield,true,observation-only Gpsi wrapper
+block_projected,no_action_filtering,true,raw PPO action
+block_projected,no_safety_cost,true,EnvV2 original reward
+block_projected,delta_norm_1s_p95_pretrain,1.4221738696098325,max=1.8476279973983765
+block_projected,logvar_raw_l2_p95_pretrain,13.333233737945557,diagnostic only
+block_projected,logvar_policy_l2_p95_pretrain,2.6666468262672423,policy input if include_logvar=true
+block_projected,full_aug_obs_l2_p95_pretrain,3.5705719113349916,actual PPO observation block

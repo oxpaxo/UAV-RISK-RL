@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-05-06 14:58:18",
+  "p0_report": "P0_TRACE_PREDICTIVE_ANALYSIS_REPORT.md",
+  "p1_report": "P1_THREE_SEED_REPLICATION_REPORT.md",
+  "p0_summary": "results/p0_trace/p0_trace_summary.csv",
+  "p1_by_seed": "results/p1_three_seed/p1_by_seed_step_scenario.csv",
+  "p1_summary": "results/p1_three_seed/p1_summary_by_method_step_scenario.csv",
+  "required_p1_rows": 144,
+  "required_p1_summary_rows": 48
+}

@@ -1,0 +1,10 @@
+[watcher] Phase N3.5 watcher started
+[watcher] running offline-online equivalence
+[watcher] still running...
+/usr/local/miniconda3/envs/py310/lib/python3.10/site-packages/torch/cuda/__init__.py:174: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+[watcher] running online wrapper audit
+[watcher] running augmented feature-scale audit
+[watcher] still running...
+[watcher] finalizing report and complete flag
+[watcher] complete flag detected

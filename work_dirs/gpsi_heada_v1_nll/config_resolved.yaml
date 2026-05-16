@@ -1,0 +1,39 @@
+{
+  "model": {
+    "activation": "relu",
+    "current_hidden_dim": 128,
+    "ego_dim": 10,
+    "fusion_hidden_dim": 128,
+    "history_feature_dim": 6,
+    "history_hidden_dim": 128,
+    "num_horizons": 3,
+    "obs_dim": 12,
+    "state_dim": 3,
+    "z_dim": 64
+  },
+  "normalization": {
+    "fields": [
+      "ego_current",
+      "obs_current",
+      "history_rel_pos",
+      "history_rel_vel"
+    ],
+    "source": "train_split_only"
+  },
+  "training": {
+    "batch_size": 1024,
+    "epochs": 20,
+    "grad_clip": 1.0,
+    "init": "work_dirs/gpsi_heada_v1_delta_only/best.pth",
+    "logvar_clamp": [
+      -5.0,
+      3.0
+    ],
+    "loss": "gaussian_nll",
+    "lr": 0.0003,
+    "num_workers": 0,
+    "seed": 0,
+    "weight_decay": 1e-06
+  },
+  "version": "gpsi_head_a_v1_nll"
+}

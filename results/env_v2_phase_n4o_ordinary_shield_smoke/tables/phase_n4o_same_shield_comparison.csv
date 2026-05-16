@@ -1,0 +1,3 @@
+comparison,p3_success,ref_success,success_diff,p3_collision,ref_collision,collision_diff,p3_better_both
+p3_ordinary_vo_vs_attention_ordinary_vo,1.0,1.0,0.0,0.0,0.0,0.0,1
+p3_ordinary_vo_vs_noz_ordinary_vo,1.0,1.0,0.0,0.0,0.0,0.0,1

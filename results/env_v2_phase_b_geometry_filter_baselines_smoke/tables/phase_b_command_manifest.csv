@@ -1,0 +1,4 @@
+command_name,command,status
+phase_b_runner,python scripts/run_env_v2_phase_b_geometry_filter_baselines.py --out-dir results/env_v2_phase_b_geometry_filter_baselines_smoke --checkpoint checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --eval-seed 1000 --stage smoke --write-traces,started
+phase_b_analysis,python scripts/analyze_env_v2_phase_b_results.py --result-dir results/env_v2_phase_b_geometry_filter_baselines_smoke,pending
+phase_b_watcher,bash scripts/watch_phase_b_geometry_filter_baselines.sh,available

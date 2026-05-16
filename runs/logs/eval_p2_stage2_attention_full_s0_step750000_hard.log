@@ -1,0 +1,6 @@
+[2026-05-07 10:21:44] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/p2_rich_motion/attention_full_s0_step750000.zip method=attention_full agg=attention train_seed=0 eval_seed=1000 scenario=eval_random_switch_hard episodes=50
+[2026-05-07 10:21:48] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 27.03 ep/s eta=  0.00 min
+/root/workspace/uav-risk-rl/eval.py:468: RuntimeWarning: Mean of empty slice
+  "predicted_cpa_to_nominal_path_mean": float(np.nanmean(col("predicted_cpa_to_nominal_path"))),
+[2026-05-07 10:21:48] EVAL_SUMMARY scenario=eval_random_switch_hard success_rate=0.9000 collision_rate=0.1000 mean_min_distance=0.8664 near_miss_rate=0.8400 mean_time=6.3600
+[2026-05-07 10:21:48] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/p2_rich_motion/stage2_eval/attention_full_s0_step750000_hard.csv

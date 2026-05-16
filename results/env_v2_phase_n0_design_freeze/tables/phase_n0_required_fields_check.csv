@@ -1,0 +1,18 @@
+required_field,blocking_for_n1,envv2_status,envv2_source,phase_ab_trace_or_table_status,n0_decision,notes
+obstacle_id,1,available,info['obstacle_ids'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+obstacle_slot,1,available,enumerate(info['obstacle_positions']),available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+active_mask,1,available,observation['mask'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+world_position,1,available,info['obstacle_positions'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+world_velocity,1,available,info['obstacle_velocities'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+relative_position,1,available,"observation['obs'][:,0:3] and info world_pos-uav_pos",reconstructable_by_joining_step_obstacles_with_per_step_trace,usable,relative fields are policy-input features; HeadA labels use world-frame obstacle residual
+relative_velocity,1,available,"observation['obs'][:,3:6] and info world_vel-uav_vel",reconstructable_by_joining_step_obstacles_with_per_step_trace,usable,relative fields are policy-input features; HeadA labels use world-frame obstacle residual
+motion_mode,1,available,info['obstacle_motion_modes'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+threat_class,1,available,info['threat_classes'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+history_i[t-H:t],1,available,Phase N0 dry-run keyed by episode_id+obstacle_id,verified_by_phase_n0_dryrun,usable,
+future_p_i(t+tau),1,available,Phase N0 dry-run keyed by episode_id+obstacle_id+step_offset,verified_by_phase_n0_dryrun,usable,
+future_residual_delta_i(tau),1,available,world residual p_i(t+tau)-[p_i(t)+tau*v_i(t)],verified_by_phase_n0_dryrun,usable,
+planned_cpa,0,available,info['planned_cpa_values'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+planned_ttc,0,available,info['planned_ttc_values'],available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+distance,0,available,"observation['obs'][:,8] and info world_pos-uav_pos",available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+closing,0,available,"observation['obs'][:,9] and rel velocity projection",available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,
+risk_value,0,available,"observation['obs'][:,11]",available_in_results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,usable,

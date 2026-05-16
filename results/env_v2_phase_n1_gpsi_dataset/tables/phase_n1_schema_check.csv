@@ -1,0 +1,93 @@
+split,array,expected_ndim,actual_shape,present,in_schema,status
+train,ego_current,2,"[228957, 10]",1,1,pass
+train,obs_current,2,"[228957, 12]",1,1,pass
+train,history_pos_world,3,"[228957, 20, 3]",1,1,pass
+train,history_vel_world,3,"[228957, 20, 3]",1,1,pass
+train,history_rel_pos,3,"[228957, 20, 3]",1,1,pass
+train,history_rel_vel,3,"[228957, 20, 3]",1,1,pass
+train,history_valid_mask,2,"[228957, 20]",1,1,pass
+train,delta_label_world,3,"[228957, 3, 3]",1,1,pass
+train,future_valid_mask,2,"[228957, 3]",1,1,pass
+train,future_times,1,[3],1,1,pass
+train,future_pos_world,3,"[228957, 3, 3]",1,1,pass
+train,constant_velocity_pos_world,3,"[228957, 3, 3]",1,1,pass
+train,current_pos_world,2,"[228957, 3]",1,1,pass
+train,current_vel_world,2,"[228957, 3]",1,1,pass
+train,motion_mode_id,1,[228957],1,1,pass
+train,threat_class_id,1,[228957],1,1,pass
+train,obstacle_id,1,[228957],1,1,pass
+train,obstacle_slot,1,[228957],1,1,pass
+train,active,1,[228957],1,0,pass
+train,episode_id,1,[228957],1,1,pass
+train,episode_seed,1,[228957],1,1,pass
+train,step,1,[228957],1,1,pass
+train,time,1,[228957],1,1,pass
+train,distance,1,[228957],1,1,pass
+train,closing,1,[228957],1,1,pass
+train,planned_cpa,1,[228957],1,1,pass
+train,planned_ttc,1,[228957],1,1,pass
+train,risk_value,1,[228957],1,1,pass
+train,history_valid_length,1,[228957],1,0,pass
+train,replacement_boundary_nearby,1,[228957],1,1,pass
+val,ego_current,2,"[49599, 10]",1,1,pass
+val,obs_current,2,"[49599, 12]",1,1,pass
+val,history_pos_world,3,"[49599, 20, 3]",1,1,pass
+val,history_vel_world,3,"[49599, 20, 3]",1,1,pass
+val,history_rel_pos,3,"[49599, 20, 3]",1,1,pass
+val,history_rel_vel,3,"[49599, 20, 3]",1,1,pass
+val,history_valid_mask,2,"[49599, 20]",1,1,pass
+val,delta_label_world,3,"[49599, 3, 3]",1,1,pass
+val,future_valid_mask,2,"[49599, 3]",1,1,pass
+val,future_times,1,[3],1,1,pass
+val,future_pos_world,3,"[49599, 3, 3]",1,1,pass
+val,constant_velocity_pos_world,3,"[49599, 3, 3]",1,1,pass
+val,current_pos_world,2,"[49599, 3]",1,1,pass
+val,current_vel_world,2,"[49599, 3]",1,1,pass
+val,motion_mode_id,1,[49599],1,1,pass
+val,threat_class_id,1,[49599],1,1,pass
+val,obstacle_id,1,[49599],1,1,pass
+val,obstacle_slot,1,[49599],1,1,pass
+val,active,1,[49599],1,0,pass
+val,episode_id,1,[49599],1,1,pass
+val,episode_seed,1,[49599],1,1,pass
+val,step,1,[49599],1,1,pass
+val,time,1,[49599],1,1,pass
+val,distance,1,[49599],1,1,pass
+val,closing,1,[49599],1,1,pass
+val,planned_cpa,1,[49599],1,1,pass
+val,planned_ttc,1,[49599],1,1,pass
+val,risk_value,1,[49599],1,1,pass
+val,history_valid_length,1,[49599],1,0,pass
+val,replacement_boundary_nearby,1,[49599],1,1,pass
+test,ego_current,2,"[48096, 10]",1,1,pass
+test,obs_current,2,"[48096, 12]",1,1,pass
+test,history_pos_world,3,"[48096, 20, 3]",1,1,pass
+test,history_vel_world,3,"[48096, 20, 3]",1,1,pass
+test,history_rel_pos,3,"[48096, 20, 3]",1,1,pass
+test,history_rel_vel,3,"[48096, 20, 3]",1,1,pass
+test,history_valid_mask,2,"[48096, 20]",1,1,pass
+test,delta_label_world,3,"[48096, 3, 3]",1,1,pass
+test,future_valid_mask,2,"[48096, 3]",1,1,pass
+test,future_times,1,[3],1,1,pass
+test,future_pos_world,3,"[48096, 3, 3]",1,1,pass
+test,constant_velocity_pos_world,3,"[48096, 3, 3]",1,1,pass
+test,current_pos_world,2,"[48096, 3]",1,1,pass
+test,current_vel_world,2,"[48096, 3]",1,1,pass
+test,motion_mode_id,1,[48096],1,1,pass
+test,threat_class_id,1,[48096],1,1,pass
+test,obstacle_id,1,[48096],1,1,pass
+test,obstacle_slot,1,[48096],1,1,pass
+test,active,1,[48096],1,0,pass
+test,episode_id,1,[48096],1,1,pass
+test,episode_seed,1,[48096],1,1,pass
+test,step,1,[48096],1,1,pass
+test,time,1,[48096],1,1,pass
+test,distance,1,[48096],1,1,pass
+test,closing,1,[48096],1,1,pass
+test,planned_cpa,1,[48096],1,1,pass
+test,planned_ttc,1,[48096],1,1,pass
+test,risk_value,1,[48096],1,1,pass
+test,history_valid_length,1,[48096],1,0,pass
+test,replacement_boundary_nearby,1,[48096],1,1,pass
+schema,sigma2_direct_label_false,,,1,1,pass
+schema,diagonal_logvar,,,1,1,pass

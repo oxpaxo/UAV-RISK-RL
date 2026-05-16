@@ -1,0 +1,2 @@
+file,sha256,phase_a_action,freeze_scope,status
+envs/dynamic_obstacle_flow_env.py,dce3e7f3109d490bf5c04a310aa49970b07dd6ffae303d3be7eb49e961a79feb,read_only,"obstacle ranges, motion modes, scenarios, reward, termination, dynamics",EnvV2-core not modified by Phase A eval framework

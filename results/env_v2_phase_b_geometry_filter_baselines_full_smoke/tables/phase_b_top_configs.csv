@@ -1,0 +1,12 @@
+selection_rank,config_name,baseline_name,baseline_category,selected_for_b2,b1_rank_score,b1_success_rate,b1_collision_rate
+1,random,random,reference,1,0.017184381805087422,0.0,0.0
+2,straight_line,straight_line,reference,1,-1.4989788378855882,0.16666666666666666,0.8333333333333334
+3,attention_full_1500k,attention_full_1500k,reference,1,0.27911341291603,0.8333333333333334,0.16666666666666666
+4,cpa_reactive_current,current_cpa_reactive,"reference,cpa_reactive_sweep",1,-0.05817452341691509,0.16666666666666666,0.0
+5,cpa_reactive_d5,cpa_reactive_sweep,cpa_reactive_sweep,1,0.4305290936251378,0.3333333333333333,0.0
+6,cpa_reactive_d3,cpa_reactive_sweep,cpa_reactive_sweep,1,0.19415690956416887,0.3333333333333333,0.0
+7,cpa_reactive_cpa18,cpa_reactive_sweep,cpa_reactive_sweep,1,0.1935831444032471,0.5,0.16666666666666666
+8,cpa_ttc_weighted_apf_alpha2,cpa_ttc_weighted_apf,apf,1,0.6974276561483275,1.0,0.0
+9,cpa_ttc_weighted_apf_alpha3,cpa_ttc_weighted_apf,apf,1,0.6968434809929434,1.0,0.0
+10,vo_like_filter_h45_cpa2_h16,vo_like_filter,safety_filter,1,1.0306425807032624,1.0,0.0
+11,vo_like_filter_h45_cpa1p5_h16,vo_like_filter,safety_filter,1,0.9473934473395087,1.0,0.0

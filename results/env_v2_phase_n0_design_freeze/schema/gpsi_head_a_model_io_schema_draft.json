@@ -1,0 +1,49 @@
+{
+  "gpsi": {
+    "input": {
+      "history_i": [
+        20,
+        "world_and_relative_state_features"
+      ],
+      "obs_i": [
+        12
+      ],
+      "valid_history_mask": [
+        20
+      ]
+    },
+    "losses": {
+      "logvar_clamp": [
+        -5.0,
+        3.0
+      ],
+      "stage_a1": "MSE or SmoothL1 on delta_i(tau)",
+      "stage_a2": "Gaussian NLL: 0.5*(||delta-delta_hat||^2/sigma2_hat + log_sigma2_hat)"
+    },
+    "outputs": {
+      "delta_hat_i": [
+        3,
+        3
+      ],
+      "log_sigma2_hat_i": [
+        3,
+        3
+      ],
+      "z_i": [
+        64
+      ]
+    }
+  },
+  "name": "gpsi_head_a_model_io_schema_draft",
+  "ppo": {
+    "augmented_obstacle_input": "[obs_i, z_i, delta_hat_i, sigma2_hat_i]",
+    "first_version": "masked_attention_compatible velocity policy",
+    "gpsi_frozen": true
+  },
+  "shield": {
+    "lambda_uncertainty_sweep_required": true,
+    "type": "post_hoc_vo_cpa_ttc_candidate_search",
+    "uncertainty_margin": "base_radius + lambda_uncertainty*sqrt(sigma2_hat_i)"
+  },
+  "version": "gpsi_head_a_v1"
+}

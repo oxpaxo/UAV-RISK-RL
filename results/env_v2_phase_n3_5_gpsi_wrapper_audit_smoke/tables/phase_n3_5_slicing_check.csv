@@ -1,0 +1,5 @@
+slice,start,end_exclusive,dim,status
+obs_i,0,12,12,pass
+z_i,12,76,64,pass
+delta_hat_flat,76,85,9,pass
+logvar_hat_flat,85,94,9,pass

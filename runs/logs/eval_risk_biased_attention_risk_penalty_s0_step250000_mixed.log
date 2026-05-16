@@ -1,0 +1,8 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/gate2b/risk_biased_attention_risk_penalty_s0_step250000.zip --method risk_biased_attention_risk_penalty --agg attention --seed 0 --eval_seed 1000 --episodes 50 --scenario mixed_uncertainty --device cpu --out_csv /root/workspace/uav-risk-rl/results/gate2b/eval/risk_biased_attention_risk_penalty_s0_step250000_mixed.csv --global_step 250000 --use_risk_bias true --lambda_bias 0.2
+[2026-05-06 13:01:29] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/gate2b/risk_biased_attention_risk_penalty_s0_step250000.zip method=risk_biased_attention_risk_penalty agg=attention train_seed=0 eval_seed=1000 scenario=mixed_uncertainty episodes=50
+[2026-05-06 13:01:41] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate=  4.61 ep/s eta=  0.00 min
+[2026-05-06 13:01:41] EVAL_SUMMARY scenario=mixed_uncertainty success_rate=0.4800 collision_rate=0.0000 mean_min_distance=2.1058 near_miss_rate=0.0000 mean_time=34.7080
+[2026-05-06 13:01:41] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/50
+[2026-05-06 13:01:41] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/gate2b/eval/risk_biased_attention_risk_penalty_s0_step250000_mixed.csv

@@ -1,0 +1,12 @@
+[2026-05-09 06:50:31] [watcher] Phase A watcher started
+[2026-05-09 06:50:31] [watcher] still running pid=1028
+[2026-05-09 06:50:33] PHASE_A_EVAL_FRAMEWORK_START
+[2026-05-09 06:50:33] LOADING_CHECKPOINT path=/root/workspace/uav-risk-rl/checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip
+[2026-05-09 06:50:36] [watcher] still running pid=1028
+[2026-05-09 06:50:40] PHASE_A_EVAL_HEARTBEAT completed=14/30 policy=filtered_attention_full scenario=eval_flow_id rate=2.76_episodes_per_sec
+[2026-05-09 06:50:41] [watcher] still running pid=1028
+[2026-05-09 06:50:45] PHASE_A_EVAL_HEARTBEAT completed=27/30 policy=attention_full scenario=eval_flow_high_speed rate=2.66_episodes_per_sec
+[2026-05-09 06:50:46] [watcher] still running pid=1028
+[2026-05-09 06:50:47] PHASE_A_EVAL_HEARTBEAT completed=30/30 policy=filtered_attention_full scenario=eval_flow_high_speed rate=2.47_episodes_per_sec
+[2026-05-09 06:50:49] PHASE_A_EVAL_FRAMEWORK_COMPLETE
+[2026-05-09 06:50:51] [watcher] complete flag detected

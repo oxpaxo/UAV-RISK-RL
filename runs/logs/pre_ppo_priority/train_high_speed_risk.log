@@ -1,0 +1,1070 @@
+[2026-05-08 08:35:14] CONFIG agg=attention seed=0 total_steps=750000 n_envs=16 device=cpu scenario=train_mixed_modes_v2_high_speed use_rbar=False rbar_floor=0.0 hidden_dim=64 r_gate=5.0 lambda_ewma=0.1 sigma_min=0.05 run_name=high_speed_risk method=attention_full_risk_penalty resume_from=none resume_global_step=0 use_safety_cost=True cost_type=risk_sum fallback_penalty=True beta_cost=5.0 use_risk_bias=False lambda_bias=0.2
+FALLBACK: cost-penalty, not PPO-Lagrangian.
+Using cpu device
+Logging to /root/workspace/uav-risk-rl/runs/pre_ppo_priority/p0_adaptation/high_speed_risk_s0/PPO_1
+[2026-05-08 08:35:16] TRAIN_START total_steps=750000 start_num_timesteps=0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 129      |
+|    ep_rew_mean     | -58.2    |
+|    success_rate    | 0        |
+| time/              |          |
+|    fps             | 3156     |
+|    iterations      | 1        |
+|    time_elapsed    | 5        |
+|    total_timesteps | 16384    |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 122         |
+|    ep_rew_mean          | -57.6       |
+|    success_rate         | 0           |
+| time/                   |             |
+|    fps                  | 1989        |
+|    iterations           | 2           |
+|    time_elapsed         | 16          |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.005963697 |
+|    clip_fraction        | 0.0612      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.25       |
+|    explained_variance   | 0.00283     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 9.13        |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00492    |
+|    std                  | 0.999       |
+|    value_loss           | 26.3        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 144         |
+|    ep_rew_mean          | -55.1       |
+|    success_rate         | 0.01        |
+| time/                   |             |
+|    fps                  | 1892        |
+|    iterations           | 3           |
+|    time_elapsed         | 25          |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.006552643 |
+|    clip_fraction        | 0.0678      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.24       |
+|    explained_variance   | 0.515       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 10.5        |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.00528    |
+|    std                  | 0.994       |
+|    value_loss           | 23.9        |
+-----------------------------------------
+[2026-05-08 08:35:47] HEARTBEAT steps=49168/750000 percent=  6.56% rate=  1603.3 step/s eta=   7.29 min
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 126          |
+|    ep_rew_mean          | -49.9        |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 1850         |
+|    iterations           | 4            |
+|    time_elapsed         | 35           |
+|    total_timesteps      | 65536        |
+| train/                  |              |
+|    approx_kl            | 0.0066960654 |
+|    clip_fraction        | 0.0707       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.23        |
+|    explained_variance   | 0.572        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 12           |
+|    n_updates            | 30           |
+|    policy_gradient_loss | -0.0046      |
+|    std                  | 0.989        |
+|    value_loss           | 23.2         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 148         |
+|    ep_rew_mean          | -44.6       |
+|    success_rate         | 0           |
+| time/                   |             |
+|    fps                  | 1824        |
+|    iterations           | 5           |
+|    time_elapsed         | 44          |
+|    total_timesteps      | 81920       |
+| train/                  |             |
+|    approx_kl            | 0.007960601 |
+|    clip_fraction        | 0.0884      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.22       |
+|    explained_variance   | 0.646       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 8.31        |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.00417    |
+|    std                  | 0.986       |
+|    value_loss           | 21.1        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 151         |
+|    ep_rew_mean          | -38.5       |
+|    success_rate         | 0.01        |
+| time/                   |             |
+|    fps                  | 1798        |
+|    iterations           | 6           |
+|    time_elapsed         | 54          |
+|    total_timesteps      | 98304       |
+| train/                  |             |
+|    approx_kl            | 0.011970347 |
+|    clip_fraction        | 0.137       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.19       |
+|    explained_variance   | 0.708       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.48        |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.00795    |
+|    std                  | 0.973       |
+|    value_loss           | 9.81        |
+-----------------------------------------
+[2026-05-08 08:36:17] HEARTBEAT steps=102240/750000 percent= 13.63% rate=  1685.1 step/s eta=   6.41 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 143         |
+|    ep_rew_mean          | -33.8       |
+|    success_rate         | 0.05        |
+| time/                   |             |
+|    fps                  | 1780        |
+|    iterations           | 7           |
+|    time_elapsed         | 64          |
+|    total_timesteps      | 114688      |
+| train/                  |             |
+|    approx_kl            | 0.010619349 |
+|    clip_fraction        | 0.127       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.17       |
+|    explained_variance   | 0.661       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.43        |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.00663    |
+|    std                  | 0.971       |
+|    value_loss           | 9.72        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 157         |
+|    ep_rew_mean          | -33.1       |
+|    success_rate         | 0.1         |
+| time/                   |             |
+|    fps                  | 1770        |
+|    iterations           | 8           |
+|    time_elapsed         | 74          |
+|    total_timesteps      | 131072      |
+| train/                  |             |
+|    approx_kl            | 0.012207352 |
+|    clip_fraction        | 0.15        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.13       |
+|    explained_variance   | 0.651       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.18        |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.00888    |
+|    std                  | 0.958       |
+|    value_loss           | 7.73        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 155         |
+|    ep_rew_mean          | -19.4       |
+|    success_rate         | 0.45        |
+| time/                   |             |
+|    fps                  | 1760        |
+|    iterations           | 9           |
+|    time_elapsed         | 83          |
+|    total_timesteps      | 147456      |
+| train/                  |             |
+|    approx_kl            | 0.015893828 |
+|    clip_fraction        | 0.178       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.09       |
+|    explained_variance   | 0.535       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.01        |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.00998    |
+|    std                  | 0.942       |
+|    value_loss           | 9.03        |
+-----------------------------------------
+[2026-05-08 08:36:47] HEARTBEAT steps=156112/750000 percent= 20.81% rate=  1721.7 step/s eta=   5.75 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 143         |
+|    ep_rew_mean          | -16.3       |
+|    success_rate         | 0.57        |
+| time/                   |             |
+|    fps                  | 1762        |
+|    iterations           | 10          |
+|    time_elapsed         | 92          |
+|    total_timesteps      | 163840      |
+| train/                  |             |
+|    approx_kl            | 0.015374744 |
+|    clip_fraction        | 0.19        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.04       |
+|    explained_variance   | 0.415       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.46        |
+|    n_updates            | 90          |
+|    policy_gradient_loss | -0.0111     |
+|    std                  | 0.927       |
+|    value_loss           | 9.14        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 119         |
+|    ep_rew_mean          | -11.8       |
+|    success_rate         | 0.63        |
+| time/                   |             |
+|    fps                  | 1757        |
+|    iterations           | 11          |
+|    time_elapsed         | 102         |
+|    total_timesteps      | 180224      |
+| train/                  |             |
+|    approx_kl            | 0.013650902 |
+|    clip_fraction        | 0.17        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.99       |
+|    explained_variance   | 0.568       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.69        |
+|    n_updates            | 100         |
+|    policy_gradient_loss | -0.0126     |
+|    std                  | 0.91        |
+|    value_loss           | 10.1        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 105         |
+|    ep_rew_mean          | -2.58       |
+|    success_rate         | 0.83        |
+| time/                   |             |
+|    fps                  | 1749        |
+|    iterations           | 12          |
+|    time_elapsed         | 112         |
+|    total_timesteps      | 196608      |
+| train/                  |             |
+|    approx_kl            | 0.015162247 |
+|    clip_fraction        | 0.187       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.93       |
+|    explained_variance   | 0.675       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.39        |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.0142     |
+|    std                  | 0.891       |
+|    value_loss           | 8.3         |
+-----------------------------------------
+[2026-05-08 08:37:17] HEARTBEAT steps=207536/750000 percent= 27.67% rate=  1719.7 step/s eta=   5.26 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 91.5        |
+|    ep_rew_mean          | -2.66       |
+|    success_rate         | 0.78        |
+| time/                   |             |
+|    fps                  | 1740        |
+|    iterations           | 13          |
+|    time_elapsed         | 122         |
+|    total_timesteps      | 212992      |
+| train/                  |             |
+|    approx_kl            | 0.017411115 |
+|    clip_fraction        | 0.208       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.86       |
+|    explained_variance   | 0.732       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.6         |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.0122     |
+|    std                  | 0.873       |
+|    value_loss           | 7.01        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 81.3        |
+|    ep_rew_mean          | 3.17        |
+|    success_rate         | 0.89        |
+| time/                   |             |
+|    fps                  | 1736        |
+|    iterations           | 14          |
+|    time_elapsed         | 132         |
+|    total_timesteps      | 229376      |
+| train/                  |             |
+|    approx_kl            | 0.016598748 |
+|    clip_fraction        | 0.196       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.81       |
+|    explained_variance   | 0.731       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 5.06        |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.0116     |
+|    std                  | 0.858       |
+|    value_loss           | 9.71        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 73.3        |
+|    ep_rew_mean          | 4.3         |
+|    success_rate         | 0.92        |
+| time/                   |             |
+|    fps                  | 1730        |
+|    iterations           | 15          |
+|    time_elapsed         | 142         |
+|    total_timesteps      | 245760      |
+| train/                  |             |
+|    approx_kl            | 0.017422097 |
+|    clip_fraction        | 0.196       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.73       |
+|    explained_variance   | 0.725       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.42        |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.0096     |
+|    std                  | 0.834       |
+|    value_loss           | 8.46        |
+-----------------------------------------
+[2026-05-08 08:37:44] CHECKPOINT_SAVED local_step=250000 global_step=250000 path=/root/workspace/uav-risk-rl/checkpoints/pre_ppo_priority/p0_adaptation/high_speed_risk_s0_step250000.zip
+[2026-05-08 08:37:47] HEARTBEAT steps=258640/750000 percent= 34.49% rate=  1716.5 step/s eta=   4.77 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 73.9        |
+|    ep_rew_mean          | 7.69        |
+|    success_rate         | 0.97        |
+| time/                   |             |
+|    fps                  | 1727        |
+|    iterations           | 16          |
+|    time_elapsed         | 151         |
+|    total_timesteps      | 262144      |
+| train/                  |             |
+|    approx_kl            | 0.014717625 |
+|    clip_fraction        | 0.167       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.69       |
+|    explained_variance   | 0.66        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.28        |
+|    n_updates            | 150         |
+|    policy_gradient_loss | -0.00576    |
+|    std                  | 0.825       |
+|    value_loss           | 10.2        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 64.1        |
+|    ep_rew_mean          | 8.4         |
+|    success_rate         | 0.95        |
+| time/                   |             |
+|    fps                  | 1729        |
+|    iterations           | 17          |
+|    time_elapsed         | 161         |
+|    total_timesteps      | 278528      |
+| train/                  |             |
+|    approx_kl            | 0.017854623 |
+|    clip_fraction        | 0.19        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.64       |
+|    explained_variance   | 0.624       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.9         |
+|    n_updates            | 160         |
+|    policy_gradient_loss | -0.00408    |
+|    std                  | 0.808       |
+|    value_loss           | 9.66        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 61.8       |
+|    ep_rew_mean          | 9.56       |
+|    success_rate         | 0.94       |
+| time/                   |            |
+|    fps                  | 1730       |
+|    iterations           | 18         |
+|    time_elapsed         | 170        |
+|    total_timesteps      | 294912     |
+| train/                  |            |
+|    approx_kl            | 0.01849591 |
+|    clip_fraction        | 0.194      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.59      |
+|    explained_variance   | 0.589      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 4.24       |
+|    n_updates            | 170        |
+|    policy_gradient_loss | -0.00377   |
+|    std                  | 0.797      |
+|    value_loss           | 10.1       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 63.2        |
+|    ep_rew_mean          | 9.97        |
+|    success_rate         | 0.97        |
+| time/                   |             |
+|    fps                  | 1729        |
+|    iterations           | 19          |
+|    time_elapsed         | 179         |
+|    total_timesteps      | 311296      |
+| train/                  |             |
+|    approx_kl            | 0.017023992 |
+|    clip_fraction        | 0.185       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.53       |
+|    explained_variance   | 0.563       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 5.61        |
+|    n_updates            | 180         |
+|    policy_gradient_loss | -0.00542    |
+|    std                  | 0.782       |
+|    value_loss           | 9.83        |
+-----------------------------------------
+[2026-05-08 08:38:21] HEARTBEAT steps=311312/750000 percent= 41.51% rate=  1687.6 step/s eta=   4.33 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 59          |
+|    ep_rew_mean          | 12.1        |
+|    success_rate         | 0.97        |
+| time/                   |             |
+|    fps                  | 1731        |
+|    iterations           | 20          |
+|    time_elapsed         | 189         |
+|    total_timesteps      | 327680      |
+| train/                  |             |
+|    approx_kl            | 0.020676002 |
+|    clip_fraction        | 0.22        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.48       |
+|    explained_variance   | 0.468       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.54        |
+|    n_updates            | 190         |
+|    policy_gradient_loss | -0.00297    |
+|    std                  | 0.766       |
+|    value_loss           | 7.99        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 56.1        |
+|    ep_rew_mean          | 13.8        |
+|    success_rate         | 0.99        |
+| time/                   |             |
+|    fps                  | 1732        |
+|    iterations           | 21          |
+|    time_elapsed         | 198         |
+|    total_timesteps      | 344064      |
+| train/                  |             |
+|    approx_kl            | 0.022990383 |
+|    clip_fraction        | 0.262       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.41       |
+|    explained_variance   | 0.392       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.991       |
+|    n_updates            | 200         |
+|    policy_gradient_loss | -0.00155    |
+|    std                  | 0.751       |
+|    value_loss           | 3.83        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 53.9       |
+|    ep_rew_mean          | 14.6       |
+|    success_rate         | 0.98       |
+| time/                   |            |
+|    fps                  | 1730       |
+|    iterations           | 22         |
+|    time_elapsed         | 208        |
+|    total_timesteps      | 360448     |
+| train/                  |            |
+|    approx_kl            | 0.02074534 |
+|    clip_fraction        | 0.227      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.36      |
+|    explained_variance   | 0.345      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.64       |
+|    n_updates            | 210        |
+|    policy_gradient_loss | -0.00351   |
+|    std                  | 0.737      |
+|    value_loss           | 4.9        |
+----------------------------------------
+[2026-05-08 08:38:51] HEARTBEAT steps=364560/750000 percent= 48.61% rate=  1699.8 step/s eta=   3.78 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 54.7        |
+|    ep_rew_mean          | 14.1        |
+|    success_rate         | 0.99        |
+| time/                   |             |
+|    fps                  | 1726        |
+|    iterations           | 23          |
+|    time_elapsed         | 218         |
+|    total_timesteps      | 376832      |
+| train/                  |             |
+|    approx_kl            | 0.023701927 |
+|    clip_fraction        | 0.225       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.31       |
+|    explained_variance   | 0.352       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.59        |
+|    n_updates            | 220         |
+|    policy_gradient_loss | -0.00337    |
+|    std                  | 0.73        |
+|    value_loss           | 5.84        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 52.6        |
+|    ep_rew_mean          | 15.1        |
+|    success_rate         | 0.98        |
+| time/                   |             |
+|    fps                  | 1724        |
+|    iterations           | 24          |
+|    time_elapsed         | 228         |
+|    total_timesteps      | 393216      |
+| train/                  |             |
+|    approx_kl            | 0.025898889 |
+|    clip_fraction        | 0.234       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.28       |
+|    explained_variance   | 0.29        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.19        |
+|    n_updates            | 230         |
+|    policy_gradient_loss | -0.000342   |
+|    std                  | 0.722       |
+|    value_loss           | 4.77        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 52          |
+|    ep_rew_mean          | 16          |
+|    success_rate         | 0.99        |
+| time/                   |             |
+|    fps                  | 1719        |
+|    iterations           | 25          |
+|    time_elapsed         | 238         |
+|    total_timesteps      | 409600      |
+| train/                  |             |
+|    approx_kl            | 0.023216158 |
+|    clip_fraction        | 0.238       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.25       |
+|    explained_variance   | 0.393       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.04        |
+|    n_updates            | 240         |
+|    policy_gradient_loss | -0.00245    |
+|    std                  | 0.712       |
+|    value_loss           | 5.85        |
+-----------------------------------------
+[2026-05-08 08:39:21] HEARTBEAT steps=413328/750000 percent= 55.11% rate=  1690.7 step/s eta=   3.32 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 52.5        |
+|    ep_rew_mean          | 15.8        |
+|    success_rate         | 0.98        |
+| time/                   |             |
+|    fps                  | 1715        |
+|    iterations           | 26          |
+|    time_elapsed         | 248         |
+|    total_timesteps      | 425984      |
+| train/                  |             |
+|    approx_kl            | 0.023917712 |
+|    clip_fraction        | 0.247       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.2        |
+|    explained_variance   | 0.221       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.912       |
+|    n_updates            | 250         |
+|    policy_gradient_loss | -0.00232    |
+|    std                  | 0.702       |
+|    value_loss           | 3.41        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 52.8       |
+|    ep_rew_mean          | 15.2       |
+|    success_rate         | 1          |
+| time/                   |            |
+|    fps                  | 1714       |
+|    iterations           | 27         |
+|    time_elapsed         | 258        |
+|    total_timesteps      | 442368     |
+| train/                  |            |
+|    approx_kl            | 0.02613239 |
+|    clip_fraction        | 0.234      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.16      |
+|    explained_variance   | 0.291      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.41       |
+|    n_updates            | 260        |
+|    policy_gradient_loss | -3.6e-05   |
+|    std                  | 0.693      |
+|    value_loss           | 4.13       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 50.6        |
+|    ep_rew_mean          | 17.1        |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1714        |
+|    iterations           | 28          |
+|    time_elapsed         | 267         |
+|    total_timesteps      | 458752      |
+| train/                  |             |
+|    approx_kl            | 0.025599184 |
+|    clip_fraction        | 0.252       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.14       |
+|    explained_variance   | 0.204       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.41        |
+|    n_updates            | 270         |
+|    policy_gradient_loss | 0.000667    |
+|    std                  | 0.687       |
+|    value_loss           | 3.76        |
+-----------------------------------------
+[2026-05-08 08:39:51] HEARTBEAT steps=466240/750000 percent= 62.17% rate=  1698.7 step/s eta=   2.78 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 50.6        |
+|    ep_rew_mean          | 17.1        |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1714        |
+|    iterations           | 29          |
+|    time_elapsed         | 277         |
+|    total_timesteps      | 475136      |
+| train/                  |             |
+|    approx_kl            | 0.025171097 |
+|    clip_fraction        | 0.234       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.09       |
+|    explained_variance   | 0.363       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.702       |
+|    n_updates            | 280         |
+|    policy_gradient_loss | -0.00373    |
+|    std                  | 0.678       |
+|    value_loss           | 2.79        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 49.8        |
+|    ep_rew_mean          | 17.2        |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1711        |
+|    iterations           | 30          |
+|    time_elapsed         | 287         |
+|    total_timesteps      | 491520      |
+| train/                  |             |
+|    approx_kl            | 0.024131188 |
+|    clip_fraction        | 0.262       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.05       |
+|    explained_variance   | 0.366       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.669       |
+|    n_updates            | 290         |
+|    policy_gradient_loss | -0.00283    |
+|    std                  | 0.668       |
+|    value_loss           | 1.79        |
+-----------------------------------------
+[2026-05-08 08:40:11] CHECKPOINT_SAVED local_step=500000 global_step=500000 path=/root/workspace/uav-risk-rl/checkpoints/pre_ppo_priority/p0_adaptation/high_speed_risk_s0_step500000.zip
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 48.7        |
+|    ep_rew_mean          | 16.4        |
+|    success_rate         | 0.99        |
+| time/                   |             |
+|    fps                  | 1710        |
+|    iterations           | 31          |
+|    time_elapsed         | 296         |
+|    total_timesteps      | 507904      |
+| train/                  |             |
+|    approx_kl            | 0.027481727 |
+|    clip_fraction        | 0.256       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3          |
+|    explained_variance   | 0.289       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.909       |
+|    n_updates            | 300         |
+|    policy_gradient_loss | -0.00381    |
+|    std                  | 0.656       |
+|    value_loss           | 2.78        |
+-----------------------------------------
+[2026-05-08 08:40:21] HEARTBEAT steps=517776/750000 percent= 69.04% rate=  1700.5 step/s eta=   2.28 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 48.4        |
+|    ep_rew_mean          | 15.9        |
+|    success_rate         | 0.98        |
+| time/                   |             |
+|    fps                  | 1710        |
+|    iterations           | 32          |
+|    time_elapsed         | 306         |
+|    total_timesteps      | 524288      |
+| train/                  |             |
+|    approx_kl            | 0.025557725 |
+|    clip_fraction        | 0.241       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.96       |
+|    explained_variance   | 0.298       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.998       |
+|    n_updates            | 310         |
+|    policy_gradient_loss | -0.00341    |
+|    std                  | 0.647       |
+|    value_loss           | 3.26        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 49.6        |
+|    ep_rew_mean          | 17.5        |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1709        |
+|    iterations           | 33          |
+|    time_elapsed         | 316         |
+|    total_timesteps      | 540672      |
+| train/                  |             |
+|    approx_kl            | 0.024459513 |
+|    clip_fraction        | 0.221       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.93       |
+|    explained_variance   | 0.272       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.813       |
+|    n_updates            | 320         |
+|    policy_gradient_loss | -0.00368    |
+|    std                  | 0.643       |
+|    value_loss           | 3.82        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 48.6        |
+|    ep_rew_mean          | 17.7        |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1710        |
+|    iterations           | 34          |
+|    time_elapsed         | 325         |
+|    total_timesteps      | 557056      |
+| train/                  |             |
+|    approx_kl            | 0.030344062 |
+|    clip_fraction        | 0.26        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.91       |
+|    explained_variance   | 0.326       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.898       |
+|    n_updates            | 330         |
+|    policy_gradient_loss | -0.00298    |
+|    std                  | 0.638       |
+|    value_loss           | 2.86        |
+-----------------------------------------
+[2026-05-08 08:40:51] HEARTBEAT steps=570128/750000 percent= 76.02% rate=  1704.5 step/s eta=   1.76 min
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 49.2       |
+|    ep_rew_mean          | 18.1       |
+|    success_rate         | 1          |
+| time/                   |            |
+|    fps                  | 1709       |
+|    iterations           | 35         |
+|    time_elapsed         | 335        |
+|    total_timesteps      | 573440     |
+| train/                  |            |
+|    approx_kl            | 0.04452921 |
+|    clip_fraction        | 0.32       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.89      |
+|    explained_variance   | 0.276      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.369      |
+|    n_updates            | 340        |
+|    policy_gradient_loss | -0.00047   |
+|    std                  | 0.633      |
+|    value_loss           | 2.42       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 48.6        |
+|    ep_rew_mean          | 17          |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1707        |
+|    iterations           | 36          |
+|    time_elapsed         | 345         |
+|    total_timesteps      | 589824      |
+| train/                  |             |
+|    approx_kl            | 0.028883845 |
+|    clip_fraction        | 0.282       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.87       |
+|    explained_variance   | 0.383       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.452       |
+|    n_updates            | 350         |
+|    policy_gradient_loss | -0.0013     |
+|    std                  | 0.63        |
+|    value_loss           | 1.84        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 47.6        |
+|    ep_rew_mean          | 16.8        |
+|    success_rate         | 0.99        |
+| time/                   |             |
+|    fps                  | 1707        |
+|    iterations           | 37          |
+|    time_elapsed         | 355         |
+|    total_timesteps      | 606208      |
+| train/                  |             |
+|    approx_kl            | 0.036262043 |
+|    clip_fraction        | 0.287       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.85       |
+|    explained_variance   | 0.313       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.896       |
+|    n_updates            | 360         |
+|    policy_gradient_loss | 0.00102     |
+|    std                  | 0.627       |
+|    value_loss           | 2.84        |
+-----------------------------------------
+[2026-05-08 08:41:21] HEARTBEAT steps=621536/750000 percent= 82.87% rate=  1705.3 step/s eta=   1.26 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 49.3        |
+|    ep_rew_mean          | 18          |
+|    success_rate         | 0.98        |
+| time/                   |             |
+|    fps                  | 1706        |
+|    iterations           | 38          |
+|    time_elapsed         | 364         |
+|    total_timesteps      | 622592      |
+| train/                  |             |
+|    approx_kl            | 0.037256785 |
+|    clip_fraction        | 0.292       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.82       |
+|    explained_variance   | 0.282       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.6         |
+|    n_updates            | 370         |
+|    policy_gradient_loss | 0.00156     |
+|    std                  | 0.617       |
+|    value_loss           | 3.51        |
+-----------------------------------------
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 48.6      |
+|    ep_rew_mean          | 17.5      |
+|    success_rate         | 0.98      |
+| time/                   |           |
+|    fps                  | 1705      |
+|    iterations           | 39        |
+|    time_elapsed         | 374       |
+|    total_timesteps      | 638976    |
+| train/                  |           |
+|    approx_kl            | 0.0280865 |
+|    clip_fraction        | 0.254     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -2.78     |
+|    explained_variance   | 0.393     |
+|    learning_rate        | 0.0003    |
+|    loss                 | 1.97      |
+|    n_updates            | 380       |
+|    policy_gradient_loss | 0.00029   |
+|    std                  | 0.611     |
+|    value_loss           | 2.43      |
+---------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 49          |
+|    ep_rew_mean          | 16.3        |
+|    success_rate         | 0.97        |
+| time/                   |             |
+|    fps                  | 1704        |
+|    iterations           | 40          |
+|    time_elapsed         | 384         |
+|    total_timesteps      | 655360      |
+| train/                  |             |
+|    approx_kl            | 0.033757437 |
+|    clip_fraction        | 0.3         |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.76       |
+|    explained_variance   | 0.315       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.661       |
+|    n_updates            | 390         |
+|    policy_gradient_loss | -0.00115    |
+|    std                  | 0.603       |
+|    value_loss           | 2.51        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 49.5        |
+|    ep_rew_mean          | 16.7        |
+|    success_rate         | 0.98        |
+| time/                   |             |
+|    fps                  | 1703        |
+|    iterations           | 41          |
+|    time_elapsed         | 394         |
+|    total_timesteps      | 671744      |
+| train/                  |             |
+|    approx_kl            | 0.038741007 |
+|    clip_fraction        | 0.314       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.72       |
+|    explained_variance   | 0.291       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.82        |
+|    n_updates            | 400         |
+|    policy_gradient_loss | 0.00826     |
+|    std                  | 0.599       |
+|    value_loss           | 2.84        |
+-----------------------------------------
+[2026-05-08 08:41:55] HEARTBEAT steps=671760/750000 percent= 89.57% rate=  1682.9 step/s eta=   0.77 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 50.6        |
+|    ep_rew_mean          | 18          |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1701        |
+|    iterations           | 42          |
+|    time_elapsed         | 404         |
+|    total_timesteps      | 688128      |
+| train/                  |             |
+|    approx_kl            | 0.042106748 |
+|    clip_fraction        | 0.306       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.71       |
+|    explained_variance   | 0.231       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.34        |
+|    n_updates            | 410         |
+|    policy_gradient_loss | 0.00196     |
+|    std                  | 0.598       |
+|    value_loss           | 3.73        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 51.3       |
+|    ep_rew_mean          | 18.5       |
+|    success_rate         | 1          |
+| time/                   |            |
+|    fps                  | 1700       |
+|    iterations           | 43         |
+|    time_elapsed         | 414        |
+|    total_timesteps      | 704512     |
+| train/                  |            |
+|    approx_kl            | 0.03763958 |
+|    clip_fraction        | 0.328      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.69      |
+|    explained_variance   | 0.286      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.544      |
+|    n_updates            | 420        |
+|    policy_gradient_loss | -0.00137   |
+|    std                  | 0.591      |
+|    value_loss           | 1.61       |
+----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 50.2       |
+|    ep_rew_mean          | 18.5       |
+|    success_rate         | 1          |
+| time/                   |            |
+|    fps                  | 1699       |
+|    iterations           | 44         |
+|    time_elapsed         | 424        |
+|    total_timesteps      | 720896     |
+| train/                  |            |
+|    approx_kl            | 0.03886705 |
+|    clip_fraction        | 0.306      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.66      |
+|    explained_variance   | 0.357      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.09       |
+|    n_updates            | 430        |
+|    policy_gradient_loss | -0.00387   |
+|    std                  | 0.587      |
+|    value_loss           | 1.88       |
+----------------------------------------
+[2026-05-08 08:42:25] HEARTBEAT steps=721616/750000 percent= 96.22% rate=  1681.4 step/s eta=   0.28 min
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 49          |
+|    ep_rew_mean          | 18.1        |
+|    success_rate         | 1           |
+| time/                   |             |
+|    fps                  | 1698        |
+|    iterations           | 45          |
+|    time_elapsed         | 434         |
+|    total_timesteps      | 737280      |
+| train/                  |             |
+|    approx_kl            | 0.036652457 |
+|    clip_fraction        | 0.274       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.64       |
+|    explained_variance   | 0.336       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.815       |
+|    n_updates            | 440         |
+|    policy_gradient_loss | -0.000441   |
+|    std                  | 0.582       |
+|    value_loss           | 2.55        |
+-----------------------------------------
+[2026-05-08 08:42:39] CHECKPOINT_SAVED local_step=750000 global_step=750000 path=/root/workspace/uav-risk-rl/checkpoints/pre_ppo_priority/p0_adaptation/high_speed_risk_s0_step750000.zip
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 48.4       |
+|    ep_rew_mean          | 18.1       |
+|    success_rate         | 1          |
+| time/                   |            |
+|    fps                  | 1697       |
+|    iterations           | 46         |
+|    time_elapsed         | 443        |
+|    total_timesteps      | 753664     |
+| train/                  |            |
+|    approx_kl            | 0.03737843 |
+|    clip_fraction        | 0.287      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.62      |
+|    explained_variance   | 0.343      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.564      |
+|    n_updates            | 450        |
+|    policy_gradient_loss | -0.00204   |
+|    std                  | 0.579      |
+|    value_loss           | 1.94       |
+----------------------------------------
+[2026-05-08 08:42:45] TRAIN_END elapsed=7.48 min local_steps=753664 model_num_timesteps=753664
+[2026-05-08 08:42:45] SAVED model=/root/workspace/uav-risk-rl/checkpoints/pre_ppo_priority/p0_adaptation/high_speed_risk_s0_step750000.zip approx_updates=46

@@ -1,0 +1,7 @@
+check,value,detail
+n2_complete_flag,True,results/env_v2_phase_n2_gpsi_heada_offline/PHASE_N2_HEADA_OFFLINE_COMPLETE.flag
+gpsi_checkpoint_exists,True,work_dirs/gpsi_heada_v1_nll/best.pth
+gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+aug_obs_dim,94,next=94 reward=-0.197706 done=False
+history_ratio_available,True,"[0.05000000074505806, 0.05000000074505806, 0.05000000074505806, 0.10000000149011612, 0.10000000149011612, 0.0, 0.0, 0.0, 0.0, 0.0]"
+no_shield,true,wrapper only augments observation; action_executed remains raw PPO action

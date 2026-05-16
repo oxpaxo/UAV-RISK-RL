@@ -1,0 +1,24 @@
+[watcher] Phase N1 watcher started at 2026-05-12T04:12:44Z
+[watcher] still running...
+[2026-05-12 04:12:44] Phase N1 dataset builder started
+[2026-05-12 04:12:44] Command: python scripts/build_gpsi_heada_dataset.py --out-dir data/gpsi_head_a_v1 --result-dir results/env_v2_phase_n1_gpsi_dataset --scenario train_flow_mixed --num-episodes 100 --eval-seed 2000 --history-steps 20 --future-times 1.0 2.0 4.0 --split 0.70 0.15 0.15 --format npz --write-schema
+[2026-05-12 04:12:51] Collected episode 10/100
+[2026-05-12 04:12:58] Collected episode 20/100
+[2026-05-12 04:13:04] Collected episode 30/100
+[2026-05-12 04:13:11] Collected episode 40/100
+[watcher] still running...
+[2026-05-12 04:13:17] Collected episode 50/100
+[2026-05-12 04:13:24] Collected episode 60/100
+[2026-05-12 04:13:31] Collected episode 70/100
+[2026-05-12 04:13:38] Collected episode 80/100
+[watcher] still running...
+[2026-05-12 04:13:45] Collected episode 90/100
+[2026-05-12 04:13:52] Collected episode 100/100
+[2026-05-12 04:13:56] Wrote train.npz with 228957 samples
+[2026-05-12 04:13:56] Wrote val.npz with 49599 samples
+[2026-05-12 04:13:57] Wrote test.npz with 48096 samples
+[2026-05-12 04:13:57] Phase N1 dataset build completed; inspect still required
+[2026-05-12 04:13:58] Phase N1 dataset inspect started
+[2026-05-12 04:13:58] Command: python scripts/inspect_gpsi_heada_dataset.py --data-dir data/gpsi_head_a_v1 --out-dir results/env_v2_phase_n1_gpsi_dataset
+[2026-05-12 04:14:00] Phase N1 complete flag written
+[watcher] complete flag detected

@@ -1,0 +1,4 @@
+checkpoint_step,checkpoint_label,success_rate,collision_rate,episodes,source,source_method_key
+250000,250k,0.29333333333333333,0.7066666666666667,300,results/env_v2_phase_n3fz_noz_full_z_screen/tables/phase_n3fz_checkpoint_eval_summary.csv,z_layernorm_alpha_0p5
+500000,500k,0.48000000000000004,0.52,300,results/env_v2_phase_n3fz_noz_full_z_screen/tables/phase_n3fz_checkpoint_eval_summary.csv,z_layernorm_alpha_0p5
+750000,750k,0.48000000000000004,0.52,300,results/env_v2_phase_n3z2c_audit/tables/phase_n3z2c_audit_checkpoint_eval_summary.csv,z2_corrected_parent

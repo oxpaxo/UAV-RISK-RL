@@ -1,0 +1,28 @@
+method_key,check,value,detail
+raw_z,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+raw_z,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+raw_z,aug_obs_dim,94,expected=94
+raw_z,no_shield,true,observation-only Gpsi wrapper
+raw_z,no_safety_cost,true,EnvV2 original reward
+raw_z,delta_norm_1s_p95_pretrain,1.1944482326507568,max=1.5299569368362427
+raw_z,logvar_xy_1s_span_pretrain,3.70444917678833,min=-5.0 max=-1.29555082321167
+raw_z,z_l2_p95_raw_pretrain,28.489234924316406,raw frozen-Gpsi z before optional z normalization
+raw_z,z_l2_p95_after_pretrain,28.489234924316406,z block supplied to PPO when include_z=true
+z_norm,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+z_norm,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+z_norm,aug_obs_dim,94,expected=94
+z_norm,no_shield,true,observation-only Gpsi wrapper
+z_norm,no_safety_cost,true,EnvV2 original reward
+z_norm,delta_norm_1s_p95_pretrain,1.1944482326507568,max=1.5299569368362427
+z_norm,logvar_xy_1s_span_pretrain,3.70444917678833,min=-5.0 max=-1.29555082321167
+z_norm,z_l2_p95_raw_pretrain,28.489234924316406,raw frozen-Gpsi z before optional z normalization
+z_norm,z_l2_p95_after_pretrain,16.535112762451167,z block supplied to PPO when include_z=true
+no_z,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+no_z,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+no_z,aug_obs_dim,30,expected=30
+no_z,no_shield,true,observation-only Gpsi wrapper
+no_z,no_safety_cost,true,EnvV2 original reward
+no_z,delta_norm_1s_p95_pretrain,1.1944482326507568,max=1.5299569368362427
+no_z,logvar_xy_1s_span_pretrain,3.70444917678833,min=-5.0 max=-1.29555082321167
+no_z,z_l2_p95_raw_pretrain,28.489234924316406,raw frozen-Gpsi z before optional z normalization
+no_z,z_l2_p95_after_pretrain,28.489234924316406,z block supplied to PPO when include_z=true

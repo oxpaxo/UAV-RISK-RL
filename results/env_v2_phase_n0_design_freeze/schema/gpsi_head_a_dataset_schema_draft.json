@@ -1,0 +1,57 @@
+{
+  "current": {
+    "active_mask_required": true,
+    "ego_shape": [
+      10
+    ],
+    "metadata": [
+      "motion_mode",
+      "threat_class",
+      "planned_cpa",
+      "planned_ttc"
+    ],
+    "obs_i_shape": [
+      12
+    ]
+  },
+  "formal_dataset_built_in_phase_n0": false,
+  "future": {
+    "delta_world_definition": "p_i_world(t+tau)-[p_i_world(t)+tau*v_i_world(t)]",
+    "future_position_world_xyz_required": true,
+    "horizons_sec": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "invalid_when": [
+      "episode_ends_before_horizon",
+      "obstacle_id_absent_at_horizon",
+      "replacement_or_inactive_before_horizon"
+    ],
+    "valid_future_mask_required": true
+  },
+  "history": {
+    "fields": [
+      "position_world_xyz",
+      "velocity_world_xyz",
+      "relative_position_xyz",
+      "relative_velocity_xyz"
+    ],
+    "padding_allowed": true,
+    "steps_default": 20,
+    "valid_history_mask_required": true
+  },
+  "identity_key": [
+    "episode_id",
+    "obstacle_id"
+  ],
+  "labels": {
+    "delta_i_tau": "direct supervised label",
+    "log_sigma2_i_tau": "model output learned via Gaussian NLL",
+    "sigma2_i_tau": "not a direct label"
+  },
+  "name": "gpsi_head_a_dataset_schema_draft",
+  "phase": "N1 draft; generated in N0 only as schema",
+  "slot_rule": "obstacle_slot can be logged as current ordering but cannot define identity across replacement",
+  "version": "gpsi_head_a_v1"
+}

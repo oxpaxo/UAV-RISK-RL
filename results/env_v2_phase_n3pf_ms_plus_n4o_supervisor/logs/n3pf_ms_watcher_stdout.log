@@ -1,0 +1,6 @@
+[2026-05-15 18:46:29] START py_compile: python -m py_compile scripts/train_env_v2_gpsi_ppo_n3pf_ms.py scripts/eval_env_v2_gpsi_ppo_n3pf_ms.py scripts/analyze_env_v2_phase_n3pf_ms_results.py
+[2026-05-15 18:46:29] END py_compile rc=0
+[2026-05-15 18:46:40] launching seed1/seed2 training in parallel
+[2026-05-15 18:46:40] train PIDs seed1=1197 seed2=1198
+[2026-05-15 20:29:31] training finished rc_seed1=0 rc_seed2=0
+[2026-05-15 21:16:29] complete flag detected

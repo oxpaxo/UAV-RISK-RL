@@ -1,0 +1,3 @@
+[2026-05-07 06:28:40] p2_threat_patch_watcher_start interval=5
+[2026-05-07 06:28:40] status={"complete": true, "missing": [], "missing_count": 0, "row_counts": {"results/p2_rich_motion/env_sanity_random_policy_patched.csv": 2, "results/p2_rich_motion/env_sanity_short_ppo_patched.csv": 2, "results/p2_rich_motion/p2_stage1_ood_eval.csv": 40, "results/p2_rich_motion/threat_generation_invalid_reasons.csv": 4}, "stage1_plot_count": 5, "terminal_decision": "patched_stage1_complete"}
+[2026-05-07 06:28:40] COMPLETE P2 threat patch Stage0+Stage1 artifacts verified

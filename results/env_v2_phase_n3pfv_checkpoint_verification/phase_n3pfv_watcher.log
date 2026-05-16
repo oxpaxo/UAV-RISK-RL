@@ -1,0 +1,8 @@
+[2026-05-14 15:42:05] Phase N3PF-V watcher started
+[2026-05-14 15:42:05] START compile: python -m py_compile scripts/eval_env_v2_gpsi_ppo_n3pfv.py scripts/analyze_env_v2_phase_n3pfv_results.py
+[2026-05-14 15:42:05] END compile
+[2026-05-14 15:42:05] START eval_verification: python scripts/eval_env_v2_gpsi_ppo_n3pfv.py --result-dir results/env_v2_phase_n3pfv_checkpoint_verification --eval-seeds 1000 1001 1002 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --policies p3_1000k p3_1500k p3_final attention_full no_z_full z2_corrected_full --include-diagnostic-policies p3_parent_500k p3_1250k --device cpu --heartbeat-seconds 300
+[2026-05-14 16:39:01] END eval_verification
+[2026-05-14 16:39:01] START analysis_report: python scripts/analyze_env_v2_phase_n3pfv_results.py --result-dir results/env_v2_phase_n3pfv_checkpoint_verification --expected-seeds 1000 1001 1002 --expected-episodes 50 --attention-success 0.6100 --attention-collision 0.3900 --noz-success 0.5633 --noz-collision 0.4367 --z2-success 0.5067 --z2-collision 0.4933 --p3-parent-success 0.5333 --p3-parent-collision 0.4667
+[2026-05-14 16:39:04] END analysis_report
+[2026-05-14 16:39:04] complete flag detected

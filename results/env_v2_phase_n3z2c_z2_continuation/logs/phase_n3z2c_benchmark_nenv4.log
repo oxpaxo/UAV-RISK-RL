@@ -1,0 +1,19 @@
+[2026-05-13 12:54:46] N3Z2C_TRAIN_CONFIG config=z_layernorm_alpha_0p5_cont_1p5m parent_total_steps=500000 additional_steps=2048 target_total_steps=502048 seed=0 n_envs=4 device=cpu resume=checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/best_by_eval.zip out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3z2c_benchmark_nenv4 no_shield=true action_filtering=false safety_cost=false
+Logging to /root/workspace/uav-risk-rl/checkpoints/env_v2_gpsi_heada_ppo_n3z2c_benchmark_nenv4/tensorboard/PPO_1
+[2026-05-13 12:54:48] N3Z2C_TRAIN_START config=z_layernorm_alpha_0p5_cont_1p5m additional_steps=2048 parent_total_steps=500000 target_total_steps=502048 start_num_timesteps=0
+[2026-05-13 12:54:52] N3Z2C_TRAIN_HEARTBEAT config=z_layernorm_alpha_0p5_cont_1p5m local_steps=1388/2048 total_steps=501388/502048 percent= 67.77% rate=   277.3 step/s eta=   0.04 min recent_reward=25.817
+[2026-05-13 12:54:55] N3Z2C_CHECKPOINT_SAVED total_step=502048 local_step=2048 path=checkpoints/env_v2_gpsi_heada_ppo_n3z2c_benchmark_nenv4/checkpoint_502k.zip
+[2026-05-13 12:54:58] N3Z2C_TRAIN_HEARTBEAT config=z_layernorm_alpha_0p5_cont_1p5m local_steps=2720/2048 total_steps=502720/502048 percent=132.81% rate=   271.6 step/s eta=   0.00 min recent_reward=27.733
+[2026-05-13 12:55:03] N3Z2C_TRAIN_HEARTBEAT config=z_layernorm_alpha_0p5_cont_1p5m local_steps=4068/2048 total_steps=504068/502048 percent=198.63% rate=   270.9 step/s eta=   0.00 min recent_reward=25.808
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 117      |
+|    ep_rew_mean     | 25.8     |
+|    success_rate    | 0.469    |
+| time/              |          |
+|    fps             | 270      |
+|    iterations      | 1        |
+|    time_elapsed    | 15       |
+|    total_timesteps | 4096     |
+---------------------------------
+[2026-05-13 12:55:05] N3Z2C_TRAIN_END config=z_layernorm_alpha_0p5_cont_1p5m final=checkpoints/env_v2_gpsi_heada_ppo_n3z2c_benchmark_nenv4/final.zip

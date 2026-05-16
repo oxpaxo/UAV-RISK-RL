@@ -1,0 +1,932 @@
+[2026-05-08 14:51:53] phase0_phase1_watcher_start interval=5
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 2/11
+[pending_files] ENV_V2_DESIGN_REPORT.md,ENV_V2_SANITY_REPORT.md,PHASE0_PHASE1_FINAL_REPORT.md,results/restart_phase0_phase1/env_v2/env_v2_sanity.csv,results/restart_phase0_phase1/env_v2/env_v2_sanity_by_policy_scenario.csv,results/restart_phase0_phase1/env_v2/cpa_distribution.csv,results/restart_phase0_phase1/env_v2/ttc_distribution.csv,results/restart_phase0_phase1/env_v2/replacement_count_distribution.csv
+[current_sanity_policy] n/a
+[current_sanity_scenario] n/a
+[watcher_status] waiting
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 11/11
+[pending_files] none
+[current_sanity_policy] all
+[current_sanity_scenario] all
+[watcher_status] complete_verified threat_valid_rate=1.0000 replacement_mean=84.5867 init_collision_rate=0.0000 nan_or_crash=0 reactive_success=0.0967 straight_success=0.0433
+COMPLETE Phase0+Phase1 artifacts verified
+terminal_decision = phase0_phase1_complete
+next_recommended_phase = Phase 2 baseline long-training reproduction
+[2026-05-08 15:04:43] phase0_phase1_watcher_start interval=2
+[current_stage] Phase0+Phase1
+[current_task] watching artifacts and sanity thresholds
+[completed_files] 11/11
+[pending_files] none
+[current_sanity_policy] all
+[current_sanity_scenario] all
+[watcher_status] complete_verified threat_valid_rate=1.0000 replacement_mean=84.5867 init_collision_rate=0.0000 nan_or_crash=0 reactive_success=0.0967 straight_success=0.0433
+COMPLETE Phase0+Phase1 artifacts verified
+terminal_decision = phase0_phase1_complete
+next_recommended_phase = Phase 2 baseline long-training reproduction

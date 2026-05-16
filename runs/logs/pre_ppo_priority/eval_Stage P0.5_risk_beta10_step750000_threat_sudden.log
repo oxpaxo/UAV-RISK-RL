@@ -1,0 +1,5 @@
+[2026-05-08 09:51:53] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/pre_ppo_priority/p0_5_beta_sweep/risk_beta10_s0_step750000.zip method=attention_full_risk_penalty_beta10 agg=attention train_seed=0 eval_seed=1000 scenario=eval_threat_validated_sudden episodes=50
+[2026-05-08 09:51:57] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 19.70 ep/s eta=  0.00 min
+[2026-05-08 09:51:57] EVAL_SUMMARY scenario=eval_threat_validated_sudden success_rate=0.9800 collision_rate=0.0200 mean_min_distance=2.1432 near_miss_rate=0.1400 mean_time=8.5760
+[2026-05-08 09:51:57] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/50
+[2026-05-08 09:51:57] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/pre_ppo_priority/p0_5_beta_sweep/eval/risk_beta10_s0_step750000_threat_sudden.csv

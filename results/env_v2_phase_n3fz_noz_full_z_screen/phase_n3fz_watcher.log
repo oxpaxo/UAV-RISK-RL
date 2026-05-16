@@ -1,0 +1,15 @@
+[2026-05-13 09:41:14] Phase N3F/Z watcher started
+[2026-05-13 09:41:14] syntax checks
+[2026-05-13 09:41:15] START z_stats: python scripts/compute_gpsi_z_stats.py --data-dir data/gpsi_head_a_v1 --checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out results/env_v2_phase_n3fz_noz_full_z_screen/tables/phase_n3fz_z_stats.csv --out-npz work_dirs/gpsi_heada_v1_nll/z_stats_train_split_n3fz_reference.npz --split train --max-samples 200000 --device cuda
+[2026-05-13 09:41:21] END z_stats
+[2026-05-13 09:41:21] START train_no_z_full: python scripts/train_env_v2_gpsi_ppo_n3fz.py --config configs/env_v2_gpsi_heada_ppo_n3f_no_z_full.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3f_no_z_s0 --train-steps 1500000 --checkpoint-steps 250000 500000 1000000 1500000 --seed 0 --n-envs 4 --device cuda --heartbeat-seconds 30
+[2026-05-13 11:04:33] END train_no_z_full
+[2026-05-13 11:04:33] START train_z_l2_scale_4: python scripts/train_env_v2_gpsi_ppo_n3fz.py --config configs/env_v2_gpsi_heada_ppo_n3z_l2_scale4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0 --train-steps 500000 --checkpoint-steps 250000 500000 --seed 0 --n-envs 4 --device cuda --heartbeat-seconds 30
+[2026-05-13 11:10:46] END train_z_l2_scale_4
+[2026-05-13 11:10:46] START train_z_layernorm_alpha_0p5: python scripts/train_env_v2_gpsi_ppo_n3fz.py --config configs/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0 --train-steps 500000 --checkpoint-steps 250000 500000 --seed 0 --n-envs 4 --device cuda --heartbeat-seconds 30
+[2026-05-13 11:11:20] END train_z_layernorm_alpha_0p5
+[2026-05-13 11:11:20] START eval: python scripts/eval_env_v2_gpsi_ppo_n3fz.py --result-dir results/env_v2_phase_n3fz_noz_full_z_screen --configs n3f_no_z_full z_l2_scale_4 z_layernorm_alpha_0p5 --eval-seed 1000 --num-episodes 50 --device cuda --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --write-traces
+[2026-05-13 11:46:14] END eval
+[2026-05-13 11:46:14] START analysis: python scripts/analyze_env_v2_phase_n3fz_results.py --result-dir results/env_v2_phase_n3fz_noz_full_z_screen --expected-episodes 50 --expected-noz-steps 1500000 --expected-z-steps 500000
+[2026-05-13 11:46:16] END analysis
+[2026-05-13 11:46:16] COMPLETE flag present: results/env_v2_phase_n3fz_noz_full_z_screen/PHASE_N3FZ_NOZ_FULL_Z_SCREEN_COMPLETE.flag

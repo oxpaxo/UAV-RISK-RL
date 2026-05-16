@@ -1,0 +1,5 @@
+candidate,path,exists,size,eval_label,success_rate,collision_rate,selected_parent_key,selected_parent_path,selection_reason,parent_total_steps,additional_steps,target_total_steps
+checkpoint_500k,checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/checkpoint_500k.zip,1,1173883,500k,0.48000000000000004,0.52,,,,,,
+final,checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/final.zip,1,1173883,final,0.47000000000000003,0.5299999999999999,,,,,,
+best_by_eval,checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/best_by_eval.zip,1,1173883,best_by_eval,0.47000000000000003,0.5299999999999999,,,,,,
+selected,checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/best_by_eval.zip,1,1173883,500k_parent,0.47000000000000003,0.5299999999999999,best_by_eval,checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/best_by_eval.zip,best_by_eval exists and is not worse than final in both success and collision,500000,1000000,1500000

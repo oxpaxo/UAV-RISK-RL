@@ -1,0 +1,4 @@
+method_key,method,obs_aug_dim,include_z,z_transform,z_layernorm_alpha
+n3f_no_z_full,gpsi_no_z_full_1500k,30,0,raw,
+z2_old_n3z2c,gpsi_z_layernorm_alpha_0p5_cont_1p5m,94,1,layernorm,0.5
+z2_corrected_parent,gpsi_z_layernorm_alpha_0p5_cont_1p5m,94,1,layernorm,0.5

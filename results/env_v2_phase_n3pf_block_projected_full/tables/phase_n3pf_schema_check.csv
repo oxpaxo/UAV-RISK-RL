@@ -1,0 +1,16 @@
+method_key,check,value,detail
+block_projected_full,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+block_projected_full,phase_n3r_complete_flag,True,results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag
+block_projected_full,phase_n3fz_complete_flag,True,results/env_v2_phase_n3fz_noz_full_z_screen/PHASE_N3FZ_NOZ_FULL_Z_SCREEN_COMPLETE.flag
+block_projected_full,phase_n3z2cf_complete_flag,True,results/env_v2_phase_n3z2cf_corrected_z2_full/PHASE_N3Z2CF_CORRECTED_Z2_FULL_COMPLETE.flag
+block_projected_full,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+block_projected_full,aug_obs_dim,30,expected=30
+block_projected_full,include_z,False,must be false
+block_projected_full,include_logvar,True,scale=0.2
+block_projected_full,no_shield,true,observation-only Gpsi wrapper
+block_projected_full,no_action_filtering,true,raw PPO action
+block_projected_full,no_safety_cost,true,EnvV2 original reward
+block_projected_full,delta_norm_1s_p95_pretrain,1.4221738696098325,max=1.8476279973983765
+block_projected_full,logvar_raw_l2_p95_pretrain,13.333233737945557,diagnostic only
+block_projected_full,logvar_policy_l2_p95_pretrain,2.6666468262672423,policy input if include_logvar=true
+block_projected_full,full_aug_obs_l2_p95_pretrain,3.5705719113349916,actual PPO observation block

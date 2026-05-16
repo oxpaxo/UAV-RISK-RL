@@ -1,0 +1,4 @@
+split,samples,replacement_boundary_nearby,replacement_boundary_nearby_rate,identity_rule
+train,228957,114003,0.49792319081748976,history/future keyed by episode_id+obstacle_id; slot reuse is not joined
+val,49599,25248,0.509042521018569,history/future keyed by episode_id+obstacle_id; slot reuse is not joined
+test,48096,24298,0.5051979374584165,history/future keyed by episode_id+obstacle_id; slot reuse is not joined

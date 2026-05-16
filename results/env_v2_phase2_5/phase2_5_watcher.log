@@ -1,0 +1,11 @@
+[2026-05-08 16:28:20] phase2_5_baseline_capability_audit_watcher_start interval=5
+[current_stage] Phase2.5 baseline capability audit
+[current_file_being_processed] [complete] terminal_decision=reactive_prior_promising
+[completed_tables] 8/8 baseline_comparison_summary.csv,attention_full_checkpoint_summary.csv,scenario_difficulty_table.csv,collision_breakdown_by_scenario.csv,collision_breakdown_by_threat_class.csv,collision_breakdown_by_motion_mode.csv,reactive_vs_attention_gap.csv,method_route_recommendation.md
+[pending_tables] none
+[completed_plots] 6/6 plots/success_collision_by_scenario.png,plots/attention_checkpoint_curves.png,plots/reactive_vs_attention_collision.png,plots/near_miss_min_distance_by_scenario.png,plots/collision_by_threat_class.png,plots/collision_by_motion_mode.png
+[pending_plots] none
+[watcher_status] complete_verified
+COMPLETE Phase2.5 baseline capability audit artifacts verified
+terminal_decision = reactive_prior_promising
+next_recommended_action = 优先做 reactive prior + learned residual / velocity-obstacle-like safety filter / RL constrained by simple geometric avoider；不继续追 no-response。

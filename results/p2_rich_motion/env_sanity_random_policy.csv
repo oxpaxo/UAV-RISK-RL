@@ -1,0 +1,6 @@
+scenario,policy,episodes,success_rate,collision_rate,near_miss_rate,mean_min_distance,min_min_distance,mean_time,scenario_valid_rate,threat_valid_rate,init_collision_rate
+eval_sinusoidal,random,10,0.0,0.2,0.9,0.8029491811990738,0.3763140141963959,32.58,1.0,1.0,0.0
+eval_accel_decel,random,10,0.0,0.5,0.7,0.8473008155822754,0.4571559727191925,21.98,1.0,1.0,0.0
+eval_ar1,random,10,0.0,0.6,0.8,0.7490467339754104,0.23619887232780457,18.42,1.0,1.0,0.0
+eval_mixed_v2,random,10,0.0,0.1,0.3,1.3069858372211456,0.4172239303588867,36.68,1.0,0.7,0.0
+eval_threat_validated_sudden,random,10,0.0,0.3,0.6,1.0021639987826347,0.1953784078359604,31.119999999999997,1.0,0.7,0.0

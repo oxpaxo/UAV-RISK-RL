@@ -1,0 +1,63 @@
+version: env_v2_gpsi_heada_ppo_n3z2cf_layernorm_alpha0p5_v1
+method_key: z2_corrected_full
+method_name: gpsi_z_layernorm_alpha_0p5_corrected_full_1p5m
+env:
+  name: DynamicObstacleFlowEnv
+  train_scenario: train_flow_mixed
+  n_envs: 4
+  device: cpu
+gpsi:
+  checkpoint: work_dirs/gpsi_heada_v1_nll/best.pth
+  history_steps: 20
+  delta_scale: 5.0
+  logvar_clamp: [-5.0, 3.0]
+  include_z: true
+  normalize_z: false
+  z_transform: layernorm
+  z_layernorm_alpha: 0.5
+  z_layernorm_eps: 0.00001
+  z_stats_path: ""
+  z_std_floor: 0.001
+  degenerate_std_threshold: 0.00001
+  degenerate_std_floor: 1.0
+  obs_aug_dim: 94
+ppo:
+  agg: attention
+  hidden_dim: 64
+  net_arch:
+    pi: [128, 128]
+    vf: [128, 128]
+  n_steps: 1024
+  batch_size: 256
+  n_epochs: 10
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.01
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  use_risk_bias: false
+  lambda_bias: 0.0
+training:
+  seed: 0
+  parent_total_steps: 500000
+  additional_steps: 1000000
+  total_steps: 1500000
+  checkpoint_steps: [750000, 1000000, 1250000, 1500000]
+  no_shield: true
+  action_filtering: false
+  use_safety_cost: false
+  reward: EnvV2 original reward
+  reset_num_timesteps: false
+eval:
+  scenarios:
+    - eval_flow_id
+    - eval_flow_high_density
+    - eval_flow_high_speed
+    - eval_flow_high_threat
+    - eval_flow_mixed_ood
+    - eval_flow_sudden_threat
+  episodes_per_scenario: 50
+  eval_seed: 1000
+  attention_reference: checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip

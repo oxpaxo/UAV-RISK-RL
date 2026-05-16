@@ -1,0 +1,32 @@
+[2026-05-12 04:08:59] Phase N1 dataset builder started
+[2026-05-12 04:08:59] Command: python scripts/build_gpsi_heada_dataset.py --out-dir data/gpsi_head_a_v1 --result-dir results/env_v2_phase_n1_gpsi_dataset --scenario train_flow_mixed --num-episodes 100 --eval-seed 2000 --history-steps 20 --future-times 1.0 2.0 4.0 --split 0.70 0.15 0.15 --format npz --write-schema
+[2026-05-12 04:09:05] Collected episode 10/100
+[2026-05-12 04:09:12] Collected episode 20/100
+[2026-05-12 04:09:19] Collected episode 30/100
+[2026-05-12 04:09:25] Collected episode 40/100
+[2026-05-12 04:09:32] Collected episode 50/100
+[2026-05-12 04:09:39] Collected episode 60/100
+[2026-05-12 04:09:46] Collected episode 70/100
+[2026-05-12 04:09:53] Collected episode 80/100
+[2026-05-12 04:09:59] Collected episode 90/100
+[2026-05-12 04:10:06] Collected episode 100/100
+[2026-05-12 04:10:10] Wrote train.npz with 228957 samples
+[2026-05-12 04:10:11] Wrote val.npz with 49599 samples
+[2026-05-12 04:10:12] Wrote test.npz with 48096 samples
+[2026-05-12 04:10:12] Phase N1 dataset build completed; inspect still required
+[2026-05-12 04:12:44] Phase N1 dataset builder started
+[2026-05-12 04:12:44] Command: python scripts/build_gpsi_heada_dataset.py --out-dir data/gpsi_head_a_v1 --result-dir results/env_v2_phase_n1_gpsi_dataset --scenario train_flow_mixed --num-episodes 100 --eval-seed 2000 --history-steps 20 --future-times 1.0 2.0 4.0 --split 0.70 0.15 0.15 --format npz --write-schema
+[2026-05-12 04:12:51] Collected episode 10/100
+[2026-05-12 04:12:58] Collected episode 20/100
+[2026-05-12 04:13:04] Collected episode 30/100
+[2026-05-12 04:13:11] Collected episode 40/100
+[2026-05-12 04:13:17] Collected episode 50/100
+[2026-05-12 04:13:24] Collected episode 60/100
+[2026-05-12 04:13:31] Collected episode 70/100
+[2026-05-12 04:13:38] Collected episode 80/100
+[2026-05-12 04:13:45] Collected episode 90/100
+[2026-05-12 04:13:52] Collected episode 100/100
+[2026-05-12 04:13:56] Wrote train.npz with 228957 samples
+[2026-05-12 04:13:56] Wrote val.npz with 49599 samples
+[2026-05-12 04:13:57] Wrote test.npz with 48096 samples
+[2026-05-12 04:13:57] Phase N1 dataset build completed; inspect still required

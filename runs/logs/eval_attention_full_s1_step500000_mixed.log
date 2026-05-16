@@ -1,0 +1,8 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/attention_seed1/attention_full_s1_step500000.zip --method attention_full --agg attention --seed 1 --eval_seed 1000 --episodes 50 --scenario mixed_uncertainty --device cpu --out_csv /root/workspace/uav-risk-rl/results/attention_seed1/eval/attention_full_s1_step500000_mixed.csv --global_step 500000
+[2026-05-06 13:16:36] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/attention_seed1/attention_full_s1_step500000.zip method=attention_full agg=attention train_seed=1 eval_seed=1000 scenario=mixed_uncertainty episodes=50
+[2026-05-06 13:16:40] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 22.25 ep/s eta=  0.00 min
+[2026-05-06 13:16:40] EVAL_SUMMARY scenario=mixed_uncertainty success_rate=0.8800 collision_rate=0.1200 mean_min_distance=0.8886 near_miss_rate=0.7000 mean_time=7.0520
+[2026-05-06 13:16:40] EVAL_REACTION mean_reaction_eval_style=0.3040 mean_reaction_nan_style=0.3040 nan_reaction_rate=0.0000 no_response_count=0/50
+[2026-05-06 13:16:40] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/attention_seed1/eval/attention_full_s1_step500000_mixed.csv

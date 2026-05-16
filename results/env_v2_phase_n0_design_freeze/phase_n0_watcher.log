@@ -1,0 +1,7 @@
+[watcher] Phase N0 watcher started at 2026-05-12T03:27:16Z
+[watcher] still running...
+[2026-05-12 03:27:17] Phase N0 audit started
+[2026-05-12 03:27:17] Command: python scripts/check_envv2_gpsi_required_fields.py --out-dir results/env_v2_phase_n0_design_freeze --spec configs/gpsi_head_a_spec.yaml --phase-a-dir results/env_v2_phase_a_eval_framework --phase-b-dir results/env_v2_phase_b_geometry_filter_baselines --scenarios eval_flow_id train_flow_mixed --num-episodes 3 --history-steps 20 --future-times 1.0 2.0 4.0 --write-dryrun-tables
+[2026-05-12 03:27:17] Collected 3159 active obstacle dry-run rows
+[2026-05-12 03:27:17] Phase N0 complete flag written
+[watcher] complete flag detected

@@ -1,0 +1,9 @@
+command_name,command,status
+model_py_compile,python -m py_compile models/gpsi_head_a.py,completed_before_final_watcher
+train_py_compile,python -m py_compile scripts/train_gpsi_heada.py,completed_before_final_watcher
+eval_py_compile,python -m py_compile scripts/eval_gpsi_heada.py,completed_before_final_watcher
+watcher_syntax,bash -n scripts/watch_phase_n2_gpsi_heada_offline.sh,completed_before_final_watcher
+delta_train,python scripts/train_gpsi_heada.py --data-dir data/gpsi_head_a_v1 --out-dir work_dirs/gpsi_heada_v1_delta_only --config configs/gpsi_heada_train_delta_only.yaml --loss delta_smoothl1 --epochs 20 --batch-size 1024 --seed 0,completed
+nll_train,python scripts/train_gpsi_heada.py --data-dir data/gpsi_head_a_v1 --init work_dirs/gpsi_heada_v1_delta_only/best.pth --out-dir work_dirs/gpsi_heada_v1_nll --config configs/gpsi_heada_train_nll.yaml --loss gaussian_nll --logvar-clamp -5 3 --epochs 20 --batch-size 1024 --seed 0,completed
+eval,python scripts/eval_gpsi_heada.py --data-dir data/gpsi_head_a_v1 --delta-checkpoint work_dirs/gpsi_heada_v1_delta_only/best.pth --nll-checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir results/env_v2_phase_n2_gpsi_heada_offline,completed
+blocking_watcher,bash scripts/watch_phase_n2_gpsi_heada_offline.sh,completed_when_terminal_flag_detected

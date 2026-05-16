@@ -1,0 +1,219 @@
+[2026-05-15 18:46:29] START eval: nice -n 10 python -u scripts/eval_env_v2_phase_n4o_ordinary_shield.py --result-dir results/env_v2_phase_n4o_ordinary_shield_fair_comparison --eval-seeds 1000 1001 1002 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --shield-config-name vo_like_filter_h45_cpa1p2_h16 --device cpu --heartbeat-seconds 300
+[2026-05-15 18:46:33] N4O_EVAL_START method=attention_no_shield eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-15 18:46:43] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=5.26 ep/s
+[2026-05-15 18:46:43] N4O_EVAL_START method=attention_no_shield eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-15 18:46:55] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=4.24 ep/s
+[2026-05-15 18:46:55] N4O_EVAL_START method=attention_no_shield eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 18:47:05] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=5.00 ep/s
+[2026-05-15 18:47:05] N4O_EVAL_START method=attention_no_shield eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 18:47:14] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=5.17 ep/s
+[2026-05-15 18:47:14] N4O_EVAL_START method=attention_no_shield eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 18:47:24] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=5.37 ep/s
+[2026-05-15 18:47:24] N4O_EVAL_START method=attention_no_shield eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 18:47:34] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=5.05 ep/s
+[2026-05-15 18:47:34] N4O_EVAL_START method=attention_no_shield eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-15 18:47:43] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=5.40 ep/s
+[2026-05-15 18:47:43] N4O_EVAL_START method=attention_no_shield eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-15 18:47:54] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=4.28 ep/s
+[2026-05-15 18:47:54] N4O_EVAL_START method=attention_no_shield eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 18:48:05] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=4.95 ep/s
+[2026-05-15 18:48:05] N4O_EVAL_START method=attention_no_shield eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 18:48:14] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=5.20 ep/s
+[2026-05-15 18:48:14] N4O_EVAL_START method=attention_no_shield eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 18:48:24] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=5.33 ep/s
+[2026-05-15 18:48:24] N4O_EVAL_START method=attention_no_shield eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 18:48:33] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=5.09 ep/s
+[2026-05-15 18:48:33] N4O_EVAL_START method=attention_no_shield eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-15 18:48:43] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=5.38 ep/s
+[2026-05-15 18:48:43] N4O_EVAL_START method=attention_no_shield eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-15 18:48:54] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=4.32 ep/s
+[2026-05-15 18:48:54] N4O_EVAL_START method=attention_no_shield eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 18:49:04] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=5.01 ep/s
+[2026-05-15 18:49:04] N4O_EVAL_START method=attention_no_shield eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 18:49:14] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=5.25 ep/s
+[2026-05-15 18:49:14] N4O_EVAL_START method=attention_no_shield eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 18:49:23] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=5.39 ep/s
+[2026-05-15 18:49:23] N4O_EVAL_START method=attention_no_shield eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 18:49:33] N4O_EVAL_HEARTBEAT method=attention_no_shield eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=5.08 ep/s
+[2026-05-15 18:49:33] N4O_EVAL_START method=noz_no_shield eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-15 18:49:59] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.90 ep/s
+[2026-05-15 18:49:59] N4O_EVAL_START method=noz_no_shield eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-15 18:50:29] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.71 ep/s
+[2026-05-15 18:50:29] N4O_EVAL_START method=noz_no_shield eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 18:50:53] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=2.05 ep/s
+[2026-05-15 18:50:53] N4O_EVAL_START method=noz_no_shield eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 18:51:19] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.89 ep/s
+[2026-05-15 18:51:19] N4O_EVAL_START method=noz_no_shield eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 18:51:46] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.92 ep/s
+[2026-05-15 18:51:46] N4O_EVAL_START method=noz_no_shield eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 18:52:12] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.89 ep/s
+[2026-05-15 18:52:12] N4O_EVAL_START method=noz_no_shield eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-15 18:52:38] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.89 ep/s
+[2026-05-15 18:52:38] N4O_EVAL_START method=noz_no_shield eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-15 18:53:08] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.69 ep/s
+[2026-05-15 18:53:08] N4O_EVAL_START method=noz_no_shield eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 18:53:33] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=2.01 ep/s
+[2026-05-15 18:53:33] N4O_EVAL_START method=noz_no_shield eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 18:54:00] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.86 ep/s
+[2026-05-15 18:54:00] N4O_EVAL_START method=noz_no_shield eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 18:54:27] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.86 ep/s
+[2026-05-15 18:54:27] N4O_EVAL_START method=noz_no_shield eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 18:54:54] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.84 ep/s
+[2026-05-15 18:54:54] N4O_EVAL_START method=noz_no_shield eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-15 18:55:21] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.83 ep/s
+[2026-05-15 18:55:21] N4O_EVAL_START method=noz_no_shield eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-15 18:55:51] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.66 ep/s
+[2026-05-15 18:55:51] N4O_EVAL_START method=noz_no_shield eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 18:56:17] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.98 ep/s
+[2026-05-15 18:56:17] N4O_EVAL_START method=noz_no_shield eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 18:56:44] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.85 ep/s
+[2026-05-15 18:56:44] N4O_EVAL_START method=noz_no_shield eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 18:57:11] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.83 ep/s
+[2026-05-15 18:57:11] N4O_EVAL_START method=noz_no_shield eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 18:57:38] N4O_EVAL_HEARTBEAT method=noz_no_shield eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.84 ep/s
+[2026-05-15 18:57:38] N4O_EVAL_START method=p3_no_shield eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-15 18:58:07] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.75 ep/s
+[2026-05-15 18:58:07] N4O_EVAL_START method=p3_no_shield eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-15 18:58:38] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.62 ep/s
+[2026-05-15 18:58:38] N4O_EVAL_START method=p3_no_shield eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 18:59:08] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.65 ep/s
+[2026-05-15 18:59:08] N4O_EVAL_START method=p3_no_shield eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 18:59:38] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.66 ep/s
+[2026-05-15 18:59:38] N4O_EVAL_START method=p3_no_shield eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:00:07] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.74 ep/s
+[2026-05-15 19:00:07] N4O_EVAL_START method=p3_no_shield eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:00:35] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.80 ep/s
+[2026-05-15 19:00:35] N4O_EVAL_START method=p3_no_shield eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-15 19:01:03] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.80 ep/s
+[2026-05-15 19:01:03] N4O_EVAL_START method=p3_no_shield eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:01:34] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.61 ep/s
+[2026-05-15 19:01:34] N4O_EVAL_START method=p3_no_shield eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:02:03] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.71 ep/s
+[2026-05-15 19:02:03] N4O_EVAL_START method=p3_no_shield eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:02:33] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.67 ep/s
+[2026-05-15 19:02:33] N4O_EVAL_START method=p3_no_shield eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:03:02] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.74 ep/s
+[2026-05-15 19:03:02] N4O_EVAL_START method=p3_no_shield eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:03:30] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.79 ep/s
+[2026-05-15 19:03:30] N4O_EVAL_START method=p3_no_shield eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-15 19:03:57] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.83 ep/s
+[2026-05-15 19:03:57] N4O_EVAL_START method=p3_no_shield eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:04:28] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.62 ep/s
+[2026-05-15 19:04:28] N4O_EVAL_START method=p3_no_shield eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:04:58] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.67 ep/s
+[2026-05-15 19:04:58] N4O_EVAL_START method=p3_no_shield eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:05:28] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.68 ep/s
+[2026-05-15 19:05:28] N4O_EVAL_START method=p3_no_shield eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:05:56] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.75 ep/s
+[2026-05-15 19:05:56] N4O_EVAL_START method=p3_no_shield eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:06:25] N4O_EVAL_HEARTBEAT method=p3_no_shield eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.76 ep/s
+[2026-05-15 19:06:25] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-15 19:06:57] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.54 ep/s
+[2026-05-15 19:06:57] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:07:56] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=0.84 ep/s
+[2026-05-15 19:07:56] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:08:34] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.32 ep/s
+[2026-05-15 19:08:34] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:09:11] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.36 ep/s
+[2026-05-15 19:09:11] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:09:45] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.46 ep/s
+[2026-05-15 19:09:45] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:10:20] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.45 ep/s
+[2026-05-15 19:10:20] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-15 19:10:53] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.51 ep/s
+[2026-05-15 19:10:53] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:11:52] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=0.84 ep/s
+[2026-05-15 19:11:52] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:12:30] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.30 ep/s
+[2026-05-15 19:12:30] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:13:07] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.37 ep/s
+[2026-05-15 19:13:07] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:13:42] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.43 ep/s
+[2026-05-15 19:13:42] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:14:17] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.43 ep/s
+[2026-05-15 19:14:17] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-15 19:14:50] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.52 ep/s
+[2026-05-15 19:14:50] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:15:48] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=0.86 ep/s
+[2026-05-15 19:15:48] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:16:24] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.40 ep/s
+[2026-05-15 19:16:24] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:17:00] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.36 ep/s
+[2026-05-15 19:17:00] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:17:35] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.46 ep/s
+[2026-05-15 19:17:35] N4O_EVAL_START method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:18:09] N4O_EVAL_HEARTBEAT method=attention_ordinary_vo eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.45 ep/s
+[2026-05-15 19:18:09] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-15 19:19:07] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=0.86 ep/s
+[2026-05-15 19:19:07] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:20:29] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=0.61 ep/s
+[2026-05-15 19:20:29] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:21:22] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=0.94 ep/s
+[2026-05-15 19:21:22] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:22:18] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=0.90 ep/s
+[2026-05-15 19:22:18] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:23:12] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=0.93 ep/s
+[2026-05-15 19:23:12] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:24:11] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=0.85 ep/s
+[2026-05-15 19:24:11] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-15 19:25:10] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=0.84 ep/s
+[2026-05-15 19:25:10] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:26:35] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=0.59 ep/s
+[2026-05-15 19:26:35] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:27:29] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=0.92 ep/s
+[2026-05-15 19:27:29] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:28:25] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=0.90 ep/s
+[2026-05-15 19:28:25] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:29:18] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=0.93 ep/s
+[2026-05-15 19:29:18] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:30:18] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=0.84 ep/s
+[2026-05-15 19:30:18] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-15 19:31:16] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=0.86 ep/s
+[2026-05-15 19:31:16] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:32:41] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=0.59 ep/s
+[2026-05-15 19:32:41] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:33:36] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=0.91 ep/s
+[2026-05-15 19:33:36] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:34:31] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=0.90 ep/s
+[2026-05-15 19:34:31] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:35:24] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=0.94 ep/s
+[2026-05-15 19:35:24] N4O_EVAL_START method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:36:21] N4O_EVAL_HEARTBEAT method=noz_ordinary_vo eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=0.87 ep/s
+[2026-05-15 19:36:21] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-15 19:37:28] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=0.76 ep/s
+[2026-05-15 19:37:28] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:39:06] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=0.51 ep/s
+[2026-05-15 19:39:06] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:40:22] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=0.65 ep/s
+[2026-05-15 19:40:22] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:41:27] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=0.77 ep/s
+[2026-05-15 19:41:27] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:42:40] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=0.69 ep/s
+[2026-05-15 19:42:40] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:43:50] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=0.72 ep/s
+[2026-05-15 19:43:50] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-15 19:44:56] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=0.75 ep/s
+[2026-05-15 19:44:56] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:46:34] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=0.51 ep/s
+[2026-05-15 19:46:34] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:47:50] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=0.65 ep/s
+[2026-05-15 19:47:50] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:48:55] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=0.77 ep/s
+[2026-05-15 19:48:55] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:50:08] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=0.68 ep/s
+[2026-05-15 19:50:08] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:51:18] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=0.71 ep/s
+[2026-05-15 19:51:18] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-15 19:52:24] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=0.77 ep/s
+[2026-05-15 19:52:24] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-15 19:54:01] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=0.51 ep/s
+[2026-05-15 19:54:01] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-15 19:55:16] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=0.67 ep/s
+[2026-05-15 19:55:16] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-15 19:56:21] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=0.77 ep/s
+[2026-05-15 19:56:21] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-15 19:57:33] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=0.69 ep/s
+[2026-05-15 19:57:33] N4O_EVAL_START method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-15 19:58:44] N4O_EVAL_HEARTBEAT method=p3_ordinary_vo eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=0.71 ep/s
+[2026-05-15 19:59:07] N4O_EVAL_END episodes=5400 raw_steps=721125
+[2026-05-15 19:59:11] END eval rc=0

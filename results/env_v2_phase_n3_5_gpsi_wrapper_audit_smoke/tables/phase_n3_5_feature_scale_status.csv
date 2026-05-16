@@ -1,0 +1,12 @@
+metric,value,status
+obs_i_12_l2_p95,1.7017205119132994,pass
+obs_i_12_max_abs,1.0,pass
+z_i_64_l2_p95,22.375733280181883,pass
+z_i_64_max_abs,9.24125862121582,pass
+delta_hat_9_after_scale_l2_p95,1.9750725984573365,pass
+delta_hat_9_after_scale_max_abs,1.716282844543457,pass
+logvar_hat_9_clamped_l2_p95,13.072296476364135,pass
+logvar_hat_9_clamped_max_abs,5.0,pass
+full_aug_obs_l2_p95,25.8930926322937,pass
+full_aug_obs_max_abs,9.24125862121582,pass
+z_p95_to_obs_p95_l2_ratio,13.148888506388234,warn

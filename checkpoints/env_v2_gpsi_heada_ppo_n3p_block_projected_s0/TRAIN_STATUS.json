@@ -1,0 +1,14 @@
+{
+  "config": "configs/env_v2_gpsi_heada_ppo_n3p_block_projected.yaml",
+  "detail": "training completed successfully",
+  "expected_checkpoint": "checkpoints/env_v2_gpsi_heada_ppo_n3p_block_projected_s0/checkpoint_500k.zip",
+  "final_zip": "checkpoints/env_v2_gpsi_heada_ppo_n3p_block_projected_s0/final.zip",
+  "hostname": "8a4832b5251c",
+  "method_key": "block_projected",
+  "method_name": "n3p_block_projected_no_z_500k",
+  "out_dir": "checkpoints/env_v2_gpsi_heada_ppo_n3p_block_projected_s0",
+  "pid": 1898,
+  "requested_train_steps": 500000,
+  "status": "completed",
+  "timestamp": "2026-05-14 08:16:25"
+}

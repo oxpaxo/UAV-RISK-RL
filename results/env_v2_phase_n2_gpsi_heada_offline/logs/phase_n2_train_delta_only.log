@@ -1,0 +1,31 @@
+[2026-05-12 05:46:25] Phase N2 Gpsi HeadA training started
+[2026-05-12 05:46:25] Command: python scripts/train_gpsi_heada.py --data-dir data/gpsi_head_a_v1 --out-dir work_dirs/gpsi_heada_smoke_delta --config configs/gpsi_heada_train_delta_only.yaml --loss delta_smoothl1 --epochs 1 --batch-size 4096 --seed 0
+[2026-05-12 05:46:26] Using device: cuda
+[2026-05-12 05:46:31] Zero residual val MSE baseline: 0.458152
+[2026-05-12 05:46:51] epoch=1/1 train_loss=0.094548 val_mse=0.199035 val_nll=0.000000 mean_logvar=-0.0285
+[2026-05-12 05:46:51] Training completed
+[2026-05-12 05:49:59] Phase N2 Gpsi HeadA training started
+[2026-05-12 05:49:59] Command: python scripts/train_gpsi_heada.py --data-dir data/gpsi_head_a_v1 --out-dir work_dirs/gpsi_heada_v1_delta_only --config configs/gpsi_heada_train_delta_only.yaml --loss delta_smoothl1 --epochs 20 --batch-size 1024 --seed 0
+[2026-05-12 05:50:01] Using device: cuda
+[2026-05-12 05:50:04] Zero residual val MSE baseline: 0.458152
+[2026-05-12 05:50:21] epoch=1/20 train_loss=0.072915 val_mse=0.176170 val_nll=0.000000 mean_logvar=-0.0552
+[2026-05-12 05:50:37] epoch=2/20 train_loss=0.054966 val_mse=0.130068 val_nll=0.000000 mean_logvar=-0.0487
+[2026-05-12 05:50:54] epoch=3/20 train_loss=0.047524 val_mse=0.116355 val_nll=0.000000 mean_logvar=-0.0175
+[2026-05-12 05:51:10] epoch=4/20 train_loss=0.043922 val_mse=0.111711 val_nll=0.000000 mean_logvar=-0.0024
+[2026-05-12 05:51:27] epoch=5/20 train_loss=0.041924 val_mse=0.109365 val_nll=0.000000 mean_logvar=-0.0005
+[2026-05-12 05:51:44] epoch=6/20 train_loss=0.040583 val_mse=0.108861 val_nll=0.000000 mean_logvar=0.0035
+[2026-05-12 05:52:00] epoch=7/20 train_loss=0.039393 val_mse=0.106702 val_nll=0.000000 mean_logvar=0.0059
+[2026-05-12 05:52:17] epoch=8/20 train_loss=0.038495 val_mse=0.106417 val_nll=0.000000 mean_logvar=0.0051
+[2026-05-12 05:52:33] epoch=9/20 train_loss=0.037354 val_mse=0.105974 val_nll=0.000000 mean_logvar=0.0032
+[2026-05-12 05:52:50] epoch=10/20 train_loss=0.036438 val_mse=0.105425 val_nll=0.000000 mean_logvar=0.0007
+[2026-05-12 05:53:07] epoch=11/20 train_loss=0.035650 val_mse=0.106679 val_nll=0.000000 mean_logvar=-0.0049
+[2026-05-12 05:53:23] epoch=12/20 train_loss=0.034679 val_mse=0.106628 val_nll=0.000000 mean_logvar=-0.0049
+[2026-05-12 05:53:40] epoch=13/20 train_loss=0.033633 val_mse=0.107583 val_nll=0.000000 mean_logvar=-0.0071
+[2026-05-12 05:53:57] epoch=14/20 train_loss=0.032700 val_mse=0.107946 val_nll=0.000000 mean_logvar=-0.0044
+[2026-05-12 05:54:13] epoch=15/20 train_loss=0.031839 val_mse=0.108555 val_nll=0.000000 mean_logvar=-0.0043
+[2026-05-12 05:54:30] epoch=16/20 train_loss=0.030900 val_mse=0.110053 val_nll=0.000000 mean_logvar=-0.0070
+[2026-05-12 05:54:46] epoch=17/20 train_loss=0.029902 val_mse=0.110403 val_nll=0.000000 mean_logvar=-0.0072
+[2026-05-12 05:55:03] epoch=18/20 train_loss=0.028989 val_mse=0.112517 val_nll=0.000000 mean_logvar=-0.0080
+[2026-05-12 05:55:20] epoch=19/20 train_loss=0.027993 val_mse=0.113262 val_nll=0.000000 mean_logvar=-0.0087
+[2026-05-12 05:55:37] epoch=20/20 train_loss=0.027247 val_mse=0.115876 val_nll=0.000000 mean_logvar=-0.0100
+[2026-05-12 05:55:37] Training completed

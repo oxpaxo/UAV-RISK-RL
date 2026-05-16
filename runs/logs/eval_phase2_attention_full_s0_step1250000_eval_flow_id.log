@@ -1,0 +1,3 @@
+[2026-05-08 15:56:08] ENV_V2_EVAL_START model=checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1250000.zip scenario=eval_flow_id step=1250000 episodes=50
+[2026-05-08 15:56:16] ENV_V2_EVAL_HEARTBEAT episodes=50/50 rate=6.22 ep/s eta=0.00 min
+[2026-05-08 15:56:16] ENV_V2_EVAL_END out_csv=results/env_v2_phase2/eval/attention_full_s0_step1250000_eval_flow_id.csv

@@ -1,0 +1,10 @@
+{
+  "completed_eval_count": 0,
+  "current_run": "distance_margin_explains_risk",
+  "current_stage": "complete",
+  "latest_checkpoint": "750000",
+  "pending_eval_count": 0,
+  "terminal_decision": "distance_margin_explains_risk",
+  "updated_at": "2026-05-08 09:51:58",
+  "watcher_status": "complete"
+}

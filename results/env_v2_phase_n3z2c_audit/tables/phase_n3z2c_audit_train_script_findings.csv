@@ -1,0 +1,3 @@
+script,path,exists,ppo_load_found,learn_found,reset_num_timesteps_values,uses_reset_num_timesteps_false,uses_reset_num_timesteps_true,finding
+old_n3z2c_train,scripts/train_env_v2_gpsi_ppo_n3z2c.py,1,1,1,"[""True""]",0,1,old N3Z2C continuation used reset_num_timesteps=True; this is a resume-semantics bug
+audit_corrected_train,scripts/train_env_v2_gpsi_ppo_n3z2c_audit.py,1,1,1,"[""False""]",1,0,audit corrected train must use reset_num_timesteps=False

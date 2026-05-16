@@ -1,0 +1,5 @@
+command_name,command,status
+phase_n0_audit_runner,python scripts/check_envv2_gpsi_required_fields.py --out-dir results/env_v2_phase_n0_design_freeze --spec configs/gpsi_head_a_spec.yaml --phase-a-dir results/env_v2_phase_a_eval_framework --phase-b-dir results/env_v2_phase_b_geometry_filter_baselines --scenarios eval_flow_id train_flow_mixed --num-episodes 3 --history-steps 20 --future-times 1.0 2.0 4.0 --write-dryrun-tables,completed
+phase_n0_py_compile,python -m py_compile scripts/check_envv2_gpsi_required_fields.py,completed_before_final_watcher
+phase_n0_watcher_syntax,bash -n scripts/watch_phase_n0_design_freeze.sh,completed_before_final_watcher
+phase_n0_blocking_watcher,bash scripts/watch_phase_n0_design_freeze.sh,completed_when_terminal_flag_detected

@@ -1,0 +1,8 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/longtrain_baseline/risk_Rgate8_lambda015_RbarFloor03_s0_step750000.zip --method risk_full_rbar --agg risk --seed 0 --eval_seed 1000 --episodes 50 --scenario mixed_uncertainty --device cpu --out_csv /root/workspace/uav-risk-rl/results/longtrain_baseline/eval/risk_Rgate8_lambda015_RbarFloor03_s0_step750000_mixed.csv --global_step 750000 --r_gate 8.0 --lambda_ewma 0.15 --rbar_floor 0.3 --use_rbar true
+[2026-05-06 12:25:09] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/longtrain_baseline/risk_Rgate8_lambda015_RbarFloor03_s0_step750000.zip method=risk_full_rbar agg=risk train_seed=0 eval_seed=1000 scenario=mixed_uncertainty episodes=50
+[2026-05-06 12:25:12] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 23.90 ep/s eta=  0.00 min
+[2026-05-06 12:25:12] EVAL_SUMMARY scenario=mixed_uncertainty success_rate=0.9800 collision_rate=0.0200 mean_min_distance=0.9049 near_miss_rate=0.7600 mean_time=6.5880
+[2026-05-06 12:25:12] EVAL_REACTION mean_reaction_eval_style=3.1880 mean_reaction_nan_style=1.0298 nan_reaction_rate=0.0600 no_response_count=3/50
+[2026-05-06 12:25:12] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/longtrain_baseline/eval/risk_Rgate8_lambda015_RbarFloor03_s0_step750000_mixed.csv

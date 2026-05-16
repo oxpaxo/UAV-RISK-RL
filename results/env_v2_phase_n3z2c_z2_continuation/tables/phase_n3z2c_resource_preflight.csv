@@ -1,0 +1,67 @@
+timestamp,item,command,returncode,output
+2026-05-13 12:54:38,nproc,nproc,0,1
+2026-05-13 12:54:38,lscpu,lscpu,0,"Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             16
+On-line CPU(s) list:                0-15
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD EPYC 7402 24-Core Processor
+CPU family:                         23
+Model:                              49
+Thread(s) per core:                 2
+Core(s) per socket:                 8
+Socket(s):                          1
+Stepping:                           0
+BogoMIPS:                           5599.82
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr wbnoinvd virt_ssbd arat umip rdpid arch_capabilities
+L1d cache:                          512 KiB (8 instances)
+L1i cache:                          512 KiB (8 instances)
+L2 cache:                           4 MiB (8 instances)
+L3 cache:                           32 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-15
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected"
+2026-05-13 12:54:38,free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       3.9Gi        53Gi       0.0Ki       5.8Gi        58Gi
+Swap:             0B          0B          0B"
+2026-05-13 12:54:39,df_h_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  4.6G   71G   7% /"
+2026-05-13 12:54:40,nvidia_smi,nvidia-smi,0,"Wed May 13 12:54:40 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        Off |   00000000:00:03.0 Off |                  N/A |
+| 30%   34C    P0             56W /  350W |       0MiB /  24576MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+"
+2026-05-13 12:54:40,git_status_short,git status --short,128,fatal: not a git repository (or any of the parent directories): .git
+2026-05-13 12:54:40,OMP_NUM_THREADS,env,0,1
+2026-05-13 12:54:40,MKL_NUM_THREADS,env,0,1
+2026-05-13 12:54:40,OPENBLAS_NUM_THREADS,env,0,1
+2026-05-13 12:54:40,NUMEXPR_NUM_THREADS,env,0,1

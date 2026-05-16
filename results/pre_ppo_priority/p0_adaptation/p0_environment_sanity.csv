@@ -1,0 +1,17 @@
+variant,scenario,scenario_valid_rate,threat_valid_rate,init_collision_rate
+high_speed,eval_random_switch_high_speed,1.0,1.0,0.0
+high_speed,eval_sudden_turn_high_speed,1.0,1.0,0.0
+high_speed,eval_random_switch_hard_high_speed,1.0,1.0,0.0
+high_speed,eval_sinusoidal_high_speed,1.0,1.0,0.0
+high_speed,eval_accel_decel_high_speed,1.0,1.0,0.0
+high_speed,eval_ar1_high_speed,1.0,1.0,0.0
+high_speed,eval_mixed_v2_high_speed,1.0,1.0,0.0
+high_speed,eval_threat_validated_sudden_high_speed,1.0,1.0,0.0
+small_space,eval_random_switch_small_space,1.0,1.0,0.0
+small_space,eval_sudden_turn_small_space,1.0,1.0,0.0
+small_space,eval_random_switch_hard_small_space,1.0,1.0,0.0
+small_space,eval_sinusoidal_small_space,1.0,1.0,0.0
+small_space,eval_accel_decel_small_space,1.0,1.0,0.0
+small_space,eval_ar1_small_space,1.0,1.0,0.0
+small_space,eval_mixed_v2_small_space,1.0,1.0,0.0
+small_space,eval_threat_validated_sudden_small_space,1.0,1.0,0.0

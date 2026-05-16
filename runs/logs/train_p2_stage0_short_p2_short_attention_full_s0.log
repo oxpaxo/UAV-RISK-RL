@@ -1,0 +1,87 @@
+[2026-05-07 05:30:32] CONFIG agg=attention seed=0 total_steps=50000 n_envs=16 device=cpu scenario=train_mixed_modes_v2 use_rbar=False rbar_floor=0.0 hidden_dim=64 r_gate=5.0 lambda_ewma=0.1 sigma_min=0.05 run_name=p2_short_attention_full method=p2_short_attention_full resume_from=none resume_global_step=0 use_safety_cost=False cost_type=none fallback_penalty=False beta_cost=5.0 use_risk_bias=False lambda_bias=0.2
+Using cpu device
+Logging to /root/workspace/uav-risk-rl/runs/p2_rich_motion/p2_short_attention_full_s0/PPO_1
+[2026-05-07 05:30:33] TRAIN_START total_steps=50000 start_num_timesteps=0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 144      |
+|    ep_rew_mean     | -28.1    |
+|    success_rate    | 0        |
+| time/              |          |
+|    fps             | 3990     |
+|    iterations      | 1        |
+|    time_elapsed    | 4        |
+|    total_timesteps | 16384    |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 147         |
+|    ep_rew_mean          | -23         |
+|    success_rate         | 0           |
+| time/                   |             |
+|    fps                  | 2345        |
+|    iterations           | 2           |
+|    time_elapsed         | 13          |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.015039378 |
+|    clip_fraction        | 0.192       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.2        |
+|    explained_variance   | -0.0336     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.563       |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.0169     |
+|    std                  | 0.975       |
+|    value_loss           | 1.67        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 138         |
+|    ep_rew_mean          | -17.1       |
+|    success_rate         | 0.05        |
+| time/                   |             |
+|    fps                  | 2239        |
+|    iterations           | 3           |
+|    time_elapsed         | 21          |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.019123422 |
+|    clip_fraction        | 0.24        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.11       |
+|    explained_variance   | 0.299       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.381       |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.0258     |
+|    std                  | 0.945       |
+|    value_loss           | 0.927       |
+-----------------------------------------
+[2026-05-07 05:31:00] CHECKPOINT_SAVED local_step=50000 global_step=50000 path=/root/workspace/uav-risk-rl/checkpoints/p2_rich_motion/p2_short_attention_full_s0_step50000.zip
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 109         |
+|    ep_rew_mean          | -5.43       |
+|    success_rate         | 0.5         |
+| time/                   |             |
+|    fps                  | 2187        |
+|    iterations           | 4           |
+|    time_elapsed         | 29          |
+|    total_timesteps      | 65536       |
+| train/                  |             |
+|    approx_kl            | 0.018610582 |
+|    clip_fraction        | 0.244       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.03       |
+|    explained_variance   | 0.355       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.571       |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.0239     |
+|    std                  | 0.919       |
+|    value_loss           | 1.17        |
+-----------------------------------------
+[2026-05-07 05:31:07] TRAIN_END elapsed=0.57 min local_steps=65536 model_num_timesteps=65536
+[2026-05-07 05:31:07] SAVED model=/root/workspace/uav-risk-rl/checkpoints/p2_rich_motion/p2_short_attention_full_s0_step50000.zip approx_updates=4

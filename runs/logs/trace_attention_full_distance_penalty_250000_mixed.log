@@ -1,0 +1,8 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/gate2b/attention_full_distance_penalty_s0_step250000.zip --method attention_full_distance_penalty --agg attention --seed 0 --eval_seed 1000 --episodes 10 --scenario mixed_uncertainty --device cpu --out_csv /root/workspace/uav-risk-rl/results/gate2b/eval/attention_full_distance_penalty_s0_step250000_mixed_trace_eval.csv --global_step 250000 --save_trace true --trace_dir /root/workspace/uav-risk-rl/results/gate2b/traces
+[2026-05-06 13:04:05] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/gate2b/attention_full_distance_penalty_s0_step250000.zip method=attention_full_distance_penalty agg=attention train_seed=0 eval_seed=1000 scenario=mixed_uncertainty episodes=10
+[2026-05-06 13:04:07] EVAL_HEARTBEAT episodes=10/10 percent=100.00% rate= 20.52 ep/s eta=  0.00 min
+[2026-05-06 13:04:07] EVAL_SUMMARY scenario=mixed_uncertainty success_rate=1.0000 collision_rate=0.0000 mean_min_distance=1.0320 near_miss_rate=0.4000 mean_time=7.1200
+[2026-05-06 13:04:07] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/10
+[2026-05-06 13:04:07] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/gate2b/eval/attention_full_distance_penalty_s0_step250000_mixed_trace_eval.csv

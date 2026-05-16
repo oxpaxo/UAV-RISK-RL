@@ -1,0 +1,5 @@
+item,status,frame,notes
+label_frame,pass,world,delta_i(tau)=p_i_world(t+tau)-[p_i_world(t)+tau*v_i_world(t)]
+future_pos_world,pass,world,label-only / inspection; not Gpsi inference input
+constant_velocity_pos_world,pass,world,label-only baseline for residual construction
+relative_history,pass,current rollout relative state,"input feature, not supervised future target"

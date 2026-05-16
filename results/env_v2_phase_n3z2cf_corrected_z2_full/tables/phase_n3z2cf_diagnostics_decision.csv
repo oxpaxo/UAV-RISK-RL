@@ -1,0 +1,2 @@
+method_key,diagnostics_ok,delta_norm_1s_p95_max,delta_norm_1s_max,inactive_forwarded_count_max,logvar_xy_1s_span_max,z_after_constraint_l2_p95_max,feature_nonfinite_count
+z2_corrected_full,1,1.696468472480774,2.146500587463379,0.0,5.517018258571625,3.9999988794326784,0

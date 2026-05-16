@@ -1,0 +1,15 @@
+[2026-05-13 05:52:39] Phase N3R watcher started
+[2026-05-13 05:52:39] syntax checks
+[2026-05-13 05:52:39] START z_stats: python scripts/compute_gpsi_z_stats.py --data-dir data/gpsi_head_a_v1 --checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out results/env_v2_phase_n3r_gpsi_ppo_rerun/tables/phase_n3r_z_stats.csv --out-npz work_dirs/gpsi_heada_v1_nll/z_stats_train_split.npz --split train --max-samples 200000 --device cpu
+[2026-05-13 05:52:48] END z_stats
+[2026-05-13 05:52:48] START train_raw_z: python scripts/train_env_v2_gpsi_ppo_n3r.py --config configs/env_v2_gpsi_heada_ppo_n3r_raw_z.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3r_raw_z_s0 --train-steps 500000 --checkpoint-steps 250000 500000 --seed 0 --n-envs 4 --device cpu --heartbeat-seconds 30
+[2026-05-13 06:27:16] END train_raw_z
+[2026-05-13 06:27:16] START train_z_norm: python scripts/train_env_v2_gpsi_ppo_n3r.py --config configs/env_v2_gpsi_heada_ppo_n3r_z_norm.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3r_z_norm_s0 --train-steps 500000 --checkpoint-steps 250000 500000 --seed 0 --n-envs 4 --device cpu --heartbeat-seconds 30
+[2026-05-13 07:01:19] END train_z_norm
+[2026-05-13 07:01:19] START train_no_z: python scripts/train_env_v2_gpsi_ppo_n3r.py --config configs/env_v2_gpsi_heada_ppo_n3r_no_z.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3r_no_z_s0 --train-steps 500000 --checkpoint-steps 250000 500000 --seed 0 --n-envs 4 --device cpu --heartbeat-seconds 30
+[2026-05-13 07:35:21] END train_no_z
+[2026-05-13 07:35:21] START eval: python scripts/eval_env_v2_gpsi_ppo_n3r.py --result-dir results/env_v2_phase_n3r_gpsi_ppo_rerun --configs raw_z z_norm no_z --eval-seed 1000 --num-episodes 50 --device cpu --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --write-traces
+[2026-05-13 07:50:36] END eval
+[2026-05-13 07:50:36] START analysis: python scripts/analyze_env_v2_phase_n3r_results.py --result-dir results/env_v2_phase_n3r_gpsi_ppo_rerun --expected-episodes 50 --expected-train-steps 500000
+[2026-05-13 07:50:38] END analysis
+[2026-05-13 07:50:38] COMPLETE flag present: results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag

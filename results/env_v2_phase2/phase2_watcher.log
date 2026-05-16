@@ -1,0 +1,798 @@
+[2026-05-08 15:30:21] phase2_baseline_longtrain_watcher_start interval=20
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] not_started
+[2026-05-08 15:30:31] phase2_baseline_longtrain_watcher_start interval=30
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] not_started
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[2026-05-08 15:33:13] phase2_baseline_longtrain_watcher_start interval=30
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 0
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 250000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 500000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 750000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 0
+[pending_eval_count] 24
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1000000 --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000,750000,1000000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0 --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1000000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 1
+[pending_eval_count] 23
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step250000.zip --scenario eval_flow_high_density --seed 0 --eval_seed 1000 --episodes 50 --global_step 250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step250000_eval_flow_high_density.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step250000_eval_flow_high_density_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 2
+[pending_eval_count] 22
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step250000.zip --scenario eval_flow_high_speed --seed 0 --eval_seed 1000 --episodes 50 --global_step 250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step250000_eval_flow_high_speed.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step250000_eval_flow_high_speed_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 4
+[pending_eval_count] 20
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step250000.zip --scenario eval_flow_mixed_ood --seed 0 --eval_seed 1000 --episodes 50 --global_step 250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step250000_eval_flow_mixed_ood.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step250000_eval_flow_mixed_ood_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 5
+[pending_eval_count] 19
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step250000.zip --scenario eval_flow_sudden_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step250000_eval_flow_sudden_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step250000_eval_flow_sudden_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 7
+[pending_eval_count] 17
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step500000.zip --scenario eval_flow_id --seed 0 --eval_seed 1000 --episodes 50 --global_step 500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step500000_eval_flow_id.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step500000_eval_flow_id_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 7
+[pending_eval_count] 17
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step500000.zip --scenario eval_flow_high_density --seed 0 --eval_seed 1000 --episodes 50 --global_step 500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step500000_eval_flow_high_density.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step500000_eval_flow_high_density_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 9
+[pending_eval_count] 15
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step500000.zip --scenario eval_flow_high_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step500000_eval_flow_high_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step500000_eval_flow_high_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 9
+[pending_eval_count] 15
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step500000.zip --scenario eval_flow_high_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step500000_eval_flow_high_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step500000_eval_flow_high_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 11
+[pending_eval_count] 13
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step500000.zip --scenario eval_flow_sudden_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step500000_eval_flow_sudden_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step500000_eval_flow_sudden_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 12
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step750000.zip --scenario eval_flow_id --seed 0 --eval_seed 1000 --episodes 50 --global_step 750000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step750000_eval_flow_id.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step750000_eval_flow_id_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 13
+[pending_eval_count] 11
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step750000.zip --scenario eval_flow_high_density --seed 0 --eval_seed 1000 --episodes 50 --global_step 750000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step750000_eval_flow_high_density.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step750000_eval_flow_high_density_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 14
+[pending_eval_count] 10
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step750000.zip --scenario eval_flow_high_speed --seed 0 --eval_seed 1000 --episodes 50 --global_step 750000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step750000_eval_flow_high_speed.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step750000_eval_flow_high_speed_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 15
+[pending_eval_count] 9
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step750000.zip --scenario eval_flow_high_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 750000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step750000_eval_flow_high_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step750000_eval_flow_high_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 16
+[pending_eval_count] 8
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step750000.zip --scenario eval_flow_mixed_ood --seed 0 --eval_seed 1000 --episodes 50 --global_step 750000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step750000_eval_flow_mixed_ood.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step750000_eval_flow_mixed_ood_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 18
+[pending_eval_count] 6
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --scenario eval_flow_id --seed 0 --eval_seed 1000 --episodes 50 --global_step 1000000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1000000_eval_flow_id.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1000000_eval_flow_id_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 18
+[pending_eval_count] 6
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --scenario eval_flow_id --seed 0 --eval_seed 1000 --episodes 50 --global_step 1000000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1000000_eval_flow_id.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1000000_eval_flow_id_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 20
+[pending_eval_count] 4
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --scenario eval_flow_high_speed --seed 0 --eval_seed 1000 --episodes 50 --global_step 1000000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1000000_eval_flow_high_speed.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1000000_eval_flow_high_speed_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 20
+[pending_eval_count] 4
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --scenario eval_flow_high_speed --seed 0 --eval_seed 1000 --episodes 50 --global_step 1000000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1000000_eval_flow_high_speed.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1000000_eval_flow_high_speed_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 22
+[pending_eval_count] 2
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --scenario eval_flow_mixed_ood --seed 0 --eval_seed 1000 --episodes 50 --global_step 1000000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1000000_eval_flow_mixed_ood.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1000000_eval_flow_mixed_ood_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 22
+[pending_eval_count] 2
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --scenario eval_flow_mixed_ood --seed 0 --eval_seed 1000 --episodes 50 --global_step 1000000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1000000_eval_flow_mixed_ood.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1000000_eval_flow_mixed_ood_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1000000
+[completed_eval_count] 24
+[pending_eval_count] 0
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1250000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python train.py --env DynamicObstacleFlowEnv --scenario train_flow_mixed --method attention_full --run_name attention_full --agg attention --profile_mode full_12 --seed 0 --total_steps 1500000 --remaining_steps 500000 --resume_from checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1000000.zip --resume_global_step 1000000 --reset_num_timesteps false --n_envs 16 --device cpu --save_checkpoints true --checkpoint_steps 250000,500000 --checkpoint_dir checkpoints/env_v2_phase2/attention_full_s0 --log_dir runs/env_v2_phase2/attention_full_s0_resume --save_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_final_step1500000.zip --heartbeat_seconds 30.0 --use_safety_cost false --cost_type none --fallback_penalty false
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 24
+[pending_eval_count] 12
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1250000.zip --scenario eval_flow_id --seed 0 --eval_seed 1000 --episodes 50 --global_step 1250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1250000_eval_flow_id.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1250000_eval_flow_id_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 26
+[pending_eval_count] 10
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1250000.zip --scenario eval_flow_high_speed --seed 0 --eval_seed 1000 --episodes 50 --global_step 1250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1250000_eval_flow_high_speed.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1250000_eval_flow_high_speed_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 26
+[pending_eval_count] 10
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1250000.zip --scenario eval_flow_high_speed --seed 0 --eval_seed 1000 --episodes 50 --global_step 1250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1250000_eval_flow_high_speed.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1250000_eval_flow_high_speed_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 28
+[pending_eval_count] 8
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1250000.zip --scenario eval_flow_mixed_ood --seed 0 --eval_seed 1000 --episodes 50 --global_step 1250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1250000_eval_flow_mixed_ood.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1250000_eval_flow_mixed_ood_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 29
+[pending_eval_count] 7
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1250000.zip --scenario eval_flow_sudden_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 1250000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1250000_eval_flow_sudden_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1250000_eval_flow_sudden_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 30
+[pending_eval_count] 6
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --scenario eval_flow_id --seed 0 --eval_seed 1000 --episodes 50 --global_step 1500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1500000_eval_flow_id.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1500000_eval_flow_id_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 31
+[pending_eval_count] 5
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --scenario eval_flow_high_density --seed 0 --eval_seed 1000 --episodes 50 --global_step 1500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1500000_eval_flow_high_density.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1500000_eval_flow_high_density_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 32
+[pending_eval_count] 4
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --scenario eval_flow_high_speed --seed 0 --eval_seed 1000 --episodes 50 --global_step 1500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1500000_eval_flow_high_speed.csv --save_trace false --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1500000_eval_flow_high_speed_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 33
+[pending_eval_count] 3
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --scenario eval_flow_high_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 1500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1500000_eval_flow_high_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1500000_eval_flow_high_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 34
+[pending_eval_count] 2
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --scenario eval_flow_mixed_ood --seed 0 --eval_seed 1000 --episodes 50 --global_step 1500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1500000_eval_flow_mixed_ood.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1500000_eval_flow_mixed_ood_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 35
+[pending_eval_count] 1
+[watcher_status] waiting
+[runner_status] [run] /usr/local/miniconda3/envs/py310/bin/python scripts/eval_env_v2_attention_baseline.py --model_path checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --scenario eval_flow_sudden_threat --seed 0 --eval_seed 1000 --episodes 50 --global_step 1500000 --device cpu --out_csv results/env_v2_phase2/eval/attention_full_s0_step1500000_eval_flow_sudden_threat.csv --save_trace true --trace_csv results/env_v2_phase2/traces/attention_full_s0_step1500000_eval_flow_sudden_threat_trace.csv --heartbeat_seconds 20.0
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 36
+[pending_eval_count] 0
+[watcher_status] no_go_verified
+[runner_status] [done] terminal_decision=phase2_no_go_no_reproduction
+terminal_decision=phase2_no_go_no_reproduction
+next_recommended_action=fix training/eval/env or re-evaluate research direction
+[current_stage] Phase2 baseline long-training reproduction
+[current_run] attention_full_s0_DynamicObstacleFlowEnv_train_flow_mixed
+[latest_checkpoint] 1500000
+[completed_eval_count] 36
+[pending_eval_count] 0
+[watcher_status] no_go_verified
+[runner_status] [done] terminal_decision=phase2_no_go_no_reproduction
+terminal_decision=phase2_no_go_no_reproduction
+next_recommended_action=fix training/eval/env or re-evaluate research direction

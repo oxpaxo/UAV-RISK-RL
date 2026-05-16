@@ -1,0 +1,3 @@
+[2026-05-13 15:29:35] START audit_parent_resume_cpu: python scripts/audit_phase_n3z2c_parent_resume.py --n3z2c-result-dir results/env_v2_phase_n3z2c_z2_continuation --n3fz-result-dir results/env_v2_phase_n3fz_noz_full_z_screen --out-dir results/env_v2_phase_n3z2c_audit
+fixed_selected_parent=checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/checkpoint_500k.zip
+[2026-05-13 15:29:42] END audit_parent_resume_cpu

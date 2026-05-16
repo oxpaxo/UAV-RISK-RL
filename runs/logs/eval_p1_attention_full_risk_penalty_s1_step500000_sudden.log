@@ -1,0 +1,5 @@
+[2026-05-06 14:54:17] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/p1_three_seed/attention_full_risk_penalty_s1_step500000.zip method=attention_full_risk_penalty agg=attention train_seed=1 eval_seed=1000 scenario=eval_sudden_turn episodes=50
+[2026-05-06 14:54:21] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 19.92 ep/s eta=  0.00 min
+[2026-05-06 14:54:21] EVAL_SUMMARY scenario=eval_sudden_turn success_rate=1.0000 collision_rate=0.0000 mean_min_distance=2.0438 near_miss_rate=0.0200 mean_time=8.7960
+[2026-05-06 14:54:21] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/50
+[2026-05-06 14:54:21] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/p1_three_seed/eval/attention_full_risk_penalty_s1_step500000_sudden.csv

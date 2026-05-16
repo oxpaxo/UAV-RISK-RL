@@ -1,0 +1,6 @@
+policy_name,act_schema,filter_used,checkpoint_required,checkpoint_path,checkpoint_loaded,status
+random,action_raw/action_filtered/filter_triggered/filter_reason/debug,0,0,checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip,0,implemented
+straight_line,action_raw/action_filtered/filter_triggered/filter_reason/debug,0,0,checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip,0,implemented
+cpa_reactive,action_raw/action_filtered/filter_triggered/filter_reason/debug,0,0,checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip,0,implemented
+attention_full,action_raw/action_filtered/filter_triggered/filter_reason/debug,0,1,checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip,1,implemented
+filtered_attention_full,action_raw/action_filtered/filter_triggered/filter_reason/debug,1,1,checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip,1,implemented

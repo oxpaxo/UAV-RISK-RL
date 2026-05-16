@@ -1,0 +1,8 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/longtrain_baseline/attention_full_s0_step500000.zip --method attention_full --agg attention --seed 0 --eval_seed 1000 --episodes 50 --scenario eval_sudden_turn --device cpu --out_csv /root/workspace/uav-risk-rl/results/longtrain_baseline/eval/attention_full_s0_step500000_sudden.csv --global_step 500000
+[2026-05-06 12:19:26] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/longtrain_baseline/attention_full_s0_step500000.zip method=attention_full agg=attention train_seed=0 eval_seed=1000 scenario=eval_sudden_turn episodes=50
+[2026-05-06 12:19:30] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 24.97 ep/s eta=  0.00 min
+[2026-05-06 12:19:30] EVAL_SUMMARY scenario=eval_sudden_turn success_rate=1.0000 collision_rate=0.0000 mean_min_distance=1.1669 near_miss_rate=0.2200 mean_time=7.0480
+[2026-05-06 12:19:30] EVAL_REACTION mean_reaction_eval_style=1.8600 mean_reaction_nan_style=0.3958 nan_reaction_rate=0.0400 no_response_count=2/50
+[2026-05-06 12:19:30] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/longtrain_baseline/eval/attention_full_s0_step500000_sudden.csv

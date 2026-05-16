@@ -1,0 +1,1 @@
+{"out": "results/env_v2_phase_n3fz_noz_full_z_screen/tables/phase_n3fz_z_stats.csv", "out_npz": "work_dirs/gpsi_heada_v1_nll/z_stats_train_split_n3fz_reference.npz", "samples": 200000, "split": "train", "status": "ok", "z_l2_p95_after_norm": 11.056504726409912, "z_l2_p95_raw": 30.27534427642822}

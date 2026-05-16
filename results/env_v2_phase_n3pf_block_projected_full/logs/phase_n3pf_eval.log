@@ -1,0 +1,123 @@
+[2026-05-14 10:40:21] START eval_block_projected_full: python scripts/eval_env_v2_gpsi_ppo_n3pf.py --result-dir results/env_v2_phase_n3pf_block_projected_full --checkpoint-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_block_projected_s0 --noz-reference-dir checkpoints/env_v2_gpsi_heada_ppo_n3f_no_z_s0 --z2-reference-dir checkpoints/env_v2_gpsi_heada_ppo_n3z2cf_layernorm_alpha0p5_s0 --attention-checkpoint checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --eval-seed 1000 --num-episodes 50 --device cpu --heartbeat-seconds 300 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --write-traces
+[2026-05-14 10:40:25] N3PF_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_id episodes=50
+[2026-05-14 10:40:34] N3PF_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_id episodes=50/50 rate=5.48 ep/s eta=0.00 min
+[2026-05-14 10:40:34] N3PF_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:40:46] N3PF_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_density episodes=50/50 rate=4.54 ep/s eta=0.00 min
+[2026-05-14 10:40:46] N3PF_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:40:55] N3PF_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_speed episodes=50/50 rate=5.10 ep/s eta=0.00 min
+[2026-05-14 10:40:55] N3PF_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:41:05] N3PF_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_threat episodes=50/50 rate=5.32 ep/s eta=0.00 min
+[2026-05-14 10:41:05] N3PF_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:41:14] N3PF_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_mixed_ood episodes=50/50 rate=5.55 ep/s eta=0.00 min
+[2026-05-14 10:41:14] N3PF_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:41:23] N3PF_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_sudden_threat episodes=50/50 rate=5.27 ep/s eta=0.00 min
+[2026-05-14 10:41:23] N3PF_EVAL_START method=n3f_no_z_full checkpoint=final scenario=eval_flow_id episodes=50
+[2026-05-14 10:41:49] N3PF_EVAL_HEARTBEAT method=n3f_no_z_full checkpoint=final scenario=eval_flow_id episodes=50/50 rate=1.92 ep/s eta=0.00 min
+[2026-05-14 10:41:49] N3PF_EVAL_START method=n3f_no_z_full checkpoint=final scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:42:17] N3PF_EVAL_HEARTBEAT method=n3f_no_z_full checkpoint=final scenario=eval_flow_high_density episodes=50/50 rate=1.78 ep/s eta=0.00 min
+[2026-05-14 10:42:17] N3PF_EVAL_START method=n3f_no_z_full checkpoint=final scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:42:41] N3PF_EVAL_HEARTBEAT method=n3f_no_z_full checkpoint=final scenario=eval_flow_high_speed episodes=50/50 rate=2.08 ep/s eta=0.00 min
+[2026-05-14 10:42:41] N3PF_EVAL_START method=n3f_no_z_full checkpoint=final scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:43:07] N3PF_EVAL_HEARTBEAT method=n3f_no_z_full checkpoint=final scenario=eval_flow_high_threat episodes=50/50 rate=1.94 ep/s eta=0.00 min
+[2026-05-14 10:43:07] N3PF_EVAL_START method=n3f_no_z_full checkpoint=final scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:43:33] N3PF_EVAL_HEARTBEAT method=n3f_no_z_full checkpoint=final scenario=eval_flow_mixed_ood episodes=50/50 rate=1.96 ep/s eta=0.00 min
+[2026-05-14 10:43:33] N3PF_EVAL_START method=n3f_no_z_full checkpoint=final scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:43:58] N3PF_EVAL_HEARTBEAT method=n3f_no_z_full checkpoint=final scenario=eval_flow_sudden_threat episodes=50/50 rate=1.94 ep/s eta=0.00 min
+[2026-05-14 10:43:58] N3PF_EVAL_START method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_id episodes=50
+[2026-05-14 10:44:24] N3PF_EVAL_HEARTBEAT method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_id episodes=50/50 rate=1.95 ep/s eta=0.00 min
+[2026-05-14 10:44:24] N3PF_EVAL_START method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:44:51] N3PF_EVAL_HEARTBEAT method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_high_density episodes=50/50 rate=1.84 ep/s eta=0.00 min
+[2026-05-14 10:44:51] N3PF_EVAL_START method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:45:17] N3PF_EVAL_HEARTBEAT method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_high_speed episodes=50/50 rate=1.96 ep/s eta=0.00 min
+[2026-05-14 10:45:17] N3PF_EVAL_START method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:45:42] N3PF_EVAL_HEARTBEAT method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_high_threat episodes=50/50 rate=1.97 ep/s eta=0.00 min
+[2026-05-14 10:45:42] N3PF_EVAL_START method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:46:07] N3PF_EVAL_HEARTBEAT method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_mixed_ood episodes=50/50 rate=2.01 ep/s eta=0.00 min
+[2026-05-14 10:46:07] N3PF_EVAL_START method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:46:33] N3PF_EVAL_HEARTBEAT method=z2_corrected_full checkpoint=z2_final scenario=eval_flow_sudden_threat episodes=50/50 rate=1.93 ep/s eta=0.00 min
+[2026-05-14 10:46:33] N3PF_EVAL_START method=block_projected_full checkpoint=parent_500k scenario=eval_flow_id episodes=50
+[2026-05-14 10:46:59] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=parent_500k scenario=eval_flow_id episodes=50/50 rate=1.95 ep/s eta=0.00 min
+[2026-05-14 10:46:59] N3PF_EVAL_START method=block_projected_full checkpoint=parent_500k scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:47:25] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=parent_500k scenario=eval_flow_high_density episodes=50/50 rate=1.91 ep/s eta=0.00 min
+[2026-05-14 10:47:25] N3PF_EVAL_START method=block_projected_full checkpoint=parent_500k scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:47:52] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=parent_500k scenario=eval_flow_high_speed episodes=50/50 rate=1.86 ep/s eta=0.00 min
+[2026-05-14 10:47:52] N3PF_EVAL_START method=block_projected_full checkpoint=parent_500k scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:48:18] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=parent_500k scenario=eval_flow_high_threat episodes=50/50 rate=1.89 ep/s eta=0.00 min
+[2026-05-14 10:48:18] N3PF_EVAL_START method=block_projected_full checkpoint=parent_500k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:48:43] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=parent_500k scenario=eval_flow_mixed_ood episodes=50/50 rate=1.99 ep/s eta=0.00 min
+[2026-05-14 10:48:43] N3PF_EVAL_START method=block_projected_full checkpoint=parent_500k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:49:10] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=parent_500k scenario=eval_flow_sudden_threat episodes=50/50 rate=1.90 ep/s eta=0.00 min
+[2026-05-14 10:49:10] N3PF_EVAL_START method=block_projected_full checkpoint=750k scenario=eval_flow_id episodes=50
+[2026-05-14 10:49:35] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=750k scenario=eval_flow_id episodes=50/50 rate=2.00 ep/s eta=0.00 min
+[2026-05-14 10:49:35] N3PF_EVAL_START method=block_projected_full checkpoint=750k scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:50:01] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=750k scenario=eval_flow_high_density episodes=50/50 rate=1.87 ep/s eta=0.00 min
+[2026-05-14 10:50:01] N3PF_EVAL_START method=block_projected_full checkpoint=750k scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:50:29] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=750k scenario=eval_flow_high_speed episodes=50/50 rate=1.84 ep/s eta=0.00 min
+[2026-05-14 10:50:29] N3PF_EVAL_START method=block_projected_full checkpoint=750k scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:50:56] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=750k scenario=eval_flow_high_threat episodes=50/50 rate=1.86 ep/s eta=0.00 min
+[2026-05-14 10:50:56] N3PF_EVAL_START method=block_projected_full checkpoint=750k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:51:21] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=750k scenario=eval_flow_mixed_ood episodes=50/50 rate=1.99 ep/s eta=0.00 min
+[2026-05-14 10:51:21] N3PF_EVAL_START method=block_projected_full checkpoint=750k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:51:46] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=750k scenario=eval_flow_sudden_threat episodes=50/50 rate=1.94 ep/s eta=0.00 min
+[2026-05-14 10:51:46] N3PF_EVAL_START method=block_projected_full checkpoint=1000k scenario=eval_flow_id episodes=50
+[2026-05-14 10:52:12] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1000k scenario=eval_flow_id episodes=50/50 rate=1.92 ep/s eta=0.00 min
+[2026-05-14 10:52:12] N3PF_EVAL_START method=block_projected_full checkpoint=1000k scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:52:42] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1000k scenario=eval_flow_high_density episodes=50/50 rate=1.72 ep/s eta=0.00 min
+[2026-05-14 10:52:42] N3PF_EVAL_START method=block_projected_full checkpoint=1000k scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:53:12] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1000k scenario=eval_flow_high_speed episodes=50/50 rate=1.65 ep/s eta=0.00 min
+[2026-05-14 10:53:12] N3PF_EVAL_START method=block_projected_full checkpoint=1000k scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:53:40] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1000k scenario=eval_flow_high_threat episodes=50/50 rate=1.79 ep/s eta=0.00 min
+[2026-05-14 10:53:40] N3PF_EVAL_START method=block_projected_full checkpoint=1000k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:54:08] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1000k scenario=eval_flow_mixed_ood episodes=50/50 rate=1.80 ep/s eta=0.00 min
+[2026-05-14 10:54:08] N3PF_EVAL_START method=block_projected_full checkpoint=1000k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:54:35] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1000k scenario=eval_flow_sudden_threat episodes=50/50 rate=1.80 ep/s eta=0.00 min
+[2026-05-14 10:54:35] N3PF_EVAL_START method=block_projected_full checkpoint=1250k scenario=eval_flow_id episodes=50
+[2026-05-14 10:54:59] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1250k scenario=eval_flow_id episodes=50/50 rate=2.11 ep/s eta=0.00 min
+[2026-05-14 10:54:59] N3PF_EVAL_START method=block_projected_full checkpoint=1250k scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:55:27] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1250k scenario=eval_flow_high_density episodes=50/50 rate=1.81 ep/s eta=0.00 min
+[2026-05-14 10:55:27] N3PF_EVAL_START method=block_projected_full checkpoint=1250k scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:55:54] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1250k scenario=eval_flow_high_speed episodes=50/50 rate=1.82 ep/s eta=0.00 min
+[2026-05-14 10:55:54] N3PF_EVAL_START method=block_projected_full checkpoint=1250k scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:56:20] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1250k scenario=eval_flow_high_threat episodes=50/50 rate=1.92 ep/s eta=0.00 min
+[2026-05-14 10:56:20] N3PF_EVAL_START method=block_projected_full checkpoint=1250k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:56:45] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1250k scenario=eval_flow_mixed_ood episodes=50/50 rate=2.01 ep/s eta=0.00 min
+[2026-05-14 10:56:45] N3PF_EVAL_START method=block_projected_full checkpoint=1250k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:57:10] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1250k scenario=eval_flow_sudden_threat episodes=50/50 rate=2.02 ep/s eta=0.00 min
+[2026-05-14 10:57:10] N3PF_EVAL_START method=block_projected_full checkpoint=1500k scenario=eval_flow_id episodes=50
+[2026-05-14 10:57:37] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1500k scenario=eval_flow_id episodes=50/50 rate=1.87 ep/s eta=0.00 min
+[2026-05-14 10:57:37] N3PF_EVAL_START method=block_projected_full checkpoint=1500k scenario=eval_flow_high_density episodes=50
+[2026-05-14 10:58:06] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1500k scenario=eval_flow_high_density episodes=50/50 rate=1.68 ep/s eta=0.00 min
+[2026-05-14 10:58:06] N3PF_EVAL_START method=block_projected_full checkpoint=1500k scenario=eval_flow_high_speed episodes=50
+[2026-05-14 10:58:35] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1500k scenario=eval_flow_high_speed episodes=50/50 rate=1.75 ep/s eta=0.00 min
+[2026-05-14 10:58:35] N3PF_EVAL_START method=block_projected_full checkpoint=1500k scenario=eval_flow_high_threat episodes=50
+[2026-05-14 10:59:04] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1500k scenario=eval_flow_high_threat episodes=50/50 rate=1.73 ep/s eta=0.00 min
+[2026-05-14 10:59:04] N3PF_EVAL_START method=block_projected_full checkpoint=1500k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 10:59:31] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1500k scenario=eval_flow_mixed_ood episodes=50/50 rate=1.82 ep/s eta=0.00 min
+[2026-05-14 10:59:31] N3PF_EVAL_START method=block_projected_full checkpoint=1500k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 10:59:58] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=1500k scenario=eval_flow_sudden_threat episodes=50/50 rate=1.84 ep/s eta=0.00 min
+[2026-05-14 10:59:58] N3PF_EVAL_START method=block_projected_full checkpoint=final scenario=eval_flow_id episodes=50
+[2026-05-14 11:00:25] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=final scenario=eval_flow_id episodes=50/50 rate=1.85 ep/s eta=0.00 min
+[2026-05-14 11:00:25] N3PF_EVAL_START method=block_projected_full checkpoint=final scenario=eval_flow_high_density episodes=50
+[2026-05-14 11:00:55] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=final scenario=eval_flow_high_density episodes=50/50 rate=1.68 ep/s eta=0.00 min
+[2026-05-14 11:00:55] N3PF_EVAL_START method=block_projected_full checkpoint=final scenario=eval_flow_high_speed episodes=50
+[2026-05-14 11:01:24] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=final scenario=eval_flow_high_speed episodes=50/50 rate=1.76 ep/s eta=0.00 min
+[2026-05-14 11:01:24] N3PF_EVAL_START method=block_projected_full checkpoint=final scenario=eval_flow_high_threat episodes=50
+[2026-05-14 11:01:52] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=final scenario=eval_flow_high_threat episodes=50/50 rate=1.73 ep/s eta=0.00 min
+[2026-05-14 11:01:53] N3PF_EVAL_START method=block_projected_full checkpoint=final scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 11:02:21] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=final scenario=eval_flow_mixed_ood episodes=50/50 rate=1.78 ep/s eta=0.00 min
+[2026-05-14 11:02:21] N3PF_EVAL_START method=block_projected_full checkpoint=final scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 11:02:49] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=final scenario=eval_flow_sudden_threat episodes=50/50 rate=1.78 ep/s eta=0.00 min
+[2026-05-14 11:02:49] N3PF_EVAL_START method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_id episodes=50
+[2026-05-14 11:03:16] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_id episodes=50/50 rate=1.86 ep/s eta=0.00 min
+[2026-05-14 11:03:16] N3PF_EVAL_START method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_high_density episodes=50
+[2026-05-14 11:03:45] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_high_density episodes=50/50 rate=1.69 ep/s eta=0.00 min
+[2026-05-14 11:03:45] N3PF_EVAL_START method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_high_speed episodes=50
+[2026-05-14 11:04:14] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_high_speed episodes=50/50 rate=1.75 ep/s eta=0.00 min
+[2026-05-14 11:04:14] N3PF_EVAL_START method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_high_threat episodes=50
+[2026-05-14 11:04:43] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_high_threat episodes=50/50 rate=1.74 ep/s eta=0.00 min
+[2026-05-14 11:04:43] N3PF_EVAL_START method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 11:05:11] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_mixed_ood episodes=50/50 rate=1.77 ep/s eta=0.00 min
+[2026-05-14 11:05:11] N3PF_EVAL_START method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 11:05:40] N3PF_EVAL_HEARTBEAT method=block_projected_full checkpoint=best_by_eval scenario=eval_flow_sudden_threat episodes=50/50 rate=1.71 ep/s eta=0.00 min
+[2026-05-14 11:05:51] N3PF_EVAL_END episodes=3000 raw_steps=335808 gpsi_groups=503 traces=3000
+[2026-05-14 11:05:53] END eval_block_projected_full

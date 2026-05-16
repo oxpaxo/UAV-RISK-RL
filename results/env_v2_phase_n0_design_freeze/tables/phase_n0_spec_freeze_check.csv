@@ -1,0 +1,13 @@
+check,status,blocking,evidence,notes
+spec_file_exists,pass,1,configs/gpsi_head_a_spec.yaml,
+sigma2_not_direct_label,pass,1,sigma2 is learned by Gaussian NLL,
+gaussian_nll_uncertainty,pass,1,heteroscedastic uncertainty training,
+n3_gpsi_frozen_first,pass,1,"Gpsi frozen, PPO trainable",
+n4_lambda_uncertainty_sweep,pass,1,"lambda in {0, small, medium, large}",
+disable_full_5_head_gpsi,pass,1,full 5-head route deferred,
+disable_learned_r_s_a,pass,1,"learned R(s,a) deferred",
+disable_candidate_velocity_risk_map_as_ppo_input,pass,1,not used as PPO input in first mainline,
+world_frame_residual,pass,1,HeadA label frame,
+design_context_file:uav_drl_final_network_design.md,warning_missing,0,uav_drl_final_network_design.md,Specified design file was not present in this workspace; Phase N0 guide and generated spec are treated as authoritative
+design_context_file:uav_drl_baselines_and_ablations_initial.md,warning_missing,0,uav_drl_baselines_and_ablations_initial.md,Specified design file was not present in this workspace; Phase N0 guide and generated spec are treated as authoritative
+design_context_file:uav_drl_new_phase_plan.md,warning_missing,0,uav_drl_new_phase_plan.md,Specified design file was not present in this workspace; Phase N0 guide and generated spec are treated as authoritative

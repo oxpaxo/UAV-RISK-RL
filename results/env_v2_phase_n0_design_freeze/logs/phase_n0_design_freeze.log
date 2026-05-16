@@ -1,0 +1,16 @@
+[2026-05-12 03:21:22] Phase N0 audit started
+[2026-05-12 03:21:22] Command: python scripts/check_envv2_gpsi_required_fields.py --out-dir results/env_v2_phase_n0_design_freeze --spec configs/gpsi_head_a_spec.yaml --phase-a-dir results/env_v2_phase_a_eval_framework --phase-b-dir results/env_v2_phase_b_geometry_filter_baselines --scenarios eval_flow_id train_flow_mixed --num-episodes 1 --history-steps 20 --future-times 1.0 2.0 4.0 --max-steps 40 --write-dryrun-tables
+[2026-05-12 03:21:22] Collected 451 active obstacle dry-run rows
+[2026-05-12 03:21:22] Phase N0 complete flag written
+[2026-05-12 03:23:43] Phase N0 audit started
+[2026-05-12 03:23:43] Command: python scripts/check_envv2_gpsi_required_fields.py --out-dir results/env_v2_phase_n0_design_freeze --spec configs/gpsi_head_a_spec.yaml --phase-a-dir results/env_v2_phase_a_eval_framework --phase-b-dir results/env_v2_phase_b_geometry_filter_baselines --scenarios eval_flow_id train_flow_mixed --num-episodes 3 --history-steps 20 --future-times 1.0 2.0 4.0 --write-dryrun-tables
+[2026-05-12 03:23:43] Collected 3159 active obstacle dry-run rows
+[2026-05-12 03:23:43] Phase N0 complete flag written
+[2026-05-12 03:24:57] Phase N0 audit started
+[2026-05-12 03:24:57] Command: python scripts/check_envv2_gpsi_required_fields.py --out-dir results/env_v2_phase_n0_design_freeze --spec configs/gpsi_head_a_spec.yaml --phase-a-dir results/env_v2_phase_a_eval_framework --phase-b-dir results/env_v2_phase_b_geometry_filter_baselines --scenarios eval_flow_id train_flow_mixed --num-episodes 3 --history-steps 20 --future-times 1.0 2.0 4.0 --write-dryrun-tables
+[2026-05-12 03:24:57] Collected 3159 active obstacle dry-run rows
+[2026-05-12 03:24:57] Phase N0 complete flag written
+[2026-05-12 03:27:17] Phase N0 audit started
+[2026-05-12 03:27:17] Command: python scripts/check_envv2_gpsi_required_fields.py --out-dir results/env_v2_phase_n0_design_freeze --spec configs/gpsi_head_a_spec.yaml --phase-a-dir results/env_v2_phase_a_eval_framework --phase-b-dir results/env_v2_phase_b_geometry_filter_baselines --scenarios eval_flow_id train_flow_mixed --num-episodes 3 --history-steps 20 --future-times 1.0 2.0 4.0 --write-dryrun-tables
+[2026-05-12 03:27:17] Collected 3159 active obstacle dry-run rows
+[2026-05-12 03:27:17] Phase N0 complete flag written

@@ -1,0 +1,7 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/ewma_formal/Rgate8_lambda015_RbarFloor03_s0_step300k.zip --method risk_full_rbar --agg risk --seed 0 --eval_seed 1000 --episodes 50 --scenario eval_random_switch --device cpu --out_csv /root/workspace/uav-risk-rl/results/longtrain_baseline/eval/risk_Rgate8_lambda015_RbarFloor03_s0_step300000_random.csv --global_step 300000 --r_gate 8.0 --lambda_ewma 0.15 --rbar_floor 0.3 --use_rbar true
+[2026-05-06 12:23:47] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/ewma_formal/Rgate8_lambda015_RbarFloor03_s0_step300k.zip method=risk_full_rbar agg=risk train_seed=0 eval_seed=1000 scenario=eval_random_switch episodes=50
+[2026-05-06 12:23:51] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 24.84 ep/s eta=  0.00 min
+[2026-05-06 12:23:51] EVAL_SUMMARY scenario=eval_random_switch success_rate=1.0000 collision_rate=0.0000 mean_min_distance=1.4036 near_miss_rate=0.1000 mean_time=6.9800
+[2026-05-06 12:23:51] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/longtrain_baseline/eval/risk_Rgate8_lambda015_RbarFloor03_s0_step300000_random.csv

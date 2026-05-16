@@ -1,0 +1,4 @@
+base_policy,no_shield_success,shield_success,success_gain,no_shield_collision,shield_collision,collision_reduction,no_shield_progress,shield_progress,progress_delta
+attention_full,0.0,1.0,1.0,1.0,0.0,1.0,0.9565094852870146,1.0,0.04349051471298537
+no_z_full,1.0,1.0,0.0,0.0,0.0,0.0,0.9808266863265406,0.983689388055011,0.0028627017284704737
+p3_1500k,1.0,1.0,0.0,0.0,0.0,0.0,0.9907619386667136,0.9889974193610638,-0.0017645193056498032

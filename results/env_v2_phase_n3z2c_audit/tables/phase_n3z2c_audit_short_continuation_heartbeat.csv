@@ -1,0 +1,4 @@
+method_key,method,wall_time,local_steps,total_steps,target_total_steps,steps,target_steps,percent,steps_per_second,eta_minutes,recent_episode_reward_mean
+z_layernorm_alpha_0p5_cont_1p5m,gpsi_z_layernorm_alpha_0p5_cont_1p5m,2026-05-13 15:34:49,73904,573904,750000,573904,750000,29.5616,246.336719354751,11.91431525523695,29.989445640000003
+z_layernorm_alpha_0p5_cont_1p5m,gpsi_z_layernorm_alpha_0p5_cont_1p5m,2026-05-13 15:39:49,148208,648208,750000,648208,750000,59.2832,247.007958914519,6.868334691678681,26.069053399999998
+z_layernorm_alpha_0p5_cont_1p5m,gpsi_z_layernorm_alpha_0p5_cont_1p5m,2026-05-13 15:44:49,223040,723040,750000,723040,750000,89.216,247.8164792522841,1.8131697080398734,25.501464540000008

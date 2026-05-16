@@ -1,0 +1,5 @@
+version: env_v2_gpsi_heada_ppo_n3z_proj16_layernorm_v1
+method_key: z_proj16_layernorm
+method_name: gpsi_z_proj16_layernorm_screen_optional
+status: optional_not_run_by_default
+note: Z3 requires a trainable PPO-side projection adapter. It is intentionally not enabled in the N3F/Z watcher unless implemented and requested separately.

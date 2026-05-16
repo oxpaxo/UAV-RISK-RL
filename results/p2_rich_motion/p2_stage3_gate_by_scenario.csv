@@ -1,0 +1,8 @@
+scenario,risk_safety_close_to_wide,risk_faster_than_wide,risk_safer_than_wide,risk_pareto_positive,wide_d2_dominates,risk_wide_d2_no_difference,baseline_issue,risk_mean_time,wide_mean_time,risk_success,wide_success,risk_collision,wide_collision,risk_near_miss,wide_near_miss,risk_min_distance,wide_min_distance,risk_reaction,wide_reaction
+eval_accel_decel,True,True,False,True,False,False,True,7.6579999999999995,7.917999999999999,1.0,1.0,0.0,0.0,0.0,0.0,2.0088411509990696,2.112373960018158,,
+eval_ar1,True,True,False,True,False,False,True,7.676,7.954000000000001,1.0,1.0,0.0,0.0,0.0,0.0,1.9062622368335722,2.0331864404678344,,
+eval_mixed_v2,True,False,False,False,True,True,True,7.942,8.068000000000001,1.0,1.0,0.0,0.0,0.0,0.02,2.341937301158905,2.3834241729974748,0.2680000000000001,0.21400000000000008
+eval_random_switch_hard,True,True,False,True,False,False,True,8.606,9.276,0.99,0.97,0.01,0.02,0.09,0.04,1.4147664111852647,1.660074743926525,,
+eval_sinusoidal,True,True,False,True,False,False,True,7.700000000000001,8.018,0.98,0.99,0.02,0.01,0.04,0.02,1.9176553332805635,2.0492422568798068,,
+eval_sudden_turn,False,False,False,False,True,True,True,7.950000000000001,8.196000000000002,1.0,1.0,0.0,0.0,0.0,0.0,1.8944212055206298,2.0298980140686034,1.0360000000000005,0.20200000000000007
+eval_threat_validated_sudden,True,False,False,False,True,True,True,8.092,8.178,1.0,1.0,0.0,0.0,0.0,0.01,2.4630670988559724,2.4939349246025087,0.2600000000000001,0.2240000000000001

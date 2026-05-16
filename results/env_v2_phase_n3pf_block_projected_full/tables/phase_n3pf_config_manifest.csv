@@ -1,0 +1,4 @@
+method_key,method,obs_aug_dim,include_z,include_logvar,logvar_output_scale,feature_adapter,no_shield,action_filtering,use_safety_cost
+block_projected_full,n3pf_block_projected_no_z_full_1p5m,30,0,1,0.2,block_projected_no_z,1,0,0
+n3f_no_z_full,gpsi_no_z_full_1500k,30,0,1,1.0,raw_concat,1,0,0
+z2_corrected_full,gpsi_z_layernorm_alpha_0p5_corrected_full_1p5m,94,1,1,1.0,raw_concat,1,0,0

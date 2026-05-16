@@ -1,0 +1,12 @@
+artifact,path,required_for_n0,exists,status,notes
+phase_a_dir,results/env_v2_phase_a_eval_framework,1,1,pass,
+phase_a_complete_flag,results/env_v2_phase_a_eval_framework/PHASE_A_EVAL_FRAMEWORK_COMPLETE.flag,1,1,pass,
+phase_a_report,results/env_v2_phase_a_eval_framework/PHASE_A_EVAL_FRAMEWORK_REPORT.md,1,1,pass,
+phase_a_trace_schema,results/env_v2_phase_a_eval_framework/tables/phase_a_trace_schema.csv,1,1,pass,
+phase_a_step_obstacles_long_table,results/env_v2_phase_a_eval_framework/tables/phase_a_step_obstacles_sample.csv,1,1,pass,
+phase_b_dir,results/env_v2_phase_b_geometry_filter_baselines,1,1,pass,
+phase_b_complete_flag,results/env_v2_phase_b_geometry_filter_baselines/PHASE_B_GEOMETRY_FILTER_BASELINE_COMPLETE.flag,1,1,pass,
+phase_b_report,results/env_v2_phase_b_geometry_filter_baselines/PHASE_B_GEOMETRY_FILTER_BASELINE_REPORT.md,1,1,pass,
+phase_b_schema_check,results/env_v2_phase_b_geometry_filter_baselines/tables/phase_b_schema_check.csv,1,1,pass,
+phase_b_step_obstacles_long_table,results/env_v2_phase_b_geometry_filter_baselines/tables/phase_b_step_obstacles_sample.csv,1,1,pass,
+attention_full_checkpoint,checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip,0,1,pass,N0 does not train or evaluate PPO; checkpoint presence is recorded for Phase A/B continuity

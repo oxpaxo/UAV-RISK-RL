@@ -1,0 +1,265 @@
+item,command,returncode,output,stage,training_seed,timestamp
+nproc,nproc,0,1,validate_only,1,2026-05-15 18:46:34
+nproc_all,nproc --all,0,16,validate_only,1,2026-05-15 18:46:34
+taskset_current_process,taskset -pc 1164,0,pid 1164's current affinity list: 0-15,validate_only,1,2026-05-15 18:46:34
+lscpu,lscpu,0,"Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             16
+On-line CPU(s) list:                0-15
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD EPYC 7402 24-Core Processor
+CPU family:                         23
+Model:                              49
+Thread(s) per core:                 2
+Core(s) per socket:                 8
+Socket(s):                          1
+Stepping:                           0
+BogoMIPS:                           5599.55
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr wbnoinvd virt_ssbd arat umip rdpid arch_capabilities
+L1d cache:                          512 KiB (8 instances)
+L1i cache:                          512 KiB (8 instances)
+L2 cache:                           4 MiB (8 instances)
+L3 cache:                           32 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-15
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected",validate_only,1,2026-05-15 18:46:34
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       3.9Gi        55Gi       0.0Ki       3.4Gi        58Gi
+Swap:             0B          0B          0B",validate_only,1,2026-05-15 18:46:34
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  6.6G   69G   9% /",validate_only,1,2026-05-15 18:46:34
+nvidia_smi,nvidia-smi,0,"Fri May 15 18:46:33 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        Off |   00000000:00:03.0 Off |                  N/A |
+| 30%   34C    P0             57W /  350W |       0MiB /  24576MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+",validate_only,1,2026-05-15 18:46:34
+cpuset.cpus.effective,read /sys/fs/cgroup/cpuset.cpus.effective,0,0-15,validate_only,1,2026-05-15 18:46:34
+cpu.max,read /sys/fs/cgroup/cpu.max,0,max 100000,validate_only,1,2026-05-15 18:46:34
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,1,2026-05-15 18:46:34
+nproc,nproc,0,1,validate_only,2,2026-05-15 18:46:39
+nproc_all,nproc --all,0,16,validate_only,2,2026-05-15 18:46:39
+taskset_current_process,taskset -pc 1182,0,pid 1182's current affinity list: 0-15,validate_only,2,2026-05-15 18:46:39
+lscpu,lscpu,0,"Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             16
+On-line CPU(s) list:                0-15
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD EPYC 7402 24-Core Processor
+CPU family:                         23
+Model:                              49
+Thread(s) per core:                 2
+Core(s) per socket:                 8
+Socket(s):                          1
+Stepping:                           0
+BogoMIPS:                           5599.55
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr wbnoinvd virt_ssbd arat umip rdpid arch_capabilities
+L1d cache:                          512 KiB (8 instances)
+L1i cache:                          512 KiB (8 instances)
+L2 cache:                           4 MiB (8 instances)
+L3 cache:                           32 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-15
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected",validate_only,2,2026-05-15 18:46:39
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       3.9Gi        55Gi       0.0Ki       3.4Gi        58Gi
+Swap:             0B          0B          0B",validate_only,2,2026-05-15 18:46:39
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  6.6G   69G   9% /",validate_only,2,2026-05-15 18:46:39
+nvidia_smi,nvidia-smi,0,"Fri May 15 18:46:39 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        Off |   00000000:00:03.0 Off |                  N/A |
+| 30%   34C    P0             59W /  350W |       0MiB /  24576MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+",validate_only,2,2026-05-15 18:46:39
+cpuset.cpus.effective,read /sys/fs/cgroup/cpuset.cpus.effective,0,0-15,validate_only,2,2026-05-15 18:46:39
+cpu.max,read /sys/fs/cgroup/cpu.max,0,max 100000,validate_only,2,2026-05-15 18:46:39
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,2,2026-05-15 18:46:39
+nproc,nproc,0,1,train_preflight,2,2026-05-15 18:46:45
+nproc_all,nproc --all,0,16,train_preflight,2,2026-05-15 18:46:45
+taskset_current_process,taskset -pc 1198,0,pid 1198's current affinity list: 0-15,train_preflight,2,2026-05-15 18:46:45
+lscpu,lscpu,0,"Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             16
+On-line CPU(s) list:                0-15
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD EPYC 7402 24-Core Processor
+CPU family:                         23
+Model:                              49
+Thread(s) per core:                 2
+Core(s) per socket:                 8
+Socket(s):                          1
+Stepping:                           0
+BogoMIPS:                           5599.55
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr wbnoinvd virt_ssbd arat umip rdpid arch_capabilities
+L1d cache:                          512 KiB (8 instances)
+L1i cache:                          512 KiB (8 instances)
+L2 cache:                           4 MiB (8 instances)
+L3 cache:                           32 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-15
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected",train_preflight,2,2026-05-15 18:46:45
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.2Gi        55Gi       0.0Ki       3.4Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,2,2026-05-15 18:46:45
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  6.6G   69G   9% /",train_preflight,2,2026-05-15 18:46:45
+nvidia_smi,nvidia-smi,0,"Fri May 15 18:46:45 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        Off |   00000000:00:03.0 Off |                  N/A |
+| 30%   34C    P0             57W /  350W |       0MiB /  24576MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+",train_preflight,2,2026-05-15 18:46:45
+cpuset.cpus.effective,read /sys/fs/cgroup/cpuset.cpus.effective,0,0-15,train_preflight,2,2026-05-15 18:46:45
+cpu.max,read /sys/fs/cgroup/cpu.max,0,max 100000,train_preflight,2,2026-05-15 18:46:45
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,2,2026-05-15 18:46:45
+nproc,nproc,0,1,train_preflight,1,2026-05-15 18:46:45
+nproc_all,nproc --all,0,16,train_preflight,1,2026-05-15 18:46:45
+taskset_current_process,taskset -pc 1197,0,pid 1197's current affinity list: 0-15,train_preflight,1,2026-05-15 18:46:45
+lscpu,lscpu,0,"Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             16
+On-line CPU(s) list:                0-15
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD EPYC 7402 24-Core Processor
+CPU family:                         23
+Model:                              49
+Thread(s) per core:                 2
+Core(s) per socket:                 8
+Socket(s):                          1
+Stepping:                           0
+BogoMIPS:                           5599.55
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr wbnoinvd virt_ssbd arat umip rdpid arch_capabilities
+L1d cache:                          512 KiB (8 instances)
+L1i cache:                          512 KiB (8 instances)
+L2 cache:                           4 MiB (8 instances)
+L3 cache:                           32 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-15
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected",train_preflight,1,2026-05-15 18:46:45
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.2Gi        55Gi       0.0Ki       3.4Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,1,2026-05-15 18:46:45
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  6.6G   69G   9% /",train_preflight,1,2026-05-15 18:46:45
+nvidia_smi,nvidia-smi,0,"Fri May 15 18:46:45 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        Off |   00000000:00:03.0 Off |                  N/A |
+| 30%   34C    P0             57W /  350W |       0MiB /  24576MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+",train_preflight,1,2026-05-15 18:46:45
+cpuset.cpus.effective,read /sys/fs/cgroup/cpuset.cpus.effective,0,0-15,train_preflight,1,2026-05-15 18:46:45
+cpu.max,read /sys/fs/cgroup/cpu.max,0,max 100000,train_preflight,1,2026-05-15 18:46:45
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,1,2026-05-15 18:46:45

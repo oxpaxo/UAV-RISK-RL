@@ -1,0 +1,138 @@
+version: gpsi_head_a_v1
+phase: phase_n0_design_freeze
+
+environment:
+  name: DynamicObstacleFlowEnv
+  env_core_frozen: true
+  no_env_core_changes_in_phase_n0: true
+  dt_sec: 0.2
+  max_obs: 10
+  active_obstacle_identity: obstacle_id
+  obstacle_slot_is_identity: false
+
+mainline:
+  current: "Gpsi-HeadA supervised dynamic obstacle representation -> PPO velocity policy -> post-hoc VO/CPA-TTC Safety Shield"
+  deprecated:
+    - old_safety_cost_phase_c
+    - old_phase_d
+    - old_phase_e
+    - learned_R_s_a
+    - candidate_velocity_risk_map_as_ppo_input
+    - full_5_head_gpsi
+
+observation:
+  ego_dim: 10
+  obs_dim_per_obstacle: 12
+  max_obs: 10
+  mask_dim: 10
+  uses_obstacle_history: true
+  current_obs_i_layout:
+    - rel_pos_x_over_20
+    - rel_pos_y_over_20
+    - rel_pos_z_over_5
+    - rel_vel_x_over_3
+    - rel_vel_y_over_3
+    - rel_vel_z_over_3
+    - planned_cpa_over_5
+    - planned_ttc_over_20
+    - distance_over_30
+    - closing_over_3
+    - threat_class_id
+    - risk_value
+
+gpsi:
+  action_independent: true
+  per_obstacle_encoder: true
+  encoder_type_first_version: temporal_mlp_or_gru
+  z_dim: 64
+  head_a_required: true
+  head_c_optional_regularizer: true
+  disabled_heads:
+    - head_b_delta_vo
+    - head_d_v_nom
+    - head_e_p_trigger
+  full_5_head_gpsi_enabled: false
+
+head_a:
+  horizons_sec: [1.0, 2.0, 4.0]
+  target_type: residual_to_constant_velocity
+  coordinate_frame: obstacle_world_frame
+  residual_definition: "delta_i(tau)=p_i_world(t+tau)-[p_i_world(t)+tau*v_i_world(t)]"
+  direct_label: delta_only
+  sigma2_is_direct_label: false
+  uncertainty_learning: gaussian_nll
+  loss_schedule:
+    stage_a1: delta_only_mse_or_smooth_l1
+    stage_a2: gaussian_nll
+  gaussian_nll: "0.5 * (||delta - delta_hat||^2 / sigma2_hat + log_sigma2_hat)"
+  logvar_clamp: [-5.0, 3.0]
+  empirical_variance_label_deferred: true
+
+uncertainty:
+  type: diagonal_logvar
+  dimensions: [x, y, z]
+  sigma2_direct_label: false
+  output_shape: [num_horizons, 3]
+  training_signal: gaussian_nll_from_residual_error
+  future_shield_usage:
+    - scalar_margin
+    - directional_margin
+    - trajectory_tube
+    - candidate_scoring
+
+history_and_future:
+  history_steps_default: 20
+  valid_history_mask_required: true
+  future_positions_required: true
+  future_valid_mask_required: true
+  replacement_rule: "Key trajectories by episode_id + obstacle_id. Do not join across obstacle_slot after replacement."
+  invalid_future_rules:
+    - obstacle_id_missing_at_horizon
+    - episode_done_before_horizon
+    - replacement_or_inactive_before_horizon
+  future_label_no_policy_leakage: "Use obstacle world-frame residual; do not use future UAV motion in the target."
+
+ppo:
+  backbone_first_version: masked_attention_compatible
+  actor_critic: symmetric
+  gpsi_frozen_in_first_ppo_phase: true
+  trainable_in_phase_n3_first_version:
+    gpsi: false
+    ppo: true
+  input_aug: "[obs_i, z_i, delta_hat_i, sigma2_hat_i]"
+  candidate_velocity_risk_map_as_input: false
+
+shield:
+  type_first_version: vo_like_candidate_search
+  post_hoc: true
+  uses_uncertainty_margin: true
+  margin_formula: "r_safe_i=base_radius+lambda_uncertainty*sqrt(sigma2_hat_i)"
+  lambda_uncertainty_sweep_required: true
+  lambda_uncertainty_values: [0.0, small, medium, large]
+  lambda_zero_equivalence: fixed_margin_shield
+  q_p_or_cbf_deferred: true
+  required_metrics:
+    - collision
+    - success
+    - near_miss
+    - progress
+    - filter_trigger_rate
+    - mean_filter_delta_norm
+    - raw_unsafe_action_rate
+    - raw_cpa
+    - filtered_cpa
+  future_versions:
+    v0: fixed_margin_shield
+    v1: scalar_sigma2_margin_shield
+    v2: directional_sigma2_margin_shield
+    v3: predicted_trajectory_directional_sigma2_tube_shield
+    v4: v3_plus_uncertainty_aware_candidate_scoring
+
+deferred:
+  - learned_R_s_a
+  - candidate_velocity_risk_map_as_ppo_input
+  - full_5_head_gpsi
+  - asymmetric_critic
+  - passing_rule_mlp_first_version
+  - qp_projection_first_version
+  - empirical_sigma2_direct_label

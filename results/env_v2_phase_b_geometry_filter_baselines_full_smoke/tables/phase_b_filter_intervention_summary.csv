@@ -1,0 +1,3 @@
+baseline_name,config_name,episodes,filter_trigger_rate,episode_filter_triggered_rate,mean_filter_delta_norm,max_filter_delta_norm,collision_when_filter_triggered,collision_when_filter_not_triggered,success_when_filter_triggered,success_when_filter_not_triggered,mean_min_predicted_cpa_raw,mean_min_predicted_cpa_filtered,mean_min_ttc_raw,mean_min_ttc_filtered
+vo_like_filter,vo_like_filter_h45_cpa1p5_h16,6,0.3723709344467107,1.0,0.26837230729468425,1.4199127157529194,0.0,,1.0,,2.7353470819702856,3.3649455650599123,1.774130146682235,1.6807384608248135
+vo_like_filter,vo_like_filter_h45_cpa2_h16,6,0.5945677429039331,1.0,0.46057107708307016,1.8246918718020122,0.0,,1.0,,2.283228720168696,3.3937734861974325,1.828662279627909,1.7188835105009617

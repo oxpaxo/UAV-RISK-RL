@@ -1,0 +1,291 @@
+[2026-05-14 15:42:05] START eval_verification: python scripts/eval_env_v2_gpsi_ppo_n3pfv.py --result-dir results/env_v2_phase_n3pfv_checkpoint_verification --eval-seeds 1000 1001 1002 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --policies p3_1000k p3_1500k p3_final attention_full no_z_full z2_corrected_full --include-diagnostic-policies p3_parent_500k p3_1250k --device cpu --heartbeat-seconds 300
+[2026-05-14 15:42:09] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 15:42:33] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1000 scenario=eval_flow_id episodes=50/50 rate=2.08 ep/s
+[2026-05-14 15:42:33] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 15:43:00] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.86 ep/s
+[2026-05-14 15:43:00] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 15:43:28] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.79 ep/s
+[2026-05-14 15:43:28] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 15:43:54] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.94 ep/s
+[2026-05-14 15:43:54] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 15:44:20] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.94 ep/s
+[2026-05-14 15:44:20] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 15:44:46] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.93 ep/s
+[2026-05-14 15:44:46] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 15:45:11] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1001 scenario=eval_flow_id episodes=50/50 rate=2.04 ep/s
+[2026-05-14 15:45:11] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 15:45:38] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.85 ep/s
+[2026-05-14 15:45:38] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 15:46:06] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.78 ep/s
+[2026-05-14 15:46:06] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 15:46:32] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.91 ep/s
+[2026-05-14 15:46:32] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 15:46:58] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.94 ep/s
+[2026-05-14 15:46:58] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 15:47:24] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.92 ep/s
+[2026-05-14 15:47:24] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 15:47:48] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1002 scenario=eval_flow_id episodes=50/50 rate=2.07 ep/s
+[2026-05-14 15:47:48] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 15:48:15] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.86 ep/s
+[2026-05-14 15:48:15] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 15:48:43] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.79 ep/s
+[2026-05-14 15:48:43] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 15:49:09] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.93 ep/s
+[2026-05-14 15:49:09] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 15:49:34] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.93 ep/s
+[2026-05-14 15:49:34] N3PFV_EVAL_START policy=p3_1000k checkpoint=1000k seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 15:50:00] N3PFV_EVAL_HEARTBEAT policy=p3_1000k seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.93 ep/s
+[2026-05-14 15:50:00] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 15:50:26] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.98 ep/s
+[2026-05-14 15:50:26] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 15:50:53] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.82 ep/s
+[2026-05-14 15:50:53] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 15:51:20] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.89 ep/s
+[2026-05-14 15:51:20] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 15:51:46] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.87 ep/s
+[2026-05-14 15:51:46] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 15:52:12] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.96 ep/s
+[2026-05-14 15:52:12] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 15:52:37] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.97 ep/s
+[2026-05-14 15:52:37] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 15:53:02] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.98 ep/s
+[2026-05-14 15:53:02] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 15:53:30] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.80 ep/s
+[2026-05-14 15:53:30] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 15:53:57] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.87 ep/s
+[2026-05-14 15:53:57] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 15:54:24] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.85 ep/s
+[2026-05-14 15:54:24] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 15:54:50] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.96 ep/s
+[2026-05-14 15:54:50] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 15:55:15] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.95 ep/s
+[2026-05-14 15:55:15] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 15:55:41] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.98 ep/s
+[2026-05-14 15:55:41] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 15:56:09] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.78 ep/s
+[2026-05-14 15:56:09] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 15:56:35] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.88 ep/s
+[2026-05-14 15:56:35] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 15:57:02] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.85 ep/s
+[2026-05-14 15:57:02] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 15:57:28] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.94 ep/s
+[2026-05-14 15:57:28] N3PFV_EVAL_START policy=p3_1500k checkpoint=1500k seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 15:57:54] N3PFV_EVAL_HEARTBEAT policy=p3_1500k seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.93 ep/s
+[2026-05-14 15:57:54] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 15:58:19] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.98 ep/s
+[2026-05-14 15:58:19] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 15:58:47] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.80 ep/s
+[2026-05-14 15:58:47] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 15:59:14] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.85 ep/s
+[2026-05-14 15:59:14] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 15:59:41] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.86 ep/s
+[2026-05-14 15:59:41] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:00:07] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.89 ep/s
+[2026-05-14 16:00:07] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:00:34] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.89 ep/s
+[2026-05-14 16:00:34] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 16:00:59] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.96 ep/s
+[2026-05-14 16:00:59] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:01:28] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.78 ep/s
+[2026-05-14 16:01:28] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:01:54] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.88 ep/s
+[2026-05-14 16:01:54] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:02:21] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.84 ep/s
+[2026-05-14 16:02:21] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:02:48] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.88 ep/s
+[2026-05-14 16:02:48] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:03:14] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.89 ep/s
+[2026-05-14 16:03:14] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 16:03:40] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.97 ep/s
+[2026-05-14 16:03:40] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:04:08] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.80 ep/s
+[2026-05-14 16:04:08] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:04:34] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.87 ep/s
+[2026-05-14 16:04:34] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:05:01] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.85 ep/s
+[2026-05-14 16:05:01] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:05:28] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.88 ep/s
+[2026-05-14 16:05:28] N3PFV_EVAL_START policy=p3_final checkpoint=final seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:05:54] N3PFV_EVAL_HEARTBEAT policy=p3_final seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.91 ep/s
+[2026-05-14 16:05:54] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 16:06:03] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1000 scenario=eval_flow_id episodes=50/50 rate=5.88 ep/s
+[2026-05-14 16:06:03] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:06:13] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=4.82 ep/s
+[2026-05-14 16:06:13] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:06:22] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=5.47 ep/s
+[2026-05-14 16:06:22] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:06:31] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=5.73 ep/s
+[2026-05-14 16:06:31] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:06:39] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=5.89 ep/s
+[2026-05-14 16:06:39] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:06:48] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=5.70 ep/s
+[2026-05-14 16:06:48] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 16:06:57] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1001 scenario=eval_flow_id episodes=50/50 rate=5.93 ep/s
+[2026-05-14 16:06:57] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:07:07] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=4.80 ep/s
+[2026-05-14 16:07:07] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:07:16] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=5.46 ep/s
+[2026-05-14 16:07:16] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:07:25] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=5.64 ep/s
+[2026-05-14 16:07:25] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:07:34] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=5.88 ep/s
+[2026-05-14 16:07:34] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:07:42] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=5.65 ep/s
+[2026-05-14 16:07:42] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 16:07:51] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1002 scenario=eval_flow_id episodes=50/50 rate=5.85 ep/s
+[2026-05-14 16:07:51] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:08:01] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=4.86 ep/s
+[2026-05-14 16:08:01] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:08:10] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=5.42 ep/s
+[2026-05-14 16:08:10] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:08:19] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=5.79 ep/s
+[2026-05-14 16:08:19] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:08:27] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=5.95 ep/s
+[2026-05-14 16:08:27] N3PFV_EVAL_START policy=attention_full checkpoint=attention_full_1500k seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:08:36] N3PFV_EVAL_HEARTBEAT policy=attention_full seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=5.64 ep/s
+[2026-05-14 16:08:36] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 16:09:01] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1000 scenario=eval_flow_id episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:09:01] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:09:28] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.85 ep/s
+[2026-05-14 16:09:28] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:09:51] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=2.18 ep/s
+[2026-05-14 16:09:51] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:10:16] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=2.04 ep/s
+[2026-05-14 16:10:16] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:10:40] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.06 ep/s
+[2026-05-14 16:10:40] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:11:05] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:11:05] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 16:11:30] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1001 scenario=eval_flow_id episodes=50/50 rate=2.01 ep/s
+[2026-05-14 16:11:30] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:11:57] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.84 ep/s
+[2026-05-14 16:11:57] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:12:20] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=2.17 ep/s
+[2026-05-14 16:12:20] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:12:44] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=2.03 ep/s
+[2026-05-14 16:12:44] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:13:09] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.01 ep/s
+[2026-05-14 16:13:09] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:13:34] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:13:34] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 16:13:59] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1002 scenario=eval_flow_id episodes=50/50 rate=2.01 ep/s
+[2026-05-14 16:13:59] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:14:26] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.82 ep/s
+[2026-05-14 16:14:26] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:14:50] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=2.10 ep/s
+[2026-05-14 16:14:50] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:15:15] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.99 ep/s
+[2026-05-14 16:15:15] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:15:40] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.00 ep/s
+[2026-05-14 16:15:40] N3PFV_EVAL_START policy=no_z_full checkpoint=final seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:16:05] N3PFV_EVAL_HEARTBEAT policy=no_z_full seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:16:05] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 16:16:30] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1000 scenario=eval_flow_id episodes=50/50 rate=2.04 ep/s
+[2026-05-14 16:16:30] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:16:55] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.93 ep/s
+[2026-05-14 16:16:55] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:17:20] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=2.05 ep/s
+[2026-05-14 16:17:20] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:17:44] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=2.07 ep/s
+[2026-05-14 16:17:44] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:18:08] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.10 ep/s
+[2026-05-14 16:18:08] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:18:32] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.03 ep/s
+[2026-05-14 16:18:33] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 16:18:57] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1001 scenario=eval_flow_id episodes=50/50 rate=2.03 ep/s
+[2026-05-14 16:18:57] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:19:23] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.90 ep/s
+[2026-05-14 16:19:23] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:19:48] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=2.00 ep/s
+[2026-05-14 16:19:48] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:20:13] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=2.05 ep/s
+[2026-05-14 16:20:13] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:20:37] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.08 ep/s
+[2026-05-14 16:20:37] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:21:02] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.01 ep/s
+[2026-05-14 16:21:02] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 16:21:27] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1002 scenario=eval_flow_id episodes=50/50 rate=2.01 ep/s
+[2026-05-14 16:21:27] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:21:53] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.89 ep/s
+[2026-05-14 16:21:53] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:22:18] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=2.00 ep/s
+[2026-05-14 16:22:18] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:22:42] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=2.06 ep/s
+[2026-05-14 16:22:42] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:23:07] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.06 ep/s
+[2026-05-14 16:23:07] N3PFV_EVAL_START policy=z2_corrected_full checkpoint=z2_final seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:23:31] N3PFV_EVAL_HEARTBEAT policy=z2_corrected_full seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:23:31] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 16:23:56] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1000 scenario=eval_flow_id episodes=50/50 rate=2.00 ep/s
+[2026-05-14 16:23:56] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:24:22] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.99 ep/s
+[2026-05-14 16:24:22] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:24:47] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.94 ep/s
+[2026-05-14 16:24:47] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:25:13] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.96 ep/s
+[2026-05-14 16:25:13] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:25:37] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.05 ep/s
+[2026-05-14 16:25:37] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:26:02] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.99 ep/s
+[2026-05-14 16:26:02] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 16:26:27] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1001 scenario=eval_flow_id episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:26:27] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:26:53] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.98 ep/s
+[2026-05-14 16:26:53] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:27:19] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.91 ep/s
+[2026-05-14 16:27:19] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:27:45] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.93 ep/s
+[2026-05-14 16:27:45] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:28:09] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.09 ep/s
+[2026-05-14 16:28:09] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:28:34] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.98 ep/s
+[2026-05-14 16:28:34] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 16:28:59] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1002 scenario=eval_flow_id episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:28:59] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:29:24] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.99 ep/s
+[2026-05-14 16:29:24] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:29:50] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.90 ep/s
+[2026-05-14 16:29:50] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:30:15] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.96 ep/s
+[2026-05-14 16:30:15] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:30:40] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.08 ep/s
+[2026-05-14 16:30:40] N3PFV_EVAL_START policy=p3_parent_500k checkpoint=parent_500k seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:31:05] N3PFV_EVAL_HEARTBEAT policy=p3_parent_500k seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.96 ep/s
+[2026-05-14 16:31:05] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-14 16:31:28] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1000 scenario=eval_flow_id episodes=50/50 rate=2.16 ep/s
+[2026-05-14 16:31:28] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:31:55] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.90 ep/s
+[2026-05-14 16:31:55] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:32:21] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.91 ep/s
+[2026-05-14 16:32:21] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:32:45] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=2.04 ep/s
+[2026-05-14 16:32:45] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:33:08] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.15 ep/s
+[2026-05-14 16:33:08] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:33:32] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.10 ep/s
+[2026-05-14 16:33:32] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-14 16:33:55] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1001 scenario=eval_flow_id episodes=50/50 rate=2.16 ep/s
+[2026-05-14 16:33:55] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:34:23] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.78 ep/s
+[2026-05-14 16:34:23] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:34:50] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.91 ep/s
+[2026-05-14 16:34:50] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:35:14] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=2.02 ep/s
+[2026-05-14 16:35:14] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:35:38] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.12 ep/s
+[2026-05-14 16:35:38] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:36:02] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.08 ep/s
+[2026-05-14 16:36:02] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-14 16:36:25] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1002 scenario=eval_flow_id episodes=50/50 rate=2.20 ep/s
+[2026-05-14 16:36:25] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-14 16:36:51] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.90 ep/s
+[2026-05-14 16:36:51] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-14 16:37:17] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.89 ep/s
+[2026-05-14 16:37:18] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-14 16:37:42] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=2.01 ep/s
+[2026-05-14 16:37:42] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-14 16:38:06] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.12 ep/s
+[2026-05-14 16:38:06] N3PFV_EVAL_START policy=p3_1250k checkpoint=1250k seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-14 16:38:30] N3PFV_EVAL_HEARTBEAT policy=p3_1250k seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.11 ep/s
+[2026-05-14 16:38:57] N3PFV_EVAL_END episodes=7200 raw_steps=805890 gpsi_groups=393 traces=0
+[2026-05-14 16:39:01] END eval_verification

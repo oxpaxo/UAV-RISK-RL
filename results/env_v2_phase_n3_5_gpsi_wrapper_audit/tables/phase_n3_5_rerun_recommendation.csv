@@ -1,0 +1,5 @@
+decision_item,recommendation,reason
+n3_original_validity,invalid_if_before_fix_online_scale_matches_n3_anomaly,before_fix uses legacy near-zero ego velocity normalization and reproduces large Gpsi output scales.
+n3_rerun,required,N3 PPO checkpoints were trained/evaluated with legacy wrapper normalization.
+n4_entry,blocked,Must rerun N3 or N3-lite with repaired feature pipeline before shield comparison.
+feature_normalization,rerun_with_repaired_gpsi_input_norm_and_consider_z_block_normalization_or_ablation,z_i remains unnormalized relative to base obs; this is an engineering risk even after output-scale repair.

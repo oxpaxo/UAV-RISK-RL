@@ -1,0 +1,37 @@
+method_key,check,value,detail
+n3f_no_z_full,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+n3f_no_z_full,phase_n3r_complete_flag,True,results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag
+n3f_no_z_full,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+n3f_no_z_full,aug_obs_dim,30,expected=30
+n3f_no_z_full,no_shield,true,observation-only Gpsi wrapper
+n3f_no_z_full,no_action_filtering,true,raw PPO velocity command only
+n3f_no_z_full,no_safety_cost,true,EnvV2 original reward
+n3f_no_z_full,logvar_clip_sanity,already_bounded,"logvar_clamp=(-5.0, 3.0)"
+n3f_no_z_full,delta_norm_1s_p95_pretrain,1.194447374343872,max=1.5299561023712158
+n3f_no_z_full,logvar_xy_1s_span_pretrain,3.704450845718384,min=-5.0 max=-1.2955491542816162
+n3f_no_z_full,z_l2_p95_raw_pretrain,28.48924446105957,raw frozen-Gpsi z before optional z normalization
+n3f_no_z_full,z_l2_p95_after_pretrain,28.48924446105957,z block supplied to PPO when include_z=true
+z_l2_scale_4,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+z_l2_scale_4,phase_n3r_complete_flag,True,results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag
+z_l2_scale_4,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+z_l2_scale_4,aug_obs_dim,94,expected=94
+z_l2_scale_4,no_shield,true,observation-only Gpsi wrapper
+z_l2_scale_4,no_action_filtering,true,raw PPO velocity command only
+z_l2_scale_4,no_safety_cost,true,EnvV2 original reward
+z_l2_scale_4,logvar_clip_sanity,already_bounded,"logvar_clamp=(-5.0, 3.0)"
+z_l2_scale_4,delta_norm_1s_p95_pretrain,1.1944482326507568,max=1.5299569368362427
+z_l2_scale_4,logvar_xy_1s_span_pretrain,3.70444917678833,min=-5.0 max=-1.29555082321167
+z_l2_scale_4,z_l2_p95_raw_pretrain,28.489234924316406,raw frozen-Gpsi z before optional z normalization
+z_l2_scale_4,z_l2_p95_after_pretrain,4.0,z block supplied to PPO when include_z=true
+z_layernorm_alpha_0p5,phase_n3_5_complete_flag,True,results/env_v2_phase_n3_5_gpsi_wrapper_audit/PHASE_N3_5_GPSI_WRAPPER_AUDIT_COMPLETE.flag
+z_layernorm_alpha_0p5,phase_n3r_complete_flag,True,results/env_v2_phase_n3r_gpsi_ppo_rerun/PHASE_N3R_GPSI_PPO_RERUN_COMPLETE.flag
+z_layernorm_alpha_0p5,gpsi_frozen,True,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+z_layernorm_alpha_0p5,aug_obs_dim,94,expected=94
+z_layernorm_alpha_0p5,no_shield,true,observation-only Gpsi wrapper
+z_layernorm_alpha_0p5,no_action_filtering,true,raw PPO velocity command only
+z_layernorm_alpha_0p5,no_safety_cost,true,EnvV2 original reward
+z_layernorm_alpha_0p5,logvar_clip_sanity,already_bounded,"logvar_clamp=(-5.0, 3.0)"
+z_layernorm_alpha_0p5,delta_norm_1s_p95_pretrain,1.1944482326507568,max=1.5299569368362427
+z_layernorm_alpha_0p5,logvar_xy_1s_span_pretrain,3.70444917678833,min=-5.0 max=-1.29555082321167
+z_layernorm_alpha_0p5,z_l2_p95_raw_pretrain,28.489234924316406,raw frozen-Gpsi z before optional z normalization
+z_layernorm_alpha_0p5,z_l2_p95_after_pretrain,3.99999737739563,z block supplied to PPO when include_z=true

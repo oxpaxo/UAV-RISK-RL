@@ -1,0 +1,13 @@
+[2026-05-13 15:29:35] Phase N3Z2C-Audit watcher started
+[2026-05-13 15:29:35] START compile: python -m py_compile scripts/audit_phase_n3z2c_parent_resume.py scripts/train_env_v2_gpsi_ppo_n3z2c_audit.py scripts/eval_env_v2_gpsi_ppo_n3z2c_audit.py scripts/analyze_env_v2_phase_n3z2c_audit.py
+[2026-05-13 15:29:35] END compile
+[2026-05-13 15:29:35] START audit_parent_resume_cpu: python scripts/audit_phase_n3z2c_parent_resume.py --n3z2c-result-dir results/env_v2_phase_n3z2c_z2_continuation --n3fz-result-dir results/env_v2_phase_n3fz_noz_full_z_screen --out-dir results/env_v2_phase_n3z2c_audit
+[2026-05-13 15:29:42] END audit_parent_resume_cpu
+[2026-05-13 15:29:42] FIXED_PARENT selected: checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/checkpoint_500k.zip
+[2026-05-13 15:29:42] START train_corrected_short: python scripts/train_env_v2_gpsi_ppo_n3z2c_audit.py --config configs/env_v2_gpsi_heada_ppo_n3z2c_layernorm_alpha0p5_1p5m.yaml --resume checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/checkpoint_500k.zip --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3z2c_audit_corrected_parent_750k_s0 --additional-steps 250000 --parent-total-steps 500000 --target-total-steps 750000 --checkpoint-total-steps 750000 --seed 0 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-13 15:46:56] END train_corrected_short
+[2026-05-13 15:46:56] START eval_corrected_short: python scripts/eval_env_v2_gpsi_ppo_n3z2c_audit.py --result-dir results/env_v2_phase_n3z2c_audit --corrected-checkpoint-dir checkpoints/env_v2_gpsi_heada_ppo_n3z2c_audit_corrected_parent_750k_s0 --old-n3z2c-result-dir results/env_v2_phase_n3z2c_z2_continuation --noz-reference-dir checkpoints/env_v2_gpsi_heada_ppo_n3f_no_z_s0 --attention-checkpoint checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --eval-seed 1000 --num-episodes 50 --device cpu --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --write-traces
+[2026-05-13 16:00:45] END eval_corrected_short
+[2026-05-13 16:00:45] START analysis_report: python scripts/analyze_env_v2_phase_n3z2c_audit.py --result-dir results/env_v2_phase_n3z2c_audit --old-n3z2c-result-dir results/env_v2_phase_n3z2c_z2_continuation --noz-success 0.5633 --noz-collision 0.4367 --attention-success 0.6100 --attention-collision 0.3900
+[2026-05-13 16:00:47] END analysis_report
+[2026-05-13 16:00:47] complete flag detected

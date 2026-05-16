@@ -1,0 +1,8 @@
+{
+  "completed_at": "2026-05-07 05:53:20",
+  "patched_random_rows": 2,
+  "patched_short_rows": 2,
+  "reasons": [],
+  "stage1_rows": 40,
+  "terminal_decision": "patched_stage1_complete"
+}

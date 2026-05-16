@@ -1,0 +1,3 @@
+[2026-05-07 05:32:42] p2_watcher_start interval=5
+[2026-05-07 05:32:42] status={"complete": true, "missing": [], "missing_count": 0, "row_counts": {"results/p2_rich_motion/env_sanity_random_policy.csv": 5, "results/p2_rich_motion/env_sanity_short_ppo.csv": 5}, "terminal_decision": "stage0_no_go_environment"}
+[2026-05-07 05:32:43] COMPLETE P2 artifacts verified

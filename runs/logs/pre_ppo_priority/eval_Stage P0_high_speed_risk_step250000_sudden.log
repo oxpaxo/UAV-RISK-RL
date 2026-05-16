@@ -1,0 +1,7 @@
+[2026-05-08 08:42:58] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/pre_ppo_priority/p0_adaptation/high_speed_risk_s0_step250000.zip method=attention_full_risk_penalty agg=attention train_seed=0 eval_seed=1000 scenario=eval_sudden_turn_high_speed episodes=50
+[2026-05-08 08:43:03] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 13.53 ep/s eta=  0.00 min
+/root/workspace/uav-risk-rl/eval.py:472: RuntimeWarning: Mean of empty slice
+  "predicted_cpa_to_nominal_path_mean": float(np.nanmean(col("predicted_cpa_to_nominal_path"))),
+[2026-05-08 08:43:03] EVAL_SUMMARY scenario=eval_sudden_turn_high_speed success_rate=0.9800 collision_rate=0.0200 mean_min_distance=1.6852 near_miss_rate=0.0800 mean_time=12.6200
+[2026-05-08 08:43:03] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/50
+[2026-05-08 08:43:03] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/pre_ppo_priority/p0_adaptation/eval/high_speed_risk_s0_step250000_sudden.csv

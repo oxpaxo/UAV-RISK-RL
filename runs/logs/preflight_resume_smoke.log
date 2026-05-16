@@ -1,0 +1,65 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python train.py --method resume_smoke --agg mean --seed 99 --total_steps 128 --resume_from /root/workspace/uav-risk-rl/checkpoints/ewma_short/smoke.zip --resume_global_step 10000 --n_envs 1 --device cpu --scenario train_random_switch --save_checkpoints true --checkpoint_steps 128 --checkpoint_dir checkpoints/preflight --run_name resume_smoke --save_path /root/workspace/uav-risk-rl/checkpoints/preflight/resume_smoke_step12000.zip --log_dir runs/preflight/resume_smoke --heartbeat_seconds 9999
+[2026-05-06 11:42:46] CONFIG agg=mean seed=99 total_steps=128 n_envs=1 device=cpu scenario=train_random_switch use_rbar=False rbar_floor=0.0 hidden_dim=64 r_gate=5.0 lambda_ewma=0.1 sigma_min=0.05 run_name=resume_smoke method=resume_smoke resume_from=/root/workspace/uav-risk-rl/checkpoints/ewma_short/smoke.zip resume_global_step=10000 use_safety_cost=False cost_type=none fallback_penalty=False beta_cost=5.0 use_risk_bias=False lambda_bias=0.2
+[2026-05-06 11:42:46] RESUME_LOAD path=/root/workspace/uav-risk-rl/checkpoints/ewma_short/smoke.zip remaining_steps=128
+Logging to runs/ewma_short/smoke/PPO_1
+[2026-05-06 11:42:48] TRAIN_START total_steps=128 start_num_timesteps=4096
+[2026-05-06 11:42:49] CHECKPOINT_SAVED local_step=128 global_step=10128 path=checkpoints/preflight/resume_smoke_s99_step10128.zip
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 111      |
+|    ep_rew_mean     | -18.5    |
+|    success_rate    | 0.0682   |
+| time/              |          |
+|    fps             | 349      |
+|    iterations      | 1        |
+|    time_elapsed    | 2        |
+|    total_timesteps | 5120     |
+---------------------------------
+[2026-05-06 11:42:51] TRAIN_END elapsed=0.05 min local_steps=1024 model_num_timesteps=5120
+[2026-05-06 11:42:51] SAVED model=/root/workspace/uav-risk-rl/checkpoints/preflight/resume_smoke_step12000.zip approx_updates=1
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python train.py --method resume_smoke --agg mean --seed 99 --total_steps 2048 --resume_from /root/workspace/uav-risk-rl/checkpoints/ewma_short/smoke.zip --resume_global_step 10000 --n_envs 1 --device cpu --scenario train_random_switch --save_checkpoints true --checkpoint_steps 2048 --checkpoint_dir checkpoints/preflight --run_name resume_smoke --save_path /root/workspace/uav-risk-rl/checkpoints/preflight/resume_smoke_step12000.zip --log_dir runs/preflight/resume_smoke --heartbeat_seconds 9999
+[2026-05-06 11:45:30] CONFIG agg=mean seed=99 total_steps=2048 n_envs=1 device=cpu scenario=train_random_switch use_rbar=False rbar_floor=0.0 hidden_dim=64 r_gate=5.0 lambda_ewma=0.1 sigma_min=0.05 run_name=resume_smoke method=resume_smoke resume_from=/root/workspace/uav-risk-rl/checkpoints/ewma_short/smoke.zip resume_global_step=10000 use_safety_cost=False cost_type=none fallback_penalty=False beta_cost=5.0 use_risk_bias=False lambda_bias=0.2
+[2026-05-06 11:45:30] RESUME_LOAD path=/root/workspace/uav-risk-rl/checkpoints/ewma_short/smoke.zip remaining_steps=2048
+Logging to runs/ewma_short/smoke/PPO_1
+[2026-05-06 11:45:31] TRAIN_START total_steps=2048 start_num_timesteps=4096
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 111      |
+|    ep_rew_mean     | -18.5    |
+|    success_rate    | 0.0682   |
+| time/              |          |
+|    fps             | 809      |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 5120     |
+---------------------------------
+[2026-05-06 11:45:36] CHECKPOINT_SAVED local_step=2048 global_step=12048 path=checkpoints/preflight/resume_smoke_s99_step12048.zip
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 114          |
+|    ep_rew_mean          | -15.4        |
+|    success_rate         | 0.192        |
+| time/                   |              |
+|    fps                  | 460          |
+|    iterations           | 2            |
+|    time_elapsed         | 4            |
+|    total_timesteps      | 6144         |
+| train/                  |              |
+|    approx_kl            | 0.0136440545 |
+|    clip_fraction        | 0.125        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.2         |
+|    explained_variance   | 0.33         |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.01         |
+|    n_updates            | 50           |
+|    policy_gradient_loss | -0.0173      |
+|    std                  | 0.979        |
+|    value_loss           | 4.25         |
+------------------------------------------
+[2026-05-06 11:45:36] TRAIN_END elapsed=0.08 min local_steps=2048 model_num_timesteps=6144
+[2026-05-06 11:45:36] SAVED model=/root/workspace/uav-risk-rl/checkpoints/preflight/resume_smoke_step12000.zip approx_updates=2

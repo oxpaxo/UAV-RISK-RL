@@ -1,0 +1,611 @@
+{
+  "args": {
+    "eval_seed": 2000,
+    "format": "npz",
+    "future_times": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "history_steps": 20,
+    "max_steps_per_episode": 500,
+    "min_episodes": 100,
+    "num_episodes": 100,
+    "out_dir": "data/gpsi_head_a_v1",
+    "result_dir": "results/env_v2_phase_n1_gpsi_dataset",
+    "rollout_policy": "hold_position",
+    "scenario": "train_flow_mixed",
+    "spec": "configs/gpsi_head_a_spec.yaml",
+    "split": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "split_seed": 17,
+    "write_schema": true
+  },
+  "builder": "scripts/build_gpsi_heada_dataset.py",
+  "created_at_utc": "2026-05-12T04:13:57Z",
+  "dt_sec": 0.2,
+  "env_core": {
+    "file": "envs/dynamic_obstacle_flow_env.py",
+    "phase_n1_action": "read_only",
+    "sha256": "dce3e7f3109d490bf5c04a310aa49970b07dd6ffae303d3be7eb49e961a79feb"
+  },
+  "episode_split": [
+    {
+      "episode_id": 0,
+      "episode_seed": 2000,
+      "split": "val"
+    },
+    {
+      "episode_id": 1,
+      "episode_seed": 2001,
+      "split": "test"
+    },
+    {
+      "episode_id": 2,
+      "episode_seed": 2002,
+      "split": "train"
+    },
+    {
+      "episode_id": 3,
+      "episode_seed": 2003,
+      "split": "train"
+    },
+    {
+      "episode_id": 4,
+      "episode_seed": 2004,
+      "split": "val"
+    },
+    {
+      "episode_id": 5,
+      "episode_seed": 2005,
+      "split": "train"
+    },
+    {
+      "episode_id": 6,
+      "episode_seed": 2006,
+      "split": "train"
+    },
+    {
+      "episode_id": 7,
+      "episode_seed": 2007,
+      "split": "train"
+    },
+    {
+      "episode_id": 8,
+      "episode_seed": 2008,
+      "split": "val"
+    },
+    {
+      "episode_id": 9,
+      "episode_seed": 2009,
+      "split": "val"
+    },
+    {
+      "episode_id": 10,
+      "episode_seed": 2010,
+      "split": "val"
+    },
+    {
+      "episode_id": 11,
+      "episode_seed": 2011,
+      "split": "train"
+    },
+    {
+      "episode_id": 12,
+      "episode_seed": 2012,
+      "split": "train"
+    },
+    {
+      "episode_id": 13,
+      "episode_seed": 2013,
+      "split": "train"
+    },
+    {
+      "episode_id": 14,
+      "episode_seed": 2014,
+      "split": "train"
+    },
+    {
+      "episode_id": 15,
+      "episode_seed": 2015,
+      "split": "train"
+    },
+    {
+      "episode_id": 16,
+      "episode_seed": 2016,
+      "split": "train"
+    },
+    {
+      "episode_id": 17,
+      "episode_seed": 2017,
+      "split": "train"
+    },
+    {
+      "episode_id": 18,
+      "episode_seed": 2018,
+      "split": "train"
+    },
+    {
+      "episode_id": 19,
+      "episode_seed": 2019,
+      "split": "train"
+    },
+    {
+      "episode_id": 20,
+      "episode_seed": 2020,
+      "split": "train"
+    },
+    {
+      "episode_id": 21,
+      "episode_seed": 2021,
+      "split": "train"
+    },
+    {
+      "episode_id": 22,
+      "episode_seed": 2022,
+      "split": "train"
+    },
+    {
+      "episode_id": 23,
+      "episode_seed": 2023,
+      "split": "train"
+    },
+    {
+      "episode_id": 24,
+      "episode_seed": 2024,
+      "split": "val"
+    },
+    {
+      "episode_id": 25,
+      "episode_seed": 2025,
+      "split": "train"
+    },
+    {
+      "episode_id": 26,
+      "episode_seed": 2026,
+      "split": "train"
+    },
+    {
+      "episode_id": 27,
+      "episode_seed": 2027,
+      "split": "train"
+    },
+    {
+      "episode_id": 28,
+      "episode_seed": 2028,
+      "split": "train"
+    },
+    {
+      "episode_id": 29,
+      "episode_seed": 2029,
+      "split": "val"
+    },
+    {
+      "episode_id": 30,
+      "episode_seed": 2030,
+      "split": "train"
+    },
+    {
+      "episode_id": 31,
+      "episode_seed": 2031,
+      "split": "train"
+    },
+    {
+      "episode_id": 32,
+      "episode_seed": 2032,
+      "split": "train"
+    },
+    {
+      "episode_id": 33,
+      "episode_seed": 2033,
+      "split": "train"
+    },
+    {
+      "episode_id": 34,
+      "episode_seed": 2034,
+      "split": "train"
+    },
+    {
+      "episode_id": 35,
+      "episode_seed": 2035,
+      "split": "train"
+    },
+    {
+      "episode_id": 36,
+      "episode_seed": 2036,
+      "split": "train"
+    },
+    {
+      "episode_id": 37,
+      "episode_seed": 2037,
+      "split": "val"
+    },
+    {
+      "episode_id": 38,
+      "episode_seed": 2038,
+      "split": "train"
+    },
+    {
+      "episode_id": 39,
+      "episode_seed": 2039,
+      "split": "test"
+    },
+    {
+      "episode_id": 40,
+      "episode_seed": 2040,
+      "split": "train"
+    },
+    {
+      "episode_id": 41,
+      "episode_seed": 2041,
+      "split": "test"
+    },
+    {
+      "episode_id": 42,
+      "episode_seed": 2042,
+      "split": "train"
+    },
+    {
+      "episode_id": 43,
+      "episode_seed": 2043,
+      "split": "train"
+    },
+    {
+      "episode_id": 44,
+      "episode_seed": 2044,
+      "split": "val"
+    },
+    {
+      "episode_id": 45,
+      "episode_seed": 2045,
+      "split": "train"
+    },
+    {
+      "episode_id": 46,
+      "episode_seed": 2046,
+      "split": "train"
+    },
+    {
+      "episode_id": 47,
+      "episode_seed": 2047,
+      "split": "test"
+    },
+    {
+      "episode_id": 48,
+      "episode_seed": 2048,
+      "split": "train"
+    },
+    {
+      "episode_id": 49,
+      "episode_seed": 2049,
+      "split": "test"
+    },
+    {
+      "episode_id": 50,
+      "episode_seed": 2050,
+      "split": "train"
+    },
+    {
+      "episode_id": 51,
+      "episode_seed": 2051,
+      "split": "train"
+    },
+    {
+      "episode_id": 52,
+      "episode_seed": 2052,
+      "split": "train"
+    },
+    {
+      "episode_id": 53,
+      "episode_seed": 2053,
+      "split": "train"
+    },
+    {
+      "episode_id": 54,
+      "episode_seed": 2054,
+      "split": "train"
+    },
+    {
+      "episode_id": 55,
+      "episode_seed": 2055,
+      "split": "test"
+    },
+    {
+      "episode_id": 56,
+      "episode_seed": 2056,
+      "split": "val"
+    },
+    {
+      "episode_id": 57,
+      "episode_seed": 2057,
+      "split": "train"
+    },
+    {
+      "episode_id": 58,
+      "episode_seed": 2058,
+      "split": "train"
+    },
+    {
+      "episode_id": 59,
+      "episode_seed": 2059,
+      "split": "train"
+    },
+    {
+      "episode_id": 60,
+      "episode_seed": 2060,
+      "split": "train"
+    },
+    {
+      "episode_id": 61,
+      "episode_seed": 2061,
+      "split": "train"
+    },
+    {
+      "episode_id": 62,
+      "episode_seed": 2062,
+      "split": "test"
+    },
+    {
+      "episode_id": 63,
+      "episode_seed": 2063,
+      "split": "train"
+    },
+    {
+      "episode_id": 64,
+      "episode_seed": 2064,
+      "split": "test"
+    },
+    {
+      "episode_id": 65,
+      "episode_seed": 2065,
+      "split": "train"
+    },
+    {
+      "episode_id": 66,
+      "episode_seed": 2066,
+      "split": "train"
+    },
+    {
+      "episode_id": 67,
+      "episode_seed": 2067,
+      "split": "train"
+    },
+    {
+      "episode_id": 68,
+      "episode_seed": 2068,
+      "split": "val"
+    },
+    {
+      "episode_id": 69,
+      "episode_seed": 2069,
+      "split": "train"
+    },
+    {
+      "episode_id": 70,
+      "episode_seed": 2070,
+      "split": "train"
+    },
+    {
+      "episode_id": 71,
+      "episode_seed": 2071,
+      "split": "train"
+    },
+    {
+      "episode_id": 72,
+      "episode_seed": 2072,
+      "split": "test"
+    },
+    {
+      "episode_id": 73,
+      "episode_seed": 2073,
+      "split": "train"
+    },
+    {
+      "episode_id": 74,
+      "episode_seed": 2074,
+      "split": "test"
+    },
+    {
+      "episode_id": 75,
+      "episode_seed": 2075,
+      "split": "test"
+    },
+    {
+      "episode_id": 76,
+      "episode_seed": 2076,
+      "split": "train"
+    },
+    {
+      "episode_id": 77,
+      "episode_seed": 2077,
+      "split": "train"
+    },
+    {
+      "episode_id": 78,
+      "episode_seed": 2078,
+      "split": "train"
+    },
+    {
+      "episode_id": 79,
+      "episode_seed": 2079,
+      "split": "test"
+    },
+    {
+      "episode_id": 80,
+      "episode_seed": 2080,
+      "split": "train"
+    },
+    {
+      "episode_id": 81,
+      "episode_seed": 2081,
+      "split": "train"
+    },
+    {
+      "episode_id": 82,
+      "episode_seed": 2082,
+      "split": "test"
+    },
+    {
+      "episode_id": 83,
+      "episode_seed": 2083,
+      "split": "train"
+    },
+    {
+      "episode_id": 84,
+      "episode_seed": 2084,
+      "split": "train"
+    },
+    {
+      "episode_id": 85,
+      "episode_seed": 2085,
+      "split": "test"
+    },
+    {
+      "episode_id": 86,
+      "episode_seed": 2086,
+      "split": "train"
+    },
+    {
+      "episode_id": 87,
+      "episode_seed": 2087,
+      "split": "train"
+    },
+    {
+      "episode_id": 88,
+      "episode_seed": 2088,
+      "split": "train"
+    },
+    {
+      "episode_id": 89,
+      "episode_seed": 2089,
+      "split": "val"
+    },
+    {
+      "episode_id": 90,
+      "episode_seed": 2090,
+      "split": "test"
+    },
+    {
+      "episode_id": 91,
+      "episode_seed": 2091,
+      "split": "val"
+    },
+    {
+      "episode_id": 92,
+      "episode_seed": 2092,
+      "split": "train"
+    },
+    {
+      "episode_id": 93,
+      "episode_seed": 2093,
+      "split": "train"
+    },
+    {
+      "episode_id": 94,
+      "episode_seed": 2094,
+      "split": "train"
+    },
+    {
+      "episode_id": 95,
+      "episode_seed": 2095,
+      "split": "val"
+    },
+    {
+      "episode_id": 96,
+      "episode_seed": 2096,
+      "split": "val"
+    },
+    {
+      "episode_id": 97,
+      "episode_seed": 2097,
+      "split": "train"
+    },
+    {
+      "episode_id": 98,
+      "episode_seed": 2098,
+      "split": "train"
+    },
+    {
+      "episode_id": 99,
+      "episode_seed": 2099,
+      "split": "train"
+    }
+  ],
+  "files": {
+    "dataset_manifest.json": {
+      "path": "data/gpsi_head_a_v1/dataset_manifest.json",
+      "sha256": "563d10fc22a7f15c5e96d8f03f2a8587313f0ab4770cb747f5ef5f714090cc48",
+      "size_bytes": 13250
+    },
+    "schema.json": {
+      "path": "data/gpsi_head_a_v1/schema.json",
+      "sha256": "d4eb53f4f5470e3141b9b002f79f83d801286d8b4e48bdba237e476d867b5fce",
+      "size_bytes": 4989
+    },
+    "test.npz": {
+      "episodes": 15,
+      "path": "data/gpsi_head_a_v1/test.npz",
+      "samples": 48096,
+      "sha256": "4f82fa76e8ab41be1a9024f2de4a79ab9d3face732363a514f11b2ef7f81f07f",
+      "size_bytes": 7804279
+    },
+    "train.npz": {
+      "episodes": 70,
+      "path": "data/gpsi_head_a_v1/train.npz",
+      "samples": 228957,
+      "sha256": "55834338f02d5f7a8fa98420c73b86a0faa31f200cc003852974dc8f0462af2f",
+      "size_bytes": 37171496
+    },
+    "val.npz": {
+      "episodes": 15,
+      "path": "data/gpsi_head_a_v1/val.npz",
+      "samples": 49599,
+      "sha256": "8076ab8821f13ce00293e3d07f293addd719f20afd0664eb41ca27955b13d583",
+      "size_bytes": 8060748
+    }
+  },
+  "inspect": {
+    "complete_flag": "results/env_v2_phase_n1_gpsi_dataset/PHASE_N1_GPSI_DATASET_COMPLETE.flag",
+    "plots": [
+      "results/env_v2_phase_n1_gpsi_dataset/plots/residual_norm_by_motion_mode_1s.png",
+      "results/env_v2_phase_n1_gpsi_dataset/plots/residual_norm_by_motion_mode_2s.png",
+      "results/env_v2_phase_n1_gpsi_dataset/plots/residual_norm_by_motion_mode_4s.png",
+      "results/env_v2_phase_n1_gpsi_dataset/plots/residual_norm_by_horizon.png",
+      "results/env_v2_phase_n1_gpsi_dataset/plots/valid_label_rate_by_horizon.png",
+      "results/env_v2_phase_n1_gpsi_dataset/plots/history_valid_length_distribution.png"
+    ],
+    "script": "scripts/inspect_gpsi_heada_dataset.py",
+    "tables": [
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_build_label_validity_by_horizon.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_build_motion_mode_counts.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_build_split_summary.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_command_manifest.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_coordinate_frame_check.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_episode_split_plan.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_history_validity_stats.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_label_validity_by_horizon.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_leakage_check.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_replacement_boundary_stats.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_residual_stats_by_horizon.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_residual_stats_by_motion_mode.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_sample_rows.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_schema_check.csv",
+      "results/env_v2_phase_n1_gpsi_dataset/tables/phase_n1_split_summary.csv"
+    ]
+  },
+  "inspected_at_utc": "2026-05-12T04:14:00Z",
+  "phase_n0_complete_flag": "results/env_v2_phase_n0_design_freeze/PHASE_N0_DESIGN_FREEZE_COMPLETE.flag",
+  "result_dir": "results/env_v2_phase_n1_gpsi_dataset",
+  "spec": {
+    "diagonal_logvar_supported": true,
+    "file": "configs/gpsi_head_a_spec.yaml",
+    "sha256": "7684a57d4a4fff39b6e774f07340673bf0071c4a9e2b4fce986176fbb40e65a7",
+    "sigma2_direct_label": false
+  },
+  "status": "inspected_complete",
+  "terminal_flag_written_by": "inspect_gpsi_heada_dataset.py",
+  "version": "gpsi_head_a_v1"
+}

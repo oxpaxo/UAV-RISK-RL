@@ -1,0 +1,5 @@
+command_name,command,status
+offline_online_equivalence,scripts/compare_gpsi_offline_online.py --data-dir data/gpsi_head_a_v1 --checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir results/env_v2_phase_n3_5_gpsi_wrapper_audit --split val --num-samples 5000,completed
+online_wrapper_audit,scripts/audit_gpsi_online_wrapper.py --checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir results/env_v2_phase_n3_5_gpsi_wrapper_audit --scenarios eval_flow_id eval_flow_high_speed eval_flow_mixed_ood --num-episodes 10 --policy random_or_straight_line --write-input-output-stats,completed
+augmented_feature_scale,scripts/inspect_gpsi_augmented_features.py --checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir results/env_v2_phase_n3_5_gpsi_wrapper_audit --scenarios eval_flow_id eval_flow_high_speed eval_flow_mixed_ood --num-episodes 10 --policy random_or_straight_line --write-plots,completed
+finalize_n3_5_audit,scripts/finalize_phase_n3_5_gpsi_wrapper_audit.py --checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir results/env_v2_phase_n3_5_gpsi_wrapper_audit,completed

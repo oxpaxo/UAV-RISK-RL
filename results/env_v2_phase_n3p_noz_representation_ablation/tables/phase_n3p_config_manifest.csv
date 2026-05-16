@@ -1,0 +1,4 @@
+method_key,method,config,checkpoint_dir,obs_aug_dim,include_z,include_logvar,logvar_output_scale,feature_adapter,train_steps,seed,no_shield,use_safety_cost
+obs_delta_only,n3p_obs_delta_only_500k,configs/env_v2_gpsi_heada_ppo_n3p_obs_delta_only.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3p_obs_delta_only_s0,21,0,0,1.0,raw_concat,500000,0,1,0
+logvar_scaled,n3p_obs_delta_logvar_scaled_500k,configs/env_v2_gpsi_heada_ppo_n3p_logvar_scaled.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3p_logvar_scaled_s0,30,0,1,0.2,raw_concat,500000,0,1,0
+block_projected,n3p_block_projected_no_z_500k,configs/env_v2_gpsi_heada_ppo_n3p_block_projected.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3p_block_projected_s0,30,0,1,0.2,block_projected_no_z,500000,0,1,0

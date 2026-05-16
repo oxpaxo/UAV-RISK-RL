@@ -1,0 +1,6 @@
+metric,value,status
+before_delta_norm_1s_p95,22779.90078125,observed
+after_delta_norm_1s_p95,1.348824143409729,pass
+after_delta_norm_1s_max,1.7892690896987915,pass
+after_logvar_xy_1s_span,3.9612187147140503,pass
+repaired_degenerate_std_dims,9,pass

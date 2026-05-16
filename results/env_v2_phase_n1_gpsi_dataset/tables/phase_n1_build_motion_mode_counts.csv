@@ -1,0 +1,16 @@
+split,motion_mode_id,motion_mode,samples
+train,0,linear,41786
+train,1,sinusoidal_lateral,63536
+train,2,accel_decel,40536
+train,3,ar1_velocity,47877
+train,4,crossing_or_sudden_threat,35222
+val,0,linear,8981
+val,1,sinusoidal_lateral,13281
+val,2,accel_decel,8398
+val,3,ar1_velocity,10716
+val,4,crossing_or_sudden_threat,8223
+test,0,linear,8047
+test,1,sinusoidal_lateral,14852
+test,2,accel_decel,7507
+test,3,ar1_velocity,9499
+test,4,crossing_or_sudden_threat,8191

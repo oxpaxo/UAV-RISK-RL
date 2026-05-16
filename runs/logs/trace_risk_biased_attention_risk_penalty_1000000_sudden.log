@@ -1,0 +1,8 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/gate2b/risk_biased_attention_risk_penalty_s0_step1000000.zip --method risk_biased_attention_risk_penalty --agg attention --seed 0 --eval_seed 1000 --episodes 10 --scenario eval_sudden_turn --device cpu --out_csv /root/workspace/uav-risk-rl/results/gate2b/eval/risk_biased_attention_risk_penalty_s0_step1000000_sudden_trace_eval.csv --global_step 1000000 --use_risk_bias true --lambda_bias 0.2 --save_trace true --trace_dir /root/workspace/uav-risk-rl/results/gate2b/traces
+[2026-05-06 13:05:43] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/gate2b/risk_biased_attention_risk_penalty_s0_step1000000.zip method=risk_biased_attention_risk_penalty agg=attention train_seed=0 eval_seed=1000 scenario=eval_sudden_turn episodes=10
+[2026-05-06 13:05:45] EVAL_HEARTBEAT episodes=10/10 percent=100.00% rate= 20.40 ep/s eta=  0.00 min
+[2026-05-06 13:05:45] EVAL_SUMMARY scenario=eval_sudden_turn success_rate=1.0000 collision_rate=0.0000 mean_min_distance=1.9664 near_miss_rate=0.0000 mean_time=7.6000
+[2026-05-06 13:05:45] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/10
+[2026-05-06 13:05:45] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/gate2b/eval/risk_biased_attention_risk_penalty_s0_step1000000_sudden_trace_eval.csv

@@ -1,0 +1,14 @@
+{
+  "config": "configs/env_v2_gpsi_heada_ppo_n3z_l2_scale4.yaml",
+  "detail": "observed completed training from pid=5200",
+  "expected_checkpoint": "checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0/checkpoint_500k.zip",
+  "final_zip": "checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0/final.zip",
+  "hostname": "8a4832b5251c",
+  "method_key": "z_l2_scale_4",
+  "method_name": "gpsi_z_l2_scale_4_screen",
+  "out_dir": "checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0",
+  "pid": 5758,
+  "requested_train_steps": 500000,
+  "status": "completed_wait",
+  "timestamp": "2026-05-13 11:10:46"
+}

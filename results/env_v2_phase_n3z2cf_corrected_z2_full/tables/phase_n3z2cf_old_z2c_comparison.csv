@@ -1,0 +1,3 @@
+metric,corrected_z2,old_z2c,delta_z2_minus_old,baseline_value_from_guide
+success_rate,0.5066666666666667,0.45,0.0566666666666667,0.45
+collision_rate,0.49333333333333335,0.5499999999999999,-0.05666666666666659,0.55

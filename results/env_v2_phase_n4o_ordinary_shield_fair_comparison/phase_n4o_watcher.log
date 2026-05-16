@@ -1,0 +1,7 @@
+[2026-05-15 18:46:29] START py_compile: python -m py_compile scripts/eval_env_v2_phase_n4o_ordinary_shield.py scripts/analyze_env_v2_phase_n4o_results.py
+[2026-05-15 18:46:29] END py_compile rc=0
+[2026-05-15 18:46:29] START eval: nice -n 10 python -u scripts/eval_env_v2_phase_n4o_ordinary_shield.py --result-dir results/env_v2_phase_n4o_ordinary_shield_fair_comparison --eval-seeds 1000 1001 1002 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --shield-config-name vo_like_filter_h45_cpa1p2_h16 --device cpu --heartbeat-seconds 300
+[2026-05-15 19:59:11] END eval rc=0
+[2026-05-15 19:59:11] START analysis: python -u scripts/analyze_env_v2_phase_n4o_results.py --result-dir results/env_v2_phase_n4o_ordinary_shield_fair_comparison --expected-seeds 1000 1001 1002 --expected-episodes 50
+[2026-05-15 19:59:12] END analysis rc=0
+[2026-05-15 19:59:12] complete flag detected

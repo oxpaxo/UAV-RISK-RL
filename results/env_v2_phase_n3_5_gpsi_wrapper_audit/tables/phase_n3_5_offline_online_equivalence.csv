@@ -1,0 +1,17 @@
+repair_stage,split,num_samples,component,shape,max_abs_diff,mean_abs_diff,rmse_diff,corr,allclose_pass,tolerance,nan_count_offline,nan_count_online,inf_count_offline,inf_count_online,checkpoint,device,model_version
+before_fix,val,5000,normalized_ego_current,5000x10,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+before_fix,val,5000,normalized_obs_current,5000x12,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+before_fix,val,5000,normalized_history_rel_pos,5000x20x3,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+before_fix,val,5000,normalized_history_rel_vel,5000x20x3,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+before_fix,val,5000,normalized_history_valid_mask,5000x20,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+before_fix,val,5000,z,5000x64,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+before_fix,val,5000,delta_hat,5000x3x3,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+before_fix,val,5000,logvar_hat,5000x3x3,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,normalized_ego_current,5000x10,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,normalized_obs_current,5000x12,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,normalized_history_rel_pos,5000x20x3,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,normalized_history_rel_vel,5000x20x3,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,normalized_history_valid_mask,5000x20,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,z,5000x64,0.0,0.0,0.0,0.9999999999999999,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,delta_hat,5000x3x3,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll
+after_fix,val,5000,logvar_hat,5000x3x3,0.0,0.0,0.0,1.0,1,0.0001,0,0,0,0,work_dirs/gpsi_heada_v1_nll/best.pth,cpu,gpsi_head_a_v1_nll

@@ -1,0 +1,14 @@
+{
+  "config": "configs/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5.yaml",
+  "detail": "observed completed training from pid=5201",
+  "expected_checkpoint": "checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/checkpoint_500k.zip",
+  "final_zip": "checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0/final.zip",
+  "hostname": "8a4832b5251c",
+  "method_key": "z_layernorm_alpha_0p5",
+  "method_name": "gpsi_z_layernorm_alpha_0p5_screen",
+  "out_dir": "checkpoints/env_v2_gpsi_heada_ppo_n3z_layernorm_alpha0p5_s0",
+  "pid": 5891,
+  "requested_train_steps": 500000,
+  "status": "completed_wait",
+  "timestamp": "2026-05-13 11:11:19"
+}

@@ -1,0 +1,2 @@
+stage,command,eval_seeds,num_episodes,scenarios,shield_config_name,device
+eval,python scripts/eval_env_v2_phase_n4o_ordinary_shield.py --result-dir results/env_v2_phase_n4o_ordinary_shield_smoke --eval-seeds 1000 --num-episodes 1 --scenarios eval_flow_id --shield-config-name vo_like_filter_h45_cpa1p2_h16 --device cpu --heartbeat-seconds 300,[1000],1,"[""eval_flow_id""]",vo_like_filter_h45_cpa1p2_h16,cpu

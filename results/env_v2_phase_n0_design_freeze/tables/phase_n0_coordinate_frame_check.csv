@@ -1,0 +1,5 @@
+item,selected_frame,status,rationale
+head_a_label,obstacle_world_frame,pass,world-frame obstacle residual avoids mixing future UAV motion into obstacle dynamics labels
+future_residual_definition,world,pass,delta_i(tau)=p_i_world(t+tau)-[p_i_world(t)+tau*v_i_world(t)]
+relative_observation,current_relative_policy_input,pass,relative position/velocity remain valid PPO/Gpsi inputs but are not the supervised future label frame
+relative_future_label,deferred_not_used,pass,future-relative labels can include ego future motion and risk policy-dependent supervision

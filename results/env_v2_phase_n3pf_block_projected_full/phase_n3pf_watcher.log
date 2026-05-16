@@ -1,0 +1,10 @@
+[2026-05-14 09:32:59] Phase N3PF watcher started
+[2026-05-14 09:32:59] START compile: python -m py_compile scripts/train_env_v2_gpsi_ppo_n3pf.py scripts/eval_env_v2_gpsi_ppo_n3pf.py scripts/analyze_env_v2_phase_n3pf_results.py
+[2026-05-14 09:32:59] END compile
+[2026-05-14 09:32:59] START train_block_projected_full: python scripts/train_env_v2_gpsi_ppo_n3pf.py --config configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml --resume checkpoints/env_v2_gpsi_heada_ppo_n3p_block_projected_s0/checkpoint_500k.zip --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_block_projected_s0 --parent-total-steps 500000 --additional-steps 1000000 --target-total-steps 1500000 --checkpoint-total-steps 750000 1000000 1250000 1500000 --seed 0 --n-envs 4 --device cpu --reset-num-timesteps false --heartbeat-seconds 300
+[2026-05-14 10:40:21] END train_block_projected_full
+[2026-05-14 10:40:21] START eval_block_projected_full: python scripts/eval_env_v2_gpsi_ppo_n3pf.py --result-dir results/env_v2_phase_n3pf_block_projected_full --checkpoint-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_block_projected_s0 --noz-reference-dir checkpoints/env_v2_gpsi_heada_ppo_n3f_no_z_s0 --z2-reference-dir checkpoints/env_v2_gpsi_heada_ppo_n3z2cf_layernorm_alpha0p5_s0 --attention-checkpoint checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --eval-seed 1000 --num-episodes 50 --device cpu --heartbeat-seconds 300 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --write-traces
+[2026-05-14 11:05:53] END eval_block_projected_full
+[2026-05-14 11:05:53] START analysis_report: python scripts/analyze_env_v2_phase_n3pf_results.py --result-dir results/env_v2_phase_n3pf_block_projected_full --checkpoint-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_block_projected_s0 --noz-success 0.5633 --noz-collision 0.4367 --attention-success 0.6100 --attention-collision 0.3900 --z2-success 0.5067 --z2-collision 0.4933
+[2026-05-14 11:06:00] END analysis_report
+[2026-05-14 11:06:00] complete flag detected

@@ -1,0 +1,25 @@
+[2026-05-14 06:34:06] Phase N3P watcher started
+[2026-05-14 06:34:06] START compile: python -m py_compile envs/wrappers/gpsi_obs_wrapper.py models/gpsi_ppo_policy.py scripts/train_env_v2_gpsi_ppo_n3p.py scripts/eval_env_v2_gpsi_ppo_n3p.py scripts/analyze_env_v2_phase_n3p_results.py
+[2026-05-14 06:34:06] END compile
+[2026-05-14 06:34:06] START bash_n: bash -n scripts/watch_phase_n3p_noz_representation_ablation.sh
+[2026-05-14 06:34:06] END bash_n
+[2026-05-14 06:34:06] START train_p1_obs_delta_only: python scripts/train_env_v2_gpsi_ppo_n3p.py --config configs/env_v2_gpsi_heada_ppo_n3p_obs_delta_only.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3p_obs_delta_only_s0 --train-steps 500000 --seed 0 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-14 07:08:13] END train_p1_obs_delta_only
+[2026-05-14 07:08:13] START train_p2_logvar_scaled: python scripts/train_env_v2_gpsi_ppo_n3p.py --config configs/env_v2_gpsi_heada_ppo_n3p_logvar_scaled.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3p_logvar_scaled_s0 --train-steps 500000 --seed 0 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-14 07:42:12] END train_p2_logvar_scaled
+[2026-05-14 07:42:12] START train_p3_block_projected: python scripts/train_env_v2_gpsi_ppo_n3p.py --config configs/env_v2_gpsi_heada_ppo_n3p_block_projected.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3p_block_projected_s0 --train-steps 500000 --seed 0 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-14 08:16:26] END train_p3_block_projected
+[2026-05-14 08:16:26] START eval_p_variants: python scripts/eval_env_v2_gpsi_ppo_n3p.py --result-dir results/env_v2_phase_n3p_noz_representation_ablation --configs obs_delta_only logvar_scaled block_projected --eval-seed 1000 --num-episodes 50 --device cpu --heartbeat-seconds 300 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --write-traces
+[2026-05-14 08:28:51] RESUME watcher attaching; eval_pid=2157
+[2026-05-14 08:28:51] RESUME eval still running pid=2157
+[2026-05-14 08:30:51] RESUME eval still running pid=2157
+[2026-05-14 08:32:51] RESUME eval still running pid=2157
+[2026-05-14 08:34:51] RESUME eval still running pid=2157
+[2026-05-14 08:36:51] RESUME eval still running pid=2157
+[2026-05-14 08:38:51] RESUME eval still running pid=2157
+[2026-05-14 08:40:51] RESUME eval still running pid=2157
+[2026-05-14 08:42:51] RESUME eval still running pid=2157
+[2026-05-14 08:44:51] RESUME eval pid=2157 exited
+[2026-05-14 08:44:51] START analysis_report_resumed
+[2026-05-14 08:44:54] END analysis_report_resumed
+[2026-05-14 08:44:54] complete flag detected by resume watcher

@@ -1,0 +1,14 @@
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip --method attention_full --agg attention --seed 0 --eval_seed 1000 --episodes 5 --scenario eval_random_switch --device cpu --out_csv /root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_random_cost.csv --global_step 507904
+[2026-05-06 11:42:58] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip method=attention_full agg=attention train_seed=0 eval_seed=1000 scenario=eval_random_switch episodes=5
+[2026-05-06 11:43:00] EVAL_HEARTBEAT episodes=5/5 percent=100.00% rate= 24.33 ep/s eta=  0.00 min
+[2026-05-06 11:43:00] EVAL_SUMMARY scenario=eval_random_switch success_rate=1.0000 collision_rate=0.0000 mean_min_distance=1.4521 near_miss_rate=0.0000 mean_time=7.0000
+[2026-05-06 11:43:00] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_random_cost.csv
+
+
+$ /usr/local/miniconda3/envs/py310/bin/python eval.py --model_path /root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip --method attention_full --agg attention --seed 0 --eval_seed 1000 --episodes 50 --scenario eval_random_switch --device cpu --out_csv /root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_random_cost.csv --global_step 507904
+[2026-05-06 11:45:44] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/attention_full_s0.zip method=attention_full agg=attention train_seed=0 eval_seed=1000 scenario=eval_random_switch episodes=50
+[2026-05-06 11:45:47] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 25.22 ep/s eta=  0.00 min
+[2026-05-06 11:45:47] EVAL_SUMMARY scenario=eval_random_switch success_rate=0.9800 collision_rate=0.0200 mean_min_distance=1.2634 near_miss_rate=0.1400 mean_time=7.0360
+[2026-05-06 11:45:47] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/preflight/attention_full_s0_step507904_random_cost.csv

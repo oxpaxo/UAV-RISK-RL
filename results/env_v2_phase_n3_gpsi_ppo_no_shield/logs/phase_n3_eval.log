@@ -1,0 +1,49 @@
+[2026-05-12 14:54:32] N3_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_id episodes=50
+[2026-05-12 14:54:40] N3_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_id episodes=50/50 rate=5.79 ep/s eta=0.00 min
+[2026-05-12 14:54:40] N3_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_density episodes=50
+[2026-05-12 14:54:51] N3_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_density episodes=50/50 rate=4.76 ep/s eta=0.00 min
+[2026-05-12 14:54:51] N3_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_speed episodes=50
+[2026-05-12 14:55:00] N3_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_speed episodes=50/50 rate=5.31 ep/s eta=0.00 min
+[2026-05-12 14:55:00] N3_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_threat episodes=50
+[2026-05-12 14:55:09] N3_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_high_threat episodes=50/50 rate=5.56 ep/s eta=0.00 min
+[2026-05-12 14:55:09] N3_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-12 14:55:18] N3_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_mixed_ood episodes=50/50 rate=5.64 ep/s eta=0.00 min
+[2026-05-12 14:55:18] N3_EVAL_START method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-12 14:55:27] N3_EVAL_HEARTBEAT method=attention_full checkpoint=attention_full_1500k scenario=eval_flow_sudden_threat episodes=50/50 rate=5.41 ep/s eta=0.00 min
+[2026-05-12 14:55:27] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_id episodes=50
+[2026-05-12 14:55:46] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_id episodes=50/50 rate=2.64 ep/s eta=0.00 min
+[2026-05-12 14:55:46] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_high_density episodes=50
+[2026-05-12 14:56:07] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_high_density episodes=50/50 rate=2.46 ep/s eta=0.00 min
+[2026-05-12 14:56:07] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_high_speed episodes=50
+[2026-05-12 14:56:25] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_high_speed episodes=50/50 rate=2.74 ep/s eta=0.00 min
+[2026-05-12 14:56:25] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_high_threat episodes=50
+[2026-05-12 14:56:43] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_high_threat episodes=50/50 rate=2.74 ep/s eta=0.00 min
+[2026-05-12 14:56:43] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-12 14:57:01] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_mixed_ood episodes=50/50 rate=2.74 ep/s eta=0.00 min
+[2026-05-12 14:57:01] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-12 14:57:20] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_500k scenario=eval_flow_sudden_threat episodes=50/50 rate=2.70 ep/s eta=0.00 min
+[2026-05-12 14:57:20] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_id episodes=50
+[2026-05-12 14:57:39] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_id episodes=50/50 rate=2.64 ep/s eta=0.00 min
+[2026-05-12 14:57:39] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_high_density episodes=50
+[2026-05-12 14:58:00] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_high_density episodes=50/50 rate=2.40 ep/s eta=0.00 min
+[2026-05-12 14:58:00] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_high_speed episodes=50
+[2026-05-12 14:58:18] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_high_speed episodes=50/50 rate=2.71 ep/s eta=0.00 min
+[2026-05-12 14:58:18] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_high_threat episodes=50
+[2026-05-12 14:58:37] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_high_threat episodes=50/50 rate=2.66 ep/s eta=0.00 min
+[2026-05-12 14:58:37] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-12 14:58:55] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_mixed_ood episodes=50/50 rate=2.74 ep/s eta=0.00 min
+[2026-05-12 14:58:55] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-12 14:59:15] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1000k scenario=eval_flow_sudden_threat episodes=50/50 rate=2.58 ep/s eta=0.00 min
+[2026-05-12 14:59:15] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_id episodes=50
+[2026-05-12 14:59:34] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_id episodes=50/50 rate=2.54 ep/s eta=0.00 min
+[2026-05-12 14:59:34] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_high_density episodes=50
+[2026-05-12 14:59:54] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_high_density episodes=50/50 rate=2.48 ep/s eta=0.00 min
+[2026-05-12 14:59:54] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_high_speed episodes=50
+[2026-05-12 15:00:14] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_high_speed episodes=50/50 rate=2.55 ep/s eta=0.00 min
+[2026-05-12 15:00:14] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_high_threat episodes=50
+[2026-05-12 15:00:33] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_high_threat episodes=50/50 rate=2.58 ep/s eta=0.00 min
+[2026-05-12 15:00:33] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_mixed_ood episodes=50
+[2026-05-12 15:00:52] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_mixed_ood episodes=50/50 rate=2.75 ep/s eta=0.00 min
+[2026-05-12 15:00:52] N3_EVAL_START method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_sudden_threat episodes=50
+[2026-05-12 15:01:11] N3_EVAL_HEARTBEAT method=gpsi_heada_ppo_no_shield checkpoint=gpsi_ppo_1500k scenario=eval_flow_sudden_threat episodes=50/50 rate=2.55 ep/s eta=0.00 min
+[2026-05-12 15:01:16] N3_EVAL_END episodes=1200 raw_steps=123673 gpsi_steps=90546

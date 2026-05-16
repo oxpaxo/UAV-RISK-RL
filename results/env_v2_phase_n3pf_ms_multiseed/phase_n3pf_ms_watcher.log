@@ -1,0 +1,14 @@
+[2026-05-15 18:46:29] START py_compile: python -m py_compile scripts/train_env_v2_gpsi_ppo_n3pf_ms.py scripts/eval_env_v2_gpsi_ppo_n3pf_ms.py scripts/analyze_env_v2_phase_n3pf_ms_results.py
+[2026-05-15 18:46:29] END py_compile rc=0
+[2026-05-15 18:46:29] START validate_seed1: python scripts/train_env_v2_gpsi_ppo_n3pf_ms.py --config configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s1 --train-steps 1500000 --checkpoint-steps 250000 500000 750000 1000000 1250000 1500000 --seed 1 --n-envs 4 --device cpu --validate-only
+[2026-05-15 18:46:35] END validate_seed1 rc=0
+[2026-05-15 18:46:35] START validate_seed2: python scripts/train_env_v2_gpsi_ppo_n3pf_ms.py --config configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s2 --train-steps 1500000 --checkpoint-steps 250000 500000 750000 1000000 1250000 1500000 --seed 2 --n-envs 4 --device cpu --validate-only
+[2026-05-15 18:46:40] END validate_seed2 rc=0
+[2026-05-15 18:46:40] launching seed1/seed2 training in parallel
+[2026-05-15 18:46:40] train PIDs seed1=1197 seed2=1198
+[2026-05-15 20:29:31] training finished rc_seed1=0 rc_seed2=0
+[2026-05-15 20:29:31] START eval: python -u scripts/eval_env_v2_gpsi_ppo_n3pf_ms.py --result-dir results/env_v2_phase_n3pf_ms_multiseed --training-seeds 1 2 --eval-seeds 1000 1001 1002 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --device cpu --heartbeat-seconds 300
+[2026-05-15 21:16:27] END eval rc=0
+[2026-05-15 21:16:27] START analysis: python -u scripts/analyze_env_v2_phase_n3pf_ms_results.py --result-dir results/env_v2_phase_n3pf_ms_multiseed --expected-training-seeds 1 2 --expected-eval-seeds 1000 1001 1002 --expected-episodes 50
+[2026-05-15 21:16:29] END analysis rc=0
+[2026-05-15 21:16:29] complete flag detected

@@ -1,0 +1,3 @@
+[2026-05-15 18:46:35] START validate_seed2: python scripts/train_env_v2_gpsi_ppo_n3pf_ms.py --config configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s2 --train-steps 1500000 --checkpoint-steps 250000 500000 750000 1000000 1250000 1500000 --seed 2 --n-envs 4 --device cpu --validate-only
+[2026-05-15 18:46:39] N3PF_MS_VALIDATE_OK seed=2 config=configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml n_envs=4 device=cpu
+[2026-05-15 18:46:40] END validate_seed2 rc=0

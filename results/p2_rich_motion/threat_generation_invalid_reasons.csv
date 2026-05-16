@@ -1,0 +1,5 @@
+stage,scenario,invalid_reason,count,rate
+patched_random_policy,eval_mixed_v2,none,50,1.0
+patched_random_policy,eval_threat_validated_sudden,none,50,1.0
+patched_short_ppo,eval_mixed_v2,none,50,1.0
+patched_short_ppo,eval_threat_validated_sudden,none,50,1.0

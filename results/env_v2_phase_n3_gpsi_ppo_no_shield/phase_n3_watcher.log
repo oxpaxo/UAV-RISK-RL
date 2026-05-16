@@ -1,0 +1,10 @@
+[watcher] Phase N3 watcher started 2026-05-12T13:28:13+00:00
+[watcher] running stage=smoke command=python scripts/train_env_v2_gpsi_ppo.py --config configs/env_v2_gpsi_heada_attention_ppo_v1.yaml --gpsi-checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir checkpoints/env_v2_gpsi_heada_ppo_s0_smoke --train-steps 2048 --checkpoint-steps 2048 --seed 0 --smoke-test --heartbeat-seconds 5
+[watcher] stage complete: smoke
+[watcher] running stage=formal_train command=python scripts/train_env_v2_gpsi_ppo.py --config configs/env_v2_gpsi_heada_attention_ppo_v1.yaml --gpsi-checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --out-dir checkpoints/env_v2_gpsi_heada_ppo_s0 --train-steps 1500000 --checkpoint-steps 250000 500000 1000000 1500000 --seed 0 --heartbeat-seconds 60
+[watcher] stage complete: formal_train
+[watcher] running stage=eval command=python scripts/eval_env_v2_gpsi_ppo.py --gpsi-checkpoint work_dirs/gpsi_heada_v1_nll/best.pth --ppo-checkpoints checkpoints/env_v2_gpsi_heada_ppo_s0/checkpoint_500k.zip checkpoints/env_v2_gpsi_heada_ppo_s0/checkpoint_1000k.zip checkpoints/env_v2_gpsi_heada_ppo_s0/checkpoint_1500k.zip --attention-checkpoint checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip --out-dir results/env_v2_phase_n3_gpsi_ppo_no_shield --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --num-episodes 50 --eval-seed 1000 --write-traces --raw-unsafe-diagnostics --gpsi-output-diagnostics --heartbeat-seconds 30
+[watcher] stage complete: eval
+[watcher] running stage=analysis command=python scripts/analyze_env_v2_phase_n3_results.py --result-dir results/env_v2_phase_n3_gpsi_ppo_no_shield
+[watcher] stage complete: analysis
+[watcher] complete flag detected

@@ -1,0 +1,2 @@
+[2026-05-14 04:30:28] START analysis_report: python scripts/analyze_env_v2_phase_n3z2cf_results.py --result-dir results/env_v2_phase_n3z2cf_corrected_z2_full --checkpoint-dir checkpoints/env_v2_gpsi_heada_ppo_n3z2cf_layernorm_alpha0p5_s0 --noz-success 0.5633 --noz-collision 0.4367 --attention-success 0.6100 --attention-collision 0.3900 --old-z2c-success 0.4500 --old-z2c-collision 0.5500
+[2026-05-14 04:30:33] END analysis_report

@@ -1,0 +1,4 @@
+method_key,method,config,checkpoint_dir,obs_aug_dim,include_z,normalize_z,z_stats_path,train_steps,seed,no_shield,use_safety_cost
+raw_z,gpsi_full_raw_z_repaired,configs/env_v2_gpsi_heada_ppo_n3r_raw_z.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3r_raw_z_s0,94,1,0,,500000,0,1,0
+z_norm,gpsi_full_z_norm_repaired,configs/env_v2_gpsi_heada_ppo_n3r_z_norm.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3r_z_norm_s0,94,1,1,work_dirs/gpsi_heada_v1_nll/z_stats_train_split.npz,500000,0,1,0
+no_z,gpsi_no_z_repaired,configs/env_v2_gpsi_heada_ppo_n3r_no_z.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3r_no_z_s0,30,0,0,,500000,0,1,0

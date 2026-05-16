@@ -1,0 +1,2892 @@
+[2026-05-13 10:36:28] N3FZ_TRAIN_CONFIG config=z_l2_scale_4 steps=500000 seed=0 n_envs=4 device=cpu out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0 no_shield=true action_filtering=false safety_cost=false
+Using cpu device
+Logging to /root/workspace/uav-risk-rl/checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0/tensorboard/PPO_1
+[2026-05-13 10:36:30] N3FZ_TRAIN_START config=z_l2_scale_4 total_steps=500000 start_num_timesteps=0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 500      |
+|    ep_rew_mean     | -31.6    |
+|    success_rate    | 0        |
+| time/              |          |
+|    fps             | 263      |
+|    iterations      | 1        |
+|    time_elapsed    | 15       |
+|    total_timesteps | 4096     |
+---------------------------------
+[2026-05-13 10:37:00] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=7512/500000 percent=  1.50% rate=   250.3 step/s eta=  32.79 min recent_reward=-25.573
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 500        |
+|    ep_rew_mean          | -22.2      |
+|    success_rate         | 0          |
+| time/                   |            |
+|    fps                  | 251        |
+|    iterations           | 2          |
+|    time_elapsed         | 32         |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.01737881 |
+|    clip_fraction        | 0.238      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.24      |
+|    explained_variance   | 0.00958    |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.105      |
+|    n_updates            | 10         |
+|    policy_gradient_loss | -0.0302    |
+|    std                  | 0.991      |
+|    value_loss           | 0.399      |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 472         |
+|    ep_rew_mean          | -16.3       |
+|    success_rate         | 0           |
+| time/                   |             |
+|    fps                  | 248         |
+|    iterations           | 3           |
+|    time_elapsed         | 49          |
+|    total_timesteps      | 12288       |
+| train/                  |             |
+|    approx_kl            | 0.021550866 |
+|    clip_fraction        | 0.292       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.2        |
+|    explained_variance   | 0.0843      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.13        |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.0396     |
+|    std                  | 0.974       |
+|    value_loss           | 0.497       |
+-----------------------------------------
+[2026-05-13 10:37:30] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=14524/500000 percent=  2.90% rate=   242.0 step/s eta=  33.44 min recent_reward=-11.874
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 397         |
+|    ep_rew_mean          | -7.73       |
+|    success_rate         | 0.025       |
+| time/                   |             |
+|    fps                  | 246         |
+|    iterations           | 4           |
+|    time_elapsed         | 66          |
+|    total_timesteps      | 16384       |
+| train/                  |             |
+|    approx_kl            | 0.014682391 |
+|    clip_fraction        | 0.213       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.17       |
+|    explained_variance   | 0.0814      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.426       |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.0211     |
+|    std                  | 0.969       |
+|    value_loss           | 1.03        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 340         |
+|    ep_rew_mean          | -1.06       |
+|    success_rate         | 0.0847      |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 5           |
+|    time_elapsed         | 83          |
+|    total_timesteps      | 20480       |
+| train/                  |             |
+|    approx_kl            | 0.013077602 |
+|    clip_fraction        | 0.139       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.529       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.545       |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0142     |
+|    std                  | 0.963       |
+|    value_loss           | 1.45        |
+-----------------------------------------
+[2026-05-13 10:38:00] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=21792/500000 percent=  4.36% rate=   242.0 step/s eta=  32.93 min recent_reward=8.091
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 299         |
+|    ep_rew_mean          | 3.14        |
+|    success_rate         | 0.123       |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 6           |
+|    time_elapsed         | 100         |
+|    total_timesteps      | 24576       |
+| train/                  |             |
+|    approx_kl            | 0.013037417 |
+|    clip_fraction        | 0.147       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.14       |
+|    explained_variance   | 0.567       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.58        |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.0134     |
+|    std                  | 0.96        |
+|    value_loss           | 2.93        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 246         |
+|    ep_rew_mean          | 7.45        |
+|    success_rate         | 0.12        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 7           |
+|    time_elapsed         | 117         |
+|    total_timesteps      | 28672       |
+| train/                  |             |
+|    approx_kl            | 0.008216062 |
+|    clip_fraction        | 0.0796      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.12       |
+|    explained_variance   | 0.491       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.51        |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.0074     |
+|    std                  | 0.955       |
+|    value_loss           | 4.18        |
+-----------------------------------------
+[2026-05-13 10:38:30] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=28920/500000 percent=  5.78% rate=   240.9 step/s eta=  32.59 min recent_reward=12.110
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 180         |
+|    ep_rew_mean          | 13.6        |
+|    success_rate         | 0.2         |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 8           |
+|    time_elapsed         | 133         |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.010375154 |
+|    clip_fraction        | 0.0925      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.12       |
+|    explained_variance   | 0.59        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.53        |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.00854    |
+|    std                  | 0.957       |
+|    value_loss           | 4.22        |
+-----------------------------------------
+[2026-05-13 10:39:00] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=36748/500000 percent=  7.35% rate=   244.9 step/s eta=  31.53 min recent_reward=15.220
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 158         |
+|    ep_rew_mean          | 13.9        |
+|    success_rate         | 0.16        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 9           |
+|    time_elapsed         | 150         |
+|    total_timesteps      | 36864       |
+| train/                  |             |
+|    approx_kl            | 0.008235933 |
+|    clip_fraction        | 0.0683      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.11       |
+|    explained_variance   | 0.581       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.5         |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.0054     |
+|    std                  | 0.953       |
+|    value_loss           | 5.98        |
+-----------------------------------------
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 140       |
+|    ep_rew_mean          | 14.1      |
+|    success_rate         | 0.17      |
+| time/                   |           |
+|    fps                  | 244       |
+|    iterations           | 10        |
+|    time_elapsed         | 167       |
+|    total_timesteps      | 40960     |
+| train/                  |           |
+|    approx_kl            | 0.0102602 |
+|    clip_fraction        | 0.0761    |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -4.1      |
+|    explained_variance   | 0.724     |
+|    learning_rate        | 0.0003    |
+|    loss                 | 1.86      |
+|    n_updates            | 90        |
+|    policy_gradient_loss | -0.00528  |
+|    std                  | 0.953     |
+|    value_loss           | 3.97      |
+---------------------------------------
+[2026-05-13 10:39:30] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=43784/500000 percent=  8.76% rate=   243.2 step/s eta=  31.27 min recent_reward=14.614
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 134          |
+|    ep_rew_mean          | 14.8         |
+|    success_rate         | 0.2          |
+| time/                   |              |
+|    fps                  | 243          |
+|    iterations           | 11           |
+|    time_elapsed         | 184          |
+|    total_timesteps      | 45056        |
+| train/                  |              |
+|    approx_kl            | 0.0061761094 |
+|    clip_fraction        | 0.0763       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.1         |
+|    explained_variance   | 0.636        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 4.42         |
+|    n_updates            | 100          |
+|    policy_gradient_loss | -0.00708     |
+|    std                  | 0.951        |
+|    value_loss           | 7.58         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 133         |
+|    ep_rew_mean          | 15.8        |
+|    success_rate         | 0.24        |
+| time/                   |             |
+|    fps                  | 243         |
+|    iterations           | 12          |
+|    time_elapsed         | 201         |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.008363333 |
+|    clip_fraction        | 0.0828      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.1        |
+|    explained_variance   | 0.344       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.92        |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.00574    |
+|    std                  | 0.953       |
+|    value_loss           | 8.24        |
+-----------------------------------------
+[2026-05-13 10:40:00] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=50776/500000 percent= 10.16% rate=   241.7 step/s eta=  30.97 min recent_reward=17.779
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 137         |
+|    ep_rew_mean          | 16.9        |
+|    success_rate         | 0.26        |
+| time/                   |             |
+|    fps                  | 242         |
+|    iterations           | 13          |
+|    time_elapsed         | 219         |
+|    total_timesteps      | 53248       |
+| train/                  |             |
+|    approx_kl            | 0.006505196 |
+|    clip_fraction        | 0.0609      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.1        |
+|    explained_variance   | 0.561       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.98        |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.00662    |
+|    std                  | 0.95        |
+|    value_loss           | 6.2         |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 138         |
+|    ep_rew_mean          | 17.4        |
+|    success_rate         | 0.28        |
+| time/                   |             |
+|    fps                  | 242         |
+|    iterations           | 14          |
+|    time_elapsed         | 236         |
+|    total_timesteps      | 57344       |
+| train/                  |             |
+|    approx_kl            | 0.008558985 |
+|    clip_fraction        | 0.0899      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.09       |
+|    explained_variance   | 0.61        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.32        |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.00573    |
+|    std                  | 0.948       |
+|    value_loss           | 6.36        |
+-----------------------------------------
+[2026-05-13 10:40:30] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=57868/500000 percent= 11.57% rate=   241.0 step/s eta=  30.57 min recent_reward=16.695
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 138         |
+|    ep_rew_mean          | 17.8        |
+|    success_rate         | 0.29        |
+| time/                   |             |
+|    fps                  | 242         |
+|    iterations           | 15          |
+|    time_elapsed         | 253         |
+|    total_timesteps      | 61440       |
+| train/                  |             |
+|    approx_kl            | 0.010873884 |
+|    clip_fraction        | 0.106       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.555       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.71        |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.00785    |
+|    std                  | 0.944       |
+|    value_loss           | 6.28        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 135         |
+|    ep_rew_mean          | 18.3        |
+|    success_rate         | 0.31        |
+| time/                   |             |
+|    fps                  | 243         |
+|    iterations           | 16          |
+|    time_elapsed         | 269         |
+|    total_timesteps      | 65536       |
+| train/                  |             |
+|    approx_kl            | 0.007069018 |
+|    clip_fraction        | 0.0959      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.476       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.93        |
+|    n_updates            | 150         |
+|    policy_gradient_loss | -0.00414    |
+|    std                  | 0.943       |
+|    value_loss           | 8.88        |
+-----------------------------------------
+[2026-05-13 10:41:02] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=65540/500000 percent= 13.11% rate=   241.2 step/s eta=  30.02 min recent_reward=18.886
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 132         |
+|    ep_rew_mean          | 18.9        |
+|    success_rate         | 0.32        |
+| time/                   |             |
+|    fps                  | 243         |
+|    iterations           | 17          |
+|    time_elapsed         | 286         |
+|    total_timesteps      | 69632       |
+| train/                  |             |
+|    approx_kl            | 0.008552765 |
+|    clip_fraction        | 0.0834      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.505       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.1         |
+|    n_updates            | 160         |
+|    policy_gradient_loss | -0.00652    |
+|    std                  | 0.944       |
+|    value_loss           | 8.23        |
+-----------------------------------------
+[2026-05-13 10:41:32] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=73392/500000 percent= 14.68% rate=   243.2 step/s eta=  29.23 min recent_reward=20.832
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 132         |
+|    ep_rew_mean          | 19.5        |
+|    success_rate         | 0.33        |
+| time/                   |             |
+|    fps                  | 243         |
+|    iterations           | 18          |
+|    time_elapsed         | 302         |
+|    total_timesteps      | 73728       |
+| train/                  |             |
+|    approx_kl            | 0.009188818 |
+|    clip_fraction        | 0.101       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.597       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.73        |
+|    n_updates            | 170         |
+|    policy_gradient_loss | -0.00747    |
+|    std                  | 0.942       |
+|    value_loss           | 6.98        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 133          |
+|    ep_rew_mean          | 20.8         |
+|    success_rate         | 0.37         |
+| time/                   |              |
+|    fps                  | 243          |
+|    iterations           | 19           |
+|    time_elapsed         | 319          |
+|    total_timesteps      | 77824        |
+| train/                  |              |
+|    approx_kl            | 0.0102732545 |
+|    clip_fraction        | 0.111        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.07        |
+|    explained_variance   | 0.497        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 3.44         |
+|    n_updates            | 180          |
+|    policy_gradient_loss | -0.00536     |
+|    std                  | 0.942        |
+|    value_loss           | 8.33         |
+------------------------------------------
+[2026-05-13 10:42:02] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=80716/500000 percent= 16.14% rate=   243.3 step/s eta=  28.72 min recent_reward=21.365
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 134         |
+|    ep_rew_mean          | 21.6        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 243         |
+|    iterations           | 20          |
+|    time_elapsed         | 336         |
+|    total_timesteps      | 81920       |
+| train/                  |             |
+|    approx_kl            | 0.008968026 |
+|    clip_fraction        | 0.0979      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.494       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.24        |
+|    n_updates            | 190         |
+|    policy_gradient_loss | -0.00332    |
+|    std                  | 0.942       |
+|    value_loss           | 7.07        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 133          |
+|    ep_rew_mean          | 20.9         |
+|    success_rate         | 0.34         |
+| time/                   |              |
+|    fps                  | 243          |
+|    iterations           | 21           |
+|    time_elapsed         | 352          |
+|    total_timesteps      | 86016        |
+| train/                  |              |
+|    approx_kl            | 0.0075321076 |
+|    clip_fraction        | 0.0974       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.08        |
+|    explained_variance   | 0.674        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.76         |
+|    n_updates            | 200          |
+|    policy_gradient_loss | -0.00713     |
+|    std                  | 0.946        |
+|    value_loss           | 6.09         |
+------------------------------------------
+[2026-05-13 10:42:32] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=88056/500000 percent= 17.61% rate=   243.4 step/s eta=  28.21 min recent_reward=19.709
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 130          |
+|    ep_rew_mean          | 19.7         |
+|    success_rate         | 0.29         |
+| time/                   |              |
+|    fps                  | 244          |
+|    iterations           | 22           |
+|    time_elapsed         | 369          |
+|    total_timesteps      | 90112        |
+| train/                  |              |
+|    approx_kl            | 0.0074075973 |
+|    clip_fraction        | 0.0895       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.08        |
+|    explained_variance   | 0.651        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 4.48         |
+|    n_updates            | 210          |
+|    policy_gradient_loss | -0.0032      |
+|    std                  | 0.946        |
+|    value_loss           | 6.84         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 130         |
+|    ep_rew_mean          | 21.6        |
+|    success_rate         | 0.37        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 23          |
+|    time_elapsed         | 385         |
+|    total_timesteps      | 94208       |
+| train/                  |             |
+|    approx_kl            | 0.008324406 |
+|    clip_fraction        | 0.093       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.575       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.14        |
+|    n_updates            | 220         |
+|    policy_gradient_loss | -0.00598    |
+|    std                  | 0.942       |
+|    value_loss           | 8.82        |
+-----------------------------------------
+[2026-05-13 10:43:02] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=95488/500000 percent= 19.10% rate=   243.7 step/s eta=  27.66 min recent_reward=23.294
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 125        |
+|    ep_rew_mean          | 20.6       |
+|    success_rate         | 0.34       |
+| time/                   |            |
+|    fps                  | 244        |
+|    iterations           | 24         |
+|    time_elapsed         | 401        |
+|    total_timesteps      | 98304      |
+| train/                  |            |
+|    approx_kl            | 0.00931762 |
+|    clip_fraction        | 0.0923     |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.07      |
+|    explained_variance   | 0.478      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 2.58       |
+|    n_updates            | 230        |
+|    policy_gradient_loss | -0.00417   |
+|    std                  | 0.94       |
+|    value_loss           | 7.38       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 121         |
+|    ep_rew_mean          | 20.8        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 25          |
+|    time_elapsed         | 418         |
+|    total_timesteps      | 102400      |
+| train/                  |             |
+|    approx_kl            | 0.013534687 |
+|    clip_fraction        | 0.107       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.52        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.7         |
+|    n_updates            | 240         |
+|    policy_gradient_loss | -0.00394    |
+|    std                  | 0.941       |
+|    value_loss           | 9.5         |
+-----------------------------------------
+[2026-05-13 10:43:32] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=102812/500000 percent= 20.56% rate=   243.8 step/s eta=  27.16 min recent_reward=19.859
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 122        |
+|    ep_rew_mean          | 20.3       |
+|    success_rate         | 0.31       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 26         |
+|    time_elapsed         | 434        |
+|    total_timesteps      | 106496     |
+| train/                  |            |
+|    approx_kl            | 0.00814816 |
+|    clip_fraction        | 0.0848     |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.07      |
+|    explained_variance   | 0.491      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 4.56       |
+|    n_updates            | 250        |
+|    policy_gradient_loss | -0.00532   |
+|    std                  | 0.942      |
+|    value_loss           | 10.8       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 21.4        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 27          |
+|    time_elapsed         | 451         |
+|    total_timesteps      | 110592      |
+| train/                  |             |
+|    approx_kl            | 0.012012229 |
+|    clip_fraction        | 0.115       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.651       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.09        |
+|    n_updates            | 260         |
+|    policy_gradient_loss | -0.00682    |
+|    std                  | 0.938       |
+|    value_loss           | 5.79        |
+-----------------------------------------
+[2026-05-13 10:44:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=110596/500000 percent= 22.12% rate=   243.9 step/s eta=  26.61 min recent_reward=23.699
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 124        |
+|    ep_rew_mean          | 21.6       |
+|    success_rate         | 0.33       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 28         |
+|    time_elapsed         | 468        |
+|    total_timesteps      | 114688     |
+| train/                  |            |
+|    approx_kl            | 0.01921229 |
+|    clip_fraction        | 0.175      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.05      |
+|    explained_variance   | 0.424      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 3.66       |
+|    n_updates            | 270        |
+|    policy_gradient_loss | -0.00598   |
+|    std                  | 0.936      |
+|    value_loss           | 9.89       |
+----------------------------------------
+[2026-05-13 10:44:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=118356/500000 percent= 23.67% rate=   244.8 step/s eta=  25.98 min recent_reward=19.176
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 118        |
+|    ep_rew_mean          | 20.2       |
+|    success_rate         | 0.29       |
+| time/                   |            |
+|    fps                  | 244        |
+|    iterations           | 29         |
+|    time_elapsed         | 484        |
+|    total_timesteps      | 118784     |
+| train/                  |            |
+|    approx_kl            | 0.00870339 |
+|    clip_fraction        | 0.108      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.05      |
+|    explained_variance   | 0.62       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 4.11       |
+|    n_updates            | 280        |
+|    policy_gradient_loss | -0.00367   |
+|    std                  | 0.936      |
+|    value_loss           | 7.41       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 119         |
+|    ep_rew_mean          | 20.5        |
+|    success_rate         | 0.28        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 30          |
+|    time_elapsed         | 502         |
+|    total_timesteps      | 122880      |
+| train/                  |             |
+|    approx_kl            | 0.015008328 |
+|    clip_fraction        | 0.125       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.644       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.85        |
+|    n_updates            | 290         |
+|    policy_gradient_loss | -0.00383    |
+|    std                  | 0.939       |
+|    value_loss           | 8.41        |
+-----------------------------------------
+[2026-05-13 10:45:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=125508/500000 percent= 25.10% rate=   244.5 step/s eta=  25.53 min recent_reward=21.631
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 120        |
+|    ep_rew_mean          | 21.3       |
+|    success_rate         | 0.29       |
+| time/                   |            |
+|    fps                  | 244        |
+|    iterations           | 31         |
+|    time_elapsed         | 518        |
+|    total_timesteps      | 126976     |
+| train/                  |            |
+|    approx_kl            | 0.01088427 |
+|    clip_fraction        | 0.108      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.07      |
+|    explained_variance   | 0.64       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 2.98       |
+|    n_updates            | 300        |
+|    policy_gradient_loss | -0.0041    |
+|    std                  | 0.941      |
+|    value_loss           | 7.56       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 22.4        |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 32          |
+|    time_elapsed         | 535         |
+|    total_timesteps      | 131072      |
+| train/                  |             |
+|    approx_kl            | 0.011200291 |
+|    clip_fraction        | 0.122       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.717       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.09        |
+|    n_updates            | 310         |
+|    policy_gradient_loss | 0.00191     |
+|    std                  | 0.944       |
+|    value_loss           | 5.81        |
+-----------------------------------------
+[2026-05-13 10:45:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=132848/500000 percent= 26.57% rate=   244.5 step/s eta=  25.03 min recent_reward=23.875
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 22.5        |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 33          |
+|    time_elapsed         | 551         |
+|    total_timesteps      | 135168      |
+| train/                  |             |
+|    approx_kl            | 0.011341559 |
+|    clip_fraction        | 0.141       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.547       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.32        |
+|    n_updates            | 320         |
+|    policy_gradient_loss | -0.00158    |
+|    std                  | 0.941       |
+|    value_loss           | 8.59        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 117          |
+|    ep_rew_mean          | 21.2         |
+|    success_rate         | 0.29         |
+| time/                   |              |
+|    fps                  | 245          |
+|    iterations           | 34           |
+|    time_elapsed         | 568          |
+|    total_timesteps      | 139264       |
+| train/                  |              |
+|    approx_kl            | 0.0127613135 |
+|    clip_fraction        | 0.116        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.07        |
+|    explained_variance   | 0.642        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 3.08         |
+|    n_updates            | 330          |
+|    policy_gradient_loss | -0.00291     |
+|    std                  | 0.941        |
+|    value_loss           | 7.66         |
+------------------------------------------
+[2026-05-13 10:46:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=140124/500000 percent= 28.02% rate=   244.4 step/s eta=  24.55 min recent_reward=20.211
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 117         |
+|    ep_rew_mean          | 21.4        |
+|    success_rate         | 0.3         |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 35          |
+|    time_elapsed         | 585         |
+|    total_timesteps      | 143360      |
+| train/                  |             |
+|    approx_kl            | 0.010114375 |
+|    clip_fraction        | 0.0969      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.681       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.31        |
+|    n_updates            | 340         |
+|    policy_gradient_loss | -0.00516    |
+|    std                  | 0.942       |
+|    value_loss           | 7.04        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 117         |
+|    ep_rew_mean          | 21.9        |
+|    success_rate         | 0.31        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 36          |
+|    time_elapsed         | 601         |
+|    total_timesteps      | 147456      |
+| train/                  |             |
+|    approx_kl            | 0.010587125 |
+|    clip_fraction        | 0.123       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.558       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.05        |
+|    n_updates            | 350         |
+|    policy_gradient_loss | -0.00382    |
+|    std                  | 0.939       |
+|    value_loss           | 8.27        |
+-----------------------------------------
+[2026-05-13 10:46:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=147460/500000 percent= 29.49% rate=   244.2 step/s eta=  24.06 min recent_reward=21.864
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 118         |
+|    ep_rew_mean          | 23.1        |
+|    success_rate         | 0.35        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 37          |
+|    time_elapsed         | 618         |
+|    total_timesteps      | 151552      |
+| train/                  |             |
+|    approx_kl            | 0.010994444 |
+|    clip_fraction        | 0.157       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.665       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.29        |
+|    n_updates            | 360         |
+|    policy_gradient_loss | -0.00447    |
+|    std                  | 0.942       |
+|    value_loss           | 6.5         |
+-----------------------------------------
+[2026-05-13 10:47:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=155256/500000 percent= 31.05% rate=   244.9 step/s eta=  23.46 min recent_reward=22.539
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 23          |
+|    success_rate         | 0.31        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 38          |
+|    time_elapsed         | 635         |
+|    total_timesteps      | 155648      |
+| train/                  |             |
+|    approx_kl            | 0.010575452 |
+|    clip_fraction        | 0.103       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.647       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.67        |
+|    n_updates            | 370         |
+|    policy_gradient_loss | -0.00352    |
+|    std                  | 0.944       |
+|    value_loss           | 7.52        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 114         |
+|    ep_rew_mean          | 22.5        |
+|    success_rate         | 0.33        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 39          |
+|    time_elapsed         | 652         |
+|    total_timesteps      | 159744      |
+| train/                  |             |
+|    approx_kl            | 0.014191069 |
+|    clip_fraction        | 0.173       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.718       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.33        |
+|    n_updates            | 380         |
+|    policy_gradient_loss | 0.000368    |
+|    std                  | 0.948       |
+|    value_loss           | 6.49        |
+-----------------------------------------
+[2026-05-13 10:47:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=162520/500000 percent= 32.50% rate=   244.8 step/s eta=  22.98 min recent_reward=21.223
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 114        |
+|    ep_rew_mean          | 22.2       |
+|    success_rate         | 0.32       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 40         |
+|    time_elapsed         | 668        |
+|    total_timesteps      | 163840     |
+| train/                  |            |
+|    approx_kl            | 0.01478802 |
+|    clip_fraction        | 0.176      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.08      |
+|    explained_variance   | 0.53       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 3.53       |
+|    n_updates            | 390        |
+|    policy_gradient_loss | -0.00205   |
+|    std                  | 0.948      |
+|    value_loss           | 8.9        |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 22.2        |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 41          |
+|    time_elapsed         | 685         |
+|    total_timesteps      | 167936      |
+| train/                  |             |
+|    approx_kl            | 0.011768734 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.641       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.13        |
+|    n_updates            | 400         |
+|    policy_gradient_loss | -0.00394    |
+|    std                  | 0.942       |
+|    value_loss           | 6.76        |
+-----------------------------------------
+[2026-05-13 10:48:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=169888/500000 percent= 33.98% rate=   244.8 step/s eta=  22.47 min recent_reward=22.486
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 117         |
+|    ep_rew_mean          | 22.4        |
+|    success_rate         | 0.33        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 42          |
+|    time_elapsed         | 701         |
+|    total_timesteps      | 172032      |
+| train/                  |             |
+|    approx_kl            | 0.009844763 |
+|    clip_fraction        | 0.0966      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.649       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.92        |
+|    n_updates            | 410         |
+|    policy_gradient_loss | -0.00259    |
+|    std                  | 0.945       |
+|    value_loss           | 6.98        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 119         |
+|    ep_rew_mean          | 23.2        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 43          |
+|    time_elapsed         | 718         |
+|    total_timesteps      | 176128      |
+| train/                  |             |
+|    approx_kl            | 0.008793733 |
+|    clip_fraction        | 0.0936      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.638       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.6         |
+|    n_updates            | 420         |
+|    policy_gradient_loss | -0.00378    |
+|    std                  | 0.944       |
+|    value_loss           | 7.54        |
+-----------------------------------------
+[2026-05-13 10:48:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=177164/500000 percent= 35.43% rate=   244.7 step/s eta=  21.98 min recent_reward=23.920
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 122         |
+|    ep_rew_mean          | 23.5        |
+|    success_rate         | 0.35        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 44          |
+|    time_elapsed         | 734         |
+|    total_timesteps      | 180224      |
+| train/                  |             |
+|    approx_kl            | 0.010852507 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.631       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.39        |
+|    n_updates            | 430         |
+|    policy_gradient_loss | -0.00396    |
+|    std                  | 0.947       |
+|    value_loss           | 6.41        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 123        |
+|    ep_rew_mean          | 24.2       |
+|    success_rate         | 0.36       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 45         |
+|    time_elapsed         | 751        |
+|    total_timesteps      | 184320     |
+| train/                  |            |
+|    approx_kl            | 0.01081975 |
+|    clip_fraction        | 0.115      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.06      |
+|    explained_variance   | 0.793      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.21       |
+|    n_updates            | 440        |
+|    policy_gradient_loss | -0.00167   |
+|    std                  | 0.938      |
+|    value_loss           | 4.41       |
+----------------------------------------
+[2026-05-13 10:49:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=184400/500000 percent= 36.88% rate=   244.6 step/s eta=  21.50 min recent_reward=23.582
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 24.7        |
+|    success_rate         | 0.39        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 46          |
+|    time_elapsed         | 768         |
+|    total_timesteps      | 188416      |
+| train/                  |             |
+|    approx_kl            | 0.014674285 |
+|    clip_fraction        | 0.168       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.715       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.18        |
+|    n_updates            | 450         |
+|    policy_gradient_loss | -0.000616   |
+|    std                  | 0.948       |
+|    value_loss           | 6.09        |
+-----------------------------------------
+[2026-05-13 10:49:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=192136/500000 percent= 38.43% rate=   245.1 step/s eta=  20.93 min recent_reward=28.998
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 119         |
+|    ep_rew_mean          | 26.8        |
+|    success_rate         | 0.49        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 47          |
+|    time_elapsed         | 785         |
+|    total_timesteps      | 192512      |
+| train/                  |             |
+|    approx_kl            | 0.009863076 |
+|    clip_fraction        | 0.108       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.602       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.78        |
+|    n_updates            | 460         |
+|    policy_gradient_loss | -0.00498    |
+|    std                  | 0.945       |
+|    value_loss           | 7.64        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 116         |
+|    ep_rew_mean          | 26.3        |
+|    success_rate         | 0.49        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 48          |
+|    time_elapsed         | 801         |
+|    total_timesteps      | 196608      |
+| train/                  |             |
+|    approx_kl            | 0.011182134 |
+|    clip_fraction        | 0.151       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.512       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.65        |
+|    n_updates            | 470         |
+|    policy_gradient_loss | -0.00548    |
+|    std                  | 0.94        |
+|    value_loss           | 6.89        |
+-----------------------------------------
+[2026-05-13 10:50:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=199592/500000 percent= 39.92% rate=   245.2 step/s eta=  20.42 min recent_reward=23.144
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 24.3        |
+|    success_rate         | 0.41        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 49          |
+|    time_elapsed         | 817         |
+|    total_timesteps      | 200704      |
+| train/                  |             |
+|    approx_kl            | 0.014659153 |
+|    clip_fraction        | 0.146       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.469       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 6.32        |
+|    n_updates            | 480         |
+|    policy_gradient_loss | -0.00483    |
+|    std                  | 0.943       |
+|    value_loss           | 10          |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 112         |
+|    ep_rew_mean          | 23.1        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 50          |
+|    time_elapsed         | 834         |
+|    total_timesteps      | 204800      |
+| train/                  |             |
+|    approx_kl            | 0.007857438 |
+|    clip_fraction        | 0.0845      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.582       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.26        |
+|    n_updates            | 490         |
+|    policy_gradient_loss | -0.00527    |
+|    std                  | 0.94        |
+|    value_loss           | 8.98        |
+-----------------------------------------
+[2026-05-13 10:50:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=206776/500000 percent= 41.36% rate=   245.0 step/s eta=  19.95 min recent_reward=23.544
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 23          |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 51          |
+|    time_elapsed         | 851         |
+|    total_timesteps      | 208896      |
+| train/                  |             |
+|    approx_kl            | 0.012350551 |
+|    clip_fraction        | 0.139       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.05       |
+|    explained_variance   | 0.586       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.8         |
+|    n_updates            | 500         |
+|    policy_gradient_loss | -0.00417    |
+|    std                  | 0.938       |
+|    value_loss           | 8.02        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 117         |
+|    ep_rew_mean          | 23.5        |
+|    success_rate         | 0.33        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 52          |
+|    time_elapsed         | 868         |
+|    total_timesteps      | 212992      |
+| train/                  |             |
+|    approx_kl            | 0.016777111 |
+|    clip_fraction        | 0.11        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.709       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.57        |
+|    n_updates            | 510         |
+|    policy_gradient_loss | -0.0032     |
+|    std                  | 0.945       |
+|    value_loss           | 7           |
+-----------------------------------------
+[2026-05-13 10:51:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=213824/500000 percent= 42.76% rate=   244.7 step/s eta=  19.49 min recent_reward=23.779
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 118          |
+|    ep_rew_mean          | 23.7         |
+|    success_rate         | 0.32         |
+| time/                   |              |
+|    fps                  | 245          |
+|    iterations           | 53           |
+|    time_elapsed         | 885          |
+|    total_timesteps      | 217088       |
+| train/                  |              |
+|    approx_kl            | 0.0062033664 |
+|    clip_fraction        | 0.097        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.07        |
+|    explained_variance   | 0.734        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 3.12         |
+|    n_updates            | 520          |
+|    policy_gradient_loss | -0.00313     |
+|    std                  | 0.946        |
+|    value_loss           | 6.84         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 23.7        |
+|    success_rate         | 0.32        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 54          |
+|    time_elapsed         | 902         |
+|    total_timesteps      | 221184      |
+| train/                  |             |
+|    approx_kl            | 0.011871636 |
+|    clip_fraction        | 0.155       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.744       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.41        |
+|    n_updates            | 530         |
+|    policy_gradient_loss | -0.00345    |
+|    std                  | 0.949       |
+|    value_loss           | 6.28        |
+-----------------------------------------
+[2026-05-13 10:51:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=221188/500000 percent= 44.24% rate=   244.6 step/s eta=  19.00 min recent_reward=22.757
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 116         |
+|    ep_rew_mean          | 22.6        |
+|    success_rate         | 0.29        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 55          |
+|    time_elapsed         | 918         |
+|    total_timesteps      | 225280      |
+| train/                  |             |
+|    approx_kl            | 0.014680868 |
+|    clip_fraction        | 0.145       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.747       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.19        |
+|    n_updates            | 540         |
+|    policy_gradient_loss | -0.0021     |
+|    std                  | 0.946       |
+|    value_loss           | 6.36        |
+-----------------------------------------
+[2026-05-13 10:52:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=229028/500000 percent= 45.81% rate=   245.1 step/s eta=  18.42 min recent_reward=23.071
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 116         |
+|    ep_rew_mean          | 22.6        |
+|    success_rate         | 0.29        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 56          |
+|    time_elapsed         | 935         |
+|    total_timesteps      | 229376      |
+| train/                  |             |
+|    approx_kl            | 0.010202138 |
+|    clip_fraction        | 0.111       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.687       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.3         |
+|    n_updates            | 550         |
+|    policy_gradient_loss | -0.00435    |
+|    std                  | 0.948       |
+|    value_loss           | 6.91        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 117         |
+|    ep_rew_mean          | 24.7        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 57          |
+|    time_elapsed         | 952         |
+|    total_timesteps      | 233472      |
+| train/                  |             |
+|    approx_kl            | 0.009264175 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.667       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.41        |
+|    n_updates            | 560         |
+|    policy_gradient_loss | -0.000176   |
+|    std                  | 0.947       |
+|    value_loss           | 7.34        |
+-----------------------------------------
+[2026-05-13 10:52:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=236300/500000 percent= 47.26% rate=   245.1 step/s eta=  17.93 min recent_reward=25.365
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 25.8        |
+|    success_rate         | 0.42        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 58          |
+|    time_elapsed         | 968         |
+|    total_timesteps      | 237568      |
+| train/                  |             |
+|    approx_kl            | 0.010950417 |
+|    clip_fraction        | 0.109       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.629       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.31        |
+|    n_updates            | 570         |
+|    policy_gradient_loss | -0.00353    |
+|    std                  | 0.949       |
+|    value_loss           | 6.88        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 118        |
+|    ep_rew_mean          | 25.6       |
+|    success_rate         | 0.43       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 59         |
+|    time_elapsed         | 985        |
+|    total_timesteps      | 241664     |
+| train/                  |            |
+|    approx_kl            | 0.01304014 |
+|    clip_fraction        | 0.141      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.07      |
+|    explained_variance   | 0.71       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 2.36       |
+|    n_updates            | 580        |
+|    policy_gradient_loss | -0.00234   |
+|    std                  | 0.938      |
+|    value_loss           | 6.58       |
+----------------------------------------
+[2026-05-13 10:53:04] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=243464/500000 percent= 48.69% rate=   244.9 step/s eta=  17.46 min recent_reward=22.461
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 114         |
+|    ep_rew_mean          | 23.7        |
+|    success_rate         | 0.37        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 60          |
+|    time_elapsed         | 1002        |
+|    total_timesteps      | 245760      |
+| train/                  |             |
+|    approx_kl            | 0.015666839 |
+|    clip_fraction        | 0.15        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.05       |
+|    explained_variance   | 0.613       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.61        |
+|    n_updates            | 590         |
+|    policy_gradient_loss | -0.0041     |
+|    std                  | 0.938       |
+|    value_loss           | 7.14        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 112         |
+|    ep_rew_mean          | 23.4        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 61          |
+|    time_elapsed         | 1019        |
+|    total_timesteps      | 249856      |
+| train/                  |             |
+|    approx_kl            | 0.012141255 |
+|    clip_fraction        | 0.147       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.05       |
+|    explained_variance   | 0.606       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 5.42        |
+|    n_updates            | 600         |
+|    policy_gradient_loss | -0.00434    |
+|    std                  | 0.94        |
+|    value_loss           | 9.6         |
+-----------------------------------------
+[2026-05-13 10:53:32] N3FZ_CHECKPOINT_SAVED step=250000 path=checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0/checkpoint_250k.zip
+[2026-05-13 10:53:34] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=250684/500000 percent= 50.14% rate=   244.7 step/s eta=  16.98 min recent_reward=25.412
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 24.7        |
+|    success_rate         | 0.39        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 62          |
+|    time_elapsed         | 1036        |
+|    total_timesteps      | 253952      |
+| train/                  |             |
+|    approx_kl            | 0.013296146 |
+|    clip_fraction        | 0.143       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.579       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.53        |
+|    n_updates            | 610         |
+|    policy_gradient_loss | -0.00369    |
+|    std                  | 0.943       |
+|    value_loss           | 7.31        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 114         |
+|    ep_rew_mean          | 25.3        |
+|    success_rate         | 0.41        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 63          |
+|    time_elapsed         | 1053        |
+|    total_timesteps      | 258048      |
+| train/                  |             |
+|    approx_kl            | 0.014757143 |
+|    clip_fraction        | 0.188       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.05       |
+|    explained_variance   | 0.569       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3           |
+|    n_updates            | 620         |
+|    policy_gradient_loss | -0.00398    |
+|    std                  | 0.938       |
+|    value_loss           | 7.27        |
+-----------------------------------------
+[2026-05-13 10:54:05] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=258052/500000 percent= 51.61% rate=   244.5 step/s eta=  16.49 min recent_reward=24.680
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 112         |
+|    ep_rew_mean          | 24.4        |
+|    success_rate         | 0.37        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 64          |
+|    time_elapsed         | 1070        |
+|    total_timesteps      | 262144      |
+| train/                  |             |
+|    approx_kl            | 0.012360453 |
+|    clip_fraction        | 0.148       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.04       |
+|    explained_variance   | 0.547       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.8         |
+|    n_updates            | 630         |
+|    policy_gradient_loss | -0.00533    |
+|    std                  | 0.935       |
+|    value_loss           | 7.22        |
+-----------------------------------------
+[2026-05-13 10:54:35] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=265628/500000 percent= 53.13% rate=   244.8 step/s eta=  15.96 min recent_reward=25.817
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 112         |
+|    ep_rew_mean          | 24.8        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 65          |
+|    time_elapsed         | 1087        |
+|    total_timesteps      | 266240      |
+| train/                  |             |
+|    approx_kl            | 0.010673499 |
+|    clip_fraction        | 0.106       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.04       |
+|    explained_variance   | 0.603       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.43        |
+|    n_updates            | 640         |
+|    policy_gradient_loss | -0.00638    |
+|    std                  | 0.94        |
+|    value_loss           | 8.8         |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 25.8        |
+|    success_rate         | 0.42        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 66          |
+|    time_elapsed         | 1104        |
+|    total_timesteps      | 270336      |
+| train/                  |             |
+|    approx_kl            | 0.012207814 |
+|    clip_fraction        | 0.112       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.05       |
+|    explained_variance   | 0.573       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.23        |
+|    n_updates            | 650         |
+|    policy_gradient_loss | -0.00259    |
+|    std                  | 0.939       |
+|    value_loss           | 7.5         |
+-----------------------------------------
+[2026-05-13 10:55:05] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=272760/500000 percent= 54.55% rate=   244.6 step/s eta=  15.49 min recent_reward=26.160
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 26          |
+|    success_rate         | 0.43        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 67          |
+|    time_elapsed         | 1121        |
+|    total_timesteps      | 274432      |
+| train/                  |             |
+|    approx_kl            | 0.010292012 |
+|    clip_fraction        | 0.127       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.06       |
+|    explained_variance   | 0.621       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.22        |
+|    n_updates            | 660         |
+|    policy_gradient_loss | -0.00604    |
+|    std                  | 0.943       |
+|    value_loss           | 6.93        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 107         |
+|    ep_rew_mean          | 24.8        |
+|    success_rate         | 0.42        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 68          |
+|    time_elapsed         | 1138        |
+|    total_timesteps      | 278528      |
+| train/                  |             |
+|    approx_kl            | 0.012383405 |
+|    clip_fraction        | 0.101       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | 0.625       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.39        |
+|    n_updates            | 670         |
+|    policy_gradient_loss | -0.00314    |
+|    std                  | 0.95        |
+|    value_loss           | 7.84        |
+-----------------------------------------
+[2026-05-13 10:55:35] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=279896/500000 percent= 55.98% rate=   244.4 step/s eta=  15.01 min recent_reward=24.988
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 105         |
+|    ep_rew_mean          | 23.8        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 69          |
+|    time_elapsed         | 1155        |
+|    total_timesteps      | 282624      |
+| train/                  |             |
+|    approx_kl            | 0.009896687 |
+|    clip_fraction        | 0.127       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.08       |
+|    explained_variance   | 0.449       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.46        |
+|    n_updates            | 680         |
+|    policy_gradient_loss | -0.00593    |
+|    std                  | 0.951       |
+|    value_loss           | 10.7        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 107         |
+|    ep_rew_mean          | 23.1        |
+|    success_rate         | 0.32        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 70          |
+|    time_elapsed         | 1172        |
+|    total_timesteps      | 286720      |
+| train/                  |             |
+|    approx_kl            | 0.010297925 |
+|    clip_fraction        | 0.116       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.1        |
+|    explained_variance   | 0.635       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.5         |
+|    n_updates            | 690         |
+|    policy_gradient_loss | -0.00661    |
+|    std                  | 0.961       |
+|    value_loss           | 7.94        |
+-----------------------------------------
+[2026-05-13 10:56:05] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=287036/500000 percent= 57.41% rate=   244.2 step/s eta=  14.53 min recent_reward=21.183
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 110          |
+|    ep_rew_mean          | 22.9         |
+|    success_rate         | 0.29         |
+| time/                   |              |
+|    fps                  | 244          |
+|    iterations           | 71           |
+|    time_elapsed         | 1188         |
+|    total_timesteps      | 290816       |
+| train/                  |              |
+|    approx_kl            | 0.0133485785 |
+|    clip_fraction        | 0.147        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.12        |
+|    explained_variance   | 0.709        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.17         |
+|    n_updates            | 700          |
+|    policy_gradient_loss | -0.0044      |
+|    std                  | 0.964        |
+|    value_loss           | 6.95         |
+------------------------------------------
+[2026-05-13 10:56:35] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=294840/500000 percent= 58.97% rate=   244.6 step/s eta=  13.98 min recent_reward=23.858
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 109         |
+|    ep_rew_mean          | 23.9        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 72          |
+|    time_elapsed         | 1205        |
+|    total_timesteps      | 294912      |
+| train/                  |             |
+|    approx_kl            | 0.012207926 |
+|    clip_fraction        | 0.125       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.12       |
+|    explained_variance   | 0.703       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.42        |
+|    n_updates            | 710         |
+|    policy_gradient_loss | -0.00392    |
+|    std                  | 0.96        |
+|    value_loss           | 7.23        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 109         |
+|    ep_rew_mean          | 24          |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 73          |
+|    time_elapsed         | 1222        |
+|    total_timesteps      | 299008      |
+| train/                  |             |
+|    approx_kl            | 0.010304487 |
+|    clip_fraction        | 0.12        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.12       |
+|    explained_variance   | 0.621       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.77        |
+|    n_updates            | 720         |
+|    policy_gradient_loss | -0.00734    |
+|    std                  | 0.962       |
+|    value_loss           | 8.48        |
+-----------------------------------------
+[2026-05-13 10:57:05] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=302084/500000 percent= 60.42% rate=   244.5 step/s eta=  13.49 min recent_reward=24.695
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 111         |
+|    ep_rew_mean          | 24          |
+|    success_rate         | 0.35        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 74          |
+|    time_elapsed         | 1239        |
+|    total_timesteps      | 303104      |
+| train/                  |             |
+|    approx_kl            | 0.012023223 |
+|    clip_fraction        | 0.117       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.13       |
+|    explained_variance   | 0.617       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.18        |
+|    n_updates            | 730         |
+|    policy_gradient_loss | -0.00541    |
+|    std                  | 0.966       |
+|    value_loss           | 7.05        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 24          |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 75          |
+|    time_elapsed         | 1255        |
+|    total_timesteps      | 307200      |
+| train/                  |             |
+|    approx_kl            | 0.013578612 |
+|    clip_fraction        | 0.143       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.13       |
+|    explained_variance   | 0.644       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.81        |
+|    n_updates            | 740         |
+|    policy_gradient_loss | -0.00398    |
+|    std                  | 0.963       |
+|    value_loss           | 7.15        |
+-----------------------------------------
+[2026-05-13 10:57:35] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=309312/500000 percent= 61.86% rate=   244.5 step/s eta=  13.00 min recent_reward=21.546
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 108         |
+|    ep_rew_mean          | 23.4        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 76          |
+|    time_elapsed         | 1272        |
+|    total_timesteps      | 311296      |
+| train/                  |             |
+|    approx_kl            | 0.010897451 |
+|    clip_fraction        | 0.105       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.13       |
+|    explained_variance   | 0.733       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.68        |
+|    n_updates            | 750         |
+|    policy_gradient_loss | -0.00289    |
+|    std                  | 0.963       |
+|    value_loss           | 6.08        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 105          |
+|    ep_rew_mean          | 22           |
+|    success_rate         | 0.32         |
+| time/                   |              |
+|    fps                  | 244          |
+|    iterations           | 77           |
+|    time_elapsed         | 1289         |
+|    total_timesteps      | 315392       |
+| train/                  |              |
+|    approx_kl            | 0.0102360435 |
+|    clip_fraction        | 0.0921       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.13        |
+|    explained_variance   | 0.526        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 3.33         |
+|    n_updates            | 760          |
+|    policy_gradient_loss | -0.00171     |
+|    std                  | 0.964        |
+|    value_loss           | 9.84         |
+------------------------------------------
+[2026-05-13 10:58:06] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=316532/500000 percent= 63.31% rate=   244.4 step/s eta=  12.51 min recent_reward=20.569
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 106          |
+|    ep_rew_mean          | 21.7         |
+|    success_rate         | 0.3          |
+| time/                   |              |
+|    fps                  | 244          |
+|    iterations           | 78           |
+|    time_elapsed         | 1305         |
+|    total_timesteps      | 319488       |
+| train/                  |              |
+|    approx_kl            | 0.0119603425 |
+|    clip_fraction        | 0.126        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.13        |
+|    explained_variance   | 0.654        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.74         |
+|    n_updates            | 770          |
+|    policy_gradient_loss | -0.00891     |
+|    std                  | 0.961        |
+|    value_loss           | 7.97         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 109         |
+|    ep_rew_mean          | 21.7        |
+|    success_rate         | 0.28        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 79          |
+|    time_elapsed         | 1322        |
+|    total_timesteps      | 323584      |
+| train/                  |             |
+|    approx_kl            | 0.014013778 |
+|    clip_fraction        | 0.138       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.13       |
+|    explained_variance   | 0.625       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.04        |
+|    n_updates            | 780         |
+|    policy_gradient_loss | -0.00937    |
+|    std                  | 0.968       |
+|    value_loss           | 9.36        |
+-----------------------------------------
+[2026-05-13 10:58:36] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=323800/500000 percent= 64.76% rate=   244.3 step/s eta=  12.02 min recent_reward=22.387
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 23.5        |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 80          |
+|    time_elapsed         | 1339        |
+|    total_timesteps      | 327680      |
+| train/                  |             |
+|    approx_kl            | 0.010849709 |
+|    clip_fraction        | 0.148       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.14       |
+|    explained_variance   | 0.669       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.49        |
+|    n_updates            | 790         |
+|    policy_gradient_loss | -0.00533    |
+|    std                  | 0.963       |
+|    value_loss           | 8.41        |
+-----------------------------------------
+[2026-05-13 10:59:06] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=331516/500000 percent= 66.30% rate=   244.6 step/s eta=  11.48 min recent_reward=22.917
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 116         |
+|    ep_rew_mean          | 24          |
+|    success_rate         | 0.35        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 81          |
+|    time_elapsed         | 1356        |
+|    total_timesteps      | 331776      |
+| train/                  |             |
+|    approx_kl            | 0.016354986 |
+|    clip_fraction        | 0.182       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.12       |
+|    explained_variance   | 0.634       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.07        |
+|    n_updates            | 800         |
+|    policy_gradient_loss | -0.00261    |
+|    std                  | 0.956       |
+|    value_loss           | 6.62        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 114         |
+|    ep_rew_mean          | 23.5        |
+|    success_rate         | 0.35        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 82          |
+|    time_elapsed         | 1372        |
+|    total_timesteps      | 335872      |
+| train/                  |             |
+|    approx_kl            | 0.014284144 |
+|    clip_fraction        | 0.172       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.1        |
+|    explained_variance   | 0.582       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.25        |
+|    n_updates            | 810         |
+|    policy_gradient_loss | -0.00449    |
+|    std                  | 0.955       |
+|    value_loss           | 8.27        |
+-----------------------------------------
+[2026-05-13 10:59:36] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=338904/500000 percent= 67.78% rate=   244.6 step/s eta=  10.98 min recent_reward=24.276
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 116         |
+|    ep_rew_mean          | 24          |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 83          |
+|    time_elapsed         | 1389        |
+|    total_timesteps      | 339968      |
+| train/                  |             |
+|    approx_kl            | 0.018506275 |
+|    clip_fraction        | 0.175       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.1        |
+|    explained_variance   | 0.561       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.78        |
+|    n_updates            | 820         |
+|    policy_gradient_loss | -0.00225    |
+|    std                  | 0.951       |
+|    value_loss           | 8.95        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 114          |
+|    ep_rew_mean          | 24           |
+|    success_rate         | 0.38         |
+| time/                   |              |
+|    fps                  | 244          |
+|    iterations           | 84           |
+|    time_elapsed         | 1405         |
+|    total_timesteps      | 344064       |
+| train/                  |              |
+|    approx_kl            | 0.0135846175 |
+|    clip_fraction        | 0.172        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.1         |
+|    explained_variance   | 0.622        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.47         |
+|    n_updates            | 830          |
+|    policy_gradient_loss | -0.0058      |
+|    std                  | 0.957        |
+|    value_loss           | 6.38         |
+------------------------------------------
+[2026-05-13 11:00:06] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=346284/500000 percent= 69.26% rate=   244.7 step/s eta=  10.47 min recent_reward=24.403
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 115         |
+|    ep_rew_mean          | 24.3        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 85          |
+|    time_elapsed         | 1422        |
+|    total_timesteps      | 348160      |
+| train/                  |             |
+|    approx_kl            | 0.017747017 |
+|    clip_fraction        | 0.165       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.11       |
+|    explained_variance   | 0.532       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.94        |
+|    n_updates            | 840         |
+|    policy_gradient_loss | -0.00352    |
+|    std                  | 0.957       |
+|    value_loss           | 8.22        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 111         |
+|    ep_rew_mean          | 23.2        |
+|    success_rate         | 0.35        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 86          |
+|    time_elapsed         | 1438        |
+|    total_timesteps      | 352256      |
+| train/                  |             |
+|    approx_kl            | 0.015968025 |
+|    clip_fraction        | 0.179       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.11       |
+|    explained_variance   | 0.593       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.68        |
+|    n_updates            | 850         |
+|    policy_gradient_loss | -0.00283    |
+|    std                  | 0.956       |
+|    value_loss           | 5.94        |
+-----------------------------------------
+[2026-05-13 11:00:36] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=353620/500000 percent= 70.72% rate=   244.7 step/s eta=   9.97 min recent_reward=23.426
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 109         |
+|    ep_rew_mean          | 23.2        |
+|    success_rate         | 0.33        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 87          |
+|    time_elapsed         | 1454        |
+|    total_timesteps      | 356352      |
+| train/                  |             |
+|    approx_kl            | 0.014311567 |
+|    clip_fraction        | 0.145       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.1        |
+|    explained_variance   | 0.563       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.48        |
+|    n_updates            | 860         |
+|    policy_gradient_loss | -0.0057     |
+|    std                  | 0.955       |
+|    value_loss           | 7.66        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 110         |
+|    ep_rew_mean          | 24.9        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 88          |
+|    time_elapsed         | 1472        |
+|    total_timesteps      | 360448      |
+| train/                  |             |
+|    approx_kl            | 0.010450164 |
+|    clip_fraction        | 0.146       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.09       |
+|    explained_variance   | 0.55        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.48        |
+|    n_updates            | 870         |
+|    policy_gradient_loss | -0.00305    |
+|    std                  | 0.952       |
+|    value_loss           | 8.31        |
+-----------------------------------------
+[2026-05-13 11:01:06] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=360812/500000 percent= 72.16% rate=   244.6 step/s eta=   9.49 min recent_reward=26.046
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 110         |
+|    ep_rew_mean          | 25.7        |
+|    success_rate         | 0.4         |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 89          |
+|    time_elapsed         | 1488        |
+|    total_timesteps      | 364544      |
+| train/                  |             |
+|    approx_kl            | 0.011336255 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.1        |
+|    explained_variance   | 0.614       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.66        |
+|    n_updates            | 880         |
+|    policy_gradient_loss | -0.00295    |
+|    std                  | 0.958       |
+|    value_loss           | 7.14        |
+-----------------------------------------
+[2026-05-13 11:01:36] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=368632/500000 percent= 73.73% rate=   244.9 step/s eta=   8.94 min recent_reward=22.811
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 108          |
+|    ep_rew_mean          | 24.6         |
+|    success_rate         | 0.38         |
+| time/                   |              |
+|    fps                  | 244          |
+|    iterations           | 90           |
+|    time_elapsed         | 1505         |
+|    total_timesteps      | 368640       |
+| train/                  |              |
+|    approx_kl            | 0.0092969835 |
+|    clip_fraction        | 0.107        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.12        |
+|    explained_variance   | 0.555        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.47         |
+|    n_updates            | 890          |
+|    policy_gradient_loss | -0.000689    |
+|    std                  | 0.968        |
+|    value_loss           | 6.46         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 103         |
+|    ep_rew_mean          | 22.9        |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 91          |
+|    time_elapsed         | 1522        |
+|    total_timesteps      | 372736      |
+| train/                  |             |
+|    approx_kl            | 0.012702759 |
+|    clip_fraction        | 0.148       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.14       |
+|    explained_variance   | 0.524       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.5         |
+|    n_updates            | 900         |
+|    policy_gradient_loss | -0.00628    |
+|    std                  | 0.97        |
+|    value_loss           | 10.6        |
+-----------------------------------------
+[2026-05-13 11:02:06] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=375824/500000 percent= 75.16% rate=   244.8 step/s eta=   8.45 min recent_reward=25.023
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 105         |
+|    ep_rew_mean          | 23.9        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 92          |
+|    time_elapsed         | 1538        |
+|    total_timesteps      | 376832      |
+| train/                  |             |
+|    approx_kl            | 0.012146029 |
+|    clip_fraction        | 0.15        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.14       |
+|    explained_variance   | 0.614       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.13        |
+|    n_updates            | 910         |
+|    policy_gradient_loss | -0.00633    |
+|    std                  | 0.968       |
+|    value_loss           | 9.25        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 106          |
+|    ep_rew_mean          | 24.3         |
+|    success_rate         | 0.42         |
+| time/                   |              |
+|    fps                  | 244          |
+|    iterations           | 93           |
+|    time_elapsed         | 1555         |
+|    total_timesteps      | 380928       |
+| train/                  |              |
+|    approx_kl            | 0.0094435215 |
+|    clip_fraction        | 0.0954       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.14        |
+|    explained_variance   | 0.587        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.64         |
+|    n_updates            | 920          |
+|    policy_gradient_loss | -0.00471     |
+|    std                  | 0.971        |
+|    value_loss           | 7.27         |
+------------------------------------------
+[2026-05-13 11:02:36] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=383100/500000 percent= 76.62% rate=   244.7 step/s eta=   7.96 min recent_reward=22.807
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 107         |
+|    ep_rew_mean          | 24.4        |
+|    success_rate         | 0.44        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 94          |
+|    time_elapsed         | 1572        |
+|    total_timesteps      | 385024      |
+| train/                  |             |
+|    approx_kl            | 0.026845008 |
+|    clip_fraction        | 0.17        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.427       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 6.09        |
+|    n_updates            | 930         |
+|    policy_gradient_loss | -0.00241    |
+|    std                  | 0.976       |
+|    value_loss           | 10.7        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 103         |
+|    ep_rew_mean          | 22.9        |
+|    success_rate         | 0.4         |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 95          |
+|    time_elapsed         | 1588        |
+|    total_timesteps      | 389120      |
+| train/                  |             |
+|    approx_kl            | 0.011101681 |
+|    clip_fraction        | 0.156       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.16       |
+|    explained_variance   | 0.497       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.64        |
+|    n_updates            | 940         |
+|    policy_gradient_loss | -0.00451    |
+|    std                  | 0.978       |
+|    value_loss           | 9.25        |
+-----------------------------------------
+[2026-05-13 11:03:06] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=390448/500000 percent= 78.09% rate=   244.7 step/s eta=   7.46 min recent_reward=21.235
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 106         |
+|    ep_rew_mean          | 23.5        |
+|    success_rate         | 0.39        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 96          |
+|    time_elapsed         | 1605        |
+|    total_timesteps      | 393216      |
+| train/                  |             |
+|    approx_kl            | 0.011155212 |
+|    clip_fraction        | 0.112       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.16       |
+|    explained_variance   | 0.534       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.1         |
+|    n_updates            | 950         |
+|    policy_gradient_loss | -0.00473    |
+|    std                  | 0.979       |
+|    value_loss           | 10.7        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 106         |
+|    ep_rew_mean          | 23.1        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 244         |
+|    iterations           | 97          |
+|    time_elapsed         | 1621        |
+|    total_timesteps      | 397312      |
+| train/                  |             |
+|    approx_kl            | 0.014028512 |
+|    clip_fraction        | 0.133       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.17       |
+|    explained_variance   | 0.562       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.68        |
+|    n_updates            | 960         |
+|    policy_gradient_loss | -0.00339    |
+|    std                  | 0.983       |
+|    value_loss           | 10.3        |
+-----------------------------------------
+[2026-05-13 11:03:36] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=397708/500000 percent= 79.54% rate=   244.7 step/s eta=   6.97 min recent_reward=22.687
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 103         |
+|    ep_rew_mean          | 21.8        |
+|    success_rate         | 0.32        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 98          |
+|    time_elapsed         | 1638        |
+|    total_timesteps      | 401408      |
+| train/                  |             |
+|    approx_kl            | 0.010946033 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.17       |
+|    explained_variance   | 0.575       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.98        |
+|    n_updates            | 970         |
+|    policy_gradient_loss | -0.00396    |
+|    std                  | 0.98        |
+|    value_loss           | 8.97        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 105         |
+|    ep_rew_mean          | 21.3        |
+|    success_rate         | 0.28        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 99          |
+|    time_elapsed         | 1654        |
+|    total_timesteps      | 405504      |
+| train/                  |             |
+|    approx_kl            | 0.012521321 |
+|    clip_fraction        | 0.138       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.17       |
+|    explained_variance   | 0.645       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 4.01        |
+|    n_updates            | 980         |
+|    policy_gradient_loss | -0.00523    |
+|    std                  | 0.981       |
+|    value_loss           | 9.06        |
+-----------------------------------------
+[2026-05-13 11:04:07] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=405508/500000 percent= 81.10% rate=   244.8 step/s eta=   6.43 min recent_reward=21.325
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 106         |
+|    ep_rew_mean          | 21.7        |
+|    success_rate         | 0.3         |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 100         |
+|    time_elapsed         | 1671        |
+|    total_timesteps      | 409600      |
+| train/                  |             |
+|    approx_kl            | 0.011514086 |
+|    clip_fraction        | 0.142       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.17       |
+|    explained_variance   | 0.711       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.3         |
+|    n_updates            | 990         |
+|    policy_gradient_loss | -0.00338    |
+|    std                  | 0.977       |
+|    value_loss           | 6.94        |
+-----------------------------------------
+[2026-05-13 11:04:37] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=413532/500000 percent= 82.71% rate=   245.2 step/s eta=   5.88 min recent_reward=25.875
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 109        |
+|    ep_rew_mean          | 24.5       |
+|    success_rate         | 0.42       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 101        |
+|    time_elapsed         | 1687       |
+|    total_timesteps      | 413696     |
+| train/                  |            |
+|    approx_kl            | 0.01500918 |
+|    clip_fraction        | 0.164      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.16      |
+|    explained_variance   | 0.57       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 3.44       |
+|    n_updates            | 1000       |
+|    policy_gradient_loss | -0.00193   |
+|    std                  | 0.979      |
+|    value_loss           | 8.97       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 112         |
+|    ep_rew_mean          | 25.2        |
+|    success_rate         | 0.43        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 102         |
+|    time_elapsed         | 1704        |
+|    total_timesteps      | 417792      |
+| train/                  |             |
+|    approx_kl            | 0.013629067 |
+|    clip_fraction        | 0.148       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.16       |
+|    explained_variance   | 0.539       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.71        |
+|    n_updates            | 1010        |
+|    policy_gradient_loss | -0.00343    |
+|    std                  | 0.978       |
+|    value_loss           | 7.15        |
+-----------------------------------------
+[2026-05-13 11:05:07] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=420764/500000 percent= 84.15% rate=   245.1 step/s eta=   5.39 min recent_reward=23.038
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 115         |
+|    ep_rew_mean          | 25.4        |
+|    success_rate         | 0.42        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 103         |
+|    time_elapsed         | 1720        |
+|    total_timesteps      | 421888      |
+| train/                  |             |
+|    approx_kl            | 0.011471561 |
+|    clip_fraction        | 0.119       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.16       |
+|    explained_variance   | 0.596       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.7         |
+|    n_updates            | 1020        |
+|    policy_gradient_loss | -0.00263    |
+|    std                  | 0.982       |
+|    value_loss           | 6.86        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 114         |
+|    ep_rew_mean          | 24          |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 104         |
+|    time_elapsed         | 1737        |
+|    total_timesteps      | 425984      |
+| train/                  |             |
+|    approx_kl            | 0.012671705 |
+|    clip_fraction        | 0.156       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.623       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.36        |
+|    n_updates            | 1030        |
+|    policy_gradient_loss | -0.00626    |
+|    std                  | 0.99        |
+|    value_loss           | 7.94        |
+-----------------------------------------
+[2026-05-13 11:05:37] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=428108/500000 percent= 85.62% rate=   245.1 step/s eta=   4.89 min recent_reward=22.836
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 24.1        |
+|    success_rate         | 0.4         |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 105         |
+|    time_elapsed         | 1753        |
+|    total_timesteps      | 430080      |
+| train/                  |             |
+|    approx_kl            | 0.012689166 |
+|    clip_fraction        | 0.146       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.19       |
+|    explained_variance   | 0.543       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.65        |
+|    n_updates            | 1040        |
+|    policy_gradient_loss | -0.00434    |
+|    std                  | 0.993       |
+|    value_loss           | 9.36        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 114         |
+|    ep_rew_mean          | 23.8        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 106         |
+|    time_elapsed         | 1770        |
+|    total_timesteps      | 434176      |
+| train/                  |             |
+|    approx_kl            | 0.013430246 |
+|    clip_fraction        | 0.145       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.21       |
+|    explained_variance   | 0.585       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.16        |
+|    n_updates            | 1050        |
+|    policy_gradient_loss | -0.0042     |
+|    std                  | 0.999       |
+|    value_loss           | 6.81        |
+-----------------------------------------
+[2026-05-13 11:06:07] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=435536/500000 percent= 87.11% rate=   245.1 step/s eta=   4.38 min recent_reward=23.337
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 117         |
+|    ep_rew_mean          | 25.2        |
+|    success_rate         | 0.42        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 107         |
+|    time_elapsed         | 1786        |
+|    total_timesteps      | 438272      |
+| train/                  |             |
+|    approx_kl            | 0.013236817 |
+|    clip_fraction        | 0.153       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.22       |
+|    explained_variance   | 0.666       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.49        |
+|    n_updates            | 1060        |
+|    policy_gradient_loss | -0.00291    |
+|    std                  | 1           |
+|    value_loss           | 5.63        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 122         |
+|    ep_rew_mean          | 24.1        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 108         |
+|    time_elapsed         | 1803        |
+|    total_timesteps      | 442368      |
+| train/                  |             |
+|    approx_kl            | 0.011587297 |
+|    clip_fraction        | 0.14        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.23       |
+|    explained_variance   | 0.6         |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.61        |
+|    n_updates            | 1070        |
+|    policy_gradient_loss | -0.00502    |
+|    std                  | 1.01        |
+|    value_loss           | 7           |
+-----------------------------------------
+[2026-05-13 11:06:37] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=442904/500000 percent= 88.58% rate=   245.1 step/s eta=   3.88 min recent_reward=24.547
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 125        |
+|    ep_rew_mean          | 24.7       |
+|    success_rate         | 0.39       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 109        |
+|    time_elapsed         | 1819       |
+|    total_timesteps      | 446464     |
+| train/                  |            |
+|    approx_kl            | 0.02181657 |
+|    clip_fraction        | 0.212      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.24      |
+|    explained_variance   | 0.686      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 2.93       |
+|    n_updates            | 1080       |
+|    policy_gradient_loss | -0.00521   |
+|    std                  | 1.01       |
+|    value_loss           | 5.65       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 129         |
+|    ep_rew_mean          | 24.4        |
+|    success_rate         | 0.37        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 110         |
+|    time_elapsed         | 1836        |
+|    total_timesteps      | 450560      |
+| train/                  |             |
+|    approx_kl            | 0.018898312 |
+|    clip_fraction        | 0.175       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.21       |
+|    explained_variance   | 0.632       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.19        |
+|    n_updates            | 1090        |
+|    policy_gradient_loss | -0.00544    |
+|    std                  | 0.997       |
+|    value_loss           | 6.06        |
+-----------------------------------------
+[2026-05-13 11:07:09] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=450564/500000 percent= 90.11% rate=   245.0 step/s eta=   3.36 min recent_reward=24.282
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 128         |
+|    ep_rew_mean          | 26.1        |
+|    success_rate         | 0.43        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 111         |
+|    time_elapsed         | 1853        |
+|    total_timesteps      | 454656      |
+| train/                  |             |
+|    approx_kl            | 0.013611894 |
+|    clip_fraction        | 0.168       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.685       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.68        |
+|    n_updates            | 1100        |
+|    policy_gradient_loss | -0.00567    |
+|    std                  | 0.987       |
+|    value_loss           | 5.29        |
+-----------------------------------------
+[2026-05-13 11:07:39] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=458600/500000 percent= 91.72% rate=   245.4 step/s eta=   2.81 min recent_reward=28.065
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 126         |
+|    ep_rew_mean          | 27.1        |
+|    success_rate         | 0.46        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 112         |
+|    time_elapsed         | 1869        |
+|    total_timesteps      | 458752      |
+| train/                  |             |
+|    approx_kl            | 0.017665546 |
+|    clip_fraction        | 0.194       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.17       |
+|    explained_variance   | 0.633       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.37        |
+|    n_updates            | 1110        |
+|    policy_gradient_loss | -0.00737    |
+|    std                  | 0.993       |
+|    value_loss           | 5.89        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 123         |
+|    ep_rew_mean          | 27.6        |
+|    success_rate         | 0.48        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 113         |
+|    time_elapsed         | 1885        |
+|    total_timesteps      | 462848      |
+| train/                  |             |
+|    approx_kl            | 0.012925513 |
+|    clip_fraction        | 0.169       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.683       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.29        |
+|    n_updates            | 1120        |
+|    policy_gradient_loss | -0.00302    |
+|    std                  | 0.995       |
+|    value_loss           | 4.18        |
+-----------------------------------------
+[2026-05-13 11:08:09] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=466036/500000 percent= 93.21% rate=   245.4 step/s eta=   2.31 min recent_reward=25.462
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 120        |
+|    ep_rew_mean          | 26.3       |
+|    success_rate         | 0.44       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 114        |
+|    time_elapsed         | 1902       |
+|    total_timesteps      | 466944     |
+| train/                  |            |
+|    approx_kl            | 0.01357092 |
+|    clip_fraction        | 0.14       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.19      |
+|    explained_variance   | 0.611      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.69       |
+|    n_updates            | 1130       |
+|    policy_gradient_loss | -0.00163   |
+|    std                  | 1          |
+|    value_loss           | 6.32       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 117         |
+|    ep_rew_mean          | 24.8        |
+|    success_rate         | 0.4         |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 115         |
+|    time_elapsed         | 1918        |
+|    total_timesteps      | 471040      |
+| train/                  |             |
+|    approx_kl            | 0.015818145 |
+|    clip_fraction        | 0.189       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.2        |
+|    explained_variance   | 0.544       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.01        |
+|    n_updates            | 1140        |
+|    policy_gradient_loss | -0.00167    |
+|    std                  | 1           |
+|    value_loss           | 8.49        |
+-----------------------------------------
+[2026-05-13 11:08:39] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=473296/500000 percent= 94.66% rate=   245.4 step/s eta=   1.81 min recent_reward=27.055
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 118         |
+|    ep_rew_mean          | 27.2        |
+|    success_rate         | 0.5         |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 116         |
+|    time_elapsed         | 1935        |
+|    total_timesteps      | 475136      |
+| train/                  |             |
+|    approx_kl            | 0.014411991 |
+|    clip_fraction        | 0.153       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.2        |
+|    explained_variance   | 0.522       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.69        |
+|    n_updates            | 1150        |
+|    policy_gradient_loss | -0.00916    |
+|    std                  | 1           |
+|    value_loss           | 7.64        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 118        |
+|    ep_rew_mean          | 27         |
+|    success_rate         | 0.46       |
+| time/                   |            |
+|    fps                  | 245        |
+|    iterations           | 117        |
+|    time_elapsed         | 1952       |
+|    total_timesteps      | 479232     |
+| train/                  |            |
+|    approx_kl            | 0.01822567 |
+|    clip_fraction        | 0.203      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.2       |
+|    explained_variance   | 0.429      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.81       |
+|    n_updates            | 1160       |
+|    policy_gradient_loss | -0.00272   |
+|    std                  | 1.01       |
+|    value_loss           | 6.13       |
+----------------------------------------
+[2026-05-13 11:09:09] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=480556/500000 percent= 96.11% rate=   245.3 step/s eta=   1.32 min recent_reward=24.973
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 113         |
+|    ep_rew_mean          | 25.8        |
+|    success_rate         | 0.43        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 118         |
+|    time_elapsed         | 1968        |
+|    total_timesteps      | 483328      |
+| train/                  |             |
+|    approx_kl            | 0.016417386 |
+|    clip_fraction        | 0.144       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.2        |
+|    explained_variance   | 0.624       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.89        |
+|    n_updates            | 1170        |
+|    policy_gradient_loss | -0.00417    |
+|    std                  | 1           |
+|    value_loss           | 6.46        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 107         |
+|    ep_rew_mean          | 24.3        |
+|    success_rate         | 0.38        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 119         |
+|    time_elapsed         | 1985        |
+|    total_timesteps      | 487424      |
+| train/                  |             |
+|    approx_kl            | 0.016817939 |
+|    clip_fraction        | 0.151       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.19       |
+|    explained_variance   | 0.509       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 5.88        |
+|    n_updates            | 1180        |
+|    policy_gradient_loss | -0.00526    |
+|    std                  | 0.991       |
+|    value_loss           | 11.9        |
+-----------------------------------------
+[2026-05-13 11:09:39] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=487820/500000 percent= 97.56% rate=   245.3 step/s eta=   0.83 min recent_reward=24.424
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 105         |
+|    ep_rew_mean          | 23.9        |
+|    success_rate         | 0.36        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 120         |
+|    time_elapsed         | 2002        |
+|    total_timesteps      | 491520      |
+| train/                  |             |
+|    approx_kl            | 0.017804205 |
+|    clip_fraction        | 0.196       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.521       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.36        |
+|    n_updates            | 1190        |
+|    policy_gradient_loss | -0.00124    |
+|    std                  | 0.996       |
+|    value_loss           | 7.75        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 105         |
+|    ep_rew_mean          | 23.6        |
+|    success_rate         | 0.34        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 121         |
+|    time_elapsed         | 2018        |
+|    total_timesteps      | 495616      |
+| train/                  |             |
+|    approx_kl            | 0.018936262 |
+|    clip_fraction        | 0.156       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.618       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.03        |
+|    n_updates            | 1200        |
+|    policy_gradient_loss | -0.00427    |
+|    std                  | 0.993       |
+|    value_loss           | 7.81        |
+-----------------------------------------
+[2026-05-13 11:10:11] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=495620/500000 percent= 99.12% rate=   245.3 step/s eta=   0.30 min recent_reward=23.905
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 108         |
+|    ep_rew_mean          | 24.3        |
+|    success_rate         | 0.35        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 122         |
+|    time_elapsed         | 2035        |
+|    total_timesteps      | 499712      |
+| train/                  |             |
+|    approx_kl            | 0.012133302 |
+|    clip_fraction        | 0.116       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.628       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.51        |
+|    n_updates            | 1210        |
+|    policy_gradient_loss | -0.00325    |
+|    std                  | 0.995       |
+|    value_loss           | 8.03        |
+-----------------------------------------
+[2026-05-13 11:10:29] N3FZ_CHECKPOINT_SAVED step=500000 path=checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0/checkpoint_500k.zip
+[2026-05-13 11:10:41] N3FZ_TRAIN_HEARTBEAT config=z_l2_scale_4 steps=503332/500000 percent=100.67% rate=   245.4 step/s eta=   0.00 min recent_reward=26.711
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 109         |
+|    ep_rew_mean          | 25.7        |
+|    success_rate         | 0.41        |
+| time/                   |             |
+|    fps                  | 245         |
+|    iterations           | 123         |
+|    time_elapsed         | 2052        |
+|    total_timesteps      | 503808      |
+| train/                  |             |
+|    approx_kl            | 0.019184288 |
+|    clip_fraction        | 0.18        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.19       |
+|    explained_variance   | 0.717       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.86        |
+|    n_updates            | 1220        |
+|    policy_gradient_loss | -0.0048     |
+|    std                  | 1           |
+|    value_loss           | 6.3         |
+-----------------------------------------
+[2026-05-13 11:10:45] N3FZ_TRAIN_END config=z_l2_scale_4 final=checkpoints/env_v2_gpsi_heada_ppo_n3z_l2_scale4_s0/final.zip

@@ -1,0 +1,5 @@
+[2026-05-08 08:33:51] EVAL_START model=/root/workspace/uav-risk-rl/checkpoints/pre_ppo_priority/p0_adaptation/high_speed_wide_d2_s0_step500000.zip method=attention_full_distance_penalty_wide_d2 agg=attention train_seed=0 eval_seed=1000 scenario=eval_mixed_v2_high_speed episodes=50
+[2026-05-08 08:33:56] EVAL_HEARTBEAT episodes=50/50 percent=100.00% rate= 18.33 ep/s eta=  0.00 min
+[2026-05-08 08:33:56] EVAL_SUMMARY scenario=eval_mixed_v2_high_speed success_rate=1.0000 collision_rate=0.0000 mean_min_distance=2.9465 near_miss_rate=0.0000 mean_time=9.0480
+[2026-05-08 08:33:56] EVAL_REACTION mean_reaction_eval_style=0.2000 mean_reaction_nan_style=0.2000 nan_reaction_rate=0.0000 no_response_count=0/50
+[2026-05-08 08:33:56] EVAL_END out_csv=/root/workspace/uav-risk-rl/results/pre_ppo_priority/p0_adaptation/eval/high_speed_wide_d2_s0_step500000_mixed_v2.csv
