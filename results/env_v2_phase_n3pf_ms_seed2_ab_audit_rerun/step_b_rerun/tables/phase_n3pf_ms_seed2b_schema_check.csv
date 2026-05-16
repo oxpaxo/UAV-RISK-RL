@@ -1,0 +1,9 @@
+run_name,training_seed,check,value,detail
+seed2_rerunA,2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+seed2_rerunA,2,aug_obs_dim,30,expected=30
+seed2_rerunA,2,include_z,0,must be 0
+seed2_rerunA,2,feature_adapter,block_projected_no_z,must be block_projected_no_z
+seed2_rerunA,2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+seed2_rerunA,2,aug_obs_dim,30,expected=30
+seed2_rerunA,2,include_z,0,must be 0
+seed2_rerunA,2,feature_adapter,block_projected_no_z,must be block_projected_no_z

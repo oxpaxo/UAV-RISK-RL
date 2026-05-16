@@ -1,0 +1,82 @@
+[2026-05-16 11:03:04] Phase N3PF-MS-AB watcher start pid=25652
+[2026-05-16 11:03:04] START py_compile: python -m py_compile scripts/audit_env_v2_phase_n3pf_ms_seed2.py scripts/train_env_v2_gpsi_ppo_n3pf_ms_seed2_rerun.py scripts/eval_env_v2_gpsi_ppo_n3pf_ms_seed2_ab.py scripts/analyze_env_v2_phase_n3pf_ms_seed2_ab.py
+[2026-05-16 11:03:05] END py_compile
+[2026-05-16 11:03:05] START bash_n: bash -n scripts/watch_phase_n3pf_ms_seed2_ab.sh
+[2026-05-16 11:03:05] END bash_n
+[2026-05-16 11:03:05] START step_a_audit: python scripts/audit_env_v2_phase_n3pf_ms_seed2.py --source-result-dir results/env_v2_phase_n3pf_ms_multiseed --result-dir results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun --out-dir results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun/step_a_audit --seed-good 1 --seed-bad 2 --include-seed0 --write-plots
+[2026-05-16 11:03:10] END step_a_audit
+N3PF_MS_SEED2_AB_AUDIT decision=ppo_bad_local_optimum_likely do_step_b=1 hard_error=0
+[2026-05-16 11:03:10] START step_a_intermediate_eval: python scripts/eval_env_v2_gpsi_ppo_n3pf_ms_seed2_ab.py --mode intermediate_eval --result-dir results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun --out-dir results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun/step_a_audit --source-result-dir results/env_v2_phase_n3pf_ms_multiseed --training-seeds 1 2 --checkpoints checkpoint_250k checkpoint_500k checkpoint_750k checkpoint_1250k --eval-seeds 1000 1001 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --device cpu --heartbeat-seconds 300
+[2026-05-16 11:43:22] END step_a_intermediate_eval
+[2026-05-16 11:39:22] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.98 ep/s
+[2026-05-16 11:39:22] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 11:39:47] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.97 ep/s
+[2026-05-16 11:39:47] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 11:40:12] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.03 ep/s
+[2026-05-16 11:40:12] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 11:40:37] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.00 ep/s
+[2026-05-16 11:40:37] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-16 11:41:02] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=2.03 ep/s
+[2026-05-16 11:41:02] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-16 11:41:29] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.85 ep/s
+[2026-05-16 11:41:29] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 11:41:54] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.97 ep/s
+[2026-05-16 11:41:54] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 11:42:19] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.98 ep/s
+[2026-05-16 11:42:19] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 11:42:44] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.06 ep/s
+[2026-05-16 11:42:44] N3PF_MS_AB_EVAL_START mode=intermediate_eval policy=p3_s2_1250k run=original_seed2 eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 11:43:09] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_1250k eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.00 ep/s
+[2026-05-16 11:43:19] N3PF_MS_AB_EVAL_END mode=intermediate_eval episodes=4800 raw_steps=512857
+[2026-05-16 11:43:22] START step_b_validate_seed2_rerunA: python scripts/train_env_v2_gpsi_ppo_n3pf_ms_seed2_rerun.py --seed 2 --run-name seed2_rerunA --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s2_rerunA --train-steps 1500000 --checkpoint-steps 250000 500000 750000 1000000 1250000 1500000 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 11:43:27] END step_b_validate_seed2_rerunA
+[2026-05-16 11:43:26] N3PF_MS_AB_VALIDATE_OK run=seed2_rerunA seed=2 out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s2_rerunA
+[2026-05-16 11:43:27] Step B seed2_rerunA training starts. This is intentionally single-job CPU training; N4-O is not run in parallel.
+[2026-05-16 11:43:27] START step_b_train_seed2_rerunA: python scripts/train_env_v2_gpsi_ppo_n3pf_ms_seed2_rerun.py --seed 2 --run-name seed2_rerunA --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s2_rerunA --train-steps 1500000 --checkpoint-steps 250000 500000 750000 1000000 1250000 1500000 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 13:24:02] END step_b_train_seed2_rerunA
+|    success_rate         | 0.47       |
+| time/                   |            |
+|    fps                  | 249        |
+|    iterations           | 367        |
+|    time_elapsed         | 6024       |
+|    total_timesteps      | 1503232    |
+| train/                  |            |
+|    approx_kl            | 0.03318038 |
+|    clip_fraction        | 0.216      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.81      |
+|    explained_variance   | 0.483      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.87       |
+|    n_updates            | 3660       |
+|    policy_gradient_loss | -0.00948   |
+|    std                  | 1.27       |
+|    value_loss           | 7.63       |
+----------------------------------------
+[2026-05-16 13:24:02] N3PF_MS_AB_TRAIN_END run=seed2_rerunA seed=2 final=checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s2_rerunA/final.zip
+[2026-05-16 13:24:02] START step_b_eval_seed2_rerunA: python scripts/eval_env_v2_gpsi_ppo_n3pf_ms_seed2_ab.py --mode rerun_eval --result-dir results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun --out-dir results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun/step_b_rerun --runs seed2_rerunA --checkpoints checkpoint_1000k checkpoint_1500k final --eval-seeds 1000 1001 1002 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --device cpu --heartbeat-seconds 300
+[2026-05-16 13:46:26] END step_b_eval_seed2_rerunA
+[2026-05-16 13:42:41] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=2.05 ep/s
+[2026-05-16 13:42:41] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 13:43:05] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=2.06 ep/s
+[2026-05-16 13:43:05] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 13:43:29] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.08 ep/s
+[2026-05-16 13:43:29] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 13:43:53] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.11 ep/s
+[2026-05-16 13:43:53] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-16 13:44:16] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=2.15 ep/s
+[2026-05-16 13:44:16] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-16 13:44:43] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.85 ep/s
+[2026-05-16 13:44:43] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 13:45:07] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=2.08 ep/s
+[2026-05-16 13:45:07] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 13:45:31] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=2.07 ep/s
+[2026-05-16 13:45:31] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 13:45:55] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=2.10 ep/s
+[2026-05-16 13:45:55] N3PF_MS_AB_EVAL_START mode=rerun_eval policy=p3_s2_seed2_rerunA_final run=seed2_rerunA eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 13:46:18] N3PF_MS_AB_EVAL_HEARTBEAT policy=p3_s2_seed2_rerunA_final eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=2.14 ep/s
+[2026-05-16 13:46:24] N3PF_MS_AB_EVAL_END mode=rerun_eval episodes=2700 raw_steps=287227
+[2026-05-16 13:46:26] START analysis_report: python scripts/analyze_env_v2_phase_n3pf_ms_seed2_ab.py --result-dir results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun --source-result-dir results/env_v2_phase_n3pf_ms_multiseed --attention-success 0.6033 --attention-collision 0.3967 --noz-success 0.5667 --noz-collision 0.4333 --p3-s0-success 0.6167 --p3-s0-collision 0.3833 --p3-s1-success 0.6089 --p3-s1-collision 0.3911 --p3-s2-success 0.4222 --p3-s2-collision 0.5778
+[2026-05-16 13:46:27] END analysis_report
+terminal_decision = phase_n3pf_ms_seed2_ab_audit_rerun_complete
+[2026-05-16 13:46:27] COMPLETE results/env_v2_phase_n3pf_ms_seed2_ab_audit_rerun/PHASE_N3PF_MS_SEED2_AB_AUDIT_RERUN_COMPLETE.flag

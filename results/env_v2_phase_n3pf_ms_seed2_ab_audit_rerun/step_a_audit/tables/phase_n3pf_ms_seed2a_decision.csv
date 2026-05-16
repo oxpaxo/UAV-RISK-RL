@@ -1,0 +1,2 @@
+decision_type,hard_error_found,do_step_b,stop_after_step_a,seed2_success_1500k,seed2_collision_1500k,config_mismatch_detail,eval_path_mismatch_detail,checkpoint_integrity_failed_detail,feature_gpsi_diagnostics_failed_detail,most_likely_cause
+ppo_bad_local_optimum_likely,0,1,0,0.4222222222222222,0.5777777777777778,,,,,PPO seed-sensitive bad local optimum or training instability

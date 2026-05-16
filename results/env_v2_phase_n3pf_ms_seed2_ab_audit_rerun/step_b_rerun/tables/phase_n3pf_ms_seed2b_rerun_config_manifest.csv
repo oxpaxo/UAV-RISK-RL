@@ -1,0 +1,2 @@
+run_name,training_seed,method_key,method,config,out_dir,obs_aug_dim,include_z,include_logvar,logvar_output_scale,feature_adapter,adapter_parameter_count,train_steps,checkpoint_steps,n_envs,device,no_shield,action_filtering,use_safety_cost
+seed2_rerunA,2,block_projected,n3pf_ms_ab_block_projected_seed2_rerunA,configs/env_v2_gpsi_heada_ppo_n3pf_block_projected.yaml,checkpoints/env_v2_gpsi_heada_ppo_n3pf_ms_block_projected_s2_rerunA,30,0,1,0.2,block_projected_no_z,864,1500000,"[250000, 500000, 750000, 1000000, 1250000, 1500000]",4,cpu,1,0,0
