@@ -1,0 +1,4 @@
+completed
+train_steps=1500000
+training_seed=2
+variant=stab_s2d_gated

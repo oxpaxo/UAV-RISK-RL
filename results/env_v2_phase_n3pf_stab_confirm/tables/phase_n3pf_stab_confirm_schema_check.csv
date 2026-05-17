@@ -1,0 +1,73 @@
+variant,training_seed,check,value,detail
+stab_s2d_gated,0,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,0,aug_obs_dim,30,expected=30
+stab_s2d_gated,0,include_z,0,must be 0
+stab_s2d_gated,0,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,0,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,0,aug_obs_dim,30,expected=30
+stab_s2d_gated,0,include_z,0,must be 0
+stab_s2d_gated,0,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,1,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,1,aug_obs_dim,30,expected=30
+stab_s2d_gated,1,include_z,0,must be 0
+stab_s2d_gated,1,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,2,aug_obs_dim,30,expected=30
+stab_s2d_gated,2,include_z,0,must be 0
+stab_s2d_gated,2,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,0,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,0,aug_obs_dim,30,expected=30
+stab_s2d_gated,0,include_z,0,must be 0
+stab_s2d_gated,0,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,1,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,1,aug_obs_dim,30,expected=30
+stab_s2d_gated,1,include_z,0,must be 0
+stab_s2d_gated,1,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,2,aug_obs_dim,30,expected=30
+stab_s2d_gated,2,include_z,0,must be 0
+stab_s2d_gated,2,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,0,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,0,aug_obs_dim,30,expected=30
+stab_s2d_gated,0,include_z,0,must be 0
+stab_s2d_gated,0,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,1,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,1,aug_obs_dim,30,expected=30
+stab_s2d_gated,1,include_z,0,must be 0
+stab_s2d_gated,1,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,2,aug_obs_dim,30,expected=30
+stab_s2d_gated,2,include_z,0,must be 0
+stab_s2d_gated,2,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,3,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,3,aug_obs_dim,30,expected=30
+stab_s2d_gated,3,include_z,0,must be 0
+stab_s2d_gated,3,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,3,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,3,aug_obs_dim,30,expected=30
+stab_s2d_gated,3,include_z,0,must be 0
+stab_s2d_gated,3,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,0,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,0,aug_obs_dim,30,expected=30
+stab_s2d_gated,0,include_z,0,must be 0
+stab_s2d_gated,0,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,1,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,1,aug_obs_dim,30,expected=30
+stab_s2d_gated,1,include_z,0,must be 0
+stab_s2d_gated,1,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,2,aug_obs_dim,30,expected=30
+stab_s2d_gated,2,include_z,0,must be 0
+stab_s2d_gated,2,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,0,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,0,aug_obs_dim,30,expected=30
+stab_s2d_gated,0,include_z,0,must be 0
+stab_s2d_gated,0,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,1,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,1,aug_obs_dim,30,expected=30
+stab_s2d_gated,1,include_z,0,must be 0
+stab_s2d_gated,1,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z
+stab_s2d_gated,2,gpsi_frozen,1,"{""requires_grad_any"": false, ""total_parameters"": 114002, ""trainable_parameters"": 0, ""training"": false}"
+stab_s2d_gated,2,aug_obs_dim,30,expected=30
+stab_s2d_gated,2,include_z,0,must be 0
+stab_s2d_gated,2,feature_adapter,gated_residual_no_z,block_projected_no_z or gated_residual_no_z

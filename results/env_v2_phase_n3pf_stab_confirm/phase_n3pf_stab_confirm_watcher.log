@@ -1,0 +1,40 @@
+[2026-05-17 11:19:35] PHASE_N3PF_STAB_CONFIRM_WATCHER_START
+[2026-05-17 11:19:35] PREFLIGHT_START
+[2026-05-17 11:19:36] PREFLIGHT_OK
+[2026-05-17 11:19:36] RUN phase_n3pf_stab_confirm_validate_seed0: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s0 --result-dir results/env_v2_phase_n3pf_stab_confirm --table-prefix phase_n3pf_stab_confirm --status-file phase_n3pf_stab_confirm_status.txt --report-file PHASE_N3PF_STAB_CONFIRM_REPORT.md --terminal-prefix phase_n3pf_stab_confirm --stop-flag-mode confirm --train-steps 1500000 --checkpoint-steps 500000 750000 1000000 1250000 1500000 --seed 0 --n-envs 4 --device cpu --validate-only
+[2026-05-17 11:19:39] RUN phase_n3pf_stab_confirm_validate_seed1: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s1 --result-dir results/env_v2_phase_n3pf_stab_confirm --table-prefix phase_n3pf_stab_confirm --status-file phase_n3pf_stab_confirm_status.txt --report-file PHASE_N3PF_STAB_CONFIRM_REPORT.md --terminal-prefix phase_n3pf_stab_confirm --stop-flag-mode confirm --train-steps 1500000 --checkpoint-steps 500000 750000 1000000 1250000 1500000 --seed 1 --n-envs 4 --device cpu --validate-only
+[2026-05-17 11:19:43] RUN phase_n3pf_stab_confirm_validate_seed2: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s2 --result-dir results/env_v2_phase_n3pf_stab_confirm --table-prefix phase_n3pf_stab_confirm --status-file phase_n3pf_stab_confirm_status.txt --report-file PHASE_N3PF_STAB_CONFIRM_REPORT.md --terminal-prefix phase_n3pf_stab_confirm --stop-flag-mode confirm --train-steps 1500000 --checkpoint-steps 500000 750000 1000000 1250000 1500000 --seed 2 --n-envs 4 --device cpu --validate-only
+[2026-05-17 11:19:46] TRAIN_ALREADY_COMPLETE seed=0
+[2026-05-17 11:19:48] TRAIN_ALREADY_COMPLETE seed=1
+[2026-05-17 11:19:50] TRAIN_ALREADY_COMPLETE seed=2
+[2026-05-17 11:19:52] TRAIN_HEARTBEAT running=0 load=0.76 1.20 1.27 1/512 7047 mem_available=60814496 kB disk=66G free 13% used
+[2026-05-17 11:19:53] TRAIN_STATUS seed=0 latest=final.zip pid=done_or_not_started
+|    policy_gradient_loss | -0.00953    |
+|    std                  | 1.26        |
+|    value_loss           | 9.03        |
+-----------------------------------------
+[2026-05-17 08:37:06] STAB_TRAIN_END variant=stab_s2d_gated seed=0 final=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s0/final.zip
+[2026-05-17 11:19:53] TRAIN_STATUS seed=1 latest=final.zip pid=done_or_not_started
+|    policy_gradient_loss | -0.00785    |
+|    std                  | 1.67        |
+|    value_loss           | 4.88        |
+-----------------------------------------
+[2026-05-17 08:36:14] STAB_TRAIN_END variant=stab_s2d_gated seed=1 final=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s1/final.zip
+[2026-05-17 11:19:53] TRAIN_STATUS seed=2 latest=final.zip pid=done_or_not_started
+|    policy_gradient_loss | -0.0105     |
+|    std                  | 1.5         |
+|    value_loss           | 4.45        |
+-----------------------------------------
+[2026-05-17 08:36:27] STAB_TRAIN_END variant=stab_s2d_gated seed=2 final=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s2/final.zip
+[2026-05-17 11:19:53] TRAIN_STATUS seed=3 latest=final.zip pid=done_or_not_started
+|    policy_gradient_loss | -0.01      |
+|    std                  | 1.35       |
+|    value_loss           | 5.36       |
+----------------------------------------
+[2026-05-17 08:44:04] STAB_TRAIN_END variant=stab_s2d_gated seed=3 final=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s3/final.zip
+[2026-05-17 11:19:53] TRAINING_ALL_DONE
+[2026-05-17 11:19:53] VALIDATION_SKIP existing summary found
+[2026-05-17 11:19:53] SELECTOR_SKIP existing selector decision found
+[2026-05-17 11:19:53] RUN phase_n3pf_stab_confirm_eval_test_selected: python -u scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py --result-dir results/env_v2_phase_n3pf_stab_confirm --table-prefix phase_n3pf_stab_confirm --status-file phase_n3pf_stab_confirm_status.txt --report-file PHASE_N3PF_STAB_CONFIRM_REPORT.md --terminal-prefix phase_n3pf_stab_confirm --stop-flag-mode confirm --eval-phase test --run s2d_confirm:0:configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s0:1250k --run s2d_confirm:1:configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s1:final --run s2d_confirm:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s2:1000k --run s2d_confirm:3:configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_s3:final --eval-seeds 1000 1001 1002 --num-episodes 50 --device cpu --skip-raw-step-table --heartbeat-seconds 300
+[2026-05-17 11:55:55] RUN phase_n3pf_stab_confirm_analysis: python -u scripts/analyze_env_v2_phase_n3pf_stab_confirm.py --result-dir results/env_v2_phase_n3pf_stab_confirm --table-prefix phase_n3pf_stab_confirm --github-sync-commit af2273c2850fc3d732d59c80f8a8c941a1adc73d --github-sync-status success_remote_main
+[2026-05-17 11:56:01] COMPLETE phase_n3pf_stab_confirm_complete_s2d_failed 

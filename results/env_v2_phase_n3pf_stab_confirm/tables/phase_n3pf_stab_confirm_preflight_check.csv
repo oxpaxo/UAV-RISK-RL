@@ -1,0 +1,7 @@
+item,kind,ok,detail
+guide,file,1,codex_guide/PHASE_N3PF_STAB_CONFIRM_GUIDE.md
+s2d_config,file,1,configs/env_v2_gpsi_heada_ppo_n3pf_stab_confirm_s2d_gated.yaml
+gpsi_checkpoint,file,1,work_dirs/gpsi_heada_v1_nll/best.pth
+gated_extractor_class,GpsiGatedResidualExtractor,1,GpsiGatedResidualExtractor in models/gpsi_ppo_policy.py
+base_block_projected_class,GpsiBlockProjectedNoZExtractor,1,GpsiBlockProjectedNoZExtractor in models/gpsi_ppo_policy.py
+previous_stab_complete,file,1,results/env_v2_phase_n3pf_stab/PHASE_N3PF_STAB_COMPLETE.flag

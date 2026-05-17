@@ -1,0 +1,4 @@
+training_seed,path,exists,size_bytes,source,formal_1500k_protocol_confirmed
+0,checkpoints/env_v2_phase2/attention_full_s0/attention_full_s0_step1500000.zip,1,1094971,formal_phase2_1500k,1
+1,checkpoints/attention_full_s1.zip,1,1083277,legacy_top_level_unknown_protocol,0
+2,checkpoints/attention_full_s2.zip,1,1083640,legacy_top_level_unknown_protocol,0

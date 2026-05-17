@@ -1,0 +1,163 @@
+item,command,returncode,output,stage,variant,training_seed,timestamp
+nproc,nproc,0,1,validate_only,stab_s2d_gated,0,2026-05-17 06:41:00
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,0,2026-05-17 06:41:00
+taskset_current_process,taskset -pc 1910,0,pid 1910's current affinity list: 0-15,validate_only,stab_s2d_gated,0,2026-05-17 06:41:00
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.0Gi        55Gi       0.0Ki       3.7Gi        58Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,0,2026-05-17 06:41:00
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,0,2026-05-17 06:41:00
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,0,2026-05-17 06:41:00
+nproc,nproc,0,1,validate_only,stab_s2d_gated,0,2026-05-17 06:42:39
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,0,2026-05-17 06:42:39
+taskset_current_process,taskset -pc 2048,0,pid 2048's current affinity list: 0-15,validate_only,stab_s2d_gated,0,2026-05-17 06:42:39
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.0Gi        54Gi       0.0Ki       4.0Gi        58Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,0,2026-05-17 06:42:39
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,0,2026-05-17 06:42:39
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,0,2026-05-17 06:42:39
+nproc,nproc,0,1,validate_only,stab_s2d_gated,1,2026-05-17 06:42:42
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,1,2026-05-17 06:42:42
+taskset_current_process,taskset -pc 2068,0,pid 2068's current affinity list: 0-15,validate_only,stab_s2d_gated,1,2026-05-17 06:42:42
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.0Gi        54Gi       0.0Ki       4.0Gi        58Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,1,2026-05-17 06:42:42
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,1,2026-05-17 06:42:42
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,1,2026-05-17 06:42:42
+nproc,nproc,0,1,validate_only,stab_s2d_gated,2,2026-05-17 06:42:46
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,2,2026-05-17 06:42:46
+taskset_current_process,taskset -pc 2078,0,pid 2078's current affinity list: 0-15,validate_only,stab_s2d_gated,2,2026-05-17 06:42:46
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.0Gi        54Gi       0.0Ki       4.0Gi        58Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,2,2026-05-17 06:42:46
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,2,2026-05-17 06:42:46
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,2,2026-05-17 06:42:46
+nproc,nproc,0,1,train_preflight,stab_s2d_gated,0,2026-05-17 06:42:49
+nproc_all,nproc --all,0,16,train_preflight,stab_s2d_gated,0,2026-05-17 06:42:49
+taskset_current_process,taskset -pc 2088,0,pid 2088's current affinity list: 0-15,train_preflight,stab_s2d_gated,0,2026-05-17 06:42:49
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.2Gi        54Gi       0.0Ki       4.0Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,stab_s2d_gated,0,2026-05-17 06:42:49
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",train_preflight,stab_s2d_gated,0,2026-05-17 06:42:49
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,stab_s2d_gated,0,2026-05-17 06:42:49
+nproc,nproc,0,1,train_preflight,stab_s2d_gated,1,2026-05-17 06:42:52
+nproc_all,nproc --all,0,16,train_preflight,stab_s2d_gated,1,2026-05-17 06:42:52
+taskset_current_process,taskset -pc 2097,0,pid 2097's current affinity list: 0-15,train_preflight,stab_s2d_gated,1,2026-05-17 06:42:52
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        54Gi       0.0Ki       4.0Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,stab_s2d_gated,1,2026-05-17 06:42:52
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",train_preflight,stab_s2d_gated,1,2026-05-17 06:42:52
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,stab_s2d_gated,1,2026-05-17 06:42:52
+nproc,nproc,0,1,train_preflight,stab_s2d_gated,2,2026-05-17 06:42:53
+nproc_all,nproc --all,0,16,train_preflight,stab_s2d_gated,2,2026-05-17 06:42:53
+taskset_current_process,taskset -pc 2112,0,pid 2112's current affinity list: 0-15,train_preflight,stab_s2d_gated,2,2026-05-17 06:42:53
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.6Gi        54Gi       0.0Ki       4.1Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,stab_s2d_gated,2,2026-05-17 06:42:53
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",train_preflight,stab_s2d_gated,2,2026-05-17 06:42:53
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,stab_s2d_gated,2,2026-05-17 06:42:53
+nproc,nproc,0,1,validate_only,stab_s2d_gated,0,2026-05-17 06:46:07
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,0,2026-05-17 06:46:07
+taskset_current_process,taskset -pc 2293,0,pid 2293's current affinity list: 0-15,validate_only,stab_s2d_gated,0,2026-05-17 06:46:07
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.1Gi        53Gi       0.0Ki       4.2Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,0,2026-05-17 06:46:07
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,0,2026-05-17 06:46:07
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,0,2026-05-17 06:46:07
+nproc,nproc,0,1,validate_only,stab_s2d_gated,1,2026-05-17 06:46:11
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,1,2026-05-17 06:46:11
+taskset_current_process,taskset -pc 2313,0,pid 2313's current affinity list: 0-15,validate_only,stab_s2d_gated,1,2026-05-17 06:46:11
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.1Gi        53Gi       0.0Ki       4.2Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,1,2026-05-17 06:46:11
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,1,2026-05-17 06:46:11
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,1,2026-05-17 06:46:11
+nproc,nproc,0,1,validate_only,stab_s2d_gated,2,2026-05-17 06:46:15
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,2,2026-05-17 06:46:15
+taskset_current_process,taskset -pc 2322,0,pid 2322's current affinity list: 0-15,validate_only,stab_s2d_gated,2,2026-05-17 06:46:15
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.1Gi        53Gi       0.0Ki       4.2Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,2,2026-05-17 06:46:15
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,2,2026-05-17 06:46:15
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,2,2026-05-17 06:46:15
+nproc,nproc,0,1,validate_only,stab_s2d_gated,3,2026-05-17 06:51:26
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,3,2026-05-17 06:51:26
+taskset_current_process,taskset -pc 2401,0,pid 2401's current affinity list: 0-15,validate_only,stab_s2d_gated,3,2026-05-17 06:51:26
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.1Gi        53Gi       0.0Ki       4.3Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,3,2026-05-17 06:51:26
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,3,2026-05-17 06:51:26
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,3,2026-05-17 06:51:26
+nproc,nproc,0,1,train_preflight,stab_s2d_gated,3,2026-05-17 06:51:29
+nproc_all,nproc --all,0,16,train_preflight,stab_s2d_gated,3,2026-05-17 06:51:29
+taskset_current_process,taskset -pc 2411,0,pid 2411's current affinity list: 0-15,train_preflight,stab_s2d_gated,3,2026-05-17 06:51:29
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.0Gi        53Gi       0.0Ki       4.3Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,stab_s2d_gated,3,2026-05-17 06:51:29
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",train_preflight,stab_s2d_gated,3,2026-05-17 06:51:29
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,stab_s2d_gated,3,2026-05-17 06:51:29
+nproc,nproc,0,1,validate_only,stab_s2d_gated,0,2026-05-17 11:16:41
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,0,2026-05-17 11:16:41
+taskset_current_process,taskset -pc 6585,0,pid 6585's current affinity list: 0-15,validate_only,stab_s2d_gated,0,2026-05-17 11:16:41
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        54Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,0,2026-05-17 11:16:41
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,0,2026-05-17 11:16:41
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,0,2026-05-17 11:16:41
+nproc,nproc,0,1,validate_only,stab_s2d_gated,1,2026-05-17 11:16:45
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,1,2026-05-17 11:16:45
+taskset_current_process,taskset -pc 6631,0,pid 6631's current affinity list: 0-15,validate_only,stab_s2d_gated,1,2026-05-17 11:16:45
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        54Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,1,2026-05-17 11:16:45
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,1,2026-05-17 11:16:45
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,1,2026-05-17 11:16:45
+nproc,nproc,0,1,validate_only,stab_s2d_gated,2,2026-05-17 11:16:48
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,2,2026-05-17 11:16:48
+taskset_current_process,taskset -pc 6665,0,pid 6665's current affinity list: 0-15,validate_only,stab_s2d_gated,2,2026-05-17 11:16:48
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        54Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,2,2026-05-17 11:16:48
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,2,2026-05-17 11:16:48
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,2,2026-05-17 11:16:48
+nproc,nproc,0,1,validate_only,stab_s2d_gated,0,2026-05-17 11:19:38
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,0,2026-05-17 11:19:38
+taskset_current_process,taskset -pc 6922,0,pid 6922's current affinity list: 0-15,validate_only,stab_s2d_gated,0,2026-05-17 11:19:38
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        54Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,0,2026-05-17 11:19:38
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,0,2026-05-17 11:19:38
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,0,2026-05-17 11:19:38
+nproc,nproc,0,1,validate_only,stab_s2d_gated,1,2026-05-17 11:19:42
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,1,2026-05-17 11:19:42
+taskset_current_process,taskset -pc 6968,0,pid 6968's current affinity list: 0-15,validate_only,stab_s2d_gated,1,2026-05-17 11:19:42
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        54Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,1,2026-05-17 11:19:42
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,1,2026-05-17 11:19:42
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,1,2026-05-17 11:19:42
+nproc,nproc,0,1,validate_only,stab_s2d_gated,2,2026-05-17 11:19:46
+nproc_all,nproc --all,0,16,validate_only,stab_s2d_gated,2,2026-05-17 11:19:46
+taskset_current_process,taskset -pc 7002,0,pid 7002's current affinity list: 0-15,validate_only,stab_s2d_gated,2,2026-05-17 11:19:46
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        54Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,stab_s2d_gated,2,2026-05-17 11:19:46
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /",validate_only,stab_s2d_gated,2,2026-05-17 11:19:46
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,stab_s2d_gated,2,2026-05-17 11:19:46

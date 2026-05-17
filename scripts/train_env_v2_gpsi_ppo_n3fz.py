@@ -118,6 +118,31 @@ class N3FZTrainCallback(BaseCallback):
                 "eta_minutes": float(eta_seconds / 60.0),
                 "recent_episode_reward_mean": float(np.mean(recent_rewards)) if recent_rewards else np.nan,
             }
+            logger_values = getattr(getattr(self.model, "logger", None), "name_to_value", {}) or {}
+            for key in [
+                "train/approx_kl",
+                "train/clip_fraction",
+                "train/entropy_loss",
+                "train/policy_gradient_loss",
+                "train/value_loss",
+                "train/explained_variance",
+                "train/learning_rate",
+                "train/n_updates",
+                "train/std",
+            ]:
+                if key in logger_values:
+                    short_key = key.replace("train/", "")
+                    try:
+                        row[short_key] = float(logger_values[key])
+                    except Exception:
+                        row[short_key] = logger_values[key]
+            log_std = getattr(getattr(self.model, "policy", None), "log_std", None)
+            if log_std is not None:
+                with torch.no_grad():
+                    log_std_cpu = log_std.detach().float().cpu()
+                    row["log_std_mean"] = float(torch.mean(log_std_cpu).item())
+                    row["log_std_min"] = float(torch.min(log_std_cpu).item())
+                    row["log_std_max"] = float(torch.max(log_std_cpu).item())
             self.heartbeat_rows.append(row)
             print(
                 f"[{row['wall_time']}] N3FZ_TRAIN_HEARTBEAT config={self.method_key} "

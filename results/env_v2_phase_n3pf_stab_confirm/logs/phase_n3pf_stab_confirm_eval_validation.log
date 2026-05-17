@@ -1,0 +1,5 @@
+[2026-05-17 11:17:00] STAB_EVAL_START phase=validation method=s2d_confirm_s0_500k eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-17 11:17:32] STAB_EVAL_HEARTBEAT phase=validation method=s2d_confirm_s0_500k eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.54 ep/s
+[2026-05-17 11:17:32] STAB_EVAL_START phase=validation method=s2d_confirm_s0_500k eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:18:07] STAB_EVAL_HEARTBEAT phase=validation method=s2d_confirm_s0_500k eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.43 ep/s
+[2026-05-17 11:18:07] STAB_EVAL_START phase=validation method=s2d_confirm_s0_500k eval_seed=900 scenario=eval_flow_high_speed episodes=50

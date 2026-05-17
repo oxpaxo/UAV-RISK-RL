@@ -1,0 +1,145 @@
+[2026-05-17 11:19:57] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-17 11:20:27] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.69 ep/s
+[2026-05-17 11:20:27] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:21:00] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.53 ep/s
+[2026-05-17 11:21:00] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:21:31] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.61 ep/s
+[2026-05-17 11:21:31] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:22:01] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.64 ep/s
+[2026-05-17 11:22:01] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:22:31] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.68 ep/s
+[2026-05-17 11:22:31] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:23:02] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.59 ep/s
+[2026-05-17 11:23:02] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-17 11:23:32] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.69 ep/s
+[2026-05-17 11:23:32] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:24:05] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.53 ep/s
+[2026-05-17 11:24:05] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:24:37] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.56 ep/s
+[2026-05-17 11:24:37] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:25:08] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.60 ep/s
+[2026-05-17 11:25:08] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:25:38] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.67 ep/s
+[2026-05-17 11:25:38] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:26:10] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.56 ep/s
+[2026-05-17 11:26:10] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-17 11:26:40] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.67 ep/s
+[2026-05-17 11:26:40] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:27:14] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.47 ep/s
+[2026-05-17 11:27:14] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:27:46] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.56 ep/s
+[2026-05-17 11:27:46] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:28:17] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.63 ep/s
+[2026-05-17 11:28:17] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:28:46] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.70 ep/s
+[2026-05-17 11:28:46] STAB_EVAL_START phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:29:17] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s0_1250k eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.62 ep/s
+[2026-05-17 11:29:17] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-17 11:29:46] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.73 ep/s
+[2026-05-17 11:29:46] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:30:17] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.60 ep/s
+[2026-05-17 11:30:17] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:30:44] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.89 ep/s
+[2026-05-17 11:30:44] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:31:14] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.64 ep/s
+[2026-05-17 11:31:14] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:31:42] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.77 ep/s
+[2026-05-17 11:31:42] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:32:13] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.65 ep/s
+[2026-05-17 11:32:13] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-17 11:32:43] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.67 ep/s
+[2026-05-17 11:32:43] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:33:14] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.59 ep/s
+[2026-05-17 11:33:14] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:33:40] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.93 ep/s
+[2026-05-17 11:33:40] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:34:11] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.64 ep/s
+[2026-05-17 11:34:11] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:34:39] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.73 ep/s
+[2026-05-17 11:34:39] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:35:10] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.66 ep/s
+[2026-05-17 11:35:10] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-17 11:35:39] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.70 ep/s
+[2026-05-17 11:35:39] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:36:11] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.59 ep/s
+[2026-05-17 11:36:11] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:36:36] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.94 ep/s
+[2026-05-17 11:36:36] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:37:07] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.64 ep/s
+[2026-05-17 11:37:07] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:37:36] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.75 ep/s
+[2026-05-17 11:37:36] STAB_EVAL_START phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:38:06] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s1_final eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.64 ep/s
+[2026-05-17 11:38:06] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-17 11:38:34] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.77 ep/s
+[2026-05-17 11:38:34] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:39:05] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.64 ep/s
+[2026-05-17 11:39:05] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:39:34] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.69 ep/s
+[2026-05-17 11:39:34] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:40:03] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.76 ep/s
+[2026-05-17 11:40:03] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:40:31] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.79 ep/s
+[2026-05-17 11:40:31] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:40:59] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.77 ep/s
+[2026-05-17 11:40:59] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-17 11:41:27] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.79 ep/s
+[2026-05-17 11:41:27] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:41:57] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.65 ep/s
+[2026-05-17 11:41:57] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:42:27] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.68 ep/s
+[2026-05-17 11:42:27] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:42:56] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.74 ep/s
+[2026-05-17 11:42:56] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:43:24] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.78 ep/s
+[2026-05-17 11:43:24] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:43:52] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.75 ep/s
+[2026-05-17 11:43:52] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-17 11:44:21] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.77 ep/s
+[2026-05-17 11:44:21] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:44:51] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.63 ep/s
+[2026-05-17 11:44:51] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:45:21] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.69 ep/s
+[2026-05-17 11:45:21] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:45:50] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.75 ep/s
+[2026-05-17 11:45:50] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:46:18] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.78 ep/s
+[2026-05-17 11:46:18] STAB_EVAL_START phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:46:47] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s2_1000k eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.72 ep/s
+[2026-05-17 11:46:47] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_id episodes=50
+[2026-05-17 11:47:16] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_id episodes=50/50 rate=1.74 ep/s
+[2026-05-17 11:47:16] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:47:47] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_high_density episodes=50/50 rate=1.59 ep/s
+[2026-05-17 11:47:47] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:48:16] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_high_speed episodes=50/50 rate=1.75 ep/s
+[2026-05-17 11:48:16] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:48:45] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_high_threat episodes=50/50 rate=1.72 ep/s
+[2026-05-17 11:48:45] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:49:13] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.79 ep/s
+[2026-05-17 11:49:13] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:49:42] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1000 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.69 ep/s
+[2026-05-17 11:49:42] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_id episodes=50
+[2026-05-17 11:50:12] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_id episodes=50/50 rate=1.71 ep/s
+[2026-05-17 11:50:12] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:50:43] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_high_density episodes=50/50 rate=1.59 ep/s
+[2026-05-17 11:50:43] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:51:12] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_high_speed episodes=50/50 rate=1.75 ep/s
+[2026-05-17 11:51:12] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:51:41] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_high_threat episodes=50/50 rate=1.74 ep/s
+[2026-05-17 11:51:41] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:52:09] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.78 ep/s
+[2026-05-17 11:52:09] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:52:38] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1001 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.68 ep/s
+[2026-05-17 11:52:38] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_id episodes=50
+[2026-05-17 11:53:08] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_id episodes=50/50 rate=1.68 ep/s
+[2026-05-17 11:53:08] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_high_density episodes=50
+[2026-05-17 11:53:41] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_high_density episodes=50/50 rate=1.55 ep/s
+[2026-05-17 11:53:41] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 11:54:10] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_high_speed episodes=50/50 rate=1.68 ep/s
+[2026-05-17 11:54:10] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 11:54:40] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_high_threat episodes=50/50 rate=1.71 ep/s
+[2026-05-17 11:54:40] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 11:55:09] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.71 ep/s
+[2026-05-17 11:55:09] STAB_EVAL_START phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 11:55:39] STAB_EVAL_HEARTBEAT phase=test method=s2d_confirm_s3_final eval_seed=1002 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.65 ep/s
+[2026-05-17 11:55:51] STAB_EVAL_END phase=test episodes=3600 raw_steps=418906

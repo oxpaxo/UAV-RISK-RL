@@ -1,0 +1,8 @@
+nproc=1
+nproc_all=16
+pid 6898's current affinity list: 0-15
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.1Gi        54Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.7G   66G  13% /
