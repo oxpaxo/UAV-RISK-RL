@@ -232,7 +232,7 @@ def add_adapter_output(
     info: dict[str, Any],
     prefix: dict[str, Any],
 ) -> None:
-    if str(cfg.get("method_key", "")) != "block_projected":
+    if str(cfg.get("ppo", {}).get("feature_adapter", "")) not in {"block_projected_no_z", "gated_residual_no_z"}:
         return
     extractor = getattr(getattr(model, "policy", None), "features_extractor", None)
     adapter = getattr(extractor, "latest_adapter_output", None)
@@ -249,6 +249,21 @@ def add_adapter_output(
     if key not in feature_accum:
         feature_accum[key] = defaultdict(base_eval.BlockAccumulator)
     feature_accum[key]["adapter_output_64"].add(arr[0, active])
+    for attr_name, block_name in [
+        ("latest_base_output", "gated_base_branch_64"),
+        ("latest_gpsi_output", "gated_gpsi_branch_64"),
+        ("latest_gated_contribution", "gated_contribution_64"),
+    ]:
+        tensor = getattr(extractor, attr_name, None)
+        if tensor is None:
+            continue
+        branch = tensor.detach().cpu().numpy()
+        if branch.ndim == 3 and branch.shape[0] >= 1:
+            feature_accum[key][block_name].add(branch[0, active])
+    gate = getattr(extractor, "latest_gate_value", None)
+    if gate is not None:
+        gate_arr = gate.detach().cpu().numpy().reshape(1, -1)
+        feature_accum[key]["gated_gate_value"].add(gate_arr)
 
 
 def add_gpsi_diagnostics(

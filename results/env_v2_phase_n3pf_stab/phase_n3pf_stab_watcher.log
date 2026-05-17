@@ -1,0 +1,561 @@
+[2026-05-16 17:15:49] Phase N3PF-STAB watcher start pid=2006
+[2026-05-16 17:15:49] START py_compile: python -m py_compile models/gpsi_ppo_policy.py scripts/train_env_v2_gpsi_ppo_n3p.py scripts/eval_env_v2_gpsi_ppo_n3p.py scripts/train_env_v2_gpsi_ppo_n3pf_stab.py scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py scripts/select_env_v2_phase_n3pf_stab_checkpoint.py scripts/analyze_env_v2_phase_n3pf_stab.py
+[2026-05-16 17:15:49] END py_compile
+[2026-05-16 17:15:49] START bash_n: bash -n scripts/watch_phase_n3pf_stab.sh
+[2026-05-16 17:15:49] END bash_n
+[2026-05-16 17:15:49] START validate_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 17:16:02] END validate_lr2e4
+[2026-05-16 17:15:59] STAB_VALIDATE_OK variant=stab_s1_lr2e4 seed=2
+[2026-05-16 17:16:02] START validate_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 17:16:06] END validate_lr1e4
+[2026-05-16 17:16:05] STAB_VALIDATE_OK variant=stab_s1_lr1e4 seed=2
+[2026-05-16 17:16:06] START validate_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 17:16:09] END validate_s2d
+[2026-05-16 17:16:09] STAB_VALIDATE_OK variant=stab_s2d_gated seed=2
+[2026-05-16 17:16:09] Launching S1 lower-LR screening jobs in parallel, max concurrency=2.
+[2026-05-16 17:16:09] START train_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 17:16:09] START train_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 17:16:09] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+[2026-05-16 17:22:09] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 3.23        |
+|    n_updates            | 200         |
+|    policy_gradient_loss | -0.00726    |
+|    std                  | 0.951       |
+|    value_loss           | 5.58        |
+-----------------------------------------
+|    loss                 | 1.65        |
+|    n_updates            | 200         |
+|    policy_gradient_loss | -0.00576    |
+|    std                  | 0.968       |
+|    value_loss           | 4.88        |
+-----------------------------------------
+[2026-05-16 17:28:09] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 3.67        |
+|    n_updates            | 420         |
+|    policy_gradient_loss | -0.00633    |
+|    std                  | 0.921       |
+|    value_loss           | 7.45        |
+-----------------------------------------
+|    loss                 | 3.17         |
+|    n_updates            | 420          |
+|    policy_gradient_loss | -0.00567     |
+|    std                  | 0.956        |
+|    value_loss           | 7.51         |
+------------------------------------------
+[2026-05-16 17:34:10] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 1.38        |
+|    n_updates            | 640         |
+|    policy_gradient_loss | -0.00747    |
+|    std                  | 0.912       |
+|    value_loss           | 5.21        |
+-----------------------------------------
+|    loss                 | 3.65         |
+|    n_updates            | 640          |
+|    policy_gradient_loss | -0.00612     |
+|    std                  | 0.943        |
+|    value_loss           | 8.38         |
+------------------------------------------
+[2026-05-16 17:40:10] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 1.41        |
+|    n_updates            | 860         |
+|    policy_gradient_loss | -0.00831    |
+|    std                  | 0.913       |
+|    value_loss           | 5.43        |
+-----------------------------------------
+|    loss                 | 3.98        |
+|    n_updates            | 870         |
+|    policy_gradient_loss | -0.000842   |
+|    std                  | 0.926       |
+|    value_loss           | 9.09        |
+-----------------------------------------
+[2026-05-16 17:46:10] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 3.01        |
+|    n_updates            | 1080        |
+|    policy_gradient_loss | -0.00688    |
+|    std                  | 0.924       |
+|    value_loss           | 6.52        |
+-----------------------------------------
+|    loss                 | 4.95        |
+|    n_updates            | 1090        |
+|    policy_gradient_loss | -0.00636    |
+|    std                  | 0.937       |
+|    value_loss           | 10.1        |
+-----------------------------------------
+[2026-05-16 17:52:10] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 2.32         |
+|    n_updates            | 1300         |
+|    policy_gradient_loss | -0.00691     |
+|    std                  | 0.951        |
+|    value_loss           | 8.71         |
+------------------------------------------
+|    loss                 | 2.72        |
+|    n_updates            | 1310        |
+|    policy_gradient_loss | -0.00473    |
+|    std                  | 0.935       |
+|    value_loss           | 7.32        |
+-----------------------------------------
+[2026-05-16 17:58:10] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 1.9         |
+|    n_updates            | 1520        |
+|    policy_gradient_loss | -0.00775    |
+|    std                  | 0.983       |
+|    value_loss           | 6.78        |
+-----------------------------------------
+|    loss                 | 3.5          |
+|    n_updates            | 1530         |
+|    policy_gradient_loss | -0.00671     |
+|    std                  | 0.926        |
+|    value_loss           | 8.86         |
+------------------------------------------
+[2026-05-16 18:04:10] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 2.07        |
+|    n_updates            | 1740        |
+|    policy_gradient_loss | -0.0064     |
+|    std                  | 0.981       |
+|    value_loss           | 5.69        |
+-----------------------------------------
+|    loss                 | 2.89        |
+|    n_updates            | 1750        |
+|    policy_gradient_loss | -0.00589    |
+|    std                  | 0.924       |
+|    value_loss           | 7.84        |
+-----------------------------------------
+[2026-05-16 18:10:10] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 1.4         |
+|    n_updates            | 1960        |
+|    policy_gradient_loss | -0.0107     |
+|    std                  | 0.972       |
+|    value_loss           | 5.01        |
+-----------------------------------------
+|    loss                 | 2.79        |
+|    n_updates            | 1970        |
+|    policy_gradient_loss | -0.00352    |
+|    std                  | 0.92        |
+|    value_loss           | 9.31        |
+-----------------------------------------
+[2026-05-16 18:16:11] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 1.27        |
+|    n_updates            | 2180        |
+|    policy_gradient_loss | -0.0101     |
+|    std                  | 0.974       |
+|    value_loss           | 5.34        |
+-----------------------------------------
+|    loss                 | 3.72        |
+|    n_updates            | 2190        |
+|    policy_gradient_loss | -0.00672    |
+|    std                  | 0.936       |
+|    value_loss           | 7.65        |
+-----------------------------------------
+[2026-05-16 18:22:11] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+|    loss                 | 1.17       |
+|    n_updates            | 2400       |
+|    policy_gradient_loss | -0.0101    |
+|    std                  | 0.977      |
+|    value_loss           | 4.19       |
+----------------------------------------
+|    loss                 | 4.31        |
+|    n_updates            | 2410        |
+|    policy_gradient_loss | -0.0047     |
+|    std                  | 0.939       |
+|    value_loss           | 9.7         |
+-----------------------------------------
+[2026-05-16 18:24:11] FAIL train_lr2e4 rc=127; tail follows
+|    std                  | 0.974       |
+|    value_loss           | 5.07        |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 127        |
+|    ep_rew_mean          | 34.3       |
+|    success_rate         | 0.73       |
+| time/                   |            |
+|    fps                  | 249        |
+|    iterations           | 241        |
+|    time_elapsed         | 3951       |
+|    total_timesteps      | 987136     |
+| train/                  |            |
+|    approx_kl            | 0.02225785 |
+|    clip_fraction        | 0.154      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.14      |
+|    explained_variance   | 0.719      |
+|    learning_rate        | 0.0002     |
+|    loss                 | 1.17       |
+|    n_updates            | 2400       |
+|    policy_gradient_loss | -0.0101    |
+|    std                  | 0.977      |
+|    value_loss           | 4.19       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 125         |
+|    ep_rew_mean          | 32.6        |
+|    success_rate         | 0.68        |
+| time/                   |             |
+|    fps                  | 249         |
+|    iterations           | 242         |
+|    time_elapsed         | 3968        |
+|    total_timesteps      | 991232      |
+| train/                  |             |
+|    approx_kl            | 0.023003515 |
+|    clip_fraction        | 0.175       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.707       |
+|    learning_rate        | 0.0002      |
+|    loss                 | 1.62        |
+|    n_updates            | 2410        |
+|    policy_gradient_loss | -0.00542    |
+|    std                  | 0.978       |
+|    value_loss           | 4.72        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 124         |
+|    ep_rew_mean          | 33.1        |
+|    success_rate         | 0.69        |
+| time/                   |             |
+|    fps                  | 249         |
+|    iterations           | 243         |
+|    time_elapsed         | 3984        |
+|    total_timesteps      | 995328      |
+| train/                  |             |
+|    approx_kl            | 0.026897702 |
+|    clip_fraction        | 0.191       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.653       |
+|    learning_rate        | 0.0002      |
+|    loss                 | 1.4         |
+|    n_updates            | 2420        |
+|    policy_gradient_loss | -0.00573    |
+|    std                  | 0.979       |
+|    value_loss           | 6.43        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 124         |
+|    ep_rew_mean          | 31.7        |
+|    success_rate         | 0.63        |
+| time/                   |             |
+|    fps                  | 249         |
+|    iterations           | 244         |
+|    time_elapsed         | 4001        |
+|    total_timesteps      | 999424      |
+| train/                  |             |
+|    approx_kl            | 0.016899858 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.666       |
+|    learning_rate        | 0.0002      |
+|    loss                 | 1.52        |
+|    n_updates            | 2430        |
+|    policy_gradient_loss | -0.0071     |
+|    std                  | 0.978       |
+|    value_loss           | 4.53        |
+-----------------------------------------
+[2026-05-16 18:23:03] N3FZ_CHECKPOINT_SAVED step=1000000 path=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2/checkpoint_1000k.zip
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 126         |
+|    ep_rew_mean          | 31.9        |
+|    success_rate         | 0.61        |
+| time/                   |             |
+|    fps                  | 249         |
+|    iterations           | 245         |
+|    time_elapsed         | 4017        |
+|    total_timesteps      | 1003520     |
+| train/                  |             |
+|    approx_kl            | 0.013661241 |
+|    clip_fraction        | 0.103       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.81        |
+|    learning_rate        | 0.0002      |
+|    loss                 | 1.21        |
+|    n_updates            | 2440        |
+|    policy_gradient_loss | -0.00561    |
+|    std                  | 0.979       |
+|    value_loss           | 3.93        |
+-----------------------------------------
+[2026-05-16 18:23:17] STAB_TRAIN_END variant=stab_s1_lr2e4 seed=2 final=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2/final.zip
+[2026-05-16 18:25:34] Phase N3PF-STAB watcher start pid=3730
+[2026-05-16 18:25:34] START py_compile: python -m py_compile models/gpsi_ppo_policy.py scripts/train_env_v2_gpsi_ppo_n3p.py scripts/eval_env_v2_gpsi_ppo_n3p.py scripts/train_env_v2_gpsi_ppo_n3pf_stab.py scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py scripts/select_env_v2_phase_n3pf_stab_checkpoint.py scripts/analyze_env_v2_phase_n3pf_stab.py
+[2026-05-16 18:25:34] END py_compile
+[2026-05-16 18:25:34] START bash_n: bash -n scripts/watch_phase_n3pf_stab.sh
+[2026-05-16 18:25:34] END bash_n
+[2026-05-16 18:25:34] START validate_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 18:25:38] END validate_lr2e4
+[2026-05-16 18:25:37] STAB_VALIDATE_OK variant=stab_s1_lr2e4 seed=2
+[2026-05-16 18:25:38] START validate_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 18:25:41] END validate_lr1e4
+[2026-05-16 18:25:40] STAB_VALIDATE_OK variant=stab_s1_lr1e4 seed=2
+[2026-05-16 18:25:41] START validate_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 18:25:45] END validate_s2d
+[2026-05-16 18:25:44] STAB_VALIDATE_OK variant=stab_s2d_gated seed=2
+[2026-05-16 18:25:45] Launching S1 lower-LR screening jobs in parallel, max concurrency=2.
+[2026-05-16 18:25:45] START train_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 18:25:45] START train_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 18:25:45] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+[2026-05-16 18:27:45] END train_lr2e4 and train_lr1e4
+[2026-05-16 18:27:45] START train_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 19:38:31] END train_s2d
+|    n_updates            | 2430       |
+|    policy_gradient_loss | -0.00707   |
+|    std                  | 1.2        |
+|    value_loss           | 5.95       |
+----------------------------------------
+[2026-05-16 19:38:15] N3FZ_CHECKPOINT_SAVED step=1000000 path=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2/checkpoint_1000k.zip
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 120         |
+|    ep_rew_mean          | 29.1        |
+|    success_rate         | 0.54        |
+| time/                   |             |
+|    fps                  | 236         |
+|    iterations           | 245         |
+|    time_elapsed         | 4236        |
+|    total_timesteps      | 1003520     |
+| train/                  |             |
+|    approx_kl            | 0.022018712 |
+|    clip_fraction        | 0.17        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.75       |
+|    explained_variance   | 0.589       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.77        |
+|    n_updates            | 2440        |
+|    policy_gradient_loss | -0.00628    |
+|    std                  | 1.2         |
+|    value_loss           | 5.1         |
+-----------------------------------------
+[2026-05-16 19:38:30] STAB_TRAIN_END variant=stab_s2d_gated seed=2 final=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2/final.zip
+[2026-05-16 19:38:31] START validation_eval: python scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py --result-dir results/env_v2_phase_n3pf_stab --eval-phase validation --run stab_s1_lr2e4:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --run stab_s1_lr1e4:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --run stab_s2d_gated:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --checkpoint-labels 500k 750k 1000k final --eval-seeds 900 901 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --device cpu --heartbeat-seconds 300
+[2026-05-16 19:38:37] FAIL validation_eval rc=2; tail follows
+[2026-05-16 19:38:36] STAB_EVAL_START phase=validation method=stab_s1_lr2e4_s2_500k eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-16 19:38:37] STOP flag detected after validation_eval: PHASE_N3PF_STAB_STOP_TRAINING_BROKEN.flag
+[2026-05-16 19:41:08] Phase N3PF-STAB watcher start pid=5317
+[2026-05-16 19:41:08] START py_compile: python -m py_compile models/gpsi_ppo_policy.py scripts/train_env_v2_gpsi_ppo_n3p.py scripts/eval_env_v2_gpsi_ppo_n3p.py scripts/train_env_v2_gpsi_ppo_n3pf_stab.py scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py scripts/select_env_v2_phase_n3pf_stab_checkpoint.py scripts/analyze_env_v2_phase_n3pf_stab.py
+[2026-05-16 19:41:08] END py_compile
+[2026-05-16 19:41:08] START bash_n: bash -n scripts/watch_phase_n3pf_stab.sh
+[2026-05-16 19:41:08] END bash_n
+[2026-05-16 19:41:08] START validate_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 19:41:12] END validate_lr2e4
+[2026-05-16 19:41:11] STAB_VALIDATE_OK variant=stab_s1_lr2e4 seed=2
+[2026-05-16 19:41:12] START validate_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 19:41:15] END validate_lr1e4
+[2026-05-16 19:41:15] STAB_VALIDATE_OK variant=stab_s1_lr1e4 seed=2
+[2026-05-16 19:41:15] START validate_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 19:41:19] END validate_s2d
+[2026-05-16 19:41:18] STAB_VALIDATE_OK variant=stab_s2d_gated seed=2
+[2026-05-16 19:41:19] Launching S1 lower-LR screening jobs in parallel, max concurrency=2.
+[2026-05-16 19:41:19] START train_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 19:41:19] START train_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 19:41:19] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+[2026-05-16 19:43:19] END train_lr2e4 and train_lr1e4
+[2026-05-16 19:43:19] START train_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 19:43:23] END train_s2d
+[2026-05-16 19:43:22] N3FZ_TRAIN_SKIP out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 target_steps=1000000
+[2026-05-16 19:43:23] START validation_eval: python scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py --result-dir results/env_v2_phase_n3pf_stab --eval-phase validation --run stab_s1_lr2e4:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --run stab_s1_lr1e4:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --run stab_s2d_gated:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --checkpoint-labels 500k 750k 1000k final --eval-seeds 900 901 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --device cpu --heartbeat-seconds 300
+[2026-05-16 20:47:20] FAIL validation_eval rc=2; tail follows
+[2026-05-16 20:18:29] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-16 20:18:55] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.90 ep/s
+[2026-05-16 20:18:55] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:19:25] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.66 ep/s
+[2026-05-16 20:19:25] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:19:52] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_high_speed episodes=50/50 rate=1.88 ep/s
+[2026-05-16 20:19:52] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:20:18] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_high_threat episodes=50/50 rate=1.90 ep/s
+[2026-05-16 20:20:18] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:20:44] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.91 ep/s
+[2026-05-16 20:20:44] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:21:11] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=900 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.90 ep/s
+[2026-05-16 20:21:11] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_id episodes=50
+[2026-05-16 20:21:37] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_id episodes=50/50 rate=1.89 ep/s
+[2026-05-16 20:21:37] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:22:05] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_high_density episodes=50/50 rate=1.77 ep/s
+[2026-05-16 20:22:05] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:22:32] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_high_speed episodes=50/50 rate=1.88 ep/s
+[2026-05-16 20:22:32] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:22:58] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_high_threat episodes=50/50 rate=1.90 ep/s
+[2026-05-16 20:22:58] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:23:25] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.90 ep/s
+[2026-05-16 20:23:25] STAB_EVAL_START phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:23:51] STAB_EVAL_HEARTBEAT phase=validation method=stab_s1_lr1e4_s2_final eval_seed=901 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.89 ep/s
+[2026-05-16 20:23:51] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-16 20:24:18] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.83 ep/s
+[2026-05-16 20:24:18] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:24:50] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.57 ep/s
+[2026-05-16 20:24:50] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:25:17] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_high_speed episodes=50/50 rate=1.89 ep/s
+[2026-05-16 20:25:17] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:25:45] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_high_threat episodes=50/50 rate=1.74 ep/s
+[2026-05-16 20:25:45] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:26:12] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.87 ep/s
+[2026-05-16 20:26:12] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:26:40] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.81 ep/s
+[2026-05-16 20:26:40] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_id episodes=50
+[2026-05-16 20:27:08] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_id episodes=50/50 rate=1.80 ep/s
+[2026-05-16 20:27:08] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:27:40] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_high_density episodes=50/50 rate=1.56 ep/s
+[2026-05-16 20:27:40] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:28:06] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_high_speed episodes=50/50 rate=1.88 ep/s
+[2026-05-16 20:28:06] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:28:35] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_high_threat episodes=50/50 rate=1.75 ep/s
+[2026-05-16 20:28:35] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:29:02] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.86 ep/s
+[2026-05-16 20:29:02] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:29:29] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_500k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.81 ep/s
+[2026-05-16 20:29:29] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-16 20:29:55] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.95 ep/s
+[2026-05-16 20:29:55] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:30:24] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.71 ep/s
+[2026-05-16 20:30:24] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:30:52] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_high_speed episodes=50/50 rate=1.83 ep/s
+[2026-05-16 20:30:52] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:31:19] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_high_threat episodes=50/50 rate=1.81 ep/s
+[2026-05-16 20:31:19] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:31:46] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.85 ep/s
+[2026-05-16 20:31:46] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:32:15] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.78 ep/s
+[2026-05-16 20:32:15] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_id episodes=50
+[2026-05-16 20:32:40] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_id episodes=50/50 rate=1.94 ep/s
+[2026-05-16 20:32:40] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:33:09] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_high_density episodes=50/50 rate=1.72 ep/s
+[2026-05-16 20:33:09] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:33:37] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_high_speed episodes=50/50 rate=1.82 ep/s
+[2026-05-16 20:33:37] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:34:05] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_high_threat episodes=50/50 rate=1.80 ep/s
+[2026-05-16 20:34:05] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:34:32] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.84 ep/s
+[2026-05-16 20:34:32] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:35:00] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_750k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.78 ep/s
+[2026-05-16 20:35:00] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-16 20:35:29] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.74 ep/s
+[2026-05-16 20:35:29] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:36:02] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.49 ep/s
+[2026-05-16 20:36:02] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:36:32] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_high_speed episodes=50/50 rate=1.66 ep/s
+[2026-05-16 20:36:32] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:37:02] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_high_threat episodes=50/50 rate=1.71 ep/s
+[2026-05-16 20:37:02] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:37:32] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.66 ep/s
+[2026-05-16 20:37:32] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:38:01] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.69 ep/s
+[2026-05-16 20:38:01] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_id episodes=50
+[2026-05-16 20:38:30] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_id episodes=50/50 rate=1.74 ep/s
+[2026-05-16 20:38:30] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:39:04] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_high_density episodes=50/50 rate=1.50 ep/s
+[2026-05-16 20:39:04] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:39:34] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_high_speed episodes=50/50 rate=1.66 ep/s
+[2026-05-16 20:39:34] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:40:03] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_high_threat episodes=50/50 rate=1.72 ep/s
+[2026-05-16 20:40:03] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:40:33] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.66 ep/s
+[2026-05-16 20:40:33] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:41:03] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.67 ep/s
+[2026-05-16 20:41:03] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-16 20:41:31] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.79 ep/s
+[2026-05-16 20:41:31] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:42:04] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.51 ep/s
+[2026-05-16 20:42:04] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:42:33] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_speed episodes=50/50 rate=1.74 ep/s
+[2026-05-16 20:42:33] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:43:01] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_threat episodes=50/50 rate=1.75 ep/s
+[2026-05-16 20:43:01] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:43:31] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.71 ep/s
+[2026-05-16 20:43:31] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:43:59] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.74 ep/s
+[2026-05-16 20:43:59] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_id episodes=50
+[2026-05-16 20:44:28] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_id episodes=50/50 rate=1.77 ep/s
+[2026-05-16 20:44:28] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_density episodes=50
+[2026-05-16 20:45:00] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_density episodes=50/50 rate=1.53 ep/s
+[2026-05-16 20:45:00] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_speed episodes=50
+[2026-05-16 20:45:29] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_speed episodes=50/50 rate=1.74 ep/s
+[2026-05-16 20:45:29] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_threat episodes=50
+[2026-05-16 20:45:58] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_threat episodes=50/50 rate=1.72 ep/s
+[2026-05-16 20:45:58] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-16 20:46:27] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.72 ep/s
+[2026-05-16 20:46:27] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-16 20:46:56] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.75 ep/s
+[2026-05-16 20:47:20] STOP flag detected after validation_eval: PHASE_N3PF_STAB_STOP_EVAL_FAILED.flag
+[2026-05-16 20:48:50] Phase N3PF-STAB watcher start pid=6621
+[2026-05-16 20:48:50] START py_compile: python -m py_compile models/gpsi_ppo_policy.py scripts/train_env_v2_gpsi_ppo_n3p.py scripts/eval_env_v2_gpsi_ppo_n3p.py scripts/train_env_v2_gpsi_ppo_n3pf_stab.py scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py scripts/select_env_v2_phase_n3pf_stab_checkpoint.py scripts/analyze_env_v2_phase_n3pf_stab.py
+[2026-05-16 20:48:50] END py_compile
+[2026-05-16 20:48:50] START bash_n: bash -n scripts/watch_phase_n3pf_stab.sh
+[2026-05-16 20:48:50] END bash_n
+[2026-05-16 20:48:50] START validate_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 20:48:53] END validate_lr2e4
+[2026-05-16 20:48:53] STAB_VALIDATE_OK variant=stab_s1_lr2e4 seed=2
+[2026-05-16 20:48:53] START validate_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 20:48:57] END validate_lr1e4
+[2026-05-16 20:48:56] STAB_VALIDATE_OK variant=stab_s1_lr1e4 seed=2
+[2026-05-16 20:48:57] START validate_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-16 20:49:00] END validate_s2d
+[2026-05-16 20:49:00] STAB_VALIDATE_OK variant=stab_s2d_gated seed=2
+[2026-05-16 20:49:01] Launching S1 lower-LR screening jobs in parallel, max concurrency=2.
+[2026-05-16 20:49:01] START train_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 20:49:01] START train_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-16 20:49:01] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+[2026-05-17 01:54:56] Phase N3PF-STAB watcher start pid=942
+[2026-05-17 01:54:56] START py_compile: python -m py_compile models/gpsi_ppo_policy.py scripts/train_env_v2_gpsi_ppo_n3p.py scripts/eval_env_v2_gpsi_ppo_n3p.py scripts/train_env_v2_gpsi_ppo_n3pf_stab.py scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py scripts/select_env_v2_phase_n3pf_stab_checkpoint.py scripts/analyze_env_v2_phase_n3pf_stab.py
+[2026-05-17 01:54:56] END py_compile
+[2026-05-17 01:54:56] START bash_n: bash -n scripts/watch_phase_n3pf_stab.sh
+[2026-05-17 01:54:56] END bash_n
+[2026-05-17 01:54:56] START validate_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-17 01:55:00] END validate_lr2e4
+[2026-05-17 01:54:59] STAB_VALIDATE_OK variant=stab_s1_lr2e4 seed=2
+[2026-05-17 01:55:00] START validate_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-17 01:55:03] END validate_lr1e4
+[2026-05-17 01:55:02] STAB_VALIDATE_OK variant=stab_s1_lr1e4 seed=2
+[2026-05-17 01:55:03] START validate_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300 --validate-only
+[2026-05-17 01:55:06] END validate_s2d
+[2026-05-17 01:55:05] STAB_VALIDATE_OK variant=stab_s2d_gated seed=2
+[2026-05-17 01:55:06] Launching S1 lower-LR screening jobs in parallel, max concurrency=2.
+[2026-05-17 01:55:06] START train_lr2e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-17 01:55:06] START train_lr1e4: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-17 01:55:06] HEARTBEAT training train_lr2e4 pid_alive=yes, train_lr1e4 pid_alive=yes
+[2026-05-17 01:57:06] END train_lr2e4 and train_lr1e4
+[2026-05-17 01:57:06] START train_s2d: python scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --train-steps 1000000 --checkpoint-steps 500000 750000 1000000 --seed 2 --n-envs 4 --device cpu --heartbeat-seconds 300
+[2026-05-17 01:57:09] END train_s2d
+[2026-05-17 01:57:09] N3FZ_TRAIN_SKIP out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 target_steps=1000000
+[2026-05-17 01:57:09] START validation_eval: python scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py --result-dir results/env_v2_phase_n3pf_stab --eval-phase validation --run stab_s1_lr2e4:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr2e4.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr2e4_s2 --run stab_s1_lr1e4:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2 --run stab_s2d_gated:2:configs/env_v2_gpsi_heada_ppo_n3pf_stab_s2d_gated.yaml:checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s2d_gated_s2 --checkpoint-labels 500k 750k 1000k final --eval-seeds 900 901 --num-episodes 50 --scenarios eval_flow_id eval_flow_high_density eval_flow_high_speed eval_flow_high_threat eval_flow_mixed_ood eval_flow_sudden_threat --device cpu --heartbeat-seconds 300
+[2026-05-17 03:02:31] END validation_eval
+[2026-05-17 02:54:58] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_high_threat episodes=50/50 rate=1.68 ep/s
+[2026-05-17 02:54:58] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 02:55:29] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.63 ep/s
+[2026-05-17 02:55:29] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 02:55:59] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_1000k eval_seed=901 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.67 ep/s
+[2026-05-17 02:55:59] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-17 02:56:28] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.71 ep/s
+[2026-05-17 02:56:28] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-17 02:57:01] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.50 ep/s
+[2026-05-17 02:57:01] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 02:57:30] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_speed episodes=50/50 rate=1.72 ep/s
+[2026-05-17 02:57:30] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 02:58:00] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_high_threat episodes=50/50 rate=1.70 ep/s
+[2026-05-17 02:58:00] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 02:58:29] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.67 ep/s
+[2026-05-17 02:58:30] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 02:58:59] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=900 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.70 ep/s
+[2026-05-17 02:58:59] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_id episodes=50
+[2026-05-17 02:59:27] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_id episodes=50/50 rate=1.76 ep/s
+[2026-05-17 02:59:27] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_density episodes=50
+[2026-05-17 03:00:00] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_density episodes=50/50 rate=1.53 ep/s
+[2026-05-17 03:00:00] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 03:00:29] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_speed episodes=50/50 rate=1.73 ep/s
+[2026-05-17 03:00:29] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 03:00:58] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_high_threat episodes=50/50 rate=1.73 ep/s
+[2026-05-17 03:00:58] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 03:01:28] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.69 ep/s
+[2026-05-17 03:01:28] STAB_EVAL_START phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 03:01:57] STAB_EVAL_HEARTBEAT phase=validation method=stab_s2d_gated_s2_final eval_seed=901 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.72 ep/s
+[2026-05-17 03:02:26] STAB_EVAL_END phase=validation episodes=7200 raw_steps=781539
+[2026-05-17 03:02:31] START selector: python scripts/select_env_v2_phase_n3pf_stab_checkpoint.py --result-dir results/env_v2_phase_n3pf_stab --selection-metric success_minus_2collision --validation-seeds 900 901
+[2026-05-17 03:02:31] END selector
+STAB_SELECTOR_COMPLETE variants=3 metric=success_minus_2collision
+[2026-05-17 03:02:31] START analysis_report: python scripts/analyze_env_v2_phase_n3pf_stab.py --result-dir results/env_v2_phase_n3pf_stab --mode post_validation --github-sync-status pushed --github-sync-commit f28272bd694d490aae649b9878c20f6a8c1cfb98
+[2026-05-17 03:02:33] END analysis_report
+STAB_ANALYSIS_COMPLETE
+[2026-05-17 03:02:33] COMPLETE results/env_v2_phase_n3pf_stab/PHASE_N3PF_STAB_COMPLETE.flag

@@ -1,0 +1,5 @@
+variant,changed_field,old_value,new_value,structure_changed
+stab_s1_lr2e4,ppo.learning_rate,0.0003,0.0002,0
+stab_s1_lr1e4,ppo.learning_rate,0.0003,0.0001,0
+stab_s2d_gated,ppo.feature_adapter,block_projected_no_z,gated_residual_no_z,1
+stab_s2d_gated,s2_variant,,S2-D attention-like fallback,1

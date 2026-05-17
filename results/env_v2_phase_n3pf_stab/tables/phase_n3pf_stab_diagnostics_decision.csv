@@ -1,0 +1,4 @@
+variant,diagnostics_ok,feature_nonfinite_count,delta_norm_1s_p95_max,adapter_output_l2_p95_max
+stab_s1_lr1e4,1,0,2.035679578781128,5.701383113861084
+stab_s1_lr2e4,1,0,2.0533947944641118,5.791554927825928
+stab_s2d_gated,1,0,2.131802463531494,7.342576026916504

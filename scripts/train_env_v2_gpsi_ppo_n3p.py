@@ -29,7 +29,7 @@ if str(ROOT) not in sys.path:
 import scripts.train_env_v2_gpsi_ppo_n3fz as base_train
 from envs.dynamic_obstacle_flow_env import DynamicObstacleFlowEnv
 from envs.wrappers.gpsi_obs_wrapper import GpsiObsWrapper
-from models.gpsi_ppo_policy import GpsiBlockProjectedNoZExtractor, GpsiObstacleSetExtractor
+from models.gpsi_ppo_policy import GpsiBlockProjectedNoZExtractor, GpsiGatedResidualExtractor, GpsiObstacleSetExtractor
 
 
 RESULT_DIR = ROOT / "results/env_v2_phase_n3p_noz_representation_ablation"
@@ -327,6 +327,23 @@ def make_policy_kwargs(cfg: dict[str, Any]) -> dict[str, Any]:
                 "delta_project_dim": int(block_cfg.get("delta_project_dim", 16)),
                 "logvar_project_dim": int(block_cfg.get("logvar_project_dim", 16)),
                 "activation": str(block_cfg.get("activation", "tanh")),
+                "use_risk_bias": bool(ppo_cfg.get("use_risk_bias", False)),
+                "lambda_bias": float(ppo_cfg.get("lambda_bias", 0.0)),
+            },
+        }
+    if adapter == "gated_residual_no_z":
+        gated_cfg = ppo_cfg.get("gated_residual", {})
+        return {
+            **common,
+            "features_extractor_class": GpsiGatedResidualExtractor,
+            "features_extractor_kwargs": {
+                "hidden_dim": int(ppo_cfg.get("hidden_dim", 64)),
+                "obs_block_dim": int(gated_cfg.get("obs_block_dim", 12)),
+                "delta_block_dim": int(gated_cfg.get("delta_block_dim", 9)),
+                "logvar_block_dim": int(gated_cfg.get("logvar_block_dim", 9)),
+                "gpsi_hidden_dim": int(gated_cfg.get("gpsi_hidden_dim", 64)),
+                "gate_init_logit": float(gated_cfg.get("gate_init_logit", -5.0)),
+                "activation": str(gated_cfg.get("activation", "tanh")),
                 "use_risk_bias": bool(ppo_cfg.get("use_risk_bias", False)),
                 "lambda_bias": float(ppo_cfg.get("lambda_bias", 0.0)),
             },

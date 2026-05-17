@@ -1,0 +1,14 @@
+{
+  "config": "configs/env_v2_gpsi_heada_ppo_n3pf_stab_s1_lr1e4.yaml",
+  "detail": "target checkpoint and final.zip already exist",
+  "expected_checkpoint": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2/checkpoint_1000k.zip",
+  "final_zip": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2/final.zip",
+  "hostname": "8a4832b5251c",
+  "method_key": "stab_s1_lr1e4",
+  "method_name": "n3pf_stab_s1_lr1e4_block_projected_no_z",
+  "out_dir": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_stab/stab_s1_lr1e4_s2",
+  "pid": 1078,
+  "requested_train_steps": 1000000,
+  "status": "completed_skip",
+  "timestamp": "2026-05-17 01:55:08"
+}
