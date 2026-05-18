@@ -42,6 +42,7 @@ STOP_FLAGS = {
     "eval_failed": "PHASE_N3PF_STAB_STOP_EVAL_FAILED.flag",
 }
 CHECKPOINTS = {
+    "250k": ("checkpoint_250k.zip", 250_000),
     "500k": ("checkpoint_500k.zip", 500_000),
     "750k": ("checkpoint_750k.zip", 750_000),
     "1000k": ("checkpoint_1000k.zip", 1_000_000),
@@ -270,6 +271,20 @@ def feature_summary_rows(feature_accum: dict[tuple[Any, ...], dict[str, base_eva
         "gated_gpsi_branch_64",
         "gated_contribution_64",
         "gated_gate_value",
+        "nearestk_selected_features",
+        "nearestk_topk_active",
+        "nearestk_topk_scores",
+        "nearestk_selected_distance",
+        "nearestk_selected_ttc",
+        "nearestk_selected_risk",
+        "nearestk_flatten_l2",
+        "nearestk_nonfinite_count",
+        "deepsets_phi_output_64",
+        "deepsets_mean_pool_64",
+        "deepsets_max_pool_64",
+        "deepsets_pool_l2",
+        "deepsets_active_count",
+        "deepsets_nonfinite_count",
         "full_aug_obs",
     ]
     for key, groups in feature_accum.items():
@@ -363,6 +378,7 @@ def summarize_raw(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     if not rows:
         return []
     df = pd.DataFrame(rows)
+    ttc_col = "raw_min_predicted_ttc" if "raw_min_predicted_ttc" in df.columns else "raw_min_predicted_cpa"
     group_cols = ["eval_phase", "variant", "training_seed", "method_key", "method", "checkpoint", "checkpoint_path", "checkpoint_step", "checkpoint_label", "eval_seed", "scenario", "motion_mode", "threat_class"]
     out = (
         df.groupby(group_cols, dropna=False)
@@ -371,7 +387,7 @@ def summarize_raw(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             raw_unsafe_action_rate=("raw_unsafe_action", "mean"),
             raw_safe_margin_unsafe_action_rate=("raw_safe_margin_unsafe_action", "mean"),
             raw_min_predicted_cpa=("raw_min_predicted_cpa", "mean"),
-            raw_min_predicted_ttc=("raw_min_predicted_ttc", "mean"),
+            raw_min_predicted_ttc=(ttc_col, "mean"),
             action_norm=("action_norm", "mean"),
             action_delta=("action_delta", "mean"),
             no_response_rate=("no_response", "mean"),

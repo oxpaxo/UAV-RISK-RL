@@ -18,6 +18,7 @@ import numpy as np
 import torch
 import yaml
 from stable_baselines3 import PPO
+from stable_baselines3.common.callbacks import BaseCallback
 from stable_baselines3.common.vec_env import DummyVecEnv
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,6 +27,7 @@ if str(ROOT) not in sys.path:
 
 import scripts.train_env_v2_gpsi_ppo_n3fz as base_train
 import scripts.train_env_v2_gpsi_ppo_n3p as n3p_train
+from models.gpsi_ppo_policy import GpsiDeepSetsExtractor, GpsiNearestKExtractor
 
 
 DEFAULT_RESULT_DIR = ROOT / "results/env_v2_phase_n3pf_stab"
@@ -41,6 +43,28 @@ class StabTrainStop(Exception):
         super().__init__(detail)
         self.reason = reason
         self.detail = detail
+
+
+class TotalStepCheckpointCallback(BaseCallback):
+    def __init__(self, target_steps: list[int], checkpoint_dir: Path) -> None:
+        super().__init__()
+        self.target_steps = sorted(int(step) for step in target_steps)
+        self.checkpoint_dir = checkpoint_dir
+        self.saved_steps: set[int] = set()
+
+    def _on_training_start(self) -> None:
+        self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
+
+    def _on_step(self) -> bool:
+        current_steps = int(self.model.num_timesteps)
+        for step in self.target_steps:
+            if step in self.saved_steps or current_steps < step:
+                continue
+            path = self.checkpoint_dir / f"checkpoint_{step // 1000}k.zip"
+            self.model.save(str(path))
+            self.saved_steps.add(step)
+            print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] STAB_TOTAL_CHECKPOINT_SAVED step={step} path={rel(path)}", flush=True)
+        return True
 
 
 def parse_args() -> argparse.Namespace:
@@ -60,6 +84,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--heartbeat-seconds", type=float, default=300.0)
     parser.add_argument("--validate-only", action="store_true")
+    parser.add_argument("--resume-checkpoint", default="")
+    parser.add_argument("--parent-total-steps", type=int, default=0)
     return parser.parse_args()
 
 
@@ -209,8 +235,9 @@ def set_seed(seed: int) -> None:
 
 def normalize_config(cfg: dict[str, Any], args: argparse.Namespace, out_dir: Path) -> None:
     variant = str(cfg.get("method_key", ""))
-    if variant not in {"stab_s1_lr2e4", "stab_s1_lr1e4", "stab_s2d_gated"}:
-        raise StabTrainStop("hard_error", f"unsupported STAB method_key={variant}")
+    decouple_variants = {"decouple_nk_obs", "decouple_nk_gpsi", "decouple_deepsets_obs", "decouple_deepsets_gpsi"}
+    if variant not in {"stab_s1_lr2e4", "stab_s1_lr1e4", "stab_s2d_gated", *decouple_variants}:
+        raise StabTrainStop("hard_error", f"unsupported STAB/DECOUPLE method_key={variant}")
     cfg.setdefault("env", {})["n_envs"] = int(args.n_envs)
     cfg["env"]["device"] = str(args.device)
     cfg.setdefault("training", {})["seed"] = int(args.seed)
@@ -224,18 +251,36 @@ def normalize_config(cfg: dict[str, Any], args: argparse.Namespace, out_dir: Pat
     cfg["training"]["out_dir"] = rel(out_dir)
     if int(args.n_envs) != 4 or str(args.device) != "cpu":
         raise StabTrainStop("hard_error", f"STAB requires n_envs=4 device=cpu, got n_envs={args.n_envs} device={args.device}")
-    if int(args.train_steps) not in {1_000_000, 1_500_000}:
-        raise StabTrainStop("hard_error", f"STAB train_steps must be 1000000 or 1500000, got {args.train_steps}")
-    required = {500_000, 750_000, 1_000_000}
-    if int(args.train_steps) == 1_500_000:
-        required |= {1_250_000, 1_500_000}
+    if int(args.train_steps) not in {750_000, 1_000_000, 1_500_000}:
+        raise StabTrainStop("hard_error", f"STAB/DECOUPLE train_steps must be 750000, 1000000 or 1500000, got {args.train_steps}")
+    resume_requested = bool(str(args.resume_checkpoint).strip())
+    if variant in decouple_variants and resume_requested:
+        required = {1_000_000} if int(args.train_steps) == 1_000_000 else {1_000_000, 1_250_000, 1_500_000}
+    else:
+        required = {250_000, 500_000, 750_000} if variant in decouple_variants and int(args.train_steps) == 750_000 else {500_000, 750_000, 1_000_000}
+        if int(args.train_steps) == 1_500_000:
+            required |= {1_250_000, 1_500_000}
     if not required.issubset({int(step) for step in args.checkpoint_steps}):
         raise StabTrainStop("hard_error", f"checkpoint_steps must include {sorted(required)}")
     gpsi = cfg.get("gpsi", {})
     if bool(gpsi.get("include_z", False)) or int(gpsi.get("obs_aug_dim", 30)) != 30:
         raise StabTrainStop("hard_error", "STAB configs must be no_z obs_aug_dim=30")
     adapter = str(cfg.get("ppo", {}).get("feature_adapter"))
-    if adapter == "gated_residual_no_z":
+    if variant in decouple_variants:
+        if adapter not in {"nearest_k_no_attention", "deepsets_no_attention"}:
+            raise StabTrainStop("hard_error", f"DECOUPLE requires non-attention adapter, got {adapter}")
+        if bool(gpsi.get("include_z", False)) or not bool(gpsi.get("include_logvar", True)):
+            raise StabTrainStop("hard_error", "DECOUPLE must be no_z with logvar included")
+        if int(gpsi.get("obs_aug_dim", -1)) != 30:
+            raise StabTrainStop("hard_error", "DECOUPLE requires obs_aug_dim=30")
+        if abs(float(gpsi.get("logvar_output_scale", 1.0)) - 0.2) > 1e-9:
+            raise StabTrainStop("hard_error", "DECOUPLE requires logvar_output_scale=0.2")
+        mode = str(cfg.get("ppo", {}).get("feature_mode", ""))
+        if variant.endswith("_obs") and mode != "obs_only":
+            raise StabTrainStop("hard_error", f"{variant} must use feature_mode=obs_only")
+        if variant.endswith("_gpsi") and mode != "gpsi":
+            raise StabTrainStop("hard_error", f"{variant} must use feature_mode=gpsi")
+    elif adapter == "gated_residual_no_z":
         if str(cfg.get("s2_variant", "")) != "S2-D":
             raise StabTrainStop("hard_error", "gated config must explicitly declare S2-D")
     else:
@@ -268,7 +313,7 @@ def validate_wrapper(cfg: dict[str, Any], args: argparse.Namespace) -> None:
             {"variant": cfg["method_key"], "training_seed": int(args.seed), "check": "gpsi_frozen", "value": int(not freeze.training and not freeze.requires_grad_any and freeze.trainable_parameters == 0), "detail": json.dumps(freeze.__dict__, sort_keys=True)},
             {"variant": cfg["method_key"], "training_seed": int(args.seed), "check": "aug_obs_dim", "value": int(obs["obs"].shape[-1]), "detail": "expected=30"},
             {"variant": cfg["method_key"], "training_seed": int(args.seed), "check": "include_z", "value": int(bool(env.latest_gpsi_debug.get("include_z", False))), "detail": "must be 0"},
-            {"variant": cfg["method_key"], "training_seed": int(args.seed), "check": "feature_adapter", "value": str(cfg.get("ppo", {}).get("feature_adapter", "")), "detail": "block_projected_no_z or gated_residual_no_z"},
+            {"variant": cfg["method_key"], "training_seed": int(args.seed), "check": "feature_adapter", "value": str(cfg.get("ppo", {}).get("feature_adapter", "")), "detail": "block_projected_no_z, gated_residual_no_z, nearest_k_no_attention or deepsets_no_attention"},
         ]
         append_csv(result_dir / f"tables/{table_prefix}_schema_check.csv", rows)
         if freeze.training or freeze.requires_grad_any or freeze.trainable_parameters != 0:
@@ -277,6 +322,44 @@ def validate_wrapper(cfg: dict[str, Any], args: argparse.Namespace) -> None:
             raise StabTrainStop("hard_error", f"obs dim mismatch: {obs['obs'].shape[-1]} vs 30")
     finally:
         env.close()
+
+
+def make_policy_kwargs(cfg: dict[str, Any]) -> dict[str, Any]:
+    ppo_cfg = cfg.get("ppo", {})
+    adapter = str(ppo_cfg.get("feature_adapter", ""))
+    common = {
+        "net_arch": ppo_cfg.get("net_arch", {"pi": [128, 128], "vf": [128, 128]}),
+        "activation_fn": torch.nn.Tanh,
+    }
+    if adapter == "nearest_k_no_attention":
+        decouple_cfg = ppo_cfg.get("decouple", {})
+        return {
+            **common,
+            "features_extractor_class": GpsiNearestKExtractor,
+            "features_extractor_kwargs": {
+                "hidden_dim": int(ppo_cfg.get("hidden_dim", 64)),
+                "obs_block_dim": int(decouple_cfg.get("obs_block_dim", 12)),
+                "delta_block_dim": int(decouple_cfg.get("delta_block_dim", 9)),
+                "logvar_block_dim": int(decouple_cfg.get("logvar_block_dim", 9)),
+                "feature_mode": str(ppo_cfg.get("feature_mode", "gpsi")),
+                "k": int(decouple_cfg.get("k", 6)),
+                "rank_key": str(decouple_cfg.get("rank_key", "risk_ttc_distance")),
+            },
+        }
+    if adapter == "deepsets_no_attention":
+        decouple_cfg = ppo_cfg.get("decouple", {})
+        return {
+            **common,
+            "features_extractor_class": GpsiDeepSetsExtractor,
+            "features_extractor_kwargs": {
+                "hidden_dim": int(ppo_cfg.get("hidden_dim", 64)),
+                "obs_block_dim": int(decouple_cfg.get("obs_block_dim", 12)),
+                "delta_block_dim": int(decouple_cfg.get("delta_block_dim", 9)),
+                "logvar_block_dim": int(decouple_cfg.get("logvar_block_dim", 9)),
+                "feature_mode": str(ppo_cfg.get("feature_mode", "gpsi")),
+            },
+        }
+    return n3p_train.make_policy_kwargs(cfg)
 
 
 def write_manifests(args: argparse.Namespace, cfg: dict[str, Any], out_dir: Path, model: PPO | None = None) -> None:
@@ -297,10 +380,14 @@ def write_manifests(args: argparse.Namespace, cfg: dict[str, Any], out_dir: Path
             "gpsi_checkpoint_sha256": base_train.sha256(checkpoint) if checkpoint.exists() else "missing",
             "learning_rate": float(ppo.get("learning_rate", np.nan)),
             "feature_adapter": str(ppo.get("feature_adapter", "")),
+            "feature_mode": str(ppo.get("feature_mode", "")),
+            "aggregator": str(ppo.get("agg", "")),
             "s2_variant": str(cfg.get("s2_variant", "")),
             "s2_claim": str(cfg.get("s2_claim", "")),
             "train_steps": int(args.train_steps),
             "checkpoint_steps": json.dumps([int(step) for step in args.checkpoint_steps]),
+            "resume_checkpoint": str(args.resume_checkpoint),
+            "parent_total_steps": int(args.parent_total_steps),
             "n_envs": int(args.n_envs),
             "device": args.device,
             "adapter_parameter_count": int(n3p_train.adapter_parameter_count(model)) if model is not None else -1,
@@ -328,9 +415,25 @@ def train() -> None:
             write_manifests(args, cfg, out_dir, None)
             print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] STAB_VALIDATE_OK variant={cfg['method_key']} seed={args.seed}", flush=True)
             return
-        action = base_train.prepare_training_guard(out_dir, cfg, args)
-        if action in {"skip", "wait"}:
-            return
+        if str(args.resume_checkpoint).strip():
+            lock = base_train.lock_path(out_dir)
+            if base_train.target_artifacts_ready(out_dir, int(args.train_steps)):
+                base_train.complete_path(out_dir).write_text(f"completed_skip\ntrain_steps={int(args.train_steps)}\n", encoding="utf-8")
+                base_train.write_train_status(out_dir, "completed_skip", cfg, args, "target checkpoint and final.zip already exist")
+                return
+            if lock.exists():
+                payload = base_train.read_json_file(lock)
+                pid = int(payload.get("pid", -1))
+                if base_train.pid_is_running(pid):
+                    base_train.wait_for_running_training(out_dir, cfg, args, payload)
+                    return
+                lock.unlink(missing_ok=True)
+            base_train.write_train_lock(out_dir, cfg, args)
+            base_train.write_train_status(out_dir, "running_resume", cfg, args, "resume lock acquired")
+        else:
+            action = base_train.prepare_training_guard(out_dir, cfg, args)
+            if action in {"skip", "wait"}:
+                return
         save_yaml(out_dir / "config_resolved.yaml", cfg)
         write_resource_affinity("train_preflight", cfg["method_key"], int(args.seed))
         validate_wrapper(cfg, args)
@@ -339,29 +442,46 @@ def train() -> None:
         env_fns = [n3p_train.make_env_factory(cfg, args, rank) for rank in range(int(args.n_envs))]
         vec_env = DummyVecEnv(env_fns)
         ppo_cfg = cfg.get("ppo", {})
-        model = PPO(
-            "MultiInputPolicy",
-            vec_env,
-            seed=int(args.seed),
-            device=args.device,
-            verbose=1,
-            tensorboard_log=str(out_dir / "tensorboard"),
-            policy_kwargs=n3p_train.make_policy_kwargs(cfg),
-            n_steps=int(ppo_cfg.get("n_steps", 1024)),
-            batch_size=int(ppo_cfg.get("batch_size", 256)),
-            n_epochs=int(ppo_cfg.get("n_epochs", 10)),
-            learning_rate=float(ppo_cfg.get("learning_rate", 3e-4)),
-            gamma=float(ppo_cfg.get("gamma", 0.99)),
-            gae_lambda=float(ppo_cfg.get("gae_lambda", 0.95)),
-            clip_range=float(ppo_cfg.get("clip_range", 0.2)),
-            ent_coef=float(ppo_cfg.get("ent_coef", 0.01)),
-            vf_coef=float(ppo_cfg.get("vf_coef", 0.5)),
-            max_grad_norm=float(ppo_cfg.get("max_grad_norm", 0.5)),
-        )
+        resume_path = ROOT / str(args.resume_checkpoint) if str(args.resume_checkpoint).strip() else None
+        if resume_path is not None:
+            if not resume_path.exists():
+                raise StabTrainStop("hard_error", f"resume checkpoint missing: {rel(resume_path)}")
+            model = PPO.load(str(resume_path), env=vec_env, device=args.device)
+            if int(model.num_timesteps) < int(args.parent_total_steps):
+                raise StabTrainStop("hard_error", f"resume model steps={model.num_timesteps} < parent_total_steps={args.parent_total_steps}")
+            if int(model.num_timesteps) >= int(args.train_steps):
+                raise StabTrainStop("hard_error", f"resume model already at {model.num_timesteps}, target={args.train_steps}")
+            learn_steps = int(args.train_steps) - int(model.num_timesteps)
+            reset_num_timesteps = False
+        else:
+            model = PPO(
+                "MultiInputPolicy",
+                vec_env,
+                seed=int(args.seed),
+                device=args.device,
+                verbose=1,
+                tensorboard_log=str(out_dir / "tensorboard"),
+                policy_kwargs=make_policy_kwargs(cfg),
+                n_steps=int(ppo_cfg.get("n_steps", 1024)),
+                batch_size=int(ppo_cfg.get("batch_size", 256)),
+                n_epochs=int(ppo_cfg.get("n_epochs", 10)),
+                learning_rate=float(ppo_cfg.get("learning_rate", 3e-4)),
+                gamma=float(ppo_cfg.get("gamma", 0.99)),
+                gae_lambda=float(ppo_cfg.get("gae_lambda", 0.95)),
+                clip_range=float(ppo_cfg.get("clip_range", 0.2)),
+                ent_coef=float(ppo_cfg.get("ent_coef", 0.01)),
+                vf_coef=float(ppo_cfg.get("vf_coef", 0.5)),
+                max_grad_norm=float(ppo_cfg.get("max_grad_norm", 0.5)),
+            )
+            learn_steps = int(args.train_steps)
+            reset_num_timesteps = True
         write_manifests(args, cfg, out_dir, model)
-        callback = base_train.N3FZTrainCallback(int(args.train_steps), cfg["method_key"], str(cfg.get("method_name", cfg["method_key"])), float(args.heartbeat_seconds))
-        checkpoint_cb = base_train.FixedNameCheckpointCallback([int(step) for step in args.checkpoint_steps], out_dir)
-        model.learn(total_timesteps=int(args.train_steps), callback=[callback, checkpoint_cb], progress_bar=False, reset_num_timesteps=True)
+        callback = base_train.N3FZTrainCallback(int(learn_steps), cfg["method_key"], str(cfg.get("method_name", cfg["method_key"])), float(args.heartbeat_seconds))
+        if resume_path is not None:
+            checkpoint_cb = TotalStepCheckpointCallback([int(step) for step in args.checkpoint_steps], out_dir)
+        else:
+            checkpoint_cb = base_train.FixedNameCheckpointCallback([int(step) for step in args.checkpoint_steps], out_dir)
+        model.learn(total_timesteps=int(learn_steps), callback=[callback, checkpoint_cb], progress_bar=False, reset_num_timesteps=reset_num_timesteps)
         final_path = out_dir / "final.zip"
         model.save(str(final_path))
         final_step_checkpoint = out_dir / f"checkpoint_{int(args.train_steps) // 1000}k.zip"

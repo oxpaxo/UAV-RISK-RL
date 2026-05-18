@@ -1,0 +1,4 @@
+completed
+train_steps=750000
+training_seed=2
+variant=decouple_nk_obs

@@ -1,0 +1,2 @@
+eval_phase,variant,training_seed,checkpoint_label,checkpoint_path,exists,size_bytes,sha256,checkpoint_step,model_num_timesteps
+validation,decouple_nk_gpsi,3,250k,checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s3/checkpoint_250k.zip,1,2235508,34aac09c324a4455f0d31a752dbf9dacbbb5670fa288d3ccf4f62870b44c929c,250000,250000

@@ -232,9 +232,53 @@ def add_adapter_output(
     info: dict[str, Any],
     prefix: dict[str, Any],
 ) -> None:
-    if str(cfg.get("ppo", {}).get("feature_adapter", "")) not in {"block_projected_no_z", "gated_residual_no_z"}:
+    adapter_name = str(cfg.get("ppo", {}).get("feature_adapter", ""))
+    if adapter_name not in {"block_projected_no_z", "gated_residual_no_z", "nearest_k_no_attention", "deepsets_no_attention"}:
         return
     extractor = getattr(getattr(model, "policy", None), "features_extractor", None)
+    key = feature_key(prefix, info)
+    if key not in feature_accum:
+        feature_accum[key] = defaultdict(base_eval.BlockAccumulator)
+    if adapter_name == "nearest_k_no_attention":
+        for attr_name, block_name in [
+            ("latest_selected_features", "nearestk_selected_features"),
+            ("latest_topk_active", "nearestk_topk_active"),
+            ("latest_topk_scores", "nearestk_topk_scores"),
+            ("latest_selected_distance", "nearestk_selected_distance"),
+            ("latest_selected_ttc", "nearestk_selected_ttc"),
+            ("latest_selected_risk", "nearestk_selected_risk"),
+            ("latest_flatten_l2", "nearestk_flatten_l2"),
+            ("latest_nonfinite_count", "nearestk_nonfinite_count"),
+        ]:
+            tensor = getattr(extractor, attr_name, None)
+            if tensor is None:
+                continue
+            arr = tensor.detach().cpu().numpy()
+            if arr.ndim >= 1:
+                feature_accum[key][block_name].add(arr[0:1] if arr.shape[0] >= 1 else arr.reshape(1, -1))
+        return
+    if adapter_name == "deepsets_no_attention":
+        debug = env.latest_gpsi_debug
+        active = np.asarray(debug.get("active_slots", []), dtype=np.int64)
+        phi = getattr(extractor, "latest_phi_output", None)
+        if phi is not None:
+            arr = phi.detach().cpu().numpy()
+            if arr.ndim == 3 and arr.shape[0] >= 1:
+                feature_accum[key]["deepsets_phi_output_64"].add(arr[0, active] if active.size else np.zeros((0, arr.shape[-1]), dtype=np.float32))
+        for attr_name, block_name in [
+            ("latest_mean_pool", "deepsets_mean_pool_64"),
+            ("latest_max_pool", "deepsets_max_pool_64"),
+            ("latest_pool_l2", "deepsets_pool_l2"),
+            ("latest_active_count", "deepsets_active_count"),
+            ("latest_nonfinite_count", "deepsets_nonfinite_count"),
+        ]:
+            tensor = getattr(extractor, attr_name, None)
+            if tensor is None:
+                continue
+            arr = tensor.detach().cpu().numpy()
+            if arr.ndim >= 1:
+                feature_accum[key][block_name].add(arr[0:1] if arr.shape[0] >= 1 else arr.reshape(1, -1))
+        return
     adapter = getattr(extractor, "latest_adapter_output", None)
     if adapter is None:
         return
@@ -245,9 +289,6 @@ def add_adapter_output(
     active = np.asarray(debug.get("active_slots", []), dtype=np.int64)
     if active.size == 0:
         return
-    key = feature_key(prefix, info)
-    if key not in feature_accum:
-        feature_accum[key] = defaultdict(base_eval.BlockAccumulator)
     feature_accum[key]["adapter_output_64"].add(arr[0, active])
     for attr_name, block_name in [
         ("latest_base_output", "gated_base_branch_64"),

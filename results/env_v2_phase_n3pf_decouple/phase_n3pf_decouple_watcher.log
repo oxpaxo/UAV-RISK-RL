@@ -1,0 +1,116 @@
+[2026-05-17 18:03:49] PHASE_N3PF_DECOUPLE_WATCHER_START
+[2026-05-17 18:03:49] PREFLIGHT_START
+[2026-05-17 18:03:49] PREFLIGHT_OK
+[2026-05-17 18:03:49] RUN phase_n3pf_decouple_validate_decouple_nk_obs_s0: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_nk_obs.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_obs_s0 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 0 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:03:53] RUN phase_n3pf_decouple_validate_decouple_nk_obs_s1: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_nk_obs.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_obs_s1 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 1 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:03:57] RUN phase_n3pf_decouple_validate_decouple_nk_obs_s2: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_nk_obs.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_obs_s2 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 2 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:00] RUN phase_n3pf_decouple_validate_decouple_nk_gpsi_s0: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_nk_gpsi.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s0 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 0 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:04] RUN phase_n3pf_decouple_validate_decouple_nk_gpsi_s1: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_nk_gpsi.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s1 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 1 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:08] RUN phase_n3pf_decouple_validate_decouple_nk_gpsi_s2: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_nk_gpsi.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s2 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 2 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:12] RUN phase_n3pf_decouple_validate_decouple_deepsets_obs_s0: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_deepsets_obs.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_obs_s0 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 0 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:16] RUN phase_n3pf_decouple_validate_decouple_deepsets_obs_s1: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_deepsets_obs.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_obs_s1 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 1 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:19] RUN phase_n3pf_decouple_validate_decouple_deepsets_obs_s2: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_deepsets_obs.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_obs_s2 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 2 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:23] RUN phase_n3pf_decouple_validate_decouple_deepsets_gpsi_s0: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_deepsets_gpsi.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s0 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 0 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:26] RUN phase_n3pf_decouple_validate_decouple_deepsets_gpsi_s1: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_deepsets_gpsi.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s1 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 1 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:30] RUN phase_n3pf_decouple_validate_decouple_deepsets_gpsi_s2: python -u scripts/train_env_v2_gpsi_ppo_n3pf_stab.py --config configs/env_v2_gpsi_heada_ppo_n3pf_decouple_deepsets_gpsi.yaml --out-dir checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s2 --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --status-file phase_n3pf_decouple_status.txt --report-file PHASE_N3PF_DECOUPLE_REPORT.md --terminal-prefix phase_n3pf_decouple --stop-flag-mode confirm --train-steps 750000 --checkpoint-steps 250000 500000 750000 --seed 2 --n-envs 4 --device cpu --validate-only
+[2026-05-17 18:04:33] OPTIONAL_SEED3_INCLUDED stage=A
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_obs seed=0 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_obs seed=1 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_obs seed=2 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_gpsi seed=0 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_gpsi seed=1 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_gpsi seed=2 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_obs seed=0 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_obs seed=1 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_obs seed=2 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_gpsi seed=0 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_gpsi seed=1 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_gpsi seed=2 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_obs seed=3 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_nk_gpsi seed=3 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_obs seed=3 target=750000
+[2026-05-17 18:04:33] TRAIN_SKIP stage=stage_a_750k variant=decouple_deepsets_gpsi seed=3 target=750000
+[2026-05-17 18:04:33] TRAIN_HEARTBEAT stage=stage_a_750k running=0 queued=0 load=3.03 2.16 2.62 3/515 21297 mem_available=60767376 kB disk=66G free 14% used
+[2026-05-17 18:04:33] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_obs seed=0 latest=final.zip
+[2026-05-17 18:04:33] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_obs seed=1 latest=final.zip
+[2026-05-17 18:04:33] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_obs seed=2 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_gpsi seed=0 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_gpsi seed=1 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_gpsi seed=2 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_obs seed=0 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_obs seed=1 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_obs seed=2 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_gpsi seed=0 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_gpsi seed=1 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_gpsi seed=2 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_obs seed=3 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_nk_gpsi seed=3 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_obs seed=3 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_STATUS stage=stage_a_750k variant=decouple_deepsets_gpsi seed=3 latest=final.zip
+[2026-05-17 18:04:34] TRAIN_QUEUE_DONE stage=stage_a_750k
+[2026-05-17 18:04:34] VALIDATION_SKIP existing merged validation summary found
+[2026-05-17 18:04:34] SELECTOR_SKIP existing stage_b_plan and selector decision found
+[2026-05-17 18:04:34] TRAIN_START variant=decouple_deepsets_gpsi seed=0 target=1000000 out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s0
+[2026-05-17 18:04:35] TRAIN_START variant=decouple_deepsets_gpsi seed=1 target=1000000 out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s1
+[2026-05-17 18:04:36] TRAIN_START variant=decouple_deepsets_gpsi seed=2 target=1000000 out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s2
+[2026-05-17 18:04:37] TRAIN_START variant=decouple_deepsets_obs seed=0 target=1000000 out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_obs_s0
+[2026-05-17 18:04:38] TRAIN_START variant=decouple_deepsets_obs seed=1 target=1000000 out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_obs_s1
+[2026-05-17 18:04:39] TRAIN_START variant=decouple_deepsets_obs seed=2 target=1000000 out_dir=checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_obs_s2
+[2026-05-17 18:04:40] TRAIN_HEARTBEAT stage=stage_b_1000000 running=6 queued=0 load=3.11 2.21 2.63 11/527 21523 mem_available=58860496 kB disk=66G free 14% used
+[2026-05-17 18:04:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=0 latest=final.zip
+[2026-05-17 18:04:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=1 latest=final.zip
+[2026-05-17 18:04:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=2 latest=final.zip
+[2026-05-17 18:04:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=0 latest=final.zip
+[2026-05-17 18:04:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=1 latest=final.zip
+[2026-05-17 18:04:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=2 latest=final.zip
+[2026-05-17 18:04:40] TRAIN_CONCURRENCY_RAISE stage=stage_b_1000000 max_jobs=8
+[2026-05-17 18:09:40] TRAIN_HEARTBEAT stage=stage_b_1000000 running=6 queued=0 load=6.76 5.16 3.81 7/534 21942 mem_available=58305072 kB disk=66G free 14% used
+[2026-05-17 18:09:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=0 latest=final.zip
+[2026-05-17 18:09:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=1 latest=final.zip
+[2026-05-17 18:09:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=2 latest=final.zip
+[2026-05-17 18:09:40] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=0 latest=final.zip
+[2026-05-17 18:09:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=1 latest=final.zip
+[2026-05-17 18:09:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=2 latest=final.zip
+[2026-05-17 18:14:41] TRAIN_HEARTBEAT stage=stage_b_1000000 running=6 queued=0 load=6.73 6.25 4.67 7/574 22032 mem_available=58340176 kB disk=66G free 14% used
+[2026-05-17 18:14:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=0 latest=final.zip
+[2026-05-17 18:14:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=1 latest=final.zip
+[2026-05-17 18:14:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=2 latest=final.zip
+[2026-05-17 18:14:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=0 latest=final.zip
+[2026-05-17 18:14:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=1 latest=final.zip
+[2026-05-17 18:14:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=2 latest=final.zip
+[2026-05-17 18:19:41] TRAIN_HEARTBEAT stage=stage_b_1000000 running=6 queued=0 load=6.37 6.35 5.17 7/530 22158 mem_available=58381924 kB disk=66G free 14% used
+[2026-05-17 18:19:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=0 latest=final.zip
+[2026-05-17 18:19:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=1 latest=final.zip
+[2026-05-17 18:19:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=2 latest=final.zip
+[2026-05-17 18:19:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=0 latest=final.zip
+[2026-05-17 18:19:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=1 latest=final.zip
+[2026-05-17 18:19:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=2 latest=final.zip
+[2026-05-17 18:24:41] TRAIN_HEARTBEAT stage=stage_b_1000000 running=1 queued=0 load=3.73 5.57 5.23 2/518 22467 mem_available=60346368 kB disk=66G free 14% used
+[2026-05-17 18:24:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=0 latest=final.zip
+[2026-05-17 18:24:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=1 latest=final.zip
+[2026-05-17 18:24:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=2 latest=final.zip
+[2026-05-17 18:24:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=0 latest=final.zip
+[2026-05-17 18:24:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=1 latest=final.zip
+[2026-05-17 18:24:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=2 latest=final.zip
+[2026-05-17 18:29:41] TRAIN_HEARTBEAT stage=stage_b_1000000 running=0 queued=0 load=0.14 2.15 3.82 1/515 22567 mem_available=60758108 kB disk=66G free 14% used
+[2026-05-17 18:29:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=0 latest=final.zip
+[2026-05-17 18:29:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=1 latest=final.zip
+[2026-05-17 18:29:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_gpsi seed=2 latest=final.zip
+[2026-05-17 18:29:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=0 latest=final.zip
+[2026-05-17 18:29:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=1 latest=final.zip
+[2026-05-17 18:29:41] TRAIN_STATUS stage=stage_b_1000000 variant=decouple_deepsets_obs seed=2 latest=final.zip
+[2026-05-17 18:29:41] TRAIN_QUEUE_DONE stage=stage_b_1000000
+[2026-05-17 18:29:50] EVAL_HEARTBEAT phase=test running=8 queued=28 load=0.53 2.20 3.83 9/525 22679 mem_available=58151316 kB
+[2026-05-17 18:34:50] EVAL_HEARTBEAT phase=test running=0 queued=28 load=1.19 3.30 4.04 1/517 22894 mem_available=60773392 kB
+[2026-05-17 18:39:58] EVAL_HEARTBEAT phase=test running=8 queued=20 load=0.65 1.41 2.98 9/527 23067 mem_available=58148020 kB
+[2026-05-17 18:44:58] EVAL_HEARTBEAT phase=test running=0 queued=20 load=1.82 3.37 3.58 1/513 23306 mem_available=60754316 kB
+[2026-05-17 18:50:06] EVAL_HEARTBEAT phase=test running=8 queued=12 load=0.98 1.42 2.63 8/523 23445 mem_available=58142400 kB
+[2026-05-17 18:55:06] EVAL_HEARTBEAT phase=test running=0 queued=12 load=4.79 4.78 3.86 1/513 23638 mem_available=60751112 kB
+[2026-05-17 19:00:15] EVAL_HEARTBEAT phase=test running=8 queued=4 load=0.58 1.88 2.83 10/521 23765 mem_available=58152996 kB
+[2026-05-17 19:05:15] EVAL_HEARTBEAT phase=test running=2 queued=4 load=2.94 3.90 3.58 3/515 23930 mem_available=59205816 kB
+[2026-05-17 19:10:19] EVAL_HEARTBEAT phase=test running=4 queued=0 load=0.25 1.70 2.73 6/516 24090 mem_available=59622112 kB
+[2026-05-17 19:15:19] EVAL_HEARTBEAT phase=test running=4 queued=0 load=4.07 3.23 3.12 5/515 24162 mem_available=57616332 kB
+[2026-05-17 19:20:19] EVAL_HEARTBEAT phase=test running=0 queued=0 load=0.20 1.72 2.55 1/510 24356 mem_available=60746184 kB
+[2026-05-17 19:20:19] RUN phase_n3pf_decouple_merge_test: python -u scripts/merge_phase_n3pf_decouple_eval_shards.py --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --eval-phase test --shard-root results/env_v2_phase_n3pf_decouple/eval_shards/test
+[2026-05-17 19:20:20] RUN phase_n3pf_decouple_analysis: python -u scripts/analyze_env_v2_phase_n3pf_decouple.py --result-dir results/env_v2_phase_n3pf_decouple --table-prefix phase_n3pf_decouple --github-sync-commit 73209069b87b1c88d891b8f9b23440e7734b9240 --github-sync-status success
+[2026-05-17 19:20:28] COMPLETE phase_n3pf_decouple_complete_gpsi_nonattention_failed 

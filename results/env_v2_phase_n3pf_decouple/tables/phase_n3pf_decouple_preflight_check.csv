@@ -1,0 +1,7 @@
+item,ok,detail,kind
+guide,1,codex_guide/PHASE_N3PF_DECOUPLE_GUIDE.md,file
+gpsi_checkpoint,1,work_dirs/gpsi_heada_v1_nll/best.pth,file
+nearest_k_extractor,1,models/gpsi_ppo_policy.py,GpsiNearestKExtractor
+deepsets_extractor,1,models/gpsi_ppo_policy.py,GpsiDeepSetsExtractor
+train_entry,1,scripts/train_env_v2_gpsi_ppo_n3pf_stab.py,nearest_k_no_attention
+eval_entry,1,scripts/eval_env_v2_gpsi_ppo_n3pf_stab.py,nearestk_selected_features

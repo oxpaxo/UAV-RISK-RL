@@ -1,0 +1,10 @@
+nproc=1
+nproc_all=16
+pid 20855's current affinity list: 0-15
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.2Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /
+os_cpu_count 16
+affinity_count 16

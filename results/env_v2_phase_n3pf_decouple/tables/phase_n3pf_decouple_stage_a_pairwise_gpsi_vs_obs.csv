@@ -1,0 +1,3 @@
+family,obs_variant,gpsi_variant,obs_success,obs_collision,gpsi_success,gpsi_collision,gpsi_minus_obs_success,gpsi_minus_obs_collision,gpsi_strict_gain_gate,obs_backbone_competitive,gpsi_backbone_competitive,continue_stage_b
+nk,decouple_nk_obs,decouple_nk_gpsi,0.3079166666666666,0.6154166666666667,0.23625,0.6604166666666667,-0.07166666666666663,0.04499999999999993,0,0,0,0
+deepsets,decouple_deepsets_obs,decouple_deepsets_gpsi,0.4225,0.5416666666666666,0.30999999999999994,0.6070833333333333,-0.11250000000000004,0.06541666666666668,0,0,0,0

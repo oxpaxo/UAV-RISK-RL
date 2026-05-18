@@ -1,0 +1,5 @@
+variant,diagnostics_ok,feature_nonfinite_count,delta_norm_1s_p95_max
+decouple_deepsets_gpsi,1,0,2.487994396686554
+decouple_deepsets_obs,1,0,2.394522821903229
+decouple_nk_gpsi,1,0,2.2768895626068115
+decouple_nk_obs,1,0,2.361325740814209

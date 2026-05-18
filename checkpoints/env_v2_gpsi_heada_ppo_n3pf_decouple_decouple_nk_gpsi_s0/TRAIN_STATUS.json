@@ -1,0 +1,14 @@
+{
+  "config": "configs/env_v2_gpsi_heada_ppo_n3pf_decouple_nk_gpsi.yaml",
+  "detail": "training completed successfully",
+  "expected_checkpoint": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s0/checkpoint_750k.zip",
+  "final_zip": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s0/final.zip",
+  "hostname": "8a4832b5251c",
+  "method_key": "decouple_nk_gpsi",
+  "method_name": "n3pf_decouple_nearestk_gpsi",
+  "out_dir": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s0",
+  "pid": 9968,
+  "requested_train_steps": 750000,
+  "status": "completed",
+  "timestamp": "2026-05-17 14:29:49"
+}

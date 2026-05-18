@@ -1,0 +1,14 @@
+{
+  "config": "configs/env_v2_gpsi_heada_ppo_n3pf_decouple_deepsets_gpsi.yaml",
+  "detail": "training completed successfully",
+  "expected_checkpoint": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s2/checkpoint_1000k.zip",
+  "final_zip": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s2/final.zip",
+  "hostname": "8a4832b5251c",
+  "method_key": "decouple_deepsets_gpsi",
+  "method_name": "n3pf_decouple_deepsets_gpsi",
+  "out_dir": "checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_deepsets_gpsi_s2",
+  "pid": 21446,
+  "requested_train_steps": 1000000,
+  "status": "completed",
+  "timestamp": "2026-05-17 18:23:58"
+}

@@ -1,0 +1,13 @@
+[2026-05-17 16:09:53] STAB_EVAL_START phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_id episodes=50
+[2026-05-17 16:10:34] STAB_EVAL_HEARTBEAT phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_id episodes=50/50 rate=1.21 ep/s
+[2026-05-17 16:10:34] STAB_EVAL_START phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_high_density episodes=50
+[2026-05-17 16:11:18] STAB_EVAL_HEARTBEAT phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_high_density episodes=50/50 rate=1.16 ep/s
+[2026-05-17 16:11:18] STAB_EVAL_START phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_high_speed episodes=50
+[2026-05-17 16:11:54] STAB_EVAL_HEARTBEAT phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_high_speed episodes=50/50 rate=1.38 ep/s
+[2026-05-17 16:11:54] STAB_EVAL_START phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_high_threat episodes=50
+[2026-05-17 16:12:37] STAB_EVAL_HEARTBEAT phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_high_threat episodes=50/50 rate=1.16 ep/s
+[2026-05-17 16:12:37] STAB_EVAL_START phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50
+[2026-05-17 16:13:14] STAB_EVAL_HEARTBEAT phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_mixed_ood episodes=50/50 rate=1.36 ep/s
+[2026-05-17 16:13:14] STAB_EVAL_START phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50
+[2026-05-17 16:14:00] STAB_EVAL_HEARTBEAT phase=validation method=decouple_nk_obs_s3_500k eval_seed=900 scenario=eval_flow_sudden_threat episodes=50/50 rate=1.08 ep/s
+[2026-05-17 16:14:02] STAB_EVAL_END phase=validation episodes=300 raw_steps=42606

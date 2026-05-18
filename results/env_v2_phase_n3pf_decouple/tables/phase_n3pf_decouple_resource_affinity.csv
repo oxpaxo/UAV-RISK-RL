@@ -1,0 +1,721 @@
+item,command,returncode,output,stage,variant,training_seed,timestamp
+nproc,nproc,0,16,validate_only,decouple_nk_obs,0,2026-05-17 13:27:24
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,0,2026-05-17 13:27:24
+taskset_current_process,taskset -pc 9050,0,pid 9050's current affinity list: 0-15,validate_only,decouple_nk_obs,0,2026-05-17 13:27:24
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.7Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,0,2026-05-17 13:27:24
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,0,2026-05-17 13:27:24
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": """", ""NUMEXPR_NUM_THREADS"": """", ""OMP_NUM_THREADS"": """", ""OPENBLAS_NUM_THREADS"": """", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,0,2026-05-17 13:27:24
+nproc,nproc,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:27:24
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:27:24
+taskset_current_process,taskset -pc 9051,0,pid 9051's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:27:24
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.7Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:27:24
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:27:24
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": """", ""NUMEXPR_NUM_THREADS"": """", ""OMP_NUM_THREADS"": """", ""OPENBLAS_NUM_THREADS"": """", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:27:24
+nproc,nproc,0,1,validate_only,decouple_nk_obs,0,2026-05-17 13:27:48
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,0,2026-05-17 13:27:48
+taskset_current_process,taskset -pc 9185,0,pid 9185's current affinity list: 0-15,validate_only,decouple_nk_obs,0,2026-05-17 13:27:48
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,0,2026-05-17 13:27:48
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,0,2026-05-17 13:27:48
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,0,2026-05-17 13:27:48
+nproc,nproc,0,1,validate_only,decouple_nk_obs,1,2026-05-17 13:27:52
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,1,2026-05-17 13:27:52
+taskset_current_process,taskset -pc 9210,0,pid 9210's current affinity list: 0-15,validate_only,decouple_nk_obs,1,2026-05-17 13:27:52
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,1,2026-05-17 13:27:52
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,1,2026-05-17 13:27:52
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,1,2026-05-17 13:27:52
+nproc,nproc,0,1,validate_only,decouple_nk_obs,2,2026-05-17 13:27:56
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,2,2026-05-17 13:27:56
+taskset_current_process,taskset -pc 9221,0,pid 9221's current affinity list: 0-15,validate_only,decouple_nk_obs,2,2026-05-17 13:27:56
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,2,2026-05-17 13:27:56
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,2,2026-05-17 13:27:56
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,2,2026-05-17 13:27:56
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,0,2026-05-17 13:27:59
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,0,2026-05-17 13:27:59
+taskset_current_process,taskset -pc 9232,0,pid 9232's current affinity list: 0-15,validate_only,decouple_nk_gpsi,0,2026-05-17 13:27:59
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,0,2026-05-17 13:27:59
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,0,2026-05-17 13:27:59
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,0,2026-05-17 13:27:59
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,1,2026-05-17 13:28:03
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,1,2026-05-17 13:28:03
+taskset_current_process,taskset -pc 9243,0,pid 9243's current affinity list: 0-15,validate_only,decouple_nk_gpsi,1,2026-05-17 13:28:03
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,1,2026-05-17 13:28:03
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,1,2026-05-17 13:28:03
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,1,2026-05-17 13:28:03
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,2,2026-05-17 13:28:06
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,2,2026-05-17 13:28:06
+taskset_current_process,taskset -pc 9253,0,pid 9253's current affinity list: 0-15,validate_only,decouple_nk_gpsi,2,2026-05-17 13:28:06
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,2,2026-05-17 13:28:06
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,2,2026-05-17 13:28:06
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,2,2026-05-17 13:28:06
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,0,2026-05-17 13:28:10
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,0,2026-05-17 13:28:10
+taskset_current_process,taskset -pc 9264,0,pid 9264's current affinity list: 0-15,validate_only,decouple_deepsets_obs,0,2026-05-17 13:28:10
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,0,2026-05-17 13:28:10
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_obs,0,2026-05-17 13:28:10
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,0,2026-05-17 13:28:10
+nproc,nproc,0,1,validate_only,decouple_nk_obs,0,2026-05-17 13:29:03
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,0,2026-05-17 13:29:03
+taskset_current_process,taskset -pc 9376,0,pid 9376's current affinity list: 0-15,validate_only,decouple_nk_obs,0,2026-05-17 13:29:03
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,0,2026-05-17 13:29:03
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,0,2026-05-17 13:29:03
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,0,2026-05-17 13:29:03
+nproc,nproc,0,1,validate_only,decouple_nk_obs,1,2026-05-17 13:29:06
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,1,2026-05-17 13:29:06
+taskset_current_process,taskset -pc 9402,0,pid 9402's current affinity list: 0-15,validate_only,decouple_nk_obs,1,2026-05-17 13:29:06
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,1,2026-05-17 13:29:06
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,1,2026-05-17 13:29:06
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,1,2026-05-17 13:29:06
+nproc,nproc,0,1,validate_only,decouple_nk_obs,2,2026-05-17 13:29:10
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,2,2026-05-17 13:29:10
+taskset_current_process,taskset -pc 9412,0,pid 9412's current affinity list: 0-15,validate_only,decouple_nk_obs,2,2026-05-17 13:29:10
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,2,2026-05-17 13:29:10
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,2,2026-05-17 13:29:10
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,2,2026-05-17 13:29:10
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,0,2026-05-17 13:29:13
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,0,2026-05-17 13:29:13
+taskset_current_process,taskset -pc 9423,0,pid 9423's current affinity list: 0-15,validate_only,decouple_nk_gpsi,0,2026-05-17 13:29:13
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,0,2026-05-17 13:29:13
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,0,2026-05-17 13:29:13
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,0,2026-05-17 13:29:13
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,1,2026-05-17 13:29:17
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,1,2026-05-17 13:29:17
+taskset_current_process,taskset -pc 9448,0,pid 9448's current affinity list: 0-15,validate_only,decouple_nk_gpsi,1,2026-05-17 13:29:17
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,1,2026-05-17 13:29:17
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,1,2026-05-17 13:29:17
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,1,2026-05-17 13:29:17
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,2,2026-05-17 13:29:20
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,2,2026-05-17 13:29:20
+taskset_current_process,taskset -pc 9458,0,pid 9458's current affinity list: 0-15,validate_only,decouple_nk_gpsi,2,2026-05-17 13:29:20
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,2,2026-05-17 13:29:20
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,2,2026-05-17 13:29:20
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,2,2026-05-17 13:29:20
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,0,2026-05-17 13:29:24
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,0,2026-05-17 13:29:24
+taskset_current_process,taskset -pc 9469,0,pid 9469's current affinity list: 0-15,validate_only,decouple_deepsets_obs,0,2026-05-17 13:29:24
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,0,2026-05-17 13:29:24
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_obs,0,2026-05-17 13:29:24
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,0,2026-05-17 13:29:24
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,1,2026-05-17 13:29:27
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,1,2026-05-17 13:29:27
+taskset_current_process,taskset -pc 9494,0,pid 9494's current affinity list: 0-15,validate_only,decouple_deepsets_obs,1,2026-05-17 13:29:27
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,1,2026-05-17 13:29:27
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_obs,1,2026-05-17 13:29:27
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,1,2026-05-17 13:29:27
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,2,2026-05-17 13:29:31
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,2,2026-05-17 13:29:31
+taskset_current_process,taskset -pc 9504,0,pid 9504's current affinity list: 0-15,validate_only,decouple_deepsets_obs,2,2026-05-17 13:29:31
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,2,2026-05-17 13:29:31
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_obs,2,2026-05-17 13:29:31
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,2,2026-05-17 13:29:31
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:29:34
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:29:34
+taskset_current_process,taskset -pc 9515,0,pid 9515's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:29:34
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:29:34
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:29:34
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:29:34
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:29:38
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:29:38
+taskset_current_process,taskset -pc 9525,0,pid 9525's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:29:38
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:29:38
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:29:38
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:29:38
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:29:42
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:29:42
+taskset_current_process,taskset -pc 9550,0,pid 9550's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:29:42
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:29:42
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:29:42
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:29:42
+nproc,nproc,0,1,validate_only,decouple_nk_obs,0,2026-05-17 13:30:32
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,0,2026-05-17 13:30:32
+taskset_current_process,taskset -pc 9679,0,pid 9679's current affinity list: 0-15,validate_only,decouple_nk_obs,0,2026-05-17 13:30:32
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,0,2026-05-17 13:30:32
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,0,2026-05-17 13:30:32
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,0,2026-05-17 13:30:32
+nproc,nproc,0,1,validate_only,decouple_nk_obs,1,2026-05-17 13:30:35
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,1,2026-05-17 13:30:35
+taskset_current_process,taskset -pc 9704,0,pid 9704's current affinity list: 0-15,validate_only,decouple_nk_obs,1,2026-05-17 13:30:35
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,1,2026-05-17 13:30:35
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,1,2026-05-17 13:30:35
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,1,2026-05-17 13:30:35
+nproc,nproc,0,1,validate_only,decouple_nk_obs,2,2026-05-17 13:30:39
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,2,2026-05-17 13:30:39
+taskset_current_process,taskset -pc 9748,0,pid 9748's current affinity list: 0-15,validate_only,decouple_nk_obs,2,2026-05-17 13:30:39
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,2,2026-05-17 13:30:39
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_obs,2,2026-05-17 13:30:39
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,2,2026-05-17 13:30:39
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,0,2026-05-17 13:30:42
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,0,2026-05-17 13:30:42
+taskset_current_process,taskset -pc 9784,0,pid 9784's current affinity list: 0-15,validate_only,decouple_nk_gpsi,0,2026-05-17 13:30:42
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,0,2026-05-17 13:30:42
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,0,2026-05-17 13:30:42
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,0,2026-05-17 13:30:42
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,1,2026-05-17 13:30:46
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,1,2026-05-17 13:30:46
+taskset_current_process,taskset -pc 9809,0,pid 9809's current affinity list: 0-15,validate_only,decouple_nk_gpsi,1,2026-05-17 13:30:46
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,1,2026-05-17 13:30:46
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,1,2026-05-17 13:30:46
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,1,2026-05-17 13:30:46
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,2,2026-05-17 13:30:49
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,2,2026-05-17 13:30:49
+taskset_current_process,taskset -pc 9819,0,pid 9819's current affinity list: 0-15,validate_only,decouple_nk_gpsi,2,2026-05-17 13:30:49
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,2,2026-05-17 13:30:49
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_nk_gpsi,2,2026-05-17 13:30:49
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,2,2026-05-17 13:30:49
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,0,2026-05-17 13:30:53
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,0,2026-05-17 13:30:53
+taskset_current_process,taskset -pc 9830,0,pid 9830's current affinity list: 0-15,validate_only,decouple_deepsets_obs,0,2026-05-17 13:30:53
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,0,2026-05-17 13:30:53
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_obs,0,2026-05-17 13:30:53
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,0,2026-05-17 13:30:53
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,1,2026-05-17 13:30:57
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,1,2026-05-17 13:30:57
+taskset_current_process,taskset -pc 9855,0,pid 9855's current affinity list: 0-15,validate_only,decouple_deepsets_obs,1,2026-05-17 13:30:57
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,1,2026-05-17 13:30:57
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_obs,1,2026-05-17 13:30:57
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,1,2026-05-17 13:30:57
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,2,2026-05-17 13:31:00
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,2,2026-05-17 13:31:00
+taskset_current_process,taskset -pc 9865,0,pid 9865's current affinity list: 0-15,validate_only,decouple_deepsets_obs,2,2026-05-17 13:31:00
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,2,2026-05-17 13:31:00
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_obs,2,2026-05-17 13:31:00
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,2,2026-05-17 13:31:00
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:31:04
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:31:04
+taskset_current_process,taskset -pc 9877,0,pid 9877's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:31:04
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:31:04
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:31:04
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,0,2026-05-17 13:31:04
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:31:07
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:31:07
+taskset_current_process,taskset -pc 9887,0,pid 9887's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:31:07
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:31:07
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:31:07
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,1,2026-05-17 13:31:07
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:31:11
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:31:11
+taskset_current_process,taskset -pc 9912,0,pid 9912's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:31:11
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:31:11
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:31:11
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,2,2026-05-17 13:31:11
+nproc,nproc,0,1,train_preflight,decouple_nk_obs,0,2026-05-17 13:31:15
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_obs,0,2026-05-17 13:31:15
+taskset_current_process,taskset -pc 9935,0,pid 9935's current affinity list: 0-15,train_preflight,decouple_nk_obs,0,2026-05-17 13:31:15
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.9Gi        53Gi       0.0Ki       4.4Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_obs,0,2026-05-17 13:31:15
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_obs,0,2026-05-17 13:31:15
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_obs,0,2026-05-17 13:31:15
+nproc,nproc,0,1,train_preflight,decouple_nk_obs,1,2026-05-17 13:31:16
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_obs,1,2026-05-17 13:31:16
+taskset_current_process,taskset -pc 9944,0,pid 9944's current affinity list: 0-15,train_preflight,decouple_nk_obs,1,2026-05-17 13:31:16
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.3Gi        53Gi       0.0Ki       4.4Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_obs,1,2026-05-17 13:31:16
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_obs,1,2026-05-17 13:31:16
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_obs,1,2026-05-17 13:31:16
+nproc,nproc,0,1,train_preflight,decouple_nk_obs,2,2026-05-17 13:31:17
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_obs,2,2026-05-17 13:31:17
+taskset_current_process,taskset -pc 9953,0,pid 9953's current affinity list: 0-15,train_preflight,decouple_nk_obs,2,2026-05-17 13:31:17
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.5Gi        52Gi       0.0Ki       4.4Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_obs,2,2026-05-17 13:31:17
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_obs,2,2026-05-17 13:31:17
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_obs,2,2026-05-17 13:31:17
+nproc,nproc,0,1,train_preflight,decouple_nk_gpsi,0,2026-05-17 13:31:19
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_gpsi,0,2026-05-17 13:31:19
+taskset_current_process,taskset -pc 9968,0,pid 9968's current affinity list: 0-15,train_preflight,decouple_nk_gpsi,0,2026-05-17 13:31:19
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.1Gi        52Gi       0.0Ki       4.4Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_gpsi,0,2026-05-17 13:31:19
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_gpsi,0,2026-05-17 13:31:19
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_gpsi,0,2026-05-17 13:31:19
+nproc,nproc,0,1,train_preflight,decouple_nk_gpsi,1,2026-05-17 13:31:19
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_gpsi,1,2026-05-17 13:31:19
+taskset_current_process,taskset -pc 9983,0,pid 9983's current affinity list: 0-15,train_preflight,decouple_nk_gpsi,1,2026-05-17 13:31:19
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.1Gi        52Gi       0.0Ki       4.4Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_gpsi,1,2026-05-17 13:31:19
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_gpsi,1,2026-05-17 13:31:19
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_gpsi,1,2026-05-17 13:31:19
+nproc,nproc,0,1,train_preflight,decouple_nk_gpsi,2,2026-05-17 13:31:21
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_gpsi,2,2026-05-17 13:31:21
+taskset_current_process,taskset -pc 9998,0,pid 9998's current affinity list: 0-15,train_preflight,decouple_nk_gpsi,2,2026-05-17 13:31:21
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.3Gi        52Gi       0.0Ki       4.4Gi        55Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_gpsi,2,2026-05-17 13:31:21
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_gpsi,2,2026-05-17 13:31:21
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_gpsi,2,2026-05-17 13:31:21
+nproc,nproc,0,1,train_preflight,decouple_deepsets_obs,0,2026-05-17 13:36:22
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_obs,0,2026-05-17 13:36:22
+taskset_current_process,taskset -pc 10157,0,pid 10157's current affinity list: 0-15,train_preflight,decouple_deepsets_obs,0,2026-05-17 13:36:22
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       7.0Gi        51Gi       0.0Ki       4.4Gi        55Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_obs,0,2026-05-17 13:36:22
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_obs,0,2026-05-17 13:36:22
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_obs,0,2026-05-17 13:36:22
+nproc,nproc,0,1,train_preflight,decouple_deepsets_obs,1,2026-05-17 13:36:23
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_obs,1,2026-05-17 13:36:23
+taskset_current_process,taskset -pc 10166,0,pid 10166's current affinity list: 0-15,train_preflight,decouple_deepsets_obs,1,2026-05-17 13:36:23
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       7.1Gi        51Gi       0.0Ki       4.4Gi        54Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_obs,1,2026-05-17 13:36:23
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_obs,1,2026-05-17 13:36:23
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_obs,1,2026-05-17 13:36:23
+nproc,nproc,0,1,train_preflight,decouple_deepsets_obs,2,2026-05-17 14:36:28
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_obs,2,2026-05-17 14:36:28
+taskset_current_process,taskset -pc 11990,0,pid 11990's current affinity list: 0-15,train_preflight,decouple_deepsets_obs,2,2026-05-17 14:36:28
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.8Gi        53Gi       0.0Ki       4.5Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_obs,2,2026-05-17 14:36:28
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_obs,2,2026-05-17 14:36:28
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_obs,2,2026-05-17 14:36:28
+nproc,nproc,0,1,train_preflight,decouple_deepsets_gpsi,0,2026-05-17 14:36:29
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_gpsi,0,2026-05-17 14:36:29
+taskset_current_process,taskset -pc 11999,0,pid 11999's current affinity list: 0-15,train_preflight,decouple_deepsets_gpsi,0,2026-05-17 14:36:29
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.3Gi        53Gi       0.0Ki       4.5Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_gpsi,0,2026-05-17 14:36:29
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_gpsi,0,2026-05-17 14:36:29
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_gpsi,0,2026-05-17 14:36:29
+nproc,nproc,0,1,train_preflight,decouple_deepsets_gpsi,1,2026-05-17 14:36:30
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_gpsi,1,2026-05-17 14:36:30
+taskset_current_process,taskset -pc 12008,0,pid 12008's current affinity list: 0-15,train_preflight,decouple_deepsets_gpsi,1,2026-05-17 14:36:30
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.4Gi        52Gi       0.0Ki       4.5Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_gpsi,1,2026-05-17 14:36:30
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_gpsi,1,2026-05-17 14:36:30
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_gpsi,1,2026-05-17 14:36:30
+nproc,nproc,0,1,train_preflight,decouple_deepsets_gpsi,2,2026-05-17 14:36:31
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_gpsi,2,2026-05-17 14:36:31
+taskset_current_process,taskset -pc 12023,0,pid 12023's current affinity list: 0-15,train_preflight,decouple_deepsets_gpsi,2,2026-05-17 14:36:31
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.0Gi        52Gi       0.0Ki       4.5Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_gpsi,2,2026-05-17 14:36:31
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_gpsi,2,2026-05-17 14:36:31
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_gpsi,2,2026-05-17 14:36:31
+nproc,nproc,0,1,train_preflight,decouple_nk_obs,3,2026-05-17 14:36:32
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_obs,3,2026-05-17 14:36:32
+taskset_current_process,taskset -pc 12038,0,pid 12038's current affinity list: 0-15,train_preflight,decouple_nk_obs,3,2026-05-17 14:36:32
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.0Gi        52Gi       0.0Ki       4.5Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_obs,3,2026-05-17 14:36:32
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_obs,3,2026-05-17 14:36:32
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_obs,3,2026-05-17 14:36:32
+nproc,nproc,0,1,train_preflight,decouple_nk_gpsi,3,2026-05-17 14:36:34
+nproc_all,nproc --all,0,16,train_preflight,decouple_nk_gpsi,3,2026-05-17 14:36:34
+taskset_current_process,taskset -pc 12053,0,pid 12053's current affinity list: 0-15,train_preflight,decouple_nk_gpsi,3,2026-05-17 14:36:34
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.1Gi        52Gi       0.0Ki       4.5Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_nk_gpsi,3,2026-05-17 14:36:34
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_nk_gpsi,3,2026-05-17 14:36:34
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_nk_gpsi,3,2026-05-17 14:36:34
+nproc,nproc,0,1,train_preflight,decouple_deepsets_obs,3,2026-05-17 14:41:35
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_obs,3,2026-05-17 14:41:35
+taskset_current_process,taskset -pc 12252,0,pid 12252's current affinity list: 0-15,train_preflight,decouple_deepsets_obs,3,2026-05-17 14:41:35
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       7.0Gi        51Gi       0.0Ki       4.5Gi        55Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_obs,3,2026-05-17 14:41:35
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_obs,3,2026-05-17 14:41:35
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_obs,3,2026-05-17 14:41:35
+nproc,nproc,0,1,train_preflight,decouple_deepsets_gpsi,3,2026-05-17 14:41:35
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_gpsi,3,2026-05-17 14:41:35
+taskset_current_process,taskset -pc 12261,0,pid 12261's current affinity list: 0-15,train_preflight,decouple_deepsets_gpsi,3,2026-05-17 14:41:35
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       7.1Gi        51Gi       0.0Ki       4.5Gi        54Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_gpsi,3,2026-05-17 14:41:35
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.8G   66G  13% /",train_preflight,decouple_deepsets_gpsi,3,2026-05-17 14:41:35
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_gpsi,3,2026-05-17 14:41:35
+nproc,nproc,0,1,validate_only,decouple_nk_obs,0,2026-05-17 15:43:46
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,0,2026-05-17 15:43:46
+taskset_current_process,taskset -pc 15413,0,pid 15413's current affinity list: 0-15,validate_only,decouple_nk_obs,0,2026-05-17 15:43:46
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,0,2026-05-17 15:43:46
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_nk_obs,0,2026-05-17 15:43:46
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,0,2026-05-17 15:43:46
+nproc,nproc,0,1,validate_only,decouple_nk_obs,1,2026-05-17 15:43:50
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,1,2026-05-17 15:43:50
+taskset_current_process,taskset -pc 15463,0,pid 15463's current affinity list: 0-15,validate_only,decouple_nk_obs,1,2026-05-17 15:43:50
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,1,2026-05-17 15:43:50
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_nk_obs,1,2026-05-17 15:43:50
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,1,2026-05-17 15:43:50
+nproc,nproc,0,1,validate_only,decouple_nk_obs,2,2026-05-17 15:43:53
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,2,2026-05-17 15:43:53
+taskset_current_process,taskset -pc 15499,0,pid 15499's current affinity list: 0-15,validate_only,decouple_nk_obs,2,2026-05-17 15:43:53
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,2,2026-05-17 15:43:53
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_nk_obs,2,2026-05-17 15:43:53
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,2,2026-05-17 15:43:53
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,0,2026-05-17 15:43:57
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,0,2026-05-17 15:43:57
+taskset_current_process,taskset -pc 15510,0,pid 15510's current affinity list: 0-15,validate_only,decouple_nk_gpsi,0,2026-05-17 15:43:57
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,0,2026-05-17 15:43:57
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_nk_gpsi,0,2026-05-17 15:43:57
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,0,2026-05-17 15:43:57
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,1,2026-05-17 15:44:00
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,1,2026-05-17 15:44:00
+taskset_current_process,taskset -pc 15545,0,pid 15545's current affinity list: 0-15,validate_only,decouple_nk_gpsi,1,2026-05-17 15:44:00
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,1,2026-05-17 15:44:00
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_nk_gpsi,1,2026-05-17 15:44:00
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,1,2026-05-17 15:44:00
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,2,2026-05-17 15:44:04
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,2,2026-05-17 15:44:04
+taskset_current_process,taskset -pc 15581,0,pid 15581's current affinity list: 0-15,validate_only,decouple_nk_gpsi,2,2026-05-17 15:44:04
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,2,2026-05-17 15:44:04
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_nk_gpsi,2,2026-05-17 15:44:04
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,2,2026-05-17 15:44:04
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,0,2026-05-17 15:44:07
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,0,2026-05-17 15:44:07
+taskset_current_process,taskset -pc 15592,0,pid 15592's current affinity list: 0-15,validate_only,decouple_deepsets_obs,0,2026-05-17 15:44:07
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,0,2026-05-17 15:44:07
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_deepsets_obs,0,2026-05-17 15:44:07
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,0,2026-05-17 15:44:07
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,1,2026-05-17 15:44:11
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,1,2026-05-17 15:44:11
+taskset_current_process,taskset -pc 15627,0,pid 15627's current affinity list: 0-15,validate_only,decouple_deepsets_obs,1,2026-05-17 15:44:11
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,1,2026-05-17 15:44:11
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_deepsets_obs,1,2026-05-17 15:44:11
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,1,2026-05-17 15:44:11
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,2,2026-05-17 15:44:15
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,2,2026-05-17 15:44:15
+taskset_current_process,taskset -pc 15662,0,pid 15662's current affinity list: 0-15,validate_only,decouple_deepsets_obs,2,2026-05-17 15:44:15
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,2,2026-05-17 15:44:15
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_deepsets_obs,2,2026-05-17 15:44:15
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,2,2026-05-17 15:44:15
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,0,2026-05-17 15:44:18
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 15:44:18
+taskset_current_process,taskset -pc 15673,0,pid 15673's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,0,2026-05-17 15:44:18
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,0,2026-05-17 15:44:18
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_deepsets_gpsi,0,2026-05-17 15:44:18
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,0,2026-05-17 15:44:18
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,1,2026-05-17 15:44:22
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,1,2026-05-17 15:44:22
+taskset_current_process,taskset -pc 15708,0,pid 15708's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,1,2026-05-17 15:44:22
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,1,2026-05-17 15:44:22
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_deepsets_gpsi,1,2026-05-17 15:44:22
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,1,2026-05-17 15:44:22
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,2,2026-05-17 15:44:26
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,2,2026-05-17 15:44:26
+taskset_current_process,taskset -pc 15743,0,pid 15743's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,2,2026-05-17 15:44:26
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.6Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,2,2026-05-17 15:44:26
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G  9.9G   66G  14% /",validate_only,decouple_deepsets_gpsi,2,2026-05-17 15:44:26
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,2,2026-05-17 15:44:26
+nproc,nproc,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:03:33
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:03:33
+taskset_current_process,taskset -pc 20767,0,pid 20767's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:03:33
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:03:33
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:03:33
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": """", ""NUMEXPR_NUM_THREADS"": """", ""OMP_NUM_THREADS"": """", ""OPENBLAS_NUM_THREADS"": """", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:03:33
+nproc,nproc,0,1,validate_only,decouple_nk_obs,0,2026-05-17 18:03:52
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,0,2026-05-17 18:03:52
+taskset_current_process,taskset -pc 20886,0,pid 20886's current affinity list: 0-15,validate_only,decouple_nk_obs,0,2026-05-17 18:03:52
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,0,2026-05-17 18:03:52
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_nk_obs,0,2026-05-17 18:03:52
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,0,2026-05-17 18:03:52
+nproc,nproc,0,1,validate_only,decouple_nk_obs,1,2026-05-17 18:03:56
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,1,2026-05-17 18:03:56
+taskset_current_process,taskset -pc 20936,0,pid 20936's current affinity list: 0-15,validate_only,decouple_nk_obs,1,2026-05-17 18:03:56
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,1,2026-05-17 18:03:56
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_nk_obs,1,2026-05-17 18:03:56
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,1,2026-05-17 18:03:56
+nproc,nproc,0,1,validate_only,decouple_nk_obs,2,2026-05-17 18:04:00
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_obs,2,2026-05-17 18:04:00
+taskset_current_process,taskset -pc 20971,0,pid 20971's current affinity list: 0-15,validate_only,decouple_nk_obs,2,2026-05-17 18:04:00
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_obs,2,2026-05-17 18:04:00
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_nk_obs,2,2026-05-17 18:04:00
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_obs,2,2026-05-17 18:04:00
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,0,2026-05-17 18:04:03
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,0,2026-05-17 18:04:03
+taskset_current_process,taskset -pc 20984,0,pid 20984's current affinity list: 0-15,validate_only,decouple_nk_gpsi,0,2026-05-17 18:04:03
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,0,2026-05-17 18:04:03
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_nk_gpsi,0,2026-05-17 18:04:03
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,0,2026-05-17 18:04:03
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,1,2026-05-17 18:04:07
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,1,2026-05-17 18:04:07
+taskset_current_process,taskset -pc 21019,0,pid 21019's current affinity list: 0-15,validate_only,decouple_nk_gpsi,1,2026-05-17 18:04:07
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,1,2026-05-17 18:04:07
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_nk_gpsi,1,2026-05-17 18:04:07
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,1,2026-05-17 18:04:07
+nproc,nproc,0,1,validate_only,decouple_nk_gpsi,2,2026-05-17 18:04:11
+nproc_all,nproc --all,0,16,validate_only,decouple_nk_gpsi,2,2026-05-17 18:04:11
+taskset_current_process,taskset -pc 21053,0,pid 21053's current affinity list: 0-15,validate_only,decouple_nk_gpsi,2,2026-05-17 18:04:11
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_nk_gpsi,2,2026-05-17 18:04:11
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_nk_gpsi,2,2026-05-17 18:04:11
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_nk_gpsi,2,2026-05-17 18:04:11
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,0,2026-05-17 18:04:15
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,0,2026-05-17 18:04:15
+taskset_current_process,taskset -pc 21065,0,pid 21065's current affinity list: 0-15,validate_only,decouple_deepsets_obs,0,2026-05-17 18:04:15
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,0,2026-05-17 18:04:15
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_deepsets_obs,0,2026-05-17 18:04:15
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,0,2026-05-17 18:04:15
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,1,2026-05-17 18:04:18
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,1,2026-05-17 18:04:18
+taskset_current_process,taskset -pc 21101,0,pid 21101's current affinity list: 0-15,validate_only,decouple_deepsets_obs,1,2026-05-17 18:04:18
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,1,2026-05-17 18:04:18
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_deepsets_obs,1,2026-05-17 18:04:18
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,1,2026-05-17 18:04:18
+nproc,nproc,0,1,validate_only,decouple_deepsets_obs,2,2026-05-17 18:04:22
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_obs,2,2026-05-17 18:04:22
+taskset_current_process,taskset -pc 21136,0,pid 21136's current affinity list: 0-15,validate_only,decouple_deepsets_obs,2,2026-05-17 18:04:22
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_obs,2,2026-05-17 18:04:22
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_deepsets_obs,2,2026-05-17 18:04:22
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_obs,2,2026-05-17 18:04:22
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:04:25
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:04:25
+taskset_current_process,taskset -pc 21147,0,pid 21147's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:04:25
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:04:25
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:04:25
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,0,2026-05-17 18:04:25
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,1,2026-05-17 18:04:29
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,1,2026-05-17 18:04:29
+taskset_current_process,taskset -pc 21182,0,pid 21182's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,1,2026-05-17 18:04:29
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.5Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,1,2026-05-17 18:04:29
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_deepsets_gpsi,1,2026-05-17 18:04:29
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,1,2026-05-17 18:04:29
+nproc,nproc,0,1,validate_only,decouple_deepsets_gpsi,2,2026-05-17 18:04:32
+nproc_all,nproc --all,0,16,validate_only,decouple_deepsets_gpsi,2,2026-05-17 18:04:32
+taskset_current_process,taskset -pc 21217,0,pid 21217's current affinity list: 0-15,validate_only,decouple_deepsets_gpsi,2,2026-05-17 18:04:32
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.4Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",validate_only,decouple_deepsets_gpsi,2,2026-05-17 18:04:32
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",validate_only,decouple_deepsets_gpsi,2,2026-05-17 18:04:32
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",validate_only,decouple_deepsets_gpsi,2,2026-05-17 18:04:32
+nproc,nproc,0,1,train_preflight,decouple_deepsets_gpsi,0,2026-05-17 18:04:37
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_gpsi,0,2026-05-17 18:04:37
+taskset_current_process,taskset -pc 21426,0,pid 21426's current affinity list: 0-15,train_preflight,decouple_deepsets_gpsi,0,2026-05-17 18:04:37
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.9Gi        53Gi       0.0Ki       4.7Gi        57Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_gpsi,0,2026-05-17 18:04:37
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",train_preflight,decouple_deepsets_gpsi,0,2026-05-17 18:04:37
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_gpsi,0,2026-05-17 18:04:37
+nproc,nproc,0,1,train_preflight,decouple_deepsets_gpsi,1,2026-05-17 18:04:38
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_gpsi,1,2026-05-17 18:04:38
+taskset_current_process,taskset -pc 21437,0,pid 21437's current affinity list: 0-15,train_preflight,decouple_deepsets_gpsi,1,2026-05-17 18:04:38
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.3Gi        52Gi       0.0Ki       4.7Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_gpsi,1,2026-05-17 18:04:38
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",train_preflight,decouple_deepsets_gpsi,1,2026-05-17 18:04:38
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_gpsi,1,2026-05-17 18:04:38
+nproc,nproc,0,1,train_preflight,decouple_deepsets_gpsi,2,2026-05-17 18:04:39
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_gpsi,2,2026-05-17 18:04:39
+taskset_current_process,taskset -pc 21446,0,pid 21446's current affinity list: 0-15,train_preflight,decouple_deepsets_gpsi,2,2026-05-17 18:04:39
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       5.4Gi        52Gi       0.0Ki       4.7Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_gpsi,2,2026-05-17 18:04:39
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",train_preflight,decouple_deepsets_gpsi,2,2026-05-17 18:04:39
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_gpsi,2,2026-05-17 18:04:39
+nproc,nproc,0,1,train_preflight,decouple_deepsets_obs,0,2026-05-17 18:04:41
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_obs,0,2026-05-17 18:04:41
+taskset_current_process,taskset -pc 21461,0,pid 21461's current affinity list: 0-15,train_preflight,decouple_deepsets_obs,0,2026-05-17 18:04:41
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.0Gi        52Gi       0.0Ki       4.7Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_obs,0,2026-05-17 18:04:41
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",train_preflight,decouple_deepsets_obs,0,2026-05-17 18:04:41
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_obs,0,2026-05-17 18:04:41
+nproc,nproc,0,1,train_preflight,decouple_deepsets_obs,1,2026-05-17 18:04:41
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_obs,1,2026-05-17 18:04:41
+taskset_current_process,taskset -pc 21476,0,pid 21476's current affinity list: 0-15,train_preflight,decouple_deepsets_obs,1,2026-05-17 18:04:41
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.0Gi        52Gi       0.0Ki       4.7Gi        56Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_obs,1,2026-05-17 18:04:41
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",train_preflight,decouple_deepsets_obs,1,2026-05-17 18:04:41
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_obs,1,2026-05-17 18:04:41
+nproc,nproc,0,1,train_preflight,decouple_deepsets_obs,2,2026-05-17 18:04:43
+nproc_all,nproc --all,0,16,train_preflight,decouple_deepsets_obs,2,2026-05-17 18:04:43
+taskset_current_process,taskset -pc 21492,0,pid 21492's current affinity list: 0-15,train_preflight,decouple_deepsets_obs,2,2026-05-17 18:04:43
+free_h,free -h,0,"total        used        free      shared  buff/cache   available
+Mem:            62Gi       6.1Gi        51Gi       0.0Ki       4.7Gi        55Gi
+Swap:             0B          0B          0B",train_preflight,decouple_deepsets_obs,2,2026-05-17 18:04:43
+df_root,df -h /,0,"Filesystem      Size  Used Avail Use% Mounted on
+overlay          79G   10G   66G  14% /",train_preflight,decouple_deepsets_obs,2,2026-05-17 18:04:43
+python_cpu_affinity,python runtime,0,"{""CUDA_VISIBLE_DEVICES"": """", ""MKL_NUM_THREADS"": ""1"", ""NUMEXPR_NUM_THREADS"": ""1"", ""OMP_NUM_THREADS"": ""1"", ""OPENBLAS_NUM_THREADS"": ""1"", ""hostname"": ""8a4832b5251c"", ""os_cpu_count"": 16, ""sched_affinity"": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], ""sched_affinity_count"": 16}",train_preflight,decouple_deepsets_obs,2,2026-05-17 18:04:43

@@ -1,0 +1,4 @@
+completed
+train_steps=1000000
+training_seed=2
+variant=decouple_deepsets_gpsi

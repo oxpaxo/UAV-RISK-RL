@@ -1,0 +1,87 @@
+version: env_v2_gpsi_heada_ppo_n3pf_decouple_nk_gpsi_v1
+method_key: decouple_nk_gpsi
+method_name: n3pf_decouple_nearestk_gpsi
+decouple_variant: NK ordered MLP aggregator
+decouple_feature_use: base_obs_12_delta_hat_9_logvar_9
+env:
+  name: DynamicObstacleFlowEnv
+  train_scenario: train_flow_mixed
+  n_envs: 4
+  device: cpu
+gpsi:
+  checkpoint: work_dirs/gpsi_heada_v1_nll/best.pth
+  history_steps: 20
+  delta_scale: 5.0
+  logvar_clamp:
+  - -5.0
+  - 3.0
+  include_z: false
+  include_logvar: true
+  logvar_output_scale: 0.2
+  normalize_z: false
+  z_transform: raw
+  z_stats_path: ''
+  z_std_floor: 0.001
+  degenerate_std_threshold: 1.0e-05
+  degenerate_std_floor: 1.0
+  obs_aug_dim: 30
+ppo:
+  agg: nearest_k_no_attention
+  feature_adapter: nearest_k_no_attention
+  feature_mode: gpsi
+  hidden_dim: 64
+  decouple:
+    obs_block_dim: 12
+    delta_block_dim: 9
+    logvar_block_dim: 9
+    k: 6
+    rank_key: risk_ttc_distance
+  net_arch:
+    pi:
+    - 128
+    - 128
+    vf:
+    - 128
+    - 128
+  n_steps: 1024
+  batch_size: 256
+  n_epochs: 10
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.01
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+training:
+  seed: 0
+  total_steps: 750000
+  checkpoint_steps:
+  - 250000
+  - 500000
+  - 750000
+  no_shield: true
+  action_filtering: false
+  use_safety_cost: false
+  reward: EnvV2 original reward
+  out_dir: checkpoints/env_v2_gpsi_heada_ppo_n3pf_decouple_decouple_nk_gpsi_s0
+eval:
+  validation_seeds:
+  - 900
+  - 901
+  test_seeds:
+  - 1000
+  - 1001
+  - 1002
+  final_heldout_seeds:
+  - 1100
+  - 1101
+  - 1102
+  scenarios:
+  - eval_flow_id
+  - eval_flow_high_density
+  - eval_flow_high_speed
+  - eval_flow_high_threat
+  - eval_flow_mixed_ood
+  - eval_flow_sudden_threat
+  episodes_per_scenario: 50
