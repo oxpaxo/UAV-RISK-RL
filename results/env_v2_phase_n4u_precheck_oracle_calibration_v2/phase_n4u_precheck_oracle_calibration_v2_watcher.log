@@ -1,0 +1,6 @@
+[2026-05-18 16:32:51] PHASE_N4U_PRECHECK_V2_WATCHER_START heartbeat_interval=10min
+[2026-05-18 16:32:51] PREFLIGHT_START
+[2026-05-18 16:32:51] PREFLIGHT_OK
+[2026-05-18 16:32:51] STEP_A_CPA_TTC_AUDIT_START
+terminal_decision = phase_n4u_precheck_v2_stopped_premise_invalidated
+[2026-05-18 16:32:51] STOP STOP_PREMISE_INVALIDATED.flag terminal_decision=phase_n4u_precheck_v2_stopped_premise_invalidated

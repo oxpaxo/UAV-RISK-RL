@@ -1,0 +1,2 @@
+phase_b_config,n4o_manifest_path,n4o_manifest_exists,n4o_same_params_for_attention_noz_p3,n4o_ordinary_shield_uses_sigma2,n4o_ordinary_shield_uses_future_truth,parameter_equivalent_to_phase_b_anchor,formula_equivalent_to_phase_b_anchor,equivalence_conclusion
+vo_like_filter_h45_cpa1p2_h16,results/env_v2_phase_n4o_ordinary_shield_fair_comparison/tables/phase_n4o_shield_config_manifest.csv,1,1,0,0,1,1,N4-O ordinary VO loads Phase B manifest params and uses Phase B vo_like_filter logic; EnvV2 obs planned CPA/TTC are not the same quantity.

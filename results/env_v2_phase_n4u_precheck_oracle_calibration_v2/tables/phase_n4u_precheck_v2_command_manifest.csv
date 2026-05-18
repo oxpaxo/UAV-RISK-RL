@@ -1,0 +1,2 @@
+stage,command,status
+step_a_cpa_ttc_source_audit,python -u scripts/audit_phase_n4u_precheck_oracle_calibration_v2.py,completed_premise_invalidated
